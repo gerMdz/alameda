@@ -1,10 +1,14 @@
-# alameda
+# Alameda
 website Church Iglesia Alameda
 
+Migrado de GitLab a GitHub
+
 V1
-  PAra php puro
+
+  Para php puro
  
 V2
+  
   Para CMS con Symfony
   
 Los css propios se comparten.
