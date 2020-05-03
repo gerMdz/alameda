@@ -21,18 +21,13 @@ $version = date('YmdHi');
     Ofrendas y Diezmos, Ofrendas de Fe
     Iglesia de la Alameda Bienvenido" />
     <meta property="og:type" content="website" />
-
+    <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
     <meta property="og:url" content="https://www.iglesiaalameda.com/ofrendas.php" />
-    <meta property="og:image" content="https://www.iglesiaalameda.com/images/meta/auditorio.png">
-
     <title>Ofrendas de Fe - Iglesia Alameda </title>
-
     <link rel="icon" href="images/index192.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png" />
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom fonts for this template -->
 
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
@@ -133,7 +128,11 @@ $version = date('YmdHi');
                     <h4 class="card-title">2°</h4>
                     <p class="card-text">Realizando una transferencia bancaria: <br/>
                         CBU 01106288-20062802157674  <br/>
-                        CUIT 33710832639</p>
+                        CUIT 33710832639<br/>
+                        Cta. Cte. Banco Nación Sucursal 2405 <br/>
+                        alias: PIEDRA:TITULO:DULCE
+                    </p>
+
                 </div>
 
             </div>

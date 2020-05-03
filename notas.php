@@ -115,17 +115,40 @@ include_once ('links.php');
                     <a href="series/oraciones-audaces/02-Indomita.pdf" class="btn btn-sm btn-outline-info" target="_blank">
                         Descarga la hoja de notas <br/>desde aquí.
                     </a><br/>
-                    <?php
-                        if ($notas_link_2 !== null) {
-                            ?>
-                    <a href="<?php echo $notas_link_2 ?>" class="btn btn-sm btn-outline-danger" target="_blank">
+                    <a href="https://youtu.be/eHA1duGHIhI" class="btn btn-sm btn-outline-danger" target="_blank">
                         Ver el Mensaje
                     </a>
+
+                </div>
+            </div>
+        </div>
+        <!--            Fin Card Nota-->
+
+        <!--            Inicio Card Nota-->
+        <div class="col-md-4 mb-5 mx-auto">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Rescate en las llamas</h2>
+                    <img src="series/oraciones-audaces/03-Rescate-en-las-llamas.jpg" class="img-fluid" />
+
+                </div>
+                <div class="card-footer text-center">
+                    <a href="series/oraciones-audaces/03-Rescate-en-las-llamas.jpg" class="btn btn-sm btn-outline-info" target="_blank">
+                        Descarga la hoja de notas <br/>desde aquí.
+                    </a><br/>
+                    <?php
+                    if ($notas_link_3 !== null) {
+                        ?>
+                        <a href="<?php echo $notas_link_3 ?>" class="btn btn-sm btn-outline-danger" target="_blank">
+                            Ver el Mensaje
+                        </a>
                     <?php } ?>
                 </div>
             </div>
         </div>
         <!--            Fin Card Nota-->
+
+
 
     </div>
     <!-- /.row -->
