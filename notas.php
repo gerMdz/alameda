@@ -133,13 +133,35 @@ include_once ('links.php');
 
                 </div>
                 <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/03-Rescate-en-las-llamas.jpg" class="btn btn-sm btn-outline-info" target="_blank">
+                    <a href="series/oraciones-audaces/03-Rescate-en-las-llamas.pdf" class="btn btn-sm btn-outline-info" target="_blank">
+                        Descarga la hoja de notas <br/>desde aquí.
+                    </a>
+                    <br/>
+                    <a href="https://youtu.be/QS86sn1Z354" class="btn btn-sm btn-outline-danger" target="_blank">
+                        Ver el Mensaje
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!--            Fin Card Nota-->
+
+        <!--            Inicio Card Nota-->
+        <div class="col-md-4 mb-5 mx-auto">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Dios Cámbiame!</h2>
+                    <img src="series/oraciones-audaces/04-Dios-Cambiame.jpg" class="img-fluid" />
+
+                </div>
+                <div class="card-footer text-center">
+                    <a href="series/oraciones-audaces/04-Dios-Cambiame.pdf" class="btn btn-sm btn-outline-info" target="_blank">
                         Descarga la hoja de notas <br/>desde aquí.
                     </a><br/>
                     <?php
-                    if ($notas_link_3 !== null) {
+                    if ($notas_link !== null) {
                         ?>
-                        <a href="<?php echo $notas_link_3 ?>" class="btn btn-sm btn-outline-danger" target="_blank">
+                        <a href="<?php echo $notas_link ?>" class="btn btn-sm btn-outline-danger" target="_blank">
                             Ver el Mensaje
                         </a>
                     <?php } ?>
