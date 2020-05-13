@@ -43,6 +43,11 @@
 <!--                      </a>-->
 <!--                  </li>-->
                   <li class="nav-item">
+                      <a class="nav-link" href="https://online.iglesiaalameda.com" >
+                          <i class="fas fa-globe"></i> Online
+                      </a>
+                  </li>
+                  <li class="nav-item">
                       <a class="nav-link" href="../oportunidades/grupos-pequeños.php" >
                           <img class="img-fluid" src="../images/gpc-sin-texto.png" width="16" height="16">
                           Grupos Pequeños
@@ -70,12 +75,12 @@
 <!--                  </li>-->
                   <li class="nav-item">
                       <a class="nav-link" href="../ofrenda.php" >
-                          <i class="fas fa-hand-holding"></i> Ofrenda
+                          <i class="fas fa-hand-holding"></i> Dar
                       </a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="../notas.php" >
-                          <i class="fas fa-pencil-alt"></i> Notas
+                          <i class="fas fa-pencil-alt"></i> Notas de Sermón
                       </a>
                   </li>
                   <li class="nav-item">
@@ -83,7 +88,7 @@
                           <!--                          <i class="fas fa-praying-hands"></i> Necesitas Oración?-->
 
                           <img class="img-fluid img-circle bg-verde" src="../images/institucional/LOGO-ORACION.png" width="16" height="16">
-                          Necesitas Oración?
+                          ¿Necesitas Oración?
                       </a>
                   </li>
                   <li class="nav-item">
