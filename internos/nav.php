@@ -96,6 +96,16 @@
                           <i class="fas fa-location-arrow"></i> Oportunidades
                       </a>
                   </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../contacto.php" >
+                          <i class="fas fa-file-contract"></i> Tarjeta de Conexión
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="http://sitiosimple.com/libreria-alameda/" >
+                          <i class="fas fa-book-open"></i> Librería
+                      </a>
+                  </li>
               </ul>
 
               <!-- Right -->

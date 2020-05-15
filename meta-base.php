@@ -6,7 +6,7 @@
 <meta name="description" content="Iglesia de La Alameda,
      <?php echo $lema; ?>, Iglesia Bautista, Celebracion, Dios, Fe, Amistad, Arte, Libertad, Servicio, Misión, Mendoza">
 <meta name="author" content="@Iglesia de La Alameda - Equipo Desarrollo">
-
+<title><?php echo $title; ?> - Iglesia Alameda </title>
 <meta property="og:title" content="Iglesia Alameda" />
 <meta property="og:type" content="website" />
 

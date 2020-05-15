@@ -1,16 +1,16 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: gerardo
- * Date: 09/04/19
- * Time: 08:27
+ * User: Gerardo J. Montivero @ Iglesia Alameda
+ * Date: 15/05/2020
+ * Time: 06:34
  */
-$lema = 'Pedidos de Oración';
-$lemaSinEspacios = 'Pedidos-Oración';
+$lema = 'Contacto Iglesia Alameda';
+$lemaSinEspacios = 'Contacto-Iglesia-Alameda';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Pedidos de Oración';
+$title = 'Contacto';
 /**
  * @example pregunta si la cuarentena terminó
  */
@@ -25,7 +25,7 @@ include_once ('gerVendor/gerFunctions.php')
     include ('meta-base.php');
     include ('style-base.php')
     ?>
-
+    
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
     <script src = "js/alameda.js"> </script>
 
@@ -91,25 +91,30 @@ include_once ('gerVendor/gerFunctions.php')
                 <header class="jumbotron my-2">
 
                     <h1 class="text-uppercase text-black-50 font-weight-bold">
-                    Motivos de Oración
+                    Bienvenido a la Alameda<br/>
+                        ¡Nos encataría conocerte!
                 </h1>
                     <span class="divider-new my-1">
-                        <img src="images/institucional/LOGO-ORACION.png"
+                        <img src="images/institucional/iglesiaAlamedaInstagram.jpg"
                                                         class="resize img-fluid rounded-circle"></span>
 
 
 
                     <h5 class="text-black-50 font-weight-light my-1 p-1">
-                        <b>Ningún</b> problema es demasiado grande para Dios,<br/>
-                        ni insignificante para su cuidado <b>Paternal</b>. <br/>
-                        Dejanos <b>tu motivo</b> de oración específico, <br/>
-                        tenemos un equipo de personas que <b>estará orando</b> por vos.
+                        Creemos que Dios tiene un plan maravilloso para tu vida.<br/>
+                        Nuestro profundo deseo es ayudarte a
+                        comenzar una relación con Dios<br/>
+                        y así crecer de tal manera que alcances
+                        la verdadera felicidad para vos y tu hogar.<br/>
+                        Estamos listos para oir tus sueños y acompañarte
+                        a través de las etapas de la vida.<br/>
+                        Sabemos que sos importante para Dios.<br/>
+                        "Deseamos verte llenar tu vida con próposito"
                     </h5>
 
 
                     <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/DuJvVG374UMNjCuv7" target="_blank">
-                        Podés hacerlo
-                        desde aqui
+                        Completar Tarjeta de Conexión
                     </a>
 
 
