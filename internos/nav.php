@@ -19,7 +19,7 @@
     <div class="container-fluid">
 
         <!-- Brand -->
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="../index.php">
             <img src="../images/logo_n1.png" style="width: 30px;" alt="Logo Iglesia Alameda">
             <small>Iglesia de la Alameda</small>
         </a>
