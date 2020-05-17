@@ -130,7 +130,7 @@ include_once('links.php');
     <!--Seccion cover-->
     <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white"
              style="background-image: url(images/series/cabecera_index.jpg); background-position: 50% 0px !important;">
-        <!-- Promo Content -->
+        <!-- Vacío para texto Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space ">
             <div class="row justify-content-center">
 
@@ -139,82 +139,144 @@ include_once('links.php');
 
 
 
-        <!-- End Promo Content -->
+        <!-- Fin Vacío para texto Content -->
     </section>
+<!--    FIn Section COver-->
 
 
 </header>
 
+<!-- Horarios - Invitación - Video -->
+<section class="bg-light u-content-space mt-5">
+    <div class="container">
+        <!-- Invitación: Header -->
+        <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">
+            <div class="row align-items-lg-center mb-5">
 
-<section class="page-section about-heading mt-5" id="contador">
-    <div class="container-fluid text-center mt-5">
-        <a href="notas.php">
+                <div class="display-4 mb-2 text-primary col-sm-12 text-center">
+                    <div class="col-lg-3 mx-auto">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <div class="col-lg-7 mx-auto">
+                        <h2>
 
-<!--            <img class="img-fluid w-100 center rounded about-heading-img mb-3 mb-lg-0 mx-auto "-->
-<!--                 src="images/series/cabecera_index.jpg" alt="--><?php //echo $lema; ?>
-" style="">
-        </a>
-        <div class="about-heading-content ajusteIndex">
-            <div class="row">
-                <div class="col-xl-9 col-lg-10 mx-auto">
-                    <div class="bg-faded rounded p-3 row">
-                        <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid mx-auto"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        <h4 class="section-heading mb-4 col-sm-12">
-                            Una casa grande para una familia grande
-                            <?php
-                            if (!$finQ) {
-                                ?>
-                                <br/> <a href="notas.php">
-                                    <h3 data-toggle="tooltip"
-                                        title="<h5 class='bg-light-blue'><strong>Podés descargar las notas desde aquí</strong> ">
-                                        <i>Viví la experiencia OnLine <small>aquí</small></i>
-                                    </h3>
-                                </a>
-                                <?php
+                        <b>Domingos 11 Hs.
 
-                            }
-                            ?>
-
-                            <div class="row justify-content-between  mx-auto ">
-                                <hr/>
-                                <div class="section-body col-sm-6 col-md-6 col-lg-6 card">
-                                    <small class="mt-2 text-right card-title">
-                                        Domingo 11 hs
-                                    </small>
-                                    <div class="section-heading-body bg-light contador text-point-sec h-100  " id="once"
-                                         style="font-weight: 800;">
-                                        <div class="align-self-center fadeInRightBig h-100 my-auto" id="reunion-11"
-                                             data-countdown="<?php echo $muestroDia; ?> 11:00:00"></div>
-                                    </div>
-                                </div>
-                                <hr class="d-lg-none"/>
-                                <div class="section-body col-sm-6 col-md-6 col-lg-6 card ">
-                                    <small class="mt-2 text-right card-title">
-                                        Domingo 20 hs.
-                                    </small>
-                                    <span class="section-heading-body bg-light contador text-point-sec h-100 "
-                                          id="diecinueve" style="font-weight: 800;">
-                                <div class="align-self-center fadeInRightBig h-100 my-auto" id="reunion-19"
-                                     data-countdown="<?php echo $muestroDia; ?> 20:00:00"></div>
-                            </span>
-                                </div>
-
-
-                                <div class="intro-button mx-auto my-auto" style="z-index: 100">
-                                    <a class="btn btn-alameda btn-xl" href="notas.php">Vení tal como sos</a>
-                                </div>
-                            </div>
+                            y 20 Hs.</b></h2>
                     </div>
                 </div>
-
-
             </div>
-        </div>
+        </header>
+        <!-- End Invitación: Header -->
+
+
+        <div class="row align-items-lg-center">
+<!--            <div class="col-lg-4 col-md-5">-->
+<!--                 Row -->
+<!--                <div class="row mr-md-4 mb-lg-5">-->
+<!--                    <div class="col-lg-12 mb-5">-->
+<!--                        <div class="text-primary mb-2">-->
+<!--                            <h3><i class="fas fa-clock"></i></h3>-->
+<!--                        </div>-->
+<!--                        <h2 class="h2">Domingos 11:00 Hs.</h2>-->
+<!--                        <p class="mb-0"></p>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-lg-12 mb-5">-->
+<!--                        <div class="text-primary mb-2">-->
+<!--                            <h3>-->
+<!--                            <i class="far fa-clock"></i>-->
+<!--                            </h3>-->
+<!--                        </div>-->
+<!--                        <h4 class="h2">Domingos 20:00 Hs.</h4>-->
+<!--                        <p class="mb-0"></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <!-- End Row -->
+
+                <!-- Row -->
+<!--                <div class="row mr-md-4">-->
+<!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
+<!--                        <div class=" text-primary mb-2">-->
+<!--                            <h3>-->
+<!--                            <i class="fas fa-laptop-house"></i>-->
+<!--                            </h3>-->
+<!--                        </div>-->
+<!--                        <h4 class="h5">Una Casa Grande</h4>-->
+<!--                        <p class="mb-0">Para una Familia Grande.</p>-->
+<!--                    </div>-->
+<!---->
+<!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
+<!--                        <div class=" text-primary mb-2">-->
+<!--                            <h3>-->
+<!--                            <i class="fas fa-globe"></i>-->
+<!--                            </h3>-->
+<!--                        </div>-->
+<!--                        <h4 class="h5">-->
+<!--                            Viví la Experiencia OnLine-->
+<!--                            </h4>-->
+<!--                        <p class="mb-0">-->
+<!--                            <a href="notas.php">-->
+<!--                            Ingresa aquí para no perderte nada-->
+<!--                            </a>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <!-- End Row -->
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+                <!-- Enlave Video -->
+                <article class="u-destacado u-box-shadow-sm text-center rounded">
+                    <!-- Article Header -->
+                    <header class="u-destacado__header bg-light-blue text-white rounded-top">
+                        <strong class="u-destacado__header-price display-4 font-weight-bold mb-2">
+                            <h3>Experiencia Alameda</h3>
+                        </strong>
+
+                        <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-4">
+                            <a href="notas.php" class="text-white">
+                            En vivo desde aqui
+                            </a>
+                        </h3>
+
+                        <svg class="u-destacado__header-decoration" version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="70px" viewBox="0 0 300 70">
+                            <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z" opacity="0.6" fill="#fff"></path>
+                            <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z" opacity="0.6" fill="#fff"></path>
+                            <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z" opacity="0.7" fill="#fff"></path>
+                            <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z" fill="#fff"></path>
+                        </svg>
+                    </header>
+                    <!-- End Article Header -->
+
+                    <!-- Article Content -->
+                    <div class="u-destacado__content">
+                        <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid mx-auto"
+                                frameborder="0"
+                                width="100%"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+
+<!--                        <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>-->
+                    </div>
+                    <!-- End Article Content -->
+                </article>
+                <!-- Fin Enlace Video -->
+            </div>
+
+        <!-- Invitación: Header -->
+        <header class="text-center w-md-50 mx-auto  mt-5 mb-8">
+            <h2 class="h1 bg-alameda">
+                <a href="notas.php" class="text-white">
+                Vení tal como SOS</h2>
+
+            <p class="h5"></p>
+        </header>
+        <!-- End Invitación: Header -->
     </div>
+
 </section>
+<!-- Fin Horarios - Invitación - Video -->
 
 <section class="page-section cta fondo-evento" id="campania">
     <div id="series" class="carousel slide" data-ride="carousel">
@@ -532,14 +594,13 @@ include_once('links.php');
         <div class="col-sm-8 pt-5">
             <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5">
                 <div class="center-element btn btn-blue rotar90 mt-sm-0">
-                    Génesis 32:30 (NVI)
+                    Juan 3:16 (NTV)
                 </div>
                 <div>
                     <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
                         class="pt-sm-0 pt-lg-3 text-right">
                         "
-                        Jacob llamó a aquel lugar Peniel (que significa "rostro de Dios"), porque dijo: "He visto a Dios
-                        cara a cara, y sin embargo conservo la vida
+                        Pues Dios amó tanto al mundo que dio a su único Hijo, para que todo el que crea en él no se pierda, sino que tenga vida eterna
                         "
                     </h2>
                 </div>
@@ -730,6 +791,11 @@ include_once('links.php');
 <!-- Bootstrap core JavaScript -->
 <!--<script src="vendor/jquery/jquery.min.js"></script>-->
 <!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+<!-- Global Vendor -->
+<script src="stream-ui-kit/assets/vendors/jquery.min.js"></script>
+<script src="stream-ui-kit/assets/vendors/jquery.migrate.min.js"></script>
+<script src="stream-ui-kit/assets/vendors/popper.min.js"></script>
+<script src="stream-ui-kit/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="js/jquery.countdown.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
@@ -841,11 +907,7 @@ include_once('links.php');
         },
     });
 </script>
-<!-- Global Vendor -->
-<script src="stream-ui-kit/assets/vendors/jquery.min.js"></script>
-<script src="stream-ui-kit/assets/vendors/jquery.migrate.min.js"></script>
-<script src="stream-ui-kit/assets/vendors/popper.min.js"></script>
-<script src="stream-ui-kit/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+
 
 <!-- Components Vendor  -->
 <script src="stream-ui-kit/assets/vendors/jquery.parallax.js"></script>

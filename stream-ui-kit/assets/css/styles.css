@@ -1108,41 +1108,41 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------
   Pricing
 ------------------------------------*/
-.u-pricing {
+.u-destacado {
   background-color: #fff;
 }
 
-.u-pricing__header {
+.u-destacado__header {
   position: relative;
   padding: 2.5rem 1.5rem;
 }
 
-.u-pricing__header-price {
+.u-destacado__header-price {
   display: block;
   line-height: .84;
 }
 
-.u-pricing__header-title {
+.u-destacado__header-title {
   opacity: .8;
 }
 
-.u-pricing__header-decoration {
+.u-destacado__header-decoration {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
-.u-pricing__content {
+.u-destacado__content {
   padding: 1.5rem;
 }
 
-.u-pricing__content .disabled .u-icon {
+.u-destacado__content .disabled .u-icon {
   color: #85778f;
   background-color: rgba(133, 119, 143, 0.1);
 }
 
-.u-pricing .disabled {
+.u-destacado .disabled {
   color: #85778f;
 }
 

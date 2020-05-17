@@ -54,11 +54,13 @@ include_once ('links.php');
     <!-- Heading Row -->
     <div class="row align-items-center my-5">
       <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0" src="series/oraciones-audaces/oraciones-audaces-cover.jpg" alt="<?php echo $lemaSinEspacios?>">
+        <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto" src="series/oraciones-audaces/oraciones-audaces-cover.jpg" alt="<?php echo $lemaSinEspacios?>">
       </div>
       <!-- /.col-lg-8 -->
-      <div class="col-lg-5">
-          <h1 class="font-weight-light"><sup>Serie</sup>
+      <div class="col-lg-5  ">
+          <h1 class="font-weight-light">
+              <hr class="pt-2" />
+              <sup><i>Serie</i></sup>
               <blockquote class="ml-5 pl-5float-right druk_italic text-uppercase">Oraciones Audaces!</blockquote> </h1>
         <p>
             En tiempos de adversidad los hombres han encontrado un arma para lo imposible:
@@ -66,6 +68,7 @@ include_once ('links.php');
             Pero no cualquier oración. <b>Oraciones con la fe y coraje para cambiar las cosas.</b><br/>
             Descubrí estas poderosas <b>oraciones de personas</b> de la Biblia y tomalas en tu vida para enfrentar las presentes adversidades que enfrentas.
         </p>
+          <hr class="pb-2" />
 
       </div>
       <!-- /.col-md-4 -->
@@ -73,11 +76,16 @@ include_once ('links.php');
     <!-- /.row -->
 
     <!-- Call to Action Well -->
-    <div class="card text-white bg-indigo my-5 py-4 text-center">
+    <div class="card text-white bg-indigo my-5 py-2 text-center">
       <div class="card-body">
-            <a href="https://youtube.com/user/IglesiaAlameda" class="btn btn-sm btn-danger pl-5"> YouTube</a>
-          <h2 class="text-darker card-text text-center">    Seguinos por tu red social favorita </h2>
-            <a href="https://www.facebook.com/IglesiaAlameda" class="btn btn-sm btn-info pr-5">Facebook</a>
+            <h2>
+            <a href="https://youtube.com/user/IglesiaAlameda" class="btn btn-sm btn-danger pl-5 col-sm-3 text-left"> <i class="fab fa-youtube text-white"> </i> YouTube  </a>
+
+                <span class="text-darker card-text text-center "><strong>    Seguinos por tu red social favorita</strong> </span>
+
+            <a href="https://www.facebook.com/IglesiaAlameda" class="btn btn-sm btn-info pr-5 col-sm-3 text-right">Facebook <i class="fab fa-facebook-square text-white"> </i></a>
+            </h2>
+
       </div>
     </div>
 
@@ -156,6 +164,26 @@ include_once ('links.php');
                 </div>
                 <div class="card-footer text-center">
                     <a href="series/oraciones-audaces/04-Dios-Cambiame.pdf" class="btn btn-sm btn-outline-info" target="_blank">
+                        Descarga la hoja de notas <br/>desde aquí.
+                    </a><br/>
+                        <a href="https://youtu.be/ew2IlrMhwhI" class="btn btn-sm btn-outline-danger" target="_blank">
+                            Ver el Mensaje
+                        </a>
+                </div>
+            </div>
+        </div>
+        <!--            Fin Card Nota-->
+
+        <!--            Inicio Card Nota-->
+        <div class="col-md-4 mb-5 mx-auto">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Reinvidicada!</h2>
+                    <img src="series/oraciones-audaces/05-Reinvindicada.jpg" class="img-fluid" />
+
+                </div>
+                <div class="card-footer text-center">
+                    <a href="series/oraciones-audaces/05-Reinvindicada.pdf" class="btn btn-sm btn-outline-info" target="_blank">
                         Descarga la hoja de notas <br/>desde aquí.
                     </a><br/>
                     <?php
