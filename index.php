@@ -536,9 +536,9 @@ include_once('links.php');
                     </div>
 
                     <div class="card-footer text-center">
-                        <?php if ($ahora < date('2019-11-03 17:030')) { ?>
+                        <?php if ($ahora < date('2020-05-23 18:00')) { ?>
                             <small class="text-point-sec">
-                                Domingo 03 de noviembre a las 17:00 hs
+                                Sábado 23/5, de 19 a 21hs
                                 <!--                                        <a href="masporhacer.php#crecimiento20181110"-->
                                 <!--                                                                             data-toggle="tooltip"-->
                                 <!--                                                                             title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
@@ -547,14 +547,19 @@ include_once('links.php');
                                 <!--                            <a href="masporhacer.php#crecimiento20181110"-->
                                 <!--                               data-toggle="tooltip"-->
                                 <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
-                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda
-                                    (261 517 8081)
-                                    <br/>
-                                    con el texto <strong>Sumarme</strong> o por <br/>
-                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=SUMARME"
-                                       class="text-realce-verde"> por Whatsapp
-                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>
-                                </small>
+<!--                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
+<!--                                    (261 517 8081)-->
+<!--                                    <br/>-->
+<!--                                    con el texto <strong>Sumarme</strong> o por <br/>-->
+<!--                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=SUMARME"-->
+<!--                                       class="text-realce-verde"> por Whatsapp-->
+<!--                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>-->
+<!--                                </small>-->
+                                Más detalles e inscripción<br/>
+
+                                <a class="btn btn-alameda  js-scroll-trigger mx-auto btn--pill" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
+                                    <i class="far fa-list-alt text-white"></i> Aquí
+                                </a>
                             </small>
                         <?php } ?>
                     </div>

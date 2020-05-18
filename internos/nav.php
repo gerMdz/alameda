@@ -74,6 +74,13 @@
                         </small>
                     </a>
                 </li>
+                <li class="nav-item ml-auto mb-2 mb-lg-0">
+                    <a class="nav-link" href="../contacto.php">
+                        <small>
+                            <i class="fas fa-file-contract"></i> Tarjeta de Conexión
+                        </small>
+                    </a>
+                </li>
                 <li class="nav-item dropdown ml-auto mb-2 mb-lg-0">
                     <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">
@@ -85,11 +92,7 @@
                                 <i class="fas fa-location-arrow"></i> Oportunidades
                             </small>
                         </a>
-                        <a class="dropdown-item" href="../contacto.php">
-                            <small>
-                                <i class="fas fa-file-contract"></i> Tarjeta de Conexión
-                            </small>
-                        </a>
+
                         <a class="dropdown-item" href="http://sitiosimple.com/libreria-alameda/">
                             <small>
                                 <i class="fas fa-book-open"></i> Librería
