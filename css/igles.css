@@ -938,3 +938,9 @@ body.frontal{
 .bg-alameda{
     background-color: #438789;
 }
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}

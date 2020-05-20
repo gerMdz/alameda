@@ -124,7 +124,7 @@ include_once ('gerVendor/gerFunctions.php')
                 <div class="text-center">
                     Más detalles e inscripción<br/>
 
-                    <a class="btn btn-blue  js-scroll-trigger mx-auto btn--pill" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
+                    <a class="btn btn-blue  js-scroll-trigger mx-auto btn--pill" href="https://forms.gle/gkJjReojfHy2QG7e8" target="_blank">
                         <i class="far fa-list-alt text-white"></i> Aquí
                     </a>
                 </div>

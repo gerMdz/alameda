@@ -116,11 +116,11 @@ include_once('links.php');
 <!--</h1>-->
 <header>
     <?php include 'nav.php'; ?>
-    <hr class="mt-5" />
+    <hr class="mt-5"/>
     <div class="col-12 bg-faded">
         <div class="text-center">
             <h1 class="display-sm-4 display-lg-3 ">
-                <a  href="notas.php">
+                <a href="notas.php">
                     <i class="fas fa-globe  "></i>
                 </a>
                 <span class="js-display-typing"></span>
@@ -138,10 +138,9 @@ include_once('links.php');
         </div>
 
 
-
         <!-- Fin Vacío para texto Content -->
     </section>
-<!--    FIn Section COver-->
+    <!--    FIn Section COver-->
 
 
 </header>
@@ -160,9 +159,9 @@ include_once('links.php');
                     <div class="col-lg-7 mx-auto">
                         <h2>
 
-                        <b>Domingos 11 Hs.
+                            <b>Domingos 11 Hs.
 
-                            y 20 Hs.</b></h2>
+                                y 20 Hs.</b></h2>
                     </div>
                 </div>
             </div>
@@ -171,104 +170,110 @@ include_once('links.php');
 
 
         <div class="row align-items-lg-center">
-<!--            <div class="col-lg-4 col-md-5">-->
-<!--                 Row -->
-<!--                <div class="row mr-md-4 mb-lg-5">-->
-<!--                    <div class="col-lg-12 mb-5">-->
-<!--                        <div class="text-primary mb-2">-->
-<!--                            <h3><i class="fas fa-clock"></i></h3>-->
-<!--                        </div>-->
-<!--                        <h2 class="h2">Domingos 11:00 Hs.</h2>-->
-<!--                        <p class="mb-0"></p>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="col-lg-12 mb-5">-->
-<!--                        <div class="text-primary mb-2">-->
-<!--                            <h3>-->
-<!--                            <i class="far fa-clock"></i>-->
-<!--                            </h3>-->
-<!--                        </div>-->
-<!--                        <h4 class="h2">Domingos 20:00 Hs.</h4>-->
-<!--                        <p class="mb-0"></p>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- End Row -->
+            <!--            <div class="col-lg-4 col-md-5">-->
+            <!--                 Row -->
+            <!--                <div class="row mr-md-4 mb-lg-5">-->
+            <!--                    <div class="col-lg-12 mb-5">-->
+            <!--                        <div class="text-primary mb-2">-->
+            <!--                            <h3><i class="fas fa-clock"></i></h3>-->
+            <!--                        </div>-->
+            <!--                        <h2 class="h2">Domingos 11:00 Hs.</h2>-->
+            <!--                        <p class="mb-0"></p>-->
+            <!--                    </div>-->
+            <!---->
+            <!--                    <div class="col-lg-12 mb-5">-->
+            <!--                        <div class="text-primary mb-2">-->
+            <!--                            <h3>-->
+            <!--                            <i class="far fa-clock"></i>-->
+            <!--                            </h3>-->
+            <!--                        </div>-->
+            <!--                        <h4 class="h2">Domingos 20:00 Hs.</h4>-->
+            <!--                        <p class="mb-0"></p>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!-- End Row -->
 
-                <!-- Row -->
-<!--                <div class="row mr-md-4">-->
-<!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
-<!--                        <div class=" text-primary mb-2">-->
-<!--                            <h3>-->
-<!--                            <i class="fas fa-laptop-house"></i>-->
-<!--                            </h3>-->
-<!--                        </div>-->
-<!--                        <h4 class="h5">Una Casa Grande</h4>-->
-<!--                        <p class="mb-0">Para una Familia Grande.</p>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
-<!--                        <div class=" text-primary mb-2">-->
-<!--                            <h3>-->
-<!--                            <i class="fas fa-globe"></i>-->
-<!--                            </h3>-->
-<!--                        </div>-->
-<!--                        <h4 class="h5">-->
-<!--                            Viví la Experiencia OnLine-->
-<!--                            </h4>-->
-<!--                        <p class="mb-0">-->
-<!--                            <a href="notas.php">-->
-<!--                            Ingresa aquí para no perderte nada-->
-<!--                            </a>-->
-<!--                        </p>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- End Row -->
-            </div>
+            <!-- Row -->
+            <!--                <div class="row mr-md-4">-->
+            <!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
+            <!--                        <div class=" text-primary mb-2">-->
+            <!--                            <h3>-->
+            <!--                            <i class="fas fa-laptop-house"></i>-->
+            <!--                            </h3>-->
+            <!--                        </div>-->
+            <!--                        <h4 class="h5">Una Casa Grande</h4>-->
+            <!--                        <p class="mb-0">Para una Familia Grande.</p>-->
+            <!--                    </div>-->
+            <!---->
+            <!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
+            <!--                        <div class=" text-primary mb-2">-->
+            <!--                            <h3>-->
+            <!--                            <i class="fas fa-globe"></i>-->
+            <!--                            </h3>-->
+            <!--                        </div>-->
+            <!--                        <h4 class="h5">-->
+            <!--                            Viví la Experiencia OnLine-->
+            <!--                            </h4>-->
+            <!--                        <p class="mb-0">-->
+            <!--                            <a href="notas.php">-->
+            <!--                            Ingresa aquí para no perderte nada-->
+            <!--                            </a>-->
+            <!--                        </p>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+            <!-- End Row -->
+        </div>
 
-            <div class="col-lg-12 col-md-12">
-                <!-- Enlave Video -->
-                <article class="u-destacado u-box-shadow-sm text-center rounded">
-                    <!-- Article Header -->
-                    <header class="u-destacado__header bg-light-blue text-white rounded-top">
-                        <strong class="u-destacado__header-price display-4 font-weight-bold mb-2">
-                            <h3>Experiencia Alameda</h3>
-                        </strong>
+        <div class="col-lg-12 col-md-12">
+            <!-- Enlave Video -->
+            <article class="u-destacado u-box-shadow-sm text-center rounded">
+                <!-- Article Header -->
+                <header class="u-destacado__header bg-light-blue text-white rounded-top">
+                    <strong class="u-destacado__header-price display-4 font-weight-bold mb-2">
+                        <h3>Experiencia Alameda</h3>
+                    </strong>
 
-                        <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-4">
-                            <a href="notas.php" class="text-white">
+                    <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-4">
+                        <a href="notas.php" class="text-white">
                             En vivo desde aqui
-                            </a>
-                        </h3>
+                        </a>
+                    </h3>
 
-                        <svg class="u-destacado__header-decoration" version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="70px" viewBox="0 0 300 70">
-                            <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z" opacity="0.6" fill="#fff"></path>
-                            <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z" opacity="0.6" fill="#fff"></path>
-                            <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z" opacity="0.7" fill="#fff"></path>
-                            <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z" fill="#fff"></path>
-                        </svg>
-                    </header>
-                    <!-- End Article Header -->
+                    <svg class="u-destacado__header-decoration" version="1.1" preserveAspectRatio="none"
+                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                         height="70px" viewBox="0 0 300 70">
+                        <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"
+                              opacity="0.6" fill="#fff"></path>
+                        <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z"
+                              opacity="0.6" fill="#fff"></path>
+                        <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z"
+                              opacity="0.7" fill="#fff"></path>
+                        <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"
+                              fill="#fff"></path>
+                    </svg>
+                </header>
+                <!-- End Article Header -->
 
-                    <!-- Article Content -->
-                    <div class="u-destacado__content">
-                        <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid mx-auto"
-                                frameborder="0"
-                                width="100%"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                <!-- Article Content -->
+                <div class="u-destacado__content">
+                    <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid mx-auto"
+                            frameborder="0"
+                            width="100%"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
 
-<!--                        <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>-->
-                    </div>
-                    <!-- End Article Content -->
-                </article>
-                <!-- Fin Enlace Video -->
-            </div>
+                    <!--                        <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>-->
+                </div>
+                <!-- End Article Content -->
+            </article>
+            <!-- Fin Enlace Video -->
+        </div>
 
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-5 mb-8">
             <h2 class="h1 bg-alameda">
                 <a href="notas.php" class="text-white">
-                Vení tal como SOS</h2>
+                    Vení tal como SOS</h2>
 
             <p class="h5"></p>
         </header>
@@ -314,6 +319,34 @@ include_once('links.php');
     </div>
     <!--</div>-->
     <!--</div>-->
+    </div>
+</section>
+<section class="u-destacado section" id="avanza">
+    <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5" >
+        <div class="container">
+            <div class="text-center w-md-50 mx-auto py-5">
+                <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
+                   data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
+                            <span class="fa-stack list-inline" >
+                            <i class="fas fa-circle fa-stack-2x text-point"></i>
+                            <i class="fi fi-torsos-all fa-stack-1x fa-inverse item-inline"
+                               style="font-size: 1em; text-align: left" aria-hidden="true"></i>
+                            <i class="fi fi-torsos-all-female fa-stack-1x fa-inverse item-inline"
+                               style="font-size: 1em; text-align: right" aria-hidden="true"></i>
+                            <i class="fas fa-plus-circle fa-stack-1x fa-inverse item-inline "
+                               style="font-size: 0.5em; text-align: center; margin-top:35px " aria-hidden="true"></i>
+                        </span>
+
+                </a>
+                <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de nuestra <strong>familia de fe?</strong> </h2>
+
+
+                <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"
+                   href="avanza.php">
+                    <i class="fas fa-road mr-2 text-white"></i>Sumate desde aquí
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -547,17 +580,18 @@ include_once('links.php');
                                 <!--                            <a href="masporhacer.php#crecimiento20181110"-->
                                 <!--                               data-toggle="tooltip"-->
                                 <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
-<!--                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
-<!--                                    (261 517 8081)-->
-<!--                                    <br/>-->
-<!--                                    con el texto <strong>Sumarme</strong> o por <br/>-->
-<!--                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=SUMARME"-->
-<!--                                       class="text-realce-verde"> por Whatsapp-->
-<!--                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>-->
-<!--                                </small>-->
+                                <!--                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
+                                <!--                                    (261 517 8081)-->
+                                <!--                                    <br/>-->
+                                <!--                                    con el texto <strong>Sumarme</strong> o por <br/>-->
+                                <!--                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=SUMARME"-->
+                                <!--                                       class="text-realce-verde"> por Whatsapp-->
+                                <!--                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>-->
+                                <!--                                </small>-->
                                 Más detalles e inscripción<br/>
 
-                                <a class="btn btn-alameda  js-scroll-trigger mx-auto btn--pill" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
+                                <a class="btn btn-alameda  js-scroll-trigger mx-auto btn--pill"
+                                   href="https://forms.gle/gkJjReojfHy2QG7e8" target="_blank">
                                     <i class="far fa-list-alt text-white"></i> Aquí
                                 </a>
                             </small>
@@ -605,7 +639,8 @@ include_once('links.php');
                     <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
                         class="pt-sm-0 pt-lg-3 text-right">
                         "
-                        Pues Dios amó tanto al mundo que dio a su único Hijo, para que todo el que crea en él no se pierda, sino que tenga vida eterna
+                        Pues Dios amó tanto al mundo que dio a su único Hijo, para que todo el que crea en él no se
+                        pierda, sino que tenga vida eterna
                         "
                     </h2>
                 </div>
