@@ -1,17 +1,5 @@
-# [Alameda - AlamedaCMS]
-
-EL inicio de un CMS personalizado
-
-## NO hay pre
-
-[![Iglesia Alameda Preview](https://iglesiaalameda.com/)](https://iglesiaalameda.com/)
-
-**[View Live Preview](https://iglesiaalameda.com/)**
-
-## Status
-totalmente DEV
-
-## Download and Installation
+# Alameda
+website Church Iglesia Alameda
 
 
 * Clone the repo: `git clone https://github.com/gerMdz/alameda.git`
@@ -76,6 +64,11 @@ ZURB
 Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA.
 
 If Foundation knocks your socks off the way we hope it does and you want more, why not check out our jobs?
+
+# Stream - UI Kit
+
+Stream UI Kit is beautiful Open Source Bootstrap 4 UI Kit under MIT license. The UI Kit comes with 5 beautiful complete pages and includes over 20 reusable and customizable UI Blocks. It’s lightweight and only ~17kb when minified.
+https://htmlstream.com/
 
 ## Copyright and License
 
