@@ -122,7 +122,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link" rel="tooltip" title="Seguinos en Instagram" data-placement="bottom"
-                       href="https://www.instagram.com/iglesiaalameda" target="_blank"
+                       href="https://www.instagram.com/iglesialameda" target="_blank"
                        data-original-title="Seguinos en Instagram">
                         <i class="fab fa-instagram fa-2x"></i>
                     </a>
