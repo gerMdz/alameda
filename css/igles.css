@@ -510,15 +510,12 @@ h3.quote:after {
 }
 
 
-
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75) !important;
 }
 
 #gex {
-    /*background-image: url('../images/fondo_general-wide_rc.jpg');*/
     background-image: url('../images/GEX_acciones.jpg');
-    /*background-color: transparent;*/
 }
 
 .bg-boletin{

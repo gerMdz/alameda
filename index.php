@@ -58,7 +58,7 @@ include_once('links.php');
     <!-- Style 3th core  -->
 
     <!-- Style Auto core  -->
-    <link href="css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <!-- Style Auto core  -->
 
     <!-- Fonts  core  -->
@@ -321,13 +321,15 @@ include_once('links.php');
     <!--</div>-->
     </div>
 </section>
+
+<?php if ($ahora < date('2020-05-23 18:00')) { ?>
 <section class="u-destacado section" id="avanza">
-    <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5" >
+    <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5">
         <div class="container">
             <div class="text-center w-md-50 mx-auto py-5">
                 <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
                    data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
-                            <span class="fa-stack list-inline" >
+                            <span class="fa-stack list-inline">
                             <i class="fas fa-circle fa-stack-2x text-point"></i>
                             <i class="fi fi-torsos-all fa-stack-1x fa-inverse item-inline"
                                style="font-size: 1em; text-align: left" aria-hidden="true"></i>
@@ -338,7 +340,8 @@ include_once('links.php');
                         </span>
 
                 </a>
-                <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de nuestra <strong>familia de fe?</strong> </h2>
+                <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de nuestra
+                    <strong>familia de fe?</strong></h2>
 
 
                 <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"
@@ -349,6 +352,7 @@ include_once('links.php');
         </div>
     </div>
 </section>
+<?php } ?>
 
 <section class="page-section container cta fondo-evento" id="ppasos">
 
@@ -662,6 +666,15 @@ include_once('links.php');
 
 
 </section>
+
+<!-- Inicio Ministerios-->
+<?php
+//include ('section-ministerios.php');
+?>
+
+<!-- Fin Ministerios-->
+
+
 
 <section class="page-section container cta fondo-evento" id="revivir">
     <!--    <div class="row text-center">-->
