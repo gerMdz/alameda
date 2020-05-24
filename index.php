@@ -50,7 +50,7 @@ include_once('links.php');
     <!-- Icon core  -->
 
     <!-- Style 3th core  -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+<!--    <link href="css/mdb.min.css" rel="stylesheet">-->
     <link href="css/business-casual.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/slick-carousel/slick.css">
@@ -58,7 +58,7 @@ include_once('links.php');
     <!-- Style 3th core  -->
 
     <!-- Style Auto core  -->
-    <link href="css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <!-- Style Auto core  -->
 
     <!-- Fonts  core  -->
@@ -120,7 +120,7 @@ include_once('links.php');
     <div class="col-12 bg-faded">
         <div class="text-center">
             <h1 class="display-sm-4 display-lg-3 ">
-                <a href="notas.php">
+                <a href="https://online.iglesiaalameda.com">
                     <i class="fas fa-globe  "></i>
                 </a>
                 <span class="js-display-typing"></span>
@@ -146,7 +146,7 @@ include_once('links.php');
 </header>
 
 <!-- Horarios - Invitación - Video -->
-<section class="bg-light u-content-space mt-5">
+<section class="bg-light page-section ">
     <div class="container">
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">
@@ -168,62 +168,6 @@ include_once('links.php');
         </header>
         <!-- End Invitación: Header -->
 
-
-        <div class="row align-items-lg-center">
-            <!--            <div class="col-lg-4 col-md-5">-->
-            <!--                 Row -->
-            <!--                <div class="row mr-md-4 mb-lg-5">-->
-            <!--                    <div class="col-lg-12 mb-5">-->
-            <!--                        <div class="text-primary mb-2">-->
-            <!--                            <h3><i class="fas fa-clock"></i></h3>-->
-            <!--                        </div>-->
-            <!--                        <h2 class="h2">Domingos 11:00 Hs.</h2>-->
-            <!--                        <p class="mb-0"></p>-->
-            <!--                    </div>-->
-            <!---->
-            <!--                    <div class="col-lg-12 mb-5">-->
-            <!--                        <div class="text-primary mb-2">-->
-            <!--                            <h3>-->
-            <!--                            <i class="far fa-clock"></i>-->
-            <!--                            </h3>-->
-            <!--                        </div>-->
-            <!--                        <h4 class="h2">Domingos 20:00 Hs.</h4>-->
-            <!--                        <p class="mb-0"></p>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!-- End Row -->
-
-            <!-- Row -->
-            <!--                <div class="row mr-md-4">-->
-            <!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
-            <!--                        <div class=" text-primary mb-2">-->
-            <!--                            <h3>-->
-            <!--                            <i class="fas fa-laptop-house"></i>-->
-            <!--                            </h3>-->
-            <!--                        </div>-->
-            <!--                        <h4 class="h5">Una Casa Grande</h4>-->
-            <!--                        <p class="mb-0">Para una Familia Grande.</p>-->
-            <!--                    </div>-->
-            <!---->
-            <!--                    <div class="col-lg-6 mb-5 mb-lg-0">-->
-            <!--                        <div class=" text-primary mb-2">-->
-            <!--                            <h3>-->
-            <!--                            <i class="fas fa-globe"></i>-->
-            <!--                            </h3>-->
-            <!--                        </div>-->
-            <!--                        <h4 class="h5">-->
-            <!--                            Viví la Experiencia OnLine-->
-            <!--                            </h4>-->
-            <!--                        <p class="mb-0">-->
-            <!--                            <a href="notas.php">-->
-            <!--                            Ingresa aquí para no perderte nada-->
-            <!--                            </a>-->
-            <!--                        </p>-->
-            <!--                    </div>-->
-            <!--                </div>-->
-            <!-- End Row -->
-        </div>
-
         <div class="col-lg-12 col-md-12">
             <!-- Enlave Video -->
             <article class="u-destacado u-box-shadow-sm text-center rounded">
@@ -234,7 +178,7 @@ include_once('links.php');
                     </strong>
 
                     <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-4">
-                        <a href="notas.php" class="text-white">
+                        <a href="https://online.iglesiaalameda.com" class="text-white">
                             En vivo desde aqui
                         </a>
                     </h3>
@@ -273,61 +217,92 @@ include_once('links.php');
         <header class="text-center w-md-50 mx-auto  mt-5 mb-8">
             <h2 class="h1 bg-alameda">
                 <a href="notas.php" class="text-white">
-                    Vení tal como SOS</h2>
+                    Vení tal como SOS
+                </a>
+            </h2>
 
-            <p class="h5"></p>
+
         </header>
+        <hr>
         <!-- End Invitación: Header -->
     </div>
 
 </section>
 <!-- Fin Horarios - Invitación - Video -->
 
-<section class="page-section cta fondo-evento" id="campania">
-    <div id="series" class="carousel slide" data-ride="carousel">
+<!--Section Slider Fotos-->
+<section class="page-section fondo-evento" id="fotos-inicio">
+<!--<section class="u-content-space-bottom" id="fotos-inicio">-->
+    <div class="container">
+        <!-- Carousel -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div id="carouselAlamedaIndicators" class="carousel slide bg-light u-box-shadow-lg"
+                     data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselAlamedaIndicators" data-slide-to="0" class="rounded active"></li>
+                        <li data-target="#carouselAlamedaIndicators" data-slide-to="1" class="rounded"></li>
+                        <li data-target="#carouselAlamedaIndicators" data-slide-to="2" class="rounded"></li>
+                    </ol>
 
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#series" data-slide-to="0" class="active"></li>
-            <li data-target="#series" data-slide-to="1"></li>
-            <li data-target="#series" data-slide-to="2"></li>
-            <!--                    <li data-target="#series" data-slide-to="3"></li>-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 rounded" src="images/slider/imagen-auditorio.jpg"
+                                 alt="<?php echo $lemaSinEspacios ?>-1-slide ">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="h2 font-weight-light mb-0">Igleisa de la Alameda</h5>
+                                <p class="lead">Vista del frente del Auditorio Alameda</p>
+                            </div>
+                        </div>
 
-        </ul>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 rounded"
+                                 src="series/oraciones-audaces/Oraciones-Audaces-Anuncio.jpg"
+                                 alt="<?php echo $lemaSinEspacios ?>-2-slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="h2 font-weight-light mb-0">Serie</h5>
+                                <p class="lead">Oraciones Audaces</p>
+                            </div>
+                        </div>
 
-        <!-- The slideshow -->
-        <div class="carousel-inner ">
-            <div class="carousel-item active ">
-                <img src="images/slider/imagen%20auditorio.png" alt="La Alameda" class="img-fluid rounded">
+                        <div class="carousel-item">
+                            <img class="d-block w-100 rounded" src="images/slider/imagen-auditorio-noche.jpg"
+                                 alt="<?php echo $lemaSinEspacios ?>-3-slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="h2 font-weight-light mb-0">Auditrio Alameda</h5>
+                                <p class="lead">Una hermosa noche!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselAlamedaIndicators" role="button" data-slide="prev">
+                  <span aria-hidden="true">
+                    <i class="fas fa-angle-left carousel-control-size"></i>
+                  </span>
+                        <span class="sr-only">Previa</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselAlamedaIndicators" role="button" data-slide="next">
+                  <span aria-hidden="true">
+                    <i class="fas fa-angle-right carousel-control-size"></i>
+                  </span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
             </div>
-            <div class="carousel-item ">
-                <img src="series/oraciones-audaces/ORACIONES-AUDACES-2020-ANUNCIO-02.jpg" alt="La Alameda"
-                     class="img-fluid ">
-            </div>
-
-            <div class="carousel-item ">
-                <img src="images/slider/imagen%20auditorio_noche.png" alt="La Alameda" class="img-fluid ">
-            </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#series" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#series" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
         </div>
-    </div>
-    <!--</div>-->
-    <!--</div>-->
+        <!-- End Carousel -->
     </div>
 </section>
-<section class="u-destacado section" id="avanza">
-    <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5" >
-        <div class="container">
-            <div class="text-center w-md-50 mx-auto py-5">
-                <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
-                   data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
-                            <span class="fa-stack list-inline" >
+<!--</section>-->
+<!--Fin Section Slider Fotos-->
+
+<?php if ($ahora < date('2020-05-23 18:00')) { ?>
+    <section class="u-destacado section" id="avanza">
+        <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5">
+            <div class="container">
+                <div class="text-center w-md-50 mx-auto py-5">
+                    <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
+                       data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
+                            <span class="fa-stack list-inline">
                             <i class="fas fa-circle fa-stack-2x text-point"></i>
                             <i class="fi fi-torsos-all fa-stack-1x fa-inverse item-inline"
                                style="font-size: 1em; text-align: left" aria-hidden="true"></i>
@@ -337,20 +312,25 @@ include_once('links.php');
                                style="font-size: 0.5em; text-align: center; margin-top:35px " aria-hidden="true"></i>
                         </span>
 
-                </a>
-                <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de nuestra <strong>familia de fe?</strong> </h2>
+                    </a>
+                    <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de
+                        nuestra
+                        <strong>familia de fe?</strong></h2>
 
 
-                <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"
-                   href="avanza.php">
-                    <i class="fas fa-road mr-2 text-white"></i>Sumate desde aquí
-                </a>
+                    <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"
+                       href="avanza.php">
+                        <i class="fas fa-road mr-2 text-white"></i>Sumate desde aquí
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+<?php } ?>
 
-<section class="page-section container cta fondo-evento" id="ppasos">
+<section class="page-section bg-light" id="ppasos">
+    <div class="container">
+        <hr/>
 
     <div class="row text-center">
         <div class="col-sm-3 pull-left">
@@ -604,10 +584,13 @@ include_once('links.php');
 
         </div>
     </div>
-    <div class="col-sm-12">
+    <div class="container-fluid">
+        <hr/>
+        <div class="col-sm-12">
         <a href="noticias/camino-crecimiento.php" class="text-success">
-            <blockquote class="bg-white text-tan blockquote rounded d-flex align-items-center">
-                <div class="row">
+            <blockquote class="bg-white text-tan blockquote rounded d-flex align-items-center col-sm-12">
+
+
                     <div class="col-sm-4 text-center">
                         <i class="fas fa-road fa-2x text-invitacion"></i>
                     </div>
@@ -617,15 +600,25 @@ include_once('links.php');
                         </h3>
                     </div>
 
+
+
             </blockquote>
+
         </a>
+            <hr />
+        </div>
 
     </div>
+    </div>
+
 </section>
 
-<section class="page-section container cta fondo-evento" id="versiculoClave">
+<section class="page-section fondo-evento" id="versiculoClave">
     <!--    <div class="row text-center">-->
-    <div class="row text-center d-flex align-items-center bg-white">
+    <div class="container">
+        <hr/>
+        <div class="row text-center d-flex align-items-center bg-white">
+
         <div class="col-sm-4 pull-left">
             <img src="images/textos/texto-ppal.jpg" class="img-fluid rounded"/>
         </div>
@@ -659,12 +652,23 @@ include_once('links.php');
 
 
     </div>
+        <hr />
 
+    </div>
 
 </section>
 
-<section class="page-section container cta fondo-evento" id="revivir">
+<!-- Inicio Ministerios-->
+<?php
+//include ('section-ministerios.php');
+?>
+
+<!-- Fin Ministerios-->
+
+
+<section class="page-section fondo-evento" id="revivir">
     <!--    <div class="row text-center">-->
+    <div class="container">
     <div class="row text-center d-flex align-items-center">
         <div class="col-sm-3 pull-left">
             <img src="../images/logoYoutubeBrown.png" class="img-fluid rounded"/>
@@ -683,6 +687,7 @@ include_once('links.php');
                 </blockquote>
             </a>
         </div>
+    </div>
     </div>
 </section>
 
@@ -765,7 +770,8 @@ include_once('links.php');
 <!--</section>-->
 
 
-<section class="page-section container cta fondo-evento bg-white" id="epa">
+<section class="page-section bg-light" id="epa">
+    <div class="container">
     <div class="row text-center d-flex align-items-cente ">
         <div class="col-sm-12">
             <h1 class="text-point-sec text-realce ">
@@ -825,6 +831,7 @@ include_once('links.php');
                 </a>
             </h3>
         </div>
+    </div>
 </section>
 <?php include('footer.php'); ?>
 
@@ -847,9 +854,9 @@ include_once('links.php');
 </script>
 <script type="text/javascript">
 
-    $('.carousel').carousel({
-        interval: 10000
-    })
+    // $('.carousel').carousel({
+    //     interval: 10000
+    // })
 
     $('[data-countdown]').each(function () {
         var $this = $(this), finalDate = $(this).data('countdown');

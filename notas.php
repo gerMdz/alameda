@@ -186,6 +186,26 @@ include_once ('links.php');
                     <a href="series/oraciones-audaces/05-Reinvindicada.pdf" class="btn btn-sm btn-outline-info" target="_blank">
                         Descarga la hoja de notas <br/>desde aquí.
                     </a><br/>
+                        <a href="https://youtu.be/vdf7Zfu5NUM" class="btn btn-sm btn-outline-danger" target="_blank">
+                            Ver el Mensaje
+                        </a>
+                </div>
+            </div>
+        </div>
+        <!--            Fin Card Nota-->
+
+        <!--            Inicio Card Nota 6 Imposible-->
+        <div class="col-md-4 mb-5 mx-auto">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title">Imposible de Detener</h2>
+                    <img src="series/oraciones-audaces/06-Imposible-de-Detener.jpg" class="img-fluid" />
+
+                </div>
+                <div class="card-footer text-center">
+                    <a href="series/oraciones-audaces/06-Imposible-de-Detener.pdf" class="btn btn-sm btn-outline-info" target="_blank">
+                        Descarga la hoja de notas <br/>desde aquí.
+                    </a><br/>
                     <?php
                     if ($notas_link !== null) {
                         ?>
@@ -196,7 +216,7 @@ include_once ('links.php');
                 </div>
             </div>
         </div>
-        <!--            Fin Card Nota-->
+        <!--            Fin Card Nota 6 Imposible-->
 
 
 

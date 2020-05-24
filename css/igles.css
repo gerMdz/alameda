@@ -1,10 +1,9 @@
 .navbar:before  {
     border-color: #5a5a5a transparent transparent transparent;
     position: absolute;
-    /*display: block;*/
     border-style: solid;
     bottom: -1em;
-    margin-left: 0px;
+    margin-left: 0;
     content: '';
 }
 
@@ -19,7 +18,7 @@
     /*display: block;*/
     border-style: solid;
     bottom: -1em;
-    margin-left: 0px;
+    margin-left: 0;
     content: '';
 }
 
@@ -39,7 +38,7 @@
 
 .bajomedia-content:before {
     left: 0;
-    border-width: 0em 0em 1em 1em;
+    border-width: 0 0 1em 1em;
 }
 
 .navbar {
@@ -55,7 +54,7 @@
     padding: 0 10px !important;
     margin-left: -16px;
     margin-right: -16px;
-    box-shadow: 0px 10px 10px 5px;
+    box-shadow: 0 10px 10px 5px;
 
 }
 
@@ -111,11 +110,11 @@ a.text-point-sec:hover {
 .text-light-blue{
     color: #73aba2;
 }
-.carousel-inner img {
-    width: 70%;
-    height: auto;
-    margin-left: 15%;
-}
+/*.carousel-inner img {*/
+/*    width: 70%;*/
+/*    height: auto;*/
+/*    margin-left: 15%;*/
+/*}*/
 
 .eventos {
 
@@ -172,10 +171,10 @@ ul.pp li{
 
 }
 
-.carousel{
-    height: 66.67%;
-    margin-bottom: 0;
-}
+/*.carousel{*/
+/*    height: 66.67%;*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 /*.carousel, .carousel-inner > .carousel-item > img {
 
@@ -207,7 +206,7 @@ ul.pp li{
     background-image: url('../images/imgMenu.png') !important;
     background-repeat: repeat !important;
     padding: 0 10px !important;
-    box-shadow: 0px 10px 10px 5px;
+    box-shadow: 0 10px 10px 5px;
 
 }
 
@@ -285,7 +284,7 @@ button.bg-teal:hover{
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 0;
         width: 100%;
     }
 }
@@ -297,7 +296,7 @@ button.bg-teal:hover{
     }
 
     to {
-        margin-left: 0%;
+        margin-left: 0;
         width: 100%;
     }
 }
@@ -334,12 +333,12 @@ button.bg-teal:hover{
 }
 
 .blockquote-uvcp{
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     border-left: .25rem solid #0f0;
 }
 
 .blockquote-uvcp_dark{
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     border-left: .25rem solid rgb(4, 135, 142);
 
 
@@ -358,7 +357,7 @@ button.bg-teal:hover{
     /*border-left: .25rem solid rgb(4, 135, 142);*/
 
     /* Safari */
-    -webkit-transform: rotate(-90deg);
+
 
     /* Firefox */
     -moz-transform: rotate(-90deg);
@@ -510,20 +509,17 @@ h3.quote:after {
 }
 
 
-
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75) !important;
 }
 
 #gex {
-    /*background-image: url('../images/fondo_general-wide_rc.jpg');*/
     background-image: url('../images/GEX_acciones.jpg');
-    /*background-color: transparent;*/
 }
 
 .bg-boletin{
 
-    background-image: url('../images/campanias/fdo40.png');
+    background-image: url('../images/series/fdo40.png');
 
 }
 
@@ -555,13 +551,13 @@ h3.quote:after {
     src: url("fonts/Joyful Story.otf") format('truetype');
 }
 .warnock{
-    font-family: warnock;
+    font-family: warnock, Roboto Slab, Times New Roman, serif;
 }
 @font-face {
     font-family: tahu;
     font-style: italic;
     font-weight: normal;
-    src: url("../vendor/alameda/font/Tahu.ttf") format('truetype');
+    src: url("../font/Tahu.ttf") format('truetype');
 }
 @font-face {
     font-family: Hoverage;
@@ -570,7 +566,7 @@ h3.quote:after {
     src: url("fonts/Hoverage.otf") format('truetype');
 }
 .hoverage{
-    font-family: Hoverage;
+    font-family: Hoverage,sans-serif ;
 }
 
 @font-face {
@@ -587,23 +583,23 @@ h3.quote:after {
 }
 
 .big_noodle_titling{
-    font-family: big noodle titling;
+    font-family: big noodle titling, Roboto, Helvetica, Arial, sans-serif;
 }
 .matahati{
-    font-family: Matahati Regular;
+    font-family: Matahati Regular, sans-serif;
 }
 .greatlakes{
-    font-family: greatlakes;
+    font-family: greatlakes, Roboto, Helvetica, Arial, sans-serif;
 }
 
 @font-face {
-    font-family: Tuesnight Regular;
+    font-family: Tuesnight Regular, Roboto Slab, Times New Roman, serif;
     font-style: italic;
     font-weight: normal;
     src: url("fonts/Tuesnight.otf") format('truetype');
 }
 .tuesnight{
-    font-family: "Tuesnight Regular";
+    font-family: "Tuesnight Regular", Roboto, sans-serif;
 }
 
 
@@ -908,7 +904,7 @@ body.frontal{
 }
 
 .tono-cromo {
-    background-image: url('../images/series/bondad/images-PREVIAS-BONDAD.png');
+    background-image: url('../images/series/bondad/Images-Previas-Bondad.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -943,4 +939,9 @@ body.frontal{
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.2;
+}
+
+.btn-blue {
+    background-color: #1976d2 !important;
+    color: #fff !important;
 }
