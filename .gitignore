@@ -5,7 +5,7 @@ node_modules
 /.env.local
 /.env.local.php
 /.env.*.local
-/public/bundles/
+/public_html/bundles/
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
@@ -15,26 +15,42 @@ node_modules
 
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
-/public/build/
+/public_html/build/
 npm-debug.log
 yarn-error.log
-/public/uploads/
+/public_html/uploads/
 /src/Migrations/
 /assets/fonts/univers/
 /assets/css/foundation-icons/.DS_Store
 
 
 ###> liip/imagine-bundle ###
-/public/media/cache/
+/public_html/media/cache/
 ###< liip/imagine-bundle ###
-/public/vendors/tilt/.babelrc
-/public/vendors/tilt/.jshintrc
-/public/vendors/tilt/.travis.yml
+/public_html/vendors/tilt/.babelrc
+/public_html/vendors/tilt/.jshintrc
+/public_html/vendors/tilt/.travis.yml
 /assets/images/series/no-temere/01-No-Temere.pdf
 /assets/images/series/no-temere/02-Encerrados.pdf
 /assets/images/series/no-temere/03-Realidad-Aumentada.pdf
-/public/vendors/bootstrap/
-/public/include/scss/
+/public_html/vendors/bootstrap/
+/public_html/include/scss/
 /src/DataFixtures/images/01-Ante-lo-inesperado.jpg
 /src/DataFixtures/images/02-Indomita.jpg
 /src/DataFixtures/images/03-Rescate-en-las-llamas.jpg
+/public_html/vendors/
+/assets/images/favicon/
+/assets/fonts/big_noodle_titling.ttf
+/assets/fonts/Black Diamond.otf
+/assets/fonts/GreatLakesNF.ttf
+/assets/fonts/Hoverage.otf
+/assets/fonts/Joyful Story.otf
+/assets/fonts/Matahati Regular.otf
+/assets/fonts/Tuesnight.otf
+/assets/fonts/UniversLTStd-Obl.otf
+/assets/fonts/WarnockPro-ItSubh.otf
+/assets/images/series/
+/assets/images/gp_escalado_1170.png
+/assets/images/gp_horizontal.jpg
+/assets/images/gpc-sin-texto.png
+/assets/images/logo_n1.png
