@@ -12,6 +12,7 @@
         "liip/imagine-bundle": "^2.3",
         "ramsey/uuid-doctrine": "^1.6",
         "sensio/framework-extra-bundle": "^5.4",
+        "sensiolabs/security-checker": "^6.0",
         "symfony/apache-pack": "^1.0",
         "symfony/asset": "4.4.*",
         "symfony/console": "4.4.*",
@@ -19,6 +20,7 @@
         "symfony/flex": "^1.3.1",
         "symfony/form": "4.4.*",
         "symfony/framework-bundle": "4.4.*",
+        "symfony/monolog-bundle": "^3.5",
         "symfony/orm-pack": "^1.0",
         "symfony/polyfill-php72": "^1.15",
         "symfony/security-bundle": "4.4.*",
@@ -32,10 +34,8 @@
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^3.3",
         "fzaninotto/faker": "^1.9",
-        "sensiolabs/security-checker": "^6.0",
         "symfony/debug-bundle": "*",
         "symfony/maker-bundle": "^1.12",
-        "symfony/monolog-bundle": "^3.0",
         "symfony/profiler-pack": "*",
         "symfony/var-dumper": "*",
         "symfony/web-server-bundle": "^4.4.7"

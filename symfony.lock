@@ -217,10 +217,10 @@
             "repo": "github.com/symfony/recipes-contrib",
             "branch": "master",
             "version": "1.0",
-            "ref": "410b9325a37ef86f1e47262c61738f6202202bca"
+            "ref": "71599f5b0fdeeeec0fb90e9b17c85e6f5e1350c1"
         },
         "files": [
-            "public/.htaccess"
+            "public_html/.htaccess"
         ]
     },
     "symfony/asset": {

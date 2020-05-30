@@ -3,6 +3,16 @@ liip_imagine:
     # valid drivers options include "gd" or "gmagick" or "imagick"
     driver: "gd"
 
+    resolvers:
+        default:
+            web_path:
+                web_root: '%kernel.project_dir%/public_html' # %kernel.project_dir%/public (%kernel.project_dir%/web for Symfony < 4.0.0)
+                cache_prefix: 'media/cache' # media/cache
+    loaders:
+        default:
+            filesystem:
+                data_root: '%kernel.project_dir%/public_html'  # %kernel.project_dir%/public (%kernel.project_dir%/web for Symfony < 4.0.0)
+
     filter_sets:
         #
         #        # an example thumbnail transformation definition
