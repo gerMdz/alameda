@@ -1,27 +1,37 @@
 # [Alameda - AlamedaCMS]
 
-EL inicio de un CMS personalizado
+    CMS personalizado para Hosting Compartido
 
-## NO hay pre
-
-[![Iglesia Alameda Preview](http://iglesialameda.com/)](http://iglesialameda.com/)
-
-**[View Live Preview](http://iglesialameda.com/)**
+#### No hay preview 
 
 ## Status
-totalmente DEV
+    Dev 
 
-## Download and Installation
-
+### Download and Installation
 
 * Clone the repo: `git clone https://github.com/gerMdz/alameda.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/gerMdz/alameda)
 
-## Usage
-
+### Usage
+    composer install --no-dev --optimize-autoloader
+    APP_ENV=prod APP_DEBUG=0 php bin/console cache:clear
+    composer dump-env prod
+ 
 ### Basic Usage
 
-Hasta ahora, la idea es templates modulares por sections, donde a cada template se le agregan sections
+    Subir en el raiz del home 
+        bin
+        config
+        src
+        templates
+        translations
+        vendor
+    Subir al public_html
+        index.php
+        .htaccess
+        bundles
+        build 
+      
 
 ### Advanced Usage
 
@@ -29,7 +39,7 @@ Hasta ahora, la idea es templates modulares por sections, donde a cada template 
 
 ## Bugs and Issues
 
-Have a bug or an issue with this template? [Open a new issue](https://gitlab.com/gerardo.montivero/alameda/issues) here on GitLab or leave a comment on the [template overview page at AlamedaCMS](https://gitlab.com/gerardo.montivero/alameda/).
+Have a bug or an issue with this template? [Open a new issue](https://github.com/germdz/alameda/issues) here on GitLab or leave a comment on the [template overview page at AlamedaCMS](https://github.com/germdz/alameda/).
 
 ## Custom Builds
 
@@ -86,4 +96,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
