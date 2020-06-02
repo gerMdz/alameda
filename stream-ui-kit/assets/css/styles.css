@@ -314,6 +314,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-toggle__item i::after {
+  top: 50%;
   left: 4px;
   width: 16px;
   height: 16px;
@@ -570,12 +571,14 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #fff transparent transparent transparent;
   filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.1));
 }
-
 .u-blockquote-v2__image {
   width: 3.75rem;
   height: 3.75rem;
 }
-
+.a-blockquote-v2__image {
+  width: 4.25rem;
+  height: 4.25rem;
+}
 /*------------------------------------
   Clients
 ------------------------------------*/
@@ -618,9 +621,9 @@ h1, h2, h3, h4, h5, h6 {
 ------------------------------------*/
 .u-device {
   position: relative;
-  width: 85%;
-  z-index: -1;
-  margin-bottom: -10rem;
+  width: 50%;
+  z-index: 1;
+  margin-bottom: 0.5rem;
 }
 
 .u-device__item {
@@ -1108,41 +1111,41 @@ h1, h2, h3, h4, h5, h6 {
 /*------------------------------------
   Pricing
 ------------------------------------*/
-.u-destacado {
+.u-pricing {
   background-color: #fff;
 }
 
-.u-destacado__header {
+.u-pricing__header {
   position: relative;
   padding: 2.5rem 1.5rem;
 }
 
-.u-destacado__header-price {
+.u-pricing__header-price {
   display: block;
   line-height: .84;
 }
 
-.u-destacado__header-title {
+.u-pricing__header-title {
   opacity: .8;
 }
 
-.u-destacado__header-decoration {
+.u-pricing__header-decoration {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
 
-.u-destacado__content {
+.u-pricing__content {
   padding: 1.5rem;
 }
 
-.u-destacado__content .disabled .u-icon {
+.u-pricing__content .disabled .u-icon {
   color: #85778f;
   background-color: rgba(133, 119, 143, 0.1);
 }
 
-.u-destacado .disabled {
+.u-pricing .disabled {
   color: #85778f;
 }
 
@@ -1153,7 +1156,11 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
 }
-
+/* propio alameda */
+.a-content-space-medium {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .u-content-space-top {
   padding-top: 6.25rem;
 }
@@ -1281,7 +1288,6 @@ h1, h2, h3, h4, h5, h6 {
 .u-opacity-1 {
   opacity: .1;
 }
-
 .u-opacity-6 {
   opacity: .6;
 }
