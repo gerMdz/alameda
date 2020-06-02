@@ -945,6 +945,7 @@ footer#site-footer a img.top {
   margin: 50px 0;
   text-align: left;
   overflow: hidden;
+  bottom: 0;
 }
 .media-50 {
   margin: 25px 0;

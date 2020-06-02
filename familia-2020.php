@@ -23,11 +23,14 @@ include_once('gerVendor/gerFunctions.php')
 <head>
     <?php
     include('meta-base.php');
+    include ('favicon.php');
     include('style-base-uikit.php')
     ?>
+    <link rel="icon" href="images/index.png" sizes="32x32" />
+    <link rel="icon" href="images/index192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png" />
 
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-
 
 
     <style>
@@ -71,8 +74,9 @@ include_once('gerVendor/gerFunctions.php')
             border: none currentcolor;
             border-radius: 10rem;
         }
-        .bg-fam{
-            background-color: #3c2611;
+
+        .bg-fam {
+            background-color: #113c3c;
         }
 
 
@@ -111,7 +115,7 @@ include_once('gerVendor/gerFunctions.php')
         <div class="container">
             <div class="row ">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-5 mb-5 mb-lg-5 pl-lg-5">
+                <div class="col-lg-5 mb-5 mb-lg-5 pl-lg-5 align-self-center">
                     <h1 class="mb-3">Familia 2020</h1>
                     <p>
                         Aquí Reseña
@@ -122,59 +126,60 @@ include_once('gerVendor/gerFunctions.php')
                 </div>
 
                 <div class="col-lg-6">
-                    <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto" src="series/familia-2020/FAMILIA-2020-TAPA-001.jpg" alt="<?php echo $lemaSinEspacios?>">
+                    <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto"
+                         src="series/familia-2020/FAMILIA-2020-TAPA-001.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
     </section>
 
 
-    <!-- Charla 1 -->
+    <!-- Charlas -->
 
     <section class="a-content-space-medium bg-dark text-center">
         <div class="container">
-
-
             <div class="row">
-                <div class="col-lg-4 mb-7 mb-lg-0 px-lg-5 mx-auto u-box-shadow-sm bg-white card ">
-                    <!-- Testimonial -->
-                    <hr/>
-                    <blockquote class="u-blockquote-v2 rounded mb-1 ">
-                        <span class="mr-1"></span>
-                        Descripción o texto clave
-                    </blockquote>
-                    <div class="media u-font-size-90">
-                        <img class="u-box-shadow-lg img-fluid mt-1 align-self-center rounded a-blockquote-v2__image u-box-shadow-lg mx-3 mt-2"
-                             src="series/oraciones-audaces/07-la-ultima-oportunidad.jpg" alt="<?php echo $lemaSinEspacios?>">
-                        <div class="media-body align-self-center">
-                            <a class="mr-4" href="#!">
+<!--                Charla 1-->
+                <div class="col-md-4 mb-5 mx-auto   ">
+                    <div class="card h-100">
 
-                                <i class="far fa-file-pdf mr-1"></i>
-                                Notas del mensaje
-                            </a><br/>
-                            <a href="#!">
-
-                                <i class="fab fa-youtube fa-fw mr-1"></i>
-
-                                Ver Mensaje
-                            </a>
+                        <div class="card-header">
+                            Título Charla
                         </div>
+                        <div class="card-header-pills ">
+                            <blockquote class="u-blockquote-v2 rounded mb-1 ">
+                                <span class="mr-1"></span>
+                                ["play", "election", "describe"
+                            </blockquote>
+                        </div>
+                        <hr class="text-hide" />
+                        <div class="media u-font-size-90 card-footer bg-fam mt-auto">
+                            <img class="u-box-shadow-lg img-fluid mt-1 align-self-center rounded a-blockquote-v2__image u-box-shadow-lg mx-3 mt-2"
+                                 src="series/oraciones-audaces/07-la-ultima-oportunidad.jpg"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                            <div class="media-body align-self-center">
+                                <a class="mr-4" href="#!">
+
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas del mensaje</b>
+                                </a><br/>
+                                <a href="#!">
+
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+
+                                    <i>Ver Mensaje</i>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- End Testimonial -->
                 </div>
-
-
+<!--                Fin Charla 1-->
             </div>
         </div>
     </section>
     <!-- Charla 1 -->
 </main>
-
-
-<section class="vacio mb-3">
-
-</section>
-
 
 <?php
 include "footer.php";

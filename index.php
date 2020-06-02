@@ -33,7 +33,10 @@ include_once('links.php');
     <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Iglesia de la Alameda</title>
-    <?php include 'favicon.php' ?>
+    <link rel="icon" href="../images/index.png" sizes="32x32" />
+    <link rel="icon" href="../images/index192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png" />
+    <?php include ('favicon.php') ?>
 
 
     <!-- Bootstrap core CSS -->

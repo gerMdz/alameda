@@ -1,4 +1,4 @@
-n <?php
+<?php
 ?>
 
 <!-- Bootstrap core CSS -->
