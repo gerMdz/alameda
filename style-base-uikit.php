@@ -19,7 +19,7 @@
 <link href="css/business-casual.min.css?v=<?php echo $version ?>" rel="stylesheet">
 <link href="css/swiper.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/slick-carousel/slick.css">
-<link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/css/styles.css">
+<link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/css/styles.min.css">
 <!-- Style 3th core  -->
 
 <!-- Style Auto core  -->

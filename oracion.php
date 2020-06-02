@@ -10,6 +10,7 @@ $lemaSinEspacios = 'Pedidos-Oración';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
+$title = 'Pedidos de Oración';
 /**
  * @example pregunta si la cuarentena terminó
  */
@@ -24,6 +25,7 @@ include_once ('gerVendor/gerFunctions.php')
     include ('meta-base.php');
     include ('style-base.php')
     ?>
+
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
     <script src = "js/alameda.js"> </script>
 

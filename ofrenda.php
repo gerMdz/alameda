@@ -158,7 +158,8 @@ $version = date('YmdHi');
                     <h4 class="card-title">4°</h4>
                     <p class="card-text">
                         Ingresando tu ofrenda por los canales PagoFacil, CobroExpress, o Rapipago mencionando <br/>
-                        el código 26328 70259</p>
+                        el código 26328 70259 <br/>
+                    Fundación Cristiana Alameda</p>
 
                 </div>
 
