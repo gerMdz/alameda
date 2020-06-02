@@ -946,6 +946,11 @@ footer#site-footer a img.top {
   text-align: left;
   overflow: hidden;
 }
+.media-50 {
+  margin: 25px 0;
+  text-align: left;
+  overflow: hidden;
+}
 .media a {
   text-decoration: none;
 }

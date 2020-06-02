@@ -113,7 +113,7 @@ include_once ('gerVendor/gerFunctions.php')
                     </h5>
 
 
-                    <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/DuJvVG374UMNjCuv7" target="_blank">
+                    <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
                         Completar Tarjeta de Conexión
                     </a>
 
@@ -141,26 +141,6 @@ include_once ('gerVendor/gerFunctions.php')
     <?php
     include ('js-base.php');
     ?>
-
-</body>
-
-</html>
-
-
-
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Contact form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/agency.min.js"></script>
 
 </body>
 
