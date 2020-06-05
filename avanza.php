@@ -5,12 +5,12 @@
  * Date: 18/05/2020
  * Time: 06:56
  */
-$lema = 'Taller de Membresía ';
-$lemaSinEspacios = 'Taller-Membresía-Iglesia-Alameda';
+$lema = 'Taller de Madurez';
+$lemaSinEspacios = 'Taller-Madurez-Iglesia-Alameda';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Taller de Membresía';
+$title = 'Taller de Madurez';
 /**
  * @example pregunta si la cuarentena terminó
  */
