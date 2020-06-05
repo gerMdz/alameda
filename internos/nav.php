@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li class="nav-item ml-auto mb-2 mb-lg-0">
-                    <a class="nav-link" href="../oportunidades/grupos-pequeños.php">
+                    <a class="nav-link" href="/oportunidades/grupos-pequeños.php">
                         <small>
                             <img class="img-fluid" src="../images/gpc-sin-texto.png" width="16" height="16">
                             Grupos Pequeños
