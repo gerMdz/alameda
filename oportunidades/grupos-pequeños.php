@@ -35,7 +35,7 @@
   <body id="page-top">
 
   <?php
-  include 'nav.php';
+  include '../nav.php';
   ?>
 
   <!-- Masthead-->
