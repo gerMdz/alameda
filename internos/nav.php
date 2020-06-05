@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li class="nav-item ml-auto mb-2 mb-lg-0">
-                    <a class="nav-link" href="../ofrenda.php">
+                    <a class="nav-link" href="/ofrenda.php">
                         <small>
                             <i class="fas fa-hand-holding"></i> Dar
                         </small>
