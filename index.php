@@ -295,27 +295,19 @@ include_once('links.php');
 <!--</section>-->
 <!--Fin Section Slider Fotos-->
 
-<?php if ($ahora < date('2020-05-23 18:00')) { ?>
+<?php if ($ahora < date('2020-06-09 18:00')) { ?>
     <section class="u-destacado section" id="avanza">
         <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5">
             <div class="container">
                 <div class="text-center w-md-50 mx-auto py-5">
                     <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
                        data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
-                            <span class="fa-stack list-inline">
-                            <i class="fas fa-circle fa-stack-2x text-point"></i>
-                            <i class="fi fi-torsos-all fa-stack-1x fa-inverse item-inline"
-                               style="font-size: 1em; text-align: left" aria-hidden="true"></i>
-                            <i class="fi fi-torsos-all-female fa-stack-1x fa-inverse item-inline"
-                               style="font-size: 1em; text-align: right" aria-hidden="true"></i>
-                            <i class="fas fa-plus-circle fa-stack-1x fa-inverse item-inline "
-                               style="font-size: 0.5em; text-align: center; margin-top:35px " aria-hidden="true"></i>
-                        </span>
+                        <i class="fas fa-bible fa-2x mb-1"></i>
 
                     </a>
-                    <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de
-                        nuestra
-                        <strong>familia de fe?</strong></h2>
+                    <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">
+                        Es tiempo de dar el siguiente paso!<br/>
+                        <strong>Ser un creyente maduro</strong></h2>
 
 
                     <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"

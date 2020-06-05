@@ -15,5 +15,6 @@
 <meta property="og:title" content="<?php echo $lema; ?> Iglesia Alameda" />
 <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
 <?php include 'favicon.php' ?>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 
