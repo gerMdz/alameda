@@ -35,7 +35,7 @@
   <body id="page-top">
 
   <?php
-  include '../internos/nav.php';
+  include 'nav.php';
   ?>
 
   <!-- Masthead-->
