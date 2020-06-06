@@ -53,7 +53,7 @@ include '../nav.php';
                 <hr class="divider my-4"/>
             </div>
 
-            <div class="col-lg-12 align-self-end">
+            <div class="col-lg-12 align-self-end text-center">
                 <h1 class="text-uppercase text-black-50 font-weight-bold">Grupos Pequeños <small
                             class="text-realce-verde">Comunitarios</small></h1>
                 <hr class="divider my-4"/>
