@@ -97,13 +97,13 @@ include_once('../gerVendor/gerFunctions.php')
                 <small>
                     En estos encuentros vas a poder vivir tiempos de amistad,
                     diversión y reflexión que pueden impactar tu vida.<br/>
-                    Conectate con nosotros a través de
-                    <a class="" rel="tooltip" title="Conectate en la fanpage" data-placement="bottom"
+                    Conectate con nosotros a través de las redes
+                    <a class="mr-2" rel="tooltip" title="Conectate en la fanpage" data-placement="bottom"
                        href="https://www.facebook.com/IglesiaAlameda" target="_blank"
                        data-original-title="Conectate en la fanpage">
                         <i class="fab fa-facebook-square "></i>
                     </a>
-                    <a class="" rel="tooltip" title="Reviví los encuentos" data-placement="bottom"
+                    <a class="mr-2" rel="tooltip" title="Reviví los encuentos" data-placement="bottom"
                        href="https://youtube.com/user/IglesiaAlameda" target="_blank"
                        data-original-title="Reviví los encuentros">
                         <i class="fab fa-youtube-square "></i>
@@ -113,7 +113,7 @@ include_once('../gerVendor/gerFunctions.php')
                        data-original-title="Conectate en Instagram">
                         <i class="fab fa-instagram "></i>
                     </a>
-                    nuestra Iglesia: iglesia de la Alameda. <br/>
+                    de nuestra Iglesia: Iglesia de la Alameda. <br/>
                     O a nuestro Instagram: <a href="https://www.instagram.com/adolescentes_de_la_alameda/" target="_blank"> adolescentes_de_la_alameda </a>. <br/>
                     Seguinos asi no te perdes de <u>nada!</u><br/>
                     Esta es una oportunidad para tu vida. No te lo pierdas, te esperamos!!!
