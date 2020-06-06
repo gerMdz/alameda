@@ -1,6 +1,6 @@
 <?php
-$lema = 'Oraciones Audaces';
-$lemaSinEspacios = 'oraciones-audaces';
+$lema = 'Familia, Tu Lugar en el Mundo';
+$lemaSinEspacios = 'familia-tu-lugar-en-el-mundo';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
@@ -129,7 +129,7 @@ include_once('links.php');
     </div>
     <!--Seccion cover-->
     <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white"
-             style="background-image: url(images/series/cabecera_index.jpg); background-position: 50% 0px !important;">
+             style="background-image: url(series/familia-2020/FAMILIA-2020-TAPA-001.jpg); background-position: 50% 0px !important;">
         <!-- Vacío para texto Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space ">
             <div class="row justify-content-center">
@@ -257,11 +257,11 @@ include_once('links.php');
 
                         <div class="carousel-item">
                             <img class="d-block w-100 rounded"
-                                 src="series/oraciones-audaces/Oraciones-Audaces-Anuncio.jpg"
+                                 src="series/familia-2020/familia-2020-top.jpg"
                                  alt="<?php echo $lemaSinEspacios ?>-2-slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 class="h2 font-weight-light mb-0">Serie</h5>
-                                <p class="lead">Oraciones Audaces</p>
+                                <p class="lead"><?php echo $lema ?></p>
                             </div>
                         </div>
 
@@ -295,27 +295,19 @@ include_once('links.php');
 <!--</section>-->
 <!--Fin Section Slider Fotos-->
 
-<?php if ($ahora < date('2020-05-23 18:00')) { ?>
+<?php if ($ahora < date('2020-06-09 18:00')) { ?>
     <section class="u-destacado section" id="avanza">
         <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5">
             <div class="container">
                 <div class="text-center w-md-50 mx-auto py-5">
                     <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
                        data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
-                            <span class="fa-stack list-inline">
-                            <i class="fas fa-circle fa-stack-2x text-point"></i>
-                            <i class="fi fi-torsos-all fa-stack-1x fa-inverse item-inline"
-                               style="font-size: 1em; text-align: left" aria-hidden="true"></i>
-                            <i class="fi fi-torsos-all-female fa-stack-1x fa-inverse item-inline"
-                               style="font-size: 1em; text-align: right" aria-hidden="true"></i>
-                            <i class="fas fa-plus-circle fa-stack-1x fa-inverse item-inline "
-                               style="font-size: 0.5em; text-align: center; margin-top:35px " aria-hidden="true"></i>
-                        </span>
+                        <i class="fas fa-bible fa-2x mb-1"></i>
 
                     </a>
-                    <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">¿Te gustaría formar parte de
-                        nuestra
-                        <strong>familia de fe?</strong></h2>
+                    <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">
+                        Es tiempo de dar el siguiente paso!<br/>
+                        <strong>Ser un creyente maduro</strong></h2>
 
 
                     <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"
@@ -660,7 +652,7 @@ include_once('links.php');
 
 <!-- Inicio Ministerios-->
 <?php
-//include ('section-ministerios.php');
+include ('section-ministerios.php');
 ?>
 
 <!-- Fin Ministerios-->

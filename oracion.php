@@ -15,26 +15,31 @@ $title = 'Pedidos de Oración';
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once ('gerVendor/gerFunctions.php')
+include_once('gerVendor/gerFunctions.php')
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <?php
-    include ('meta-base.php');
-    include ('style-base.php')
+    include('meta-base.php');
+    include('style-base.php')
     ?>
 
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <script src = "js/alameda.js"> </script>
-
+    <script src="js/alameda.js"></script>
 
 
     <style>
-        strong{font-weight: 400 !important}
-        .card-text{font-size: 1.1em !important;
-        font-weight: 600 !important;}
+        strong {
+            font-weight: 400 !important
+        }
+
+        .card-text {
+            font-size: 1.1em !important;
+            font-weight: 600 !important;
+        }
+
         .header {
             background-image: url('images/series/cabecera_index.jpg');
             background-size: cover;
@@ -42,6 +47,7 @@ include_once ('gerVendor/gerFunctions.php')
             position: relative;
 
         }
+
         .overlay {
             position: absolute;
             min-height: 100%;
@@ -51,11 +57,13 @@ include_once ('gerVendor/gerFunctions.php')
             background: rgba(255, 255, 255, 0.6);
 
         }
+
         img.resize {
-            width:10%; /* you can use % */
+            width: 10%; /* you can use % */
             height: auto;
         }
-        .btn-xl{
+
+        .btn-xl {
             padding: 1.25rem 1.25rem;
             font-size: 0.85rem;
             font-weight: 700;
@@ -65,11 +73,11 @@ include_once ('gerVendor/gerFunctions.php')
         }
 
 
-
     </style>
 
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+          rel="stylesheet"/>
 
 
     <link href="css/landings/heroic-features.css" rel="stylesheet">
@@ -83,49 +91,48 @@ include_once ('gerVendor/gerFunctions.php')
     <?php include 'nav.php'; ?>
 
 
-<section class="p5-5 mt-1 " id="inicio">
-    <div class="container">
-        <div class="row fullscreen align-items-center justify-content-center">
-            <div class="col-sm-12 text-center mx-auto mt-1">
+    <section class="p5-5 mt-1 " id="inicio">
+        <div class="container">
+            <div class="row fullscreen align-items-center justify-content-center">
+                <div class="col-sm-12 text-center mx-auto mt-1">
 
-                <header class="jumbotron my-2">
+                    <header class="jumbotron my-1">
+                        <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto"
+                           href="https://forms.gle/DuJvVG374UMNjCuv7" target="_blank">
+                            Podés hacerlo
+                            desde aqui
+                        </a>
 
-                    <h1 class="text-uppercase text-black-50 font-weight-bold">
-                    Motivos de Oración
-                </h1>
-                    <span class="divider-new my-1">
+                        <h1 class="text-uppercase text-black-50 font-weight-bold">
+                            Motivos de Oración
+                        </h1>
+                        <span class="divider-new my-1">
                         <img src="images/institucional/LOGO-ORACION.png"
-                                                        class="resize img-fluid rounded-circle"></span>
+                             class="resize img-fluid rounded-circle"></span>
+
+
+                        <h5 class="text-black-50 font-weight-light my-1 p-1">
+                            <b>Ningún</b> problema es demasiado grande para Dios,<br/>
+                            ni insignificante para su cuidado <b>Paternal</b>. <br/>
+                            Dejanos <b>tu motivo</b> de oración específico, <br/>
+                            tenemos un equipo de personas que <b>estará orando</b> por vos.
+                        </h5>
 
 
 
-                    <h5 class="text-black-50 font-weight-light my-1 p-1">
-                        <b>Ningún</b> problema es demasiado grande para Dios,<br/>
-                        ni insignificante para su cuidado <b>Paternal</b>. <br/>
-                        Dejanos <b>tu motivo</b> de oración específico, <br/>
-                        tenemos un equipo de personas que <b>estará orando</b> por vos.
-                    </h5>
 
 
-                    <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/DuJvVG374UMNjCuv7" target="_blank">
-                        Podés hacerlo
-                        desde aqui
-                    </a>
+                    </header>
+                </div>
 
-
-
-                </header>
             </div>
-
         </div>
-    </div>
-</section>
+    </section>
 
 
     <section class="vacio mb-3">
 
     </section>
-
 
 
     <?php
@@ -134,13 +141,12 @@ include_once ('gerVendor/gerFunctions.php')
 
     <!-- Bootstrap core JavaScript -->
     <?php
-    include ('js-base.php');
+    include('js-base.php');
     ?>
 
 </body>
 
 </html>
-
 
 
 <!-- Bootstrap core JavaScript -->
