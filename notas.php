@@ -5,7 +5,7 @@
  * Date: 02/06/2020
  * Time: 06:22
  */
-$lema = 'Familia, tU lugar en el Mundo';
+$lema = 'Familia, Tu lugar en el Mundo';
 $lemaSinEspacios = 'familia-tu-lugar-en-el-mundo';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
