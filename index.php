@@ -652,7 +652,7 @@ include_once('links.php');
 
 <!-- Inicio Ministerios-->
 <?php
-//include ('section-ministerios.php');
+include ('section-ministerios.php');
 ?>
 
 <!-- Fin Ministerios-->

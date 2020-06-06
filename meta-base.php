@@ -9,12 +9,12 @@
 <meta name="author" content="Iglesia de la Alameda">
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://iglesiaalameda.com/index.php"/>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <title><?php echo $lema;?> Iglesia de la Alameda</title>
 <meta name="author" content="@Iglesia de La Alameda - Equipo Desarrollo">
 <meta property="og:title" content="<?php echo $lema; ?> Iglesia Alameda" />
 <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
 <?php include 'favicon.php' ?>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
 
 
