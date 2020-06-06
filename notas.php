@@ -158,6 +158,7 @@ include_once('gerVendor/gerFunctions.php')
                         <hr class="text-hide" />
                         <div class="media u-font-size-90 card-footer bg-fam mt-auto card-img-bottom">
                             <img class="u-box-shadow-lg img-fluid mt-1 align-self-center rounded a-blockquote-v2__image u-box-shadow-lg mx-3 mt-2"
+                                 data-toggle="modal" data-target="#modal-01"
                                  src="series/familia-2020/01-Maravillas-Cotidianas.jpg"
                                  alt="<?php echo $lemaSinEspacios ?>">
                             <div class="media-body align-items-start">
@@ -193,11 +194,20 @@ include_once('gerVendor/gerFunctions.php')
 <?php
 include "footer.php";
 ?>
-
+<div id="modal-01" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Bootstrap core JavaScript -->
 <?php
 include('js-base-uikit.php');
 ?>
+
 <script src="js/alameda.js"></script>
 
 </body>
