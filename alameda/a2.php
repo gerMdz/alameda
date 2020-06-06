@@ -26,6 +26,7 @@ include_once('../gerVendor/gerFunctions.php')
     <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png"/>
 
     <link href="../css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/series/css/series.min.css?v=<?php echo $version ?>" rel="stylesheet">
 
 
     <style>
@@ -108,13 +109,18 @@ include_once('../gerVendor/gerFunctions.php')
                        data-original-title="Reviví los encuentros">
                         <i class="fab fa-youtube-square "></i>
                     </a>
-                    <a class="" rel="tooltip" title="Conectate en Instagram" data-placement="bottom"
+                    <a class="mr-2" rel="tooltip" title="Conectate en Instagram" data-placement="bottom"
                        href="https://www.instagram.com/iglesialameda" target="_blank"
                        data-original-title="Conectate en Instagram">
                         <i class="fab fa-instagram "></i>
                     </a>
                     de nuestra Iglesia: Iglesia de la Alameda. <br/>
-                    O a nuestro Instagram: <a href="https://www.instagram.com/adolescentes_de_la_alameda/" target="_blank"> adolescentes_de_la_alameda </a>. <br/>
+                    O a nuestro Instagram:<br/>
+
+                    <a href="https://www.instagram.com/adolescentes_de_la_alameda/" target="_blank">
+                        <img class="rounded-circle" src="/images/institucional/a2-fdoNegro-ltrBlanca.jpg" style="width: 30px;" alt="Instagram A2">
+                        <small class="text-1-2 text-realce-verde"> adolescentes_de_la_alameda</small>
+                    </a>. <br/>
                     Seguinos asi no te perdes de <u>nada!</u><br/>
                     Esta es una oportunidad para tu vida. No te lo pierdas, te esperamos!!!
                 </small>
