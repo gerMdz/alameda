@@ -120,7 +120,7 @@ include_once('../gerVendor/gerFunctions.php')
                     <a href="https://www.instagram.com/adolescentes_de_la_alameda/" target="_blank">
                         <img class="rounded-circle" src="/images/institucional/a2-fdoNegro-ltrBlanca.jpg" style="width: 30px;" alt="Instagram A2">
                         <small class="text-1-2 text-realce-verde"> adolescentes_de_la_alameda</small>
-                    </a>. <br/>
+                    </a><br/>
                     Seguinos asi no te perdes de <u>nada!</u><br/>
                     Esta es una oportunidad para tu vida. No te lo pierdas, te esperamos!!!
                 </small>
