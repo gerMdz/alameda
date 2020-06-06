@@ -1,6 +1,6 @@
 <?php
-$lema = 'Oraciones Audaces';
-$lemaSinEspacios = 'oraciones-audaces';
+$lema = 'Familia, Tu Lugar en el Mundo';
+$lemaSinEspacios = 'familia-tu-lugar-en-el-mundo';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
@@ -129,7 +129,7 @@ include_once('links.php');
     </div>
     <!--Seccion cover-->
     <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white"
-             style="background-image: url(images/series/cabecera_index.jpg); background-position: 50% 0px !important;">
+             style="background-image: url(series/familia-2020/FAMILIA-2020-TAPA-001.jpg); background-position: 50% 0px !important;">
         <!-- Vacío para texto Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space ">
             <div class="row justify-content-center">
@@ -257,11 +257,11 @@ include_once('links.php');
 
                         <div class="carousel-item">
                             <img class="d-block w-100 rounded"
-                                 src="series/oraciones-audaces/Oraciones-Audaces-Anuncio.jpg"
+                                 src="series/familia-2020/familia-2020-top.jpg"
                                  alt="<?php echo $lemaSinEspacios ?>-2-slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5 class="h2 font-weight-light mb-0">Serie</h5>
-                                <p class="lead">Oraciones Audaces</p>
+                                <p class="lead"><?php echo $lema ?></p>
                             </div>
                         </div>
 
