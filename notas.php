@@ -1,271 +1,206 @@
 <?php
-$lema = 'Notas de la Serie Oraciones Audaces';
-$lemaSinEspacios = 'Oraciones-Audaces';
+/**
+ * Created by PhpStorm.
+ * User: Gerardo J. Montivero @ Iglesia Alameda
+ * Date: 02/06/2020
+ * Time: 06:22
+ */
+$lema = 'Familia, tU lugar en el Mundo';
+$lemaSinEspacios = 'familia-tu-lugar-en-el-mundo';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Notas del Sermón';
-//$msj2 = true;
-
+$title = 'Serie Familia 2020';
 /**
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once ('gerVendor/gerFunctions.php');
-include_once ('links.php');
+include_once('gerVendor/gerFunctions.php')
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <?php
-    include ('meta-base.php');
-    include ('style-base.php')
+    include('meta-base.php');
+    include ('favicon.php');
+    include('style-base-uikit.php')
     ?>
+    <link rel="icon" href="images/index.png" sizes="32x32" />
+    <link rel="icon" href="images/index192.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png" />
+
+    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
 
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <!-- Icons -->
-
-    <!-- Argon CSS -->
-
-
-    <!-- Docs CSS -->
-    <link href="css/small-business.css?v=<?php echo $version ?>" rel="stylesheet">
     <style>
-        .card-title{
-            font-family: druk_italic;
+        strong {
+            font-weight: 400 !important
         }
-    </style>
 
+        .card-text {
+            font-size: 1.1em !important;
+            font-weight: 600 !important;
+        }
+
+        .header {
+            background-image: url('images/series/cabecera_index.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+
+        }
+
+        .overlay {
+            position: absolute;
+            min-height: 100%;
+            min-width: 100%;
+            left: 0;
+            top: 0;
+            background: rgba(255, 255, 255, 0.6);
+
+        }
+
+        img.resize {
+            width: 10%; /* you can use % */
+            height: auto;
+        }
+
+        .btn-xl {
+            padding: 1.25rem 1.25rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none currentcolor;
+            border-radius: 10rem;
+        }
+
+        .bg-fam {
+            background-color: #113c3c;
+        }
+
+
+    </style>
 
 </head>
 
 <body>
-  <!-- Navigation -->
-  <?php
-  include ('nav.php')
-  ?>
 
 
-  <!-- Page Content -->
-  <div class="container">
+<header>
+    <?php include 'nav.php'; ?>
 
-    <!-- Heading Row -->
-    <div class="row align-items-center my-5">
-      <div class="col-lg-7">
-        <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto" src="series/oraciones-audaces/oraciones-audaces-cover.jpg" alt="<?php echo $lemaSinEspacios?>">
-      </div>
-      <!-- /.col-lg-8 -->
-      <div class="col-lg-5  ">
-          <h1 class="font-weight-light">
-              <hr class="pt-2" />
-              <sup><i>Serie</i></sup>
-              <blockquote class="ml-5 pl-5float-right druk_italic text-uppercase">Oraciones Audaces!</blockquote> </h1>
-        <p>
-            En tiempos de adversidad los hombres han encontrado un arma para lo imposible:
-            <b>Una oración</b>.<br/>
-            Pero no cualquier oración. <b>Oraciones con la fe y coraje para cambiar las cosas.</b><br/>
-            Descubrí estas poderosas <b>oraciones de personas</b> de la Biblia y tomalas en tu vida para enfrentar las presentes adversidades que enfrentas.
-        </p>
-          <hr class="pb-2" />
+    <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-dark"
+             style="background-image: url(series/familia-2020/FAMILIA-2020-TAPA-002.jpg); background-repeat: repeat-y ;">
+        <!-- Promo Content -->
+        <div class="container u-overlay__inner u-ver-center u-content-space">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="text-center">
 
-      </div>
-      <!-- /.col-md-4 -->
+                        <div class="site-heading p-5">
+                            <img src="images/LOGO_ALAMEDA_CON_TEXTO_B.png" style="max-height: 150px" class="img-fluid ">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Promo Content -->
+    </section>
+</header>
+<main role="main" class="bg-white">
+    <section class="a-content-space-medium">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 mb-5 mb-lg-5 pl-lg-5 align-self-center">
+                    <h1 class="mb-3">Familia,<br/> Tu lugar en el Mundo</h1>
+                    <p>
+                        Descubrir el valor inmenso de la familia. A comprender el hilo que enlaza tu vida en tu familia.  Explorar y trabajar el desafío presente. Practicar algunas herramientas para destrabar los enemigos de las relaciones. Encontrar en Dios las fuerzas para un amor más valiente, más generoso, más confiado.
+
+                    </p>
+                    <p class="blockquote-footer">
+                        "Ámense unos a otros con un afecto genuino y deléitense al honrarse mutuamente." Romanos 12:10 (NTV)
+
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
+                         src="series/familia-2020/FAMILIA-2020-TAPA-001.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Charlas -->
+
+    <section class="a-content-space-medium bg-dark text-center">
+        <div class="container">
+            <div class="row">
+<!--                Charla 1-->
+                <div class="col-md-4 mb-5 mx-auto   ">
+                    <div class="card h-100">
+
+                        <div class="card-header">
+                            MARAVILLAS COTIDIANAS
+
+                        </div>
+                        <div class="card-header-pills ">
+                            <blockquote class="u-blockquote-v2 rounded mb-1 ">
+                                <span class="mr-1"></span>
+                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre, un conyugue, un hijo, un hermano son y serán en tu vida.
+                            </blockquote>
+                        </div>
+                        <hr class="text-hide" />
+                        <div class="media u-font-size-90 card-footer bg-fam mt-auto card-img-bottom">
+                            <img class="u-box-shadow-lg img-fluid mt-1 align-self-center rounded a-blockquote-v2__image u-box-shadow-lg mx-3 mt-2"
+                                 src="series/familia-2020/01-Maravillas-Cotidianas.jpg"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                            <div class="media-body align-items-start">
+<!--                                <a class="mr-4" href="#!">-->
+<!--                                    <i class="far fa-file-pdf mr-1"></i>-->
+<!--                                    <b>Notas del mensaje</b>-->
+<!--                                </a><br/>-->
+<!--                                <a href="#!">-->
+<!--                                    <i class="fab fa-youtube fa-fw mr-1"></i>-->
+<!--                                    <i>Ver Mensaje</i>-->
+<!--                                </a>-->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+<!--                Fin Charla 1-->
+            </div>
+        </div>
+    </section>
+    <!-- Charla 1 -->
+</main>
+<footer class="footer">
+    <div class="card-body">
+        <h4 class="text-darker card-text text-center">Ver series anteriores </h4>
+        <div class="col-sm-2 mx-auto text-center">
+            <a href="notas-oraciones-audaces.php" class="btn btn-xl btn-primary"> Oraciones Audaces</a>
+        </div>
     </div>
-    <!-- /.row -->
 
-    <!-- Call to Action Well -->
-    <div class="card text-white bg-indigo my-5 py-2 text-center">
-      <div class="card-body">
-            <h2>
-            <a href="https://youtube.com/user/IglesiaAlameda" class="btn btn-sm btn-danger pl-5 col-sm-3 text-left"> <i class="fab fa-youtube text-white"> </i> YouTube  </a>
+</footer>
 
-                <span class="text-darker card-text text-center "><strong>    Seguinos por tu red social favorita</strong> </span>
+<?php
+include "footer.php";
+?>
 
-            <a href="https://www.facebook.com/IglesiaAlameda" class="btn btn-sm btn-info pr-5 col-sm-3 text-right">Facebook <i class="fab fa-facebook-square text-white"> </i></a>
-            </h2>
-
-      </div>
-    </div>
-
-    <!-- Content Row -->
-    <div class="row">
-        <!--            Inicio Card Nota-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">Ante lo Inesperado</h2>
-                    <img src="series/oraciones-audaces/01-Ante-lo-inesperado.jpg" class="img-fluid" />
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/01-Ante-lo-inesperado.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a><br/>
-
-                    <a href="https://youtu.be/_x5G01c5eYc" class="btn btn-sm btn-outline-danger" target="_blank">
-                        Ver el Mensaje.
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota-->
-
-        <!--            Inicio Card Nota-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">Indomita</h2>
-                    <img src="series/oraciones-audaces/02-Indomita.jpg" class="img-fluid" />
-
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/02-Indomita.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a><br/>
-                    <a href="https://youtu.be/eHA1duGHIhI" class="btn btn-sm btn-outline-danger" target="_blank">
-                        Ver el Mensaje
-                    </a>
-
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota-->
-
-        <!--            Inicio Card Nota-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">Rescate en las llamas</h2>
-                    <img src="series/oraciones-audaces/03-Rescate-en-las-llamas.jpg" class="img-fluid" />
-
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/03-Rescate-en-las-llamas.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a>
-                    <br/>
-                    <a href="https://youtu.be/QS86sn1Z354" class="btn btn-sm btn-outline-danger" target="_blank">
-                        Ver el Mensaje
-                    </a>
-
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota-->
-
-        <!--            Inicio Card Nota-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">Dios Cámbiame!</h2>
-                    <img src="series/oraciones-audaces/04-Dios-Cambiame.jpg" class="img-fluid" />
-
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/04-Dios-Cambiame.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a><br/>
-                        <a href="https://youtu.be/ew2IlrMhwhI" class="btn btn-sm btn-outline-danger" target="_blank">
-                            Ver el Mensaje
-                        </a>
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota-->
-
-        <!--            Inicio Card Nota-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">Reinvidicada!</h2>
-                    <img src="series/oraciones-audaces/05-Reinvindicada.jpg" class="img-fluid" />
-
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/05-Reinvindicada.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a><br/>
-                        <a href="https://youtu.be/vdf7Zfu5NUM" class="btn btn-sm btn-outline-danger" target="_blank">
-                            Ver el Mensaje
-                        </a>
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota-->
-
-        <!--            Inicio Card Nota 6 Imposible-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">Imposible de Detener</h2>
-                    <img src="series/oraciones-audaces/06-Imposible-de-Detener.jpg" class="img-fluid" />
-
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/06-Imposible-de-Detener.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a><br/>
-                        <a href="https://youtu.be/MlWHU5Ruzkk" class="btn btn-sm btn-outline-danger" target="_blank">
-                            Ver el Mensaje
-                        </a>
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota 6 Imposible-->
-
-        <!--            Inicio Card Nota 7 Última-->
-        <div class="col-md-4 mb-5 mx-auto">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h2 class="card-title">La Última Oportunidad</h2>
-                    <img src="series/oraciones-audaces/07-la-ultima-oportunidad.jpg" class="img-fluid" />
-
-                </div>
-                <div class="card-footer text-center">
-                    <a href="series/oraciones-audaces/07-la-ultima-oportunidad.pdf" class="btn btn-sm btn-outline-info" target="_blank">
-                        Descarga la hoja de notas <br/>desde aquí.
-                    </a><br/>
-                    <?php
-                    if ($notas_link !== null) {
-                        ?>
-                        <a href="<?php echo $notas_link ?>" class="btn btn-sm btn-outline-danger" target="_blank">
-                            Ver el Mensaje
-                        </a>
-                    <?php } ?>
-                </div>
-            </div>
-        </div>
-        <!--            Fin Card Nota  Última-->
-
-
-
-    </div>
-    <!-- /.row -->
-
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="footer">
-          <div class="card-body">
-              <h4 class="text-darker card-text text-center">Ver series anteriores </h4>
-              <div class="col-sm-2 mx-auto text-center">
-                <a href="notas-no-temere.php" class="btn btn-xl btn-alameda"> No temeré</a>
-              </div>
-          </div>
-
-  </footer>
-  <?php
-  include "footer.php";
-  ?>
-
-  <!-- Bootstrap core JavaScript -->
-  <?php
-  include ('js-base.php');
-  ?>
+<!-- Bootstrap core JavaScript -->
+<?php
+include('js-base-uikit.php');
+?>
+<script src="js/alameda.js"></script>
 
 </body>
 
 </html>
+
