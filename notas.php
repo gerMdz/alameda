@@ -196,6 +196,7 @@ include "footer.php";
 ?>
 <div id="modal-01" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"><i class="fas fa-window-close-o"></i> </span></button>
         <div class="modal-content">
             <div class="modal-body">
                 <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
