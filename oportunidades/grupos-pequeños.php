@@ -44,7 +44,7 @@ include '../nav.php';
 <header class="masthead-oportunidades m-5 p-5">
     <div class="container h-100">
         <div class="row h-100 align-items-center justify-content-center text-center">
-            <div class="col-sm-12 col-lg-12 ">
+            <div class="col-sm-12 col-lg-12 align-self-center ">
                 <a class="btn btn-blue btn-xl js-scroll-trigger"
                    href="https://docs.google.com/forms/d/e/1FAIpQLSfuKOBEFTWx-t_wiQR7CL8Gf443RxGeAYhP1nNETb7BSNkGuA/viewform"
                    target="_blank">
@@ -53,12 +53,12 @@ include '../nav.php';
                 <hr class="divider my-4"/>
             </div>
 
-            <div class="col-lg-12 ">
+            <div class="col-lg-12 align-self-end">
                 <h1 class="text-uppercase text-black-50 font-weight-bold">Grupos Pequeños <small
                             class="text-realce-verde">Comunitarios</small></h1>
                 <hr class="divider my-4"/>
             </div>
-            <div class="col-lg-8 ">
+            <div class="col-lg-8 align-self-baseline">
                 <p class="text-black-50 font-weight-light mb-5">Que cada persona que llegue a la iglesia,
                     se integre, permanezca, se desarrolle y se multiplique en un Grupo Pequeño.</p>
 
