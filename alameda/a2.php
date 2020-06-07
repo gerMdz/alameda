@@ -93,7 +93,7 @@ include_once('../gerVendor/gerFunctions.php')
             <h2 class="h1 font-weight-light mb-1">Si tenés entre 13 y 17 años</h2>
             <p class="mb-4 mx-auto">
                 queremos invitarte a nuestros encuentros de adolescentes <br/>
-                <b>Todos sábados</b><br/>
+                <b>Todos los sábados</b><br/>
                 y también a nuestros <i>grupos pequeños</i> semanales. <br/>
                 <small>
                     En estos encuentros vas a poder vivir tiempos de amistad,
