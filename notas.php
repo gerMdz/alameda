@@ -132,7 +132,7 @@ include_once('links.php');
         <div class="container">
             <div class="row ">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-5 mb-5 mb-lg-5 pl-lg-5 align-self-center">
+                <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 ">
                     <h1 class="mb-3">Familia,<br/> Tu lugar en el Mundo</h1>
                     <p>
                         Descubrir el valor inmenso de la familia. A comprender el hilo que enlaza tu vida en tu familia.
@@ -148,7 +148,7 @@ include_once('links.php');
                     </p>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
                          src="series/familia-2020/FAMILIA-2020-TAPA-001.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
@@ -159,7 +159,7 @@ include_once('links.php');
     <section class="a-content-space-medium bg-fam text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mb-5 mx-auto   ">
+                <div class="col-md-4 mb-2 mx-auto   ">
                     <!--                    <div class="card h-100">-->
                     <div class="card card-a overflow-hidden">
                         <div class="position-relative">
@@ -181,7 +181,7 @@ include_once('links.php');
                             <br/>
 
                             <div class="btn-group">
-                                <a class="mr-4 btn btn-icon" href="#!">
+                                <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf" target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
