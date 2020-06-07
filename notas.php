@@ -77,7 +77,8 @@ include_once('links.php');
         }
 
         .bg-fam {
-            background-color: #113c3c;
+            background: #fafafa;
+            box-shadow: inset 0 0 .625rem rgba(0,0,0,.1),inset 0 0 2.188rem rgba(0,0,0,.03);
         }
 
         .position-relative {
@@ -88,19 +89,11 @@ include_once('links.php');
             margin-top: -5rem !important;
         }
 
-        elemento {
 
-        }
-        .overflow-hidden {
 
-            overflow: hidden !important;
-
-        }
         .card-a {
-            background-color: #ffffff00 !important;
-            background-clip: border-box;
-            border: .0625rem solid rgba(255,255,255,0.05);
-            border-radius: .45rem;
+            -webkit-box-shadow: 0 0 !important;
+            box-shadow: 0 0  !important;
         }
 
 
@@ -162,11 +155,8 @@ include_once('links.php');
             </div>
         </div>
     </section>
-
-
     <!-- Charlas -->
-
-    <section class="a-content-space-medium bg-dark text-center">
+    <section class="a-content-space-medium bg-fam text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-5 mx-auto   ">
@@ -181,11 +171,11 @@ include_once('links.php');
                             <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>
                             <i class="fas fa-quote-left"></i>
 
-                                <span class="mr-1"></span>
-                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
-                                milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
-                                cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
-                                un conyugue, un hijo, un hermano son y serán en tu vida.
+                            <span class="mr-1"></span>
+                            Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
+                            milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
+                            cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
+                            un conyugue, un hijo, un hermano son y serán en tu vida.
 
                             <i class="fas fa-quote-right"></i>
                             <br/>
