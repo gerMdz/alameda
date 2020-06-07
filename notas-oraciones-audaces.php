@@ -227,13 +227,10 @@ include_once ('links.php');
                     <a href="series/oraciones-audaces/07-la-ultima-oportunidad.pdf" class="btn btn-sm btn-outline-info" target="_blank">
                         Descarga la hoja de notas <br/>desde aquí.
                     </a><br/>
-                    <?php
-                    if ($notas_link !== null) {
-                        ?>
-                        <a href="<?php echo $notas_link ?>" class="btn btn-sm btn-outline-danger" target="_blank">
+                        <a href="https://youtu.be/Pqh4N6FRhwQ" class="btn btn-sm btn-outline-danger" target="_blank">
                             Ver el Mensaje
                         </a>
-                    <?php } ?>
+
                 </div>
             </div>
         </div>

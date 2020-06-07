@@ -15,7 +15,8 @@ $title = 'Serie Familia 2020';
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once('gerVendor/gerFunctions.php')
+include_once('gerVendor/gerFunctions.php');
+include_once('links.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,12 +24,12 @@ include_once('gerVendor/gerFunctions.php')
 <head>
     <?php
     include('meta-base.php');
-    include ('favicon.php');
+    include('favicon.php');
     include('style-base-uikit.php')
     ?>
-    <link rel="icon" href="images/index.png" sizes="32x32" />
-    <link rel="icon" href="images/index192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png" />
+    <link rel="icon" href="images/index.png" sizes="32x32"/>
+    <link rel="icon" href="images/index192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png"/>
 
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
 
@@ -79,6 +80,29 @@ include_once('gerVendor/gerFunctions.php')
             background-color: #113c3c;
         }
 
+        .position-relative {
+            position: relative !important;
+        }
+
+        .mt-n6, .my-n6 {
+            margin-top: -5rem !important;
+        }
+
+        elemento {
+
+        }
+        .overflow-hidden {
+
+            overflow: hidden !important;
+
+        }
+        .card-a {
+            background-color: #ffffff00 !important;
+            background-clip: border-box;
+            border: .0625rem solid rgba(255,255,255,0.05);
+            border-radius: .45rem;
+        }
+
 
     </style>
 
@@ -118,11 +142,15 @@ include_once('gerVendor/gerFunctions.php')
                 <div class="col-lg-5 mb-5 mb-lg-5 pl-lg-5 align-self-center">
                     <h1 class="mb-3">Familia,<br/> Tu lugar en el Mundo</h1>
                     <p>
-                        Descubrir el valor inmenso de la familia. A comprender el hilo que enlaza tu vida en tu familia.  Explorar y trabajar el desafío presente. Practicar algunas herramientas para destrabar los enemigos de las relaciones. Encontrar en Dios las fuerzas para un amor más valiente, más generoso, más confiado.
+                        Descubrir el valor inmenso de la familia. A comprender el hilo que enlaza tu vida en tu familia.
+                        Explorar y trabajar el desafío presente. Practicar algunas herramientas para destrabar los
+                        enemigos de las relaciones. Encontrar en Dios las fuerzas para un amor más valiente, más
+                        generoso, más confiado.
 
                     </p>
                     <p class="blockquote-footer">
-                        "Ámense unos a otros con un afecto genuino y deléitense al honrarse mutuamente." Romanos 12:10 (NTV)
+                        "Ámense unos a otros con un afecto genuino y deléitense al honrarse mutuamente." Romanos 12:10
+                        (NTV)
 
                     </p>
                 </div>
@@ -141,45 +169,58 @@ include_once('gerVendor/gerFunctions.php')
     <section class="a-content-space-medium bg-dark text-center">
         <div class="container">
             <div class="row">
-<!--                Charla 1-->
                 <div class="col-md-4 mb-5 mx-auto   ">
-                    <div class="card h-100">
-
-                        <div class="card-header">
-                            MARAVILLAS COTIDIANAS
-
-                        </div>
-                        <div class="card-header-pills ">
-                            <blockquote class="u-blockquote-v2 rounded mb-1 ">
-                                <span class="mr-1"></span>
-                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre, un conyugue, un hijo, un hermano son y serán en tu vida.
-                            </blockquote>
-                        </div>
-                        <hr class="text-hide" />
-                        <div class="media u-font-size-90 card-footer bg-fam mt-auto card-img-bottom">
-                            <img class="u-box-shadow-lg img-fluid mt-1 align-self-center rounded a-blockquote-v2__image u-box-shadow-lg mx-3 mt-2"
+                    <!--                    <div class="card h-100">-->
+                    <div class="card card-a overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top "
                                  data-toggle="modal" data-target="#modal-01"
-                                 src="series/familia-2020/01-Maravillas-Cotidianas.jpg"
                                  alt="<?php echo $lemaSinEspacios ?>">
-                            <div class="media-body align-items-start">
-<!--                                <a class="mr-4" href="#!">-->
-<!--                                    <i class="far fa-file-pdf mr-1"></i>-->
-<!--                                    <b>Notas del mensaje</b>-->
-<!--                                </a><br/>-->
-<!--                                <a href="#!">-->
-<!--                                    <i class="fab fa-youtube fa-fw mr-1"></i>-->
-<!--                                    <i>Ver Mensaje</i>-->
-<!--                                </a>-->
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>
+                            <i class="fas fa-quote-left"></i>
+
+                                <span class="mr-1"></span>
+                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
+                                milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
+                                cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
+                                un conyugue, un hijo, un hermano son y serán en tu vida.
+
+                            <i class="fas fa-quote-right"></i>
+                            <br/>
+
+                            <div class="btn-group">
+                                <a class="mr-4 btn btn-icon" href="#!">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a><br/>
+                                <?php
+                                if ($notas_link !== null) {
+                                    ?>
+                                    <a href="<?php echo $notas_link ?>" class="btn btn-icon" target="_blank">
+
+                                        <i class="fab fa-youtube fa-fw mr-1"></i>
+                                        <i>Video</i>
+                                    </a>
+                                <?php } ?>
+                                <!--                                <button class="btn btn-secondary btn-icon">-->
+                                <!--                                    <span class="mr-1"><i class="far fa-user"></i></span>-->
+                                <!--                                    Follow-->
+                                <!--                                </button>-->
+                                <!--                                <button class="btn btn-primary">-->
+                                <!--                                    <i class="far fa-envelope"></i>-->
+                                <!--                                </button>-->
                             </div>
                         </div>
-
                     </div>
                 </div>
-<!--                Fin Charla 1-->
+                <!--            </div>-->
             </div>
+
         </div>
     </section>
-    <!-- Charla 1 -->
+
 </main>
 <footer class="footer">
     <div class="card-body">
@@ -196,7 +237,14 @@ include "footer.php";
 ?>
 <div id="modal-01" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
-        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only"><i class="fas fa-window-close-o"></i> </span></button>
+        <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">
+                <i class="fas fa-times text-white"></i>
+            </span>
+            <span class="sr-only">
+                <i class="fas fa-window-close-o"></i>
+            </span>
+        </button>
         <div class="modal-content">
             <div class="modal-body">
                 <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
