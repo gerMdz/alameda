@@ -5,12 +5,12 @@
  * Date: 18/05/2020
  * Time: 06:56
  */
-$lema = 'Taller de Madurez';
+$lema = 'Taller de Ministerio';
 $lemaSinEspacios = 'Taller-Madurez-Iglesia-Alameda';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Taller de Madurez';
+$title = $lema;
 /**
  * @example pregunta si la cuarentena terminó
  */
@@ -93,7 +93,8 @@ include_once ('gerVendor/gerFunctions.php')
     <section class="a-content-space-medium">
         <div class="container">
             <div class="text-center">
-                <a class="btn btn-blue js-scroll-trigger mx-auto btn--pill" href="https://docs.google.com/forms/d/e/1FAIpQLSda6TLmHSBlpiFI18EvBw9WgkjSaqZs53H0sLbkMbyDPz1sxQ/viewform" target="_blank">
+                <a class="btn btn-blue js-scroll-trigger mx-auto btn--pill"
+                   href="https://forms.gle/J2Lz4jyyN8vUa2747" target="_blank">
                     <i class="far fa-list-alt text-white"></i> Más detalles e inscripción
                 </a>
             </div>
@@ -102,11 +103,19 @@ include_once ('gerVendor/gerFunctions.php')
                     <!-- Centered -->
                     <blockquote class="blockquote-v1 blockquote-v1--left align-text-top">
                         <h3 >
-                            En la CHARLA DE MADUREZ, descubrirás los principios para desatar todo el potencial de Dios para tu vida.
+                            En tiempos de PANDEMIA nuestra iglesia nunca dejó de SERVIR <br/>
+                            y es tiempo que puedas sumarte a este desafío.<br/>
+                            Tendremos nuestro seminario <br/> “Descubriendo tu F.O.R.M.A.”.
+                            <br/>
+                            Dios te ha dado regalos únicos que solo vos podés abrir, <br/>
+                            es por eso que te invitamos a que <br/>
+                            descubras cómo te ha formado para el Servicio.
+
+
                         </h3>
-                        <p class="h5">No te la pierdas.</p>
+                        <p class="h5">Inscríbete</p>
                         <footer class="blockquote-footer">
-                            Martes 9/6 a las 19hs a través de la plataforma ZOOM<br/>
+                            Martes 23/6 de 19:00 a 20:30 hs por ZOOM<br/>
                             </footer>
                     </blockquote>
                     <!-- End Centered -->

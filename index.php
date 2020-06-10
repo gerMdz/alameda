@@ -50,7 +50,7 @@ include_once('links.php');
     <!-- Icon core  -->
 
     <!-- Style 3th core  -->
-<!--    <link href="css/mdb.min.css" rel="stylesheet">-->
+    <!--    <link href="css/mdb.min.css" rel="stylesheet">-->
     <link href="css/business-casual.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/slick-carousel/slick.css">
@@ -184,7 +184,7 @@ include_once('links.php');
                     </h3>
 
                     <svg class="u-destacado__header-decoration" version="1.1" preserveAspectRatio="none"
-                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%"
+                         xmlns="http://www.w3.org/2000/svg" width="100%"
                          height="70px" viewBox="0 0 300 70">
                         <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"
                               opacity="0.6" fill="#fff"></path>
@@ -232,7 +232,7 @@ include_once('links.php');
 
 <!--Section Slider Fotos-->
 <section class="page-section fondo-evento" id="fotos-inicio">
-<!--<section class="u-content-space-bottom" id="fotos-inicio">-->
+    <!--<section class="u-content-space-bottom" id="fotos-inicio">-->
     <div class="container">
         <!-- Carousel -->
         <div class="row justify-content-center">
@@ -295,19 +295,22 @@ include_once('links.php');
 <!--</section>-->
 <!--Fin Section Slider Fotos-->
 
-<?php if ($ahora < date('2020-06-09 18:00')) { ?>
+<?php if ($ahora < date('2020-06-23 18:00')) { ?>
     <section class="u-destacado section" id="avanza">
         <div class="js-parallax u-content-space u-box-shadow-lg bg-white rounded-md mx-3 mx-lg-5">
             <div class="container">
                 <div class="text-center w-md-50 mx-auto py-5">
                     <a class="display-4 d-inline-block mb-3 text-dark" target="_blank" href="avanza.php"
                        data-toggle="tooltip" data-placement="top" title="" data-original-title="Avanza">
-                        <i class="fas fa-bible fa-2x mb-1"></i>
+                        <i class="fas fa-hand-holding-heart fa-2x mb-1"></i>
 
                     </a>
                     <h2 class="lead font-weight-normal mb-5 text-uppercase display-5">
-                        Es tiempo de dar el siguiente paso!<br/>
-                        <strong>Ser un creyente maduro</strong></h2>
+                        En tiempos de PANDEMIA nuestra iglesia
+                        <br/>
+                        <strong>nunca dejó de SERVIR </strong><br/>
+                        y es tiempo que puedas sumarte a este desafío.
+                    </h2>
 
 
                     <a class="btn btn-primary btn--pill u-box-shadow-lg py-3 px-4 btn-xl"
@@ -324,197 +327,199 @@ include_once('links.php');
     <div class="container">
         <hr/>
 
-    <div class="row text-center">
-        <div class="col-sm-3 pull-left">
-            <img src="../images/next.jpg" class="img-fluid rounded"/>
-        </div>
-        <div class="col-sm-9 pull-right">
-            <blockquote class="bg-dark text-tan blockquote rounded">
-
-                <h3 class="quote ">
-
-                    Dios tiene un plan para tu vida <br/>
-                    y queremos ayudarte a descubrirlo.
-
-                </h3>
-
-            </blockquote>
-        </div>
-    </div>
-
-
-    <div class="card bg-teal text-tan container mb-1">
-        <div class="row">
-            <div class="col-sm-3 pull-left card-header px-2 px-lg-3">
-                <!--        <img class="w-100" src="../images/PuntoDePartida.jpeg" alt="Punto de Partida">-->
-                <img class="w-100" src="images/gpc-sin-texto.png" alt="Grupos Pequeños">
+        <div class="row text-center">
+            <div class="col-sm-3 pull-left">
+                <img src="../images/next.jpg" class="img-fluid rounded"/>
             </div>
-            <div class="col-sm-9  pull-right text-left ">
+            <div class="col-sm-9 pull-right">
+                <blockquote class="bg-dark text-tan blockquote rounded">
 
-                <div class="card-body ml-lg-5 5 mt-lg-5">
-                    <h1>Grupos Pequeños</h1>
-                    <span class="card-text">
+                    <h3 class="quote ">
+
+                        Dios tiene un plan para tu vida <br/>
+                        y queremos ayudarte a descubrirlo.
+
+                    </h3>
+
+                </blockquote>
+            </div>
+        </div>
+
+
+        <div class="card bg-teal text-tan container mb-1">
+            <div class="row">
+                <div class="col-sm-3 pull-left card-header px-2 px-lg-3">
+                    <!--        <img class="w-100" src="../images/PuntoDePartida.jpeg" alt="Punto de Partida">-->
+                    <img class="w-100" src="images/gpc-sin-texto.png" alt="Grupos Pequeños">
+                </div>
+                <div class="col-sm-9  pull-right text-left ">
+
+                    <div class="card-body ml-lg-5 5 mt-lg-5">
+                        <h1>Grupos Pequeños</h1>
+                        <span class="card-text">
 
                     Para que cada persona que llegue a la iglesia de La Alameda, se integre, permanezca, se desarrolle y se multiplique en un Grupo Pequeño.
                 </span>
-                    <div class="text-center">
-                        <small class="text-tan">Sumate a un grupo pequeño desde </small><br/>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuKOBEFTWx-t_wiQR7CL8Gf443RxGeAYhP1nNETb7BSNkGuA/viewform"
-                           class="btn btn-outline-info text-tan btn-sm" target="_blank">aquí</a>
+                        <div class="text-center">
+                            <small class="text-tan">Sumate a un grupo pequeño desde </small><br/>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfuKOBEFTWx-t_wiQR7CL8Gf443RxGeAYhP1nNETb7BSNkGuA/viewform"
+                               class="btn btn-outline-info text-tan btn-sm" target="_blank">aquí</a>
+                        </div>
+                        <!--            <span class="card-text ">-->
+                        <!--                ¿Tenés preguntas acerca de Dios y te gustaría conversar?<br/>-->
+                        <!--                Punto de partida es una experiencia conversacional creada-->
+                        <!--                para vos que buscás tener un acercamiento a la fe, explorando preguntas como: <br/>-->
+                        <!--            <ul class="punto">-->
+                        <!--                <li ><img class="img-fluid" src="../images/PEncuentroSinText.png" width="16" height="16"></img>-->
+                        <!--                    ¿Dios existe?-->
+                        <!--                </li>-->
+                        <!--                <li> <img class="img-fluid" src="../images/PEncuentroSinText.png" width="16" height="16"></img>-->
+                        <!--                    ¿Puedo confiar en la Biblia?-->
+                        <!--                </li>-->
+                        <!---->
+                        <!--            </ul>-->
+                        <!--            En un ambiente libre de prejuicios.-->
+                        <!--            </span>-->
                     </div>
-                    <!--            <span class="card-text ">-->
-                    <!--                ¿Tenés preguntas acerca de Dios y te gustaría conversar?<br/>-->
-                    <!--                Punto de partida es una experiencia conversacional creada-->
-                    <!--                para vos que buscás tener un acercamiento a la fe, explorando preguntas como: <br/>-->
-                    <!--            <ul class="punto">-->
-                    <!--                <li ><img class="img-fluid" src="../images/PEncuentroSinText.png" width="16" height="16"></img>-->
-                    <!--                    ¿Dios existe?-->
-                    <!--                </li>-->
-                    <!--                <li> <img class="img-fluid" src="../images/PEncuentroSinText.png" width="16" height="16"></img>-->
-                    <!--                    ¿Puedo confiar en la Biblia?-->
-                    <!--                </li>-->
-                    <!---->
-                    <!--            </ul>-->
-                    <!--            En un ambiente libre de prejuicios.-->
-                    <!--            </span>-->
+
+                </div>
+            </div>
+            <!--        <div class="card-footer text-center">-->
+            <!--            <small class="text-tan">Si estas interesado, envíanos un whatsapp al 0261 3070 443 con la frase-->
+            <!--                <strong>"info punto de partida"</strong> y nos comunicaremos con vos </small><br/>-->
+            <!--            <a href="puntopartida.php" class="btn btn-outline-info text-tan btn-sm">Ver detalles</a>-->
+            <!--        </div>-->
+        </div>
+
+        <!--<div class="card-deck">
+        <div class="col-sm-12 bg-light">
+            <div class="col-sm-3 float-left">
+                <div class="card-header">
+                    <img src="imagenes/PuntoDePartida.jpeg" class="img-fluid"
+                    >
                 </div>
 
             </div>
-        </div>
-        <!--        <div class="card-footer text-center">-->
-        <!--            <small class="text-tan">Si estas interesado, envíanos un whatsapp al 0261 3070 443 con la frase-->
-        <!--                <strong>"info punto de partida"</strong> y nos comunicaremos con vos </small><br/>-->
-        <!--            <a href="puntopartida.php" class="btn btn-outline-info text-tan btn-sm">Ver detalles</a>-->
-        <!--        </div>-->
-    </div>
+            <div class="col-sm-9 text-center">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Punto de Partida</h5>
+                    <p class="card-text ">
+                        ¿Tenés preguntas acerca de Dios y te gustaría conversar?<br/>
+                        Punto de partida es una experiencia conversacional creada
+                        para vos que buscás tener un acercamiento a la fe, explorando preguntas como: <br/>
+                    <ul class="punto">
+                        <li ><img class="img-fluid" src="imagenes/PEncuentroSinText.png" width="16" height="16"></img>
+                            ¿Dios existe?
+                        </li>
+                        <li> <img class="img-fluid" src="imagenes/PEncuentroSinText.png" width="16" height="16"></img>
+                            ¿Puedo confiar en la Biblia?
+                        </li>
 
-    <!--<div class="card-deck">
-    <div class="col-sm-12 bg-light">
-        <div class="col-sm-3 float-left">
-            <div class="card-header">
-                <img src="imagenes/PuntoDePartida.jpeg" class="img-fluid"
-                >
-            </div>
+                    </ul>
+                    En un ambiente libre de prejuicios.
+                    </p>
 
-        </div>
-        <div class="col-sm-9 text-center">
-            <div class="card-body">
-                <h5 class="card-title text-center">Punto de Partida</h5>
-                <p class="card-text ">
-                    ¿Tenés preguntas acerca de Dios y te gustaría conversar?<br/>
-                    Punto de partida es una experiencia conversacional creada
-                    para vos que buscás tener un acercamiento a la fe, explorando preguntas como: <br/>
-                <ul class="punto">
-                    <li ><img class="img-fluid" src="imagenes/PEncuentroSinText.png" width="16" height="16"></img>
-                        ¿Dios existe?
-                    </li>
-                    <li> <img class="img-fluid" src="imagenes/PEncuentroSinText.png" width="16" height="16"></img>
-                        ¿Puedo confiar en la Biblia?
-                    </li>
-
-                </ul>
-                En un ambiente libre de prejuicios.
-                </p>
+                </div>
 
             </div>
-
-        </div>
-        <div class="col-sm-12 float-none">
-            <div class="card-footer text-center">
-                <small class="text-point-sec">Si estas interesado, envíanos un whatsapp al 0261 3070 443 con la frase
-                    <strong>"info punto de partida"</strong> y nos comunicaremos con vos </small>
+            <div class="col-sm-12 float-none">
+                <div class="card-footer text-center">
+                    <small class="text-point-sec">Si estas interesado, envíanos un whatsapp al 0261 3070 443 con la frase
+                        <strong>"info punto de partida"</strong> y nos comunicaremos con vos </small>
+                </div>
             </div>
         </div>
-    </div>
-    </div>-->
+        </div>-->
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="card-deck " id="'bautismo">
-                <div class="card bg-point border-point ">
-                    <div class="text-center pt-3 ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-deck " id="'bautismo">
+                    <div class="card bg-point border-point ">
+                        <div class="text-center pt-3 ">
                         <span class="card-title text-center ">
                             <i class="fas fa-seedling fa-9x text-point"></i></span>
-                    </div>
-                    <div class="card-body ">
-                        <h5 class="card-title text-center">Charla de Bautismo</h5>
-                        <p class="card-text text-center">
-                            Cuando decidís se un seguidor de Jesús, lo primero que descubrís es que sus huellas
-                            comienzan en las aguas del bautismo. <br/>
-                            ¡El bautismo como Jesús lo propuso, es la marca que separa el camino de los curiosos,
-                            del camino de los seguidores!<br/>
-                            Vení a la charla preparatoria y enterate porqué.<br/>
-                            Te esperamos.
-                            <!--                            En el edificio educacional (San Martín 2020).<br/>-->
-                            <!--                            Para niños de 4° a 7° grado. Los Esperamos-->
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title text-center">Charla de Bautismo</h5>
+                            <p class="card-text text-center">
+                                Cuando decidís se un seguidor de Jesús, lo primero que descubrís es que sus huellas
+                                comienzan en las aguas del bautismo. <br/>
+                                ¡El bautismo como Jesús lo propuso, es la marca que separa el camino de los curiosos,
+                                del camino de los seguidores!<br/>
+                                Vení a la charla preparatoria y enterate porqué.<br/>
+                                Te esperamos.
+                                <!--                            En el edificio educacional (San Martín 2020).<br/>-->
+                                <!--                            Para niños de 4° a 7° grado. Los Esperamos-->
 
 
-                        </p>
+                            </p>
 
-                    </div>
-                    <div class="card-footer text-center">
-                        <?php if ($ahora < date('2019-10-26 16:00')) { ?>
-                            <small class="text-point-sec">
-                                Sábado 26 de octubre, 16:00 hs.
-                                <br/>
-                                <!--                            <a href="masporhacer.php#crecimiento20181110"-->
-                                <!--                               data-toggle="tooltip"-->
-                                <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
-                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda
-                                    (261 517 8081)
+                        </div>
+                        <div class="card-footer text-center">
+                            <?php if ($ahora < date('2019-10-26 16:00')) { ?>
+                                <small class="text-point-sec">
+                                    Sábado 26 de octubre, 16:00 hs.
                                     <br/>
-                                    con el texto <strong>Bautismo</strong> o por <br/>
-                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=BAUTISMO"
-                                       class="text-realce-verde"> por Whatsapp
-                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>
+                                    <!--                            <a href="masporhacer.php#crecimiento20181110"-->
+                                    <!--                               data-toggle="tooltip"-->
+                                    <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
+                                    <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar
+                                        Alameda
+                                        (261 517 8081)
+                                        <br/>
+                                        con el texto <strong>Bautismo</strong> o por <br/>
+                                        <a href="https://api.whatsapp.com/send?phone=5492615178081&text=BAUTISMO"
+                                           class="text-realce-verde"> por Whatsapp
+                                            <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>
+                                    </small>
                                 </small>
-                            </small>
 
-                        <?php } ?>
+                            <?php } ?>
+                        </div>
+
                     </div>
 
-                </div>
 
-
-                <div class="card bg-point border-point">
-                    <div class="text-center pt-3 ">
+                    <div class="card bg-point border-point">
+                        <div class="text-center pt-3 ">
                         <span class="card-title ">
                             <i class="fas fa-link fa-9x text-point"></i></span>
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title text-center">Enlace de Grupos de Amistad</h5>
+                            <p class="card-text">
+                                Si todavía no tenes un grupo pequeño con quien experimentar 40 días de Bondad.<br/>
+                                Si queres connectarte con nuevos amigos<br/>
+                                Si no queres quedarte afuera
+
+
+                            </p>
+                            <!--                        <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
+                            <!--                            (261 517 8081)  con el texto <strong>Enlace</strong></small>-->
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <?php if ($ahora < date('2019-08-02 21:00')) { ?>
+                                <small class="text-point-sec">
+                                    Viernes 02 de agosto a las 21:00 hs.<br/>
+                                    Realizaremos un nuevo "Enlace de Grupos Pequeños".
+                                    Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda
+                                    (261 517 8081) con la palabra <strong>Enlace</strong> o por
+                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=ENLACE"> por
+                                        Whatsapp
+                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>
+
+
+                                </small>
+                            <?php } ?>
+                        </div>
+                        <?php ?>
+
                     </div>
-                    <div class="card-body ">
-                        <h5 class="card-title text-center">Enlace de Grupos de Amistad</h5>
-                        <p class="card-text">
-                            Si todavía no tenes un grupo pequeño con quien experimentar 40 días de Bondad.<br/>
-                            Si queres connectarte con nuevos amigos<br/>
-                            Si no queres quedarte afuera
 
-
-                        </p>
-                        <!--                        <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
-                        <!--                            (261 517 8081)  con el texto <strong>Enlace</strong></small>-->
-                    </div>
-
-                    <div class="card-footer text-center">
-                        <?php if ($ahora < date('2019-08-02 21:00')) { ?>
-                            <small class="text-point-sec">
-                                Viernes 02 de agosto a las 21:00 hs.<br/>
-                                Realizaremos un nuevo "Enlace de Grupos Pequeños".
-                                Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda
-                                (261 517 8081) con la palabra <strong>Enlace</strong> o por
-                                <a href="https://api.whatsapp.com/send?phone=5492615178081&text=ENLACE"> por Whatsapp
-                                    <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>
-
-
-                            </small>
-                        <?php } ?>
-                    </div>
-                    <?php ?>
-
-                </div>
-
-                <div class="card bg-point border-point">
-                    <div class="text-center pt-3">
+                    <div class="card bg-point border-point">
+                        <div class="text-center pt-3">
                         <span class="card-title ">
                             <span class="fa-stack list-inline" style="font-size: 4.5em">
                             <i class="fas fa-circle fa-stack-2x text-point"></i>
@@ -526,81 +531,81 @@ include_once('links.php');
                                style="font-size: 0.5em; text-align: center; margin-top:35px " aria-hidden="true"></i>
                         </span>
                             </span>
+                        </div>
+                        <div class="card-body ">
+                            <h5 class="card-title text-center">Charla para nuevos miembros</h5>
+                            <p class="card-text">
+                                Nos alegra verte cada domingo en La Alameda y saber que esto ha sido bueno para tu
+                                corazón<br/>
+                                Cientos de voluntarios sirven cada semana para hacer realidad nuestra amada comunidad de
+                                fe.<br/>
+                                <b> ¿Te atreves a ser parte?</b>
+                                Si ya estás bautizado, ahora da el paso adelante y sumate a la familia.
+                                !Se miembro de La Alameda!
+
+                            </p>
+                        </div>
+
+                        <div class="card-footer text-center">
+                            <?php if ($ahora < date('2020-05-23 18:00')) { ?>
+                                <small class="text-point-sec">
+                                    Sábado 23/5, de 19 a 21hs
+                                    <!--                                        <a href="masporhacer.php#crecimiento20181110"-->
+                                    <!--                                                                             data-toggle="tooltip"-->
+                                    <!--                                                                             title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
+
+                                    <br/>
+                                    <!--                            <a href="masporhacer.php#crecimiento20181110"-->
+                                    <!--                               data-toggle="tooltip"-->
+                                    <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
+                                    <!--                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
+                                    <!--                                    (261 517 8081)-->
+                                    <!--                                    <br/>-->
+                                    <!--                                    con el texto <strong>Sumarme</strong> o por <br/>-->
+                                    <!--                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=SUMARME"-->
+                                    <!--                                       class="text-realce-verde"> por Whatsapp-->
+                                    <!--                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>-->
+                                    <!--                                </small>-->
+                                    Más detalles e inscripción<br/>
+
+                                    <a class="btn btn-alameda  js-scroll-trigger mx-auto btn--pill"
+                                       href="https://forms.gle/gkJjReojfHy2QG7e8" target="_blank">
+                                        <i class="far fa-list-alt text-white"></i> Aquí
+                                    </a>
+                                </small>
+                            <?php } ?>
+                        </div>
+
                     </div>
-                    <div class="card-body ">
-                        <h5 class="card-title text-center">Charla para nuevos miembros</h5>
-                        <p class="card-text">
-                            Nos alegra verte cada domingo en La Alameda y saber que esto ha sido bueno para tu
-                            corazón<br/>
-                            Cientos de voluntarios sirven cada semana para hacer realidad nuestra amada comunidad de fe.<br/>
-                            <b> ¿Te atreves a ser parte?</b>
-                            Si ya estás bautizado, ahora da el paso adelante y sumate a la familia.
-                            !Se miembro de La Alameda!
-
-                        </p>
-                    </div>
-
-                    <div class="card-footer text-center">
-                        <?php if ($ahora < date('2020-05-23 18:00')) { ?>
-                            <small class="text-point-sec">
-                                Sábado 23/5, de 19 a 21hs
-                                <!--                                        <a href="masporhacer.php#crecimiento20181110"-->
-                                <!--                                                                             data-toggle="tooltip"-->
-                                <!--                                                                             title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
-
-                                <br/>
-                                <!--                            <a href="masporhacer.php#crecimiento20181110"-->
-                                <!--                               data-toggle="tooltip"-->
-                                <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
-                                <!--                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
-                                <!--                                    (261 517 8081)-->
-                                <!--                                    <br/>-->
-                                <!--                                    con el texto <strong>Sumarme</strong> o por <br/>-->
-                                <!--                                    <a href="https://api.whatsapp.com/send?phone=5492615178081&text=SUMARME"-->
-                                <!--                                       class="text-realce-verde"> por Whatsapp-->
-                                <!--                                        <i class="fab fa-whatsapp"></i> haciendo clic aqui </a>-->
-                                <!--                                </small>-->
-                                Más detalles e inscripción<br/>
-
-                                <a class="btn btn-alameda  js-scroll-trigger mx-auto btn--pill"
-                                   href="https://forms.gle/gkJjReojfHy2QG7e8" target="_blank">
-                                    <i class="far fa-list-alt text-white"></i> Aquí
-                                </a>
-                            </small>
-                        <?php } ?>
-                    </div>
-
                 </div>
+
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <hr/>
+            <div class="col-sm-12">
+                <a href="noticias/camino-crecimiento.php" class="text-success">
+                    <blockquote class="bg-white text-tan blockquote rounded d-flex align-items-center col-sm-12">
+
+
+                        <div class="col-sm-4 text-center">
+                            <i class="fas fa-road fa-2x text-invitacion"></i>
+                        </div>
+                        <div class="col-sm-8 text-center">
+                            <h3 class="text-dark ">
+                                Conocé el Camino de Crecimiento Alameda
+                            </h3>
+                        </div>
+
+
+                    </blockquote>
+
+                </a>
+                <hr/>
             </div>
 
-
         </div>
-    </div>
-    <div class="container-fluid">
-        <hr/>
-        <div class="col-sm-12">
-        <a href="noticias/camino-crecimiento.php" class="text-success">
-            <blockquote class="bg-white text-tan blockquote rounded d-flex align-items-center col-sm-12">
-
-
-                    <div class="col-sm-4 text-center">
-                        <i class="fas fa-road fa-2x text-invitacion"></i>
-                    </div>
-                    <div class="col-sm-8 text-center">
-                        <h3 class="text-dark ">
-                            Conocé el Camino de Crecimiento Alameda
-                        </h3>
-                    </div>
-
-
-
-            </blockquote>
-
-        </a>
-            <hr />
-        </div>
-
-    </div>
     </div>
 
 </section>
@@ -611,40 +616,40 @@ include_once('links.php');
         <hr/>
         <div class="row text-center d-flex align-items-center bg-white">
 
-        <div class="col-sm-4 pull-left">
-            <img src="images/textos/texto-ppal.jpg" class="img-fluid rounded"/>
+            <div class="col-sm-4 pull-left">
+                <img src="images/textos/texto-ppal.jpg" class="img-fluid rounded"/>
+            </div>
+
+            <div class="col-sm-8 pt-5">
+                <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5">
+                    <div class="center-element btn btn-blue rotar90 mt-sm-0">
+                        Juan 3:16 (NTV)
+                    </div>
+                    <div>
+                        <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
+                            class="pt-sm-0 pt-lg-3 text-right">
+                            "
+                            Pues Dios amó tanto al mundo que dio a su único Hijo, para que todo el que crea en él no se
+                            pierda, sino que tenga vida eterna
+                            "
+                        </h2>
+                    </div>
+
+
+                </blockquote>
+
+
+            </div>
+            <div class="col-sm-12">
+                <a href="notas.php" class="text-light-blue"
+                   data-toggle="tooltip"
+                   title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i
+                            class="material-icons btn-sm text-point-sec">local_library</i> Empieza aquí</a>
+            </div>
+
+
         </div>
-
-        <div class="col-sm-8 pt-5">
-            <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5">
-                <div class="center-element btn btn-blue rotar90 mt-sm-0">
-                    Juan 3:16 (NTV)
-                </div>
-                <div>
-                    <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
-                        class="pt-sm-0 pt-lg-3 text-right">
-                        "
-                        Pues Dios amó tanto al mundo que dio a su único Hijo, para que todo el que crea en él no se
-                        pierda, sino que tenga vida eterna
-                        "
-                    </h2>
-                </div>
-
-
-            </blockquote>
-
-
-        </div>
-        <div class="col-sm-12">
-            <a href="notas.php" class="text-light-blue"
-               data-toggle="tooltip"
-               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i
-                        class="material-icons btn-sm text-point-sec">local_library</i> Empieza aquí</a>
-        </div>
-
-
-    </div>
-        <hr />
+        <hr/>
 
     </div>
 
@@ -652,7 +657,7 @@ include_once('links.php');
 
 <!-- Inicio Ministerios-->
 <?php
-include ('section-ministerios.php');
+include('section-ministerios.php');
 ?>
 
 <!-- Fin Ministerios-->
@@ -661,25 +666,26 @@ include ('section-ministerios.php');
 <section class="page-section fondo-evento" id="revivir">
     <!--    <div class="row text-center">-->
     <div class="container">
-    <div class="row text-center d-flex align-items-center">
-        <div class="col-sm-3 pull-left">
-            <img src="../images/logoYoutubeBrown.png" class="img-fluid rounded"/>
-        </div>
-        <div class="col-sm-9 pull-right ">
+        <div class="row text-center d-flex align-items-center">
+            <div class="col-sm-3 pull-left">
+                <img src="../images/logoYoutubeBrown.png" class="img-fluid rounded"/>
+            </div>
+            <div class="col-sm-9 pull-right ">
 
-            <a title="Reviví los mensajes" data-placement="bottom" style="text-decoration-line: none"
-               href="https://youtube.com/user/IglesiaAlameda" target="_blank" data-original-title="Reviví los mensajes"
-            >
-                <blockquote class="bg-danger text-tan blockquote rounded d-flex align-items-center">
-                    <i class="fab fa-youtube-square fa-4x" style="color: #FFF"></i>
-                    <h3 style="color: #FFF; text-indent: 4em">
-                        Reviví los mensajes en YouTube
-                    </h3>
+                <a title="Reviví los mensajes" data-placement="bottom" style="text-decoration-line: none"
+                   href="https://youtube.com/user/IglesiaAlameda" target="_blank"
+                   data-original-title="Reviví los mensajes"
+                >
+                    <blockquote class="bg-danger text-tan blockquote rounded d-flex align-items-center">
+                        <i class="fab fa-youtube-square fa-4x" style="color: #FFF"></i>
+                        <h3 style="color: #FFF; text-indent: 4em">
+                            Reviví los mensajes en YouTube
+                        </h3>
 
-                </blockquote>
-            </a>
+                    </blockquote>
+                </a>
+            </div>
         </div>
-    </div>
     </div>
 </section>
 
@@ -764,19 +770,19 @@ include ('section-ministerios.php');
 
 <section class="page-section bg-light" id="epa">
     <div class="container">
-    <div class="row text-center d-flex align-items-cente ">
-        <div class="col-sm-12">
-            <h1 class="text-point-sec text-realce ">
-                ESTAMOS PARA VOS
-            </h1>
-            <strong>Contamos con un equipo de <br/>
-                consejeros pastorales <br/>
-                listos para brindarte ayudarte.
-                <!--                simplemente solicita una entrevista enviando <br/>un correo eléctronico.-->
-            </strong>
-        </div>
-        <br/>
-        <div class="col-md-6 col-lg-3  ">
+        <div class="row text-center d-flex align-items-cente ">
+            <div class="col-sm-12">
+                <h1 class="text-point-sec text-realce ">
+                    ESTAMOS PARA VOS
+                </h1>
+                <strong>Contamos con un equipo de <br/>
+                    consejeros pastorales <br/>
+                    listos para brindarte ayudarte.
+                    <!--                simplemente solicita una entrevista enviando <br/>un correo eléctronico.-->
+                </strong>
+            </div>
+            <br/>
+            <div class="col-md-6 col-lg-3  ">
             <span class="fa-stack list-inline compuesto">
                 <i class="fas fa-circle fa-stack-2x text-point"></i>
                 <i class="fas fa-circle-notch fa-stack-1x fa-inverse item-inline"
@@ -784,46 +790,46 @@ include ('section-ministerios.php');
                 <i class="fas fa-circle-notch fa-stack-1x fa-inverse fa-rotate-180 item-inline"
                    style="font-size: 1em; text-align: center; bottom:-0.3em" aria-hidden="true"></i>
             </span>
-            <br/>
-            <h3><a href="nuestraalameda.php#amc" class="text-point-sec"> Ayuda para matrimonios en crisis </a></h3>
-        </div>
-        <div class="col-md-6 col-lg-3  ">
+                <br/>
+                <h3><a href="nuestraalameda.php#amc" class="text-point-sec"> Ayuda para matrimonios en crisis </a></h3>
+            </div>
+            <div class="col-md-6 col-lg-3  ">
             <span class="fa-stack list-inline compuesto">
                 <i class="fas fa-circle fa-stack-2x text-point"></i>
                 <i class="fas fa-award fa-stack-1x fa-inverse item-inline" style="font-size: 1em; text-align: center; "
                    aria-hidden="true"></i>
             </span>
-            <h3>
-                <a href="nuestraalameda.php#celebremos" class="text-point-sec">
-                    Ayuda para adicciones y hábitos compulsivos
-                </a>
-            </h3>
-        </div>
-        <div class="col-md-6 col-lg-3  ">
+                <h3>
+                    <a href="nuestraalameda.php#celebremos" class="text-point-sec">
+                        Ayuda para adicciones y hábitos compulsivos
+                    </a>
+                </h3>
+            </div>
+            <div class="col-md-6 col-lg-3  ">
             <span class="fa-stack list-inline compuesto">
                 <i class="fas fa-circle fa-stack-2x text-point"></i>
                 <i class="fas fa-female fa-stack-1x fa-inverse item-inline" style="font-size: 1em; text-align: center; "
                    aria-hidden="true"></i>
             </span>
-            <h3>
-                <a href="nuestraalameda.php#mujer" class="text-point-sec">
-                    Ayuda para escapar como mujer del maltrato o situaciones de riesgo
-                </a>
-            </h3>
+                <h3>
+                    <a href="nuestraalameda.php#mujer" class="text-point-sec">
+                        Ayuda para escapar como mujer del maltrato o situaciones de riesgo
+                    </a>
+                </h3>
+            </div>
+            <div class="col-md-6 col-lg-3  ">
+                <span class="fa-stack list-inline compuesto" ">
+                <i class="fas fa-circle fa-stack-2x text-point"></i>
+                <i class="material-icons fa-stack-1x fa-inverse item-inline"
+                   style="font-size: 1em; text-align: center; top:0.5em" aria-hidden="true">toys</i>
+                </span>
+                <h3>
+                    <a href="nuestraalameda.php#acasa" class="text-point-sec">
+                        Ayuda para enfrentar casos de abusos y maltratro infantil
+                    </a>
+                </h3>
+            </div>
         </div>
-        <div class="col-md-6 col-lg-3  ">
-            <span class="fa-stack list-inline compuesto" ">
-            <i class="fas fa-circle fa-stack-2x text-point"></i>
-            <i class="material-icons fa-stack-1x fa-inverse item-inline"
-               style="font-size: 1em; text-align: center; top:0.5em" aria-hidden="true">toys</i>
-            </span>
-            <h3>
-                <a href="nuestraalameda.php#acasa" class="text-point-sec">
-                    Ayuda para enfrentar casos de abusos y maltratro infantil
-                </a>
-            </h3>
-        </div>
-    </div>
 </section>
 <?php include('footer.php'); ?>
 
