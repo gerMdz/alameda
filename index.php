@@ -77,6 +77,10 @@ include_once('links.php');
     <!-- Custom styles for this template -->
 
     <style>
+        .linkYoutube{
+            width: 100%;
+            height: 315px !important;
+        }
         /*.swiper-container {*/
         /*width: 100vw;*/
         /*height: 100vh;*/
@@ -173,11 +177,11 @@ include_once('links.php');
             <article class="u-destacado u-box-shadow-sm text-center rounded">
                 <!-- Article Header -->
                 <header class="u-destacado__header bg-light-blue text-white rounded-top">
-                    <strong class="u-destacado__header-price display-4 font-weight-bold mb-2">
+                    <strong class="u-destacado__header-price display-4 font-weight-bold mt-1 mb-1">
                         <h3>Experiencia Alameda</h3>
                     </strong>
 
-                    <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-4">
+                    <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-1">
                         <a href="https://online.iglesiaalameda.com" class="text-white">
                             En vivo desde aqui
                         </a>
@@ -185,7 +189,7 @@ include_once('links.php');
 
                     <svg class="u-destacado__header-decoration" version="1.1" preserveAspectRatio="none"
                          xmlns="http://www.w3.org/2000/svg" width="100%"
-                         height="70px" viewBox="0 0 300 70">
+                         height="50px" viewBox="0 0 300 55">
                         <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"
                               opacity="0.6" fill="#fff"></path>
                         <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z"
@@ -200,9 +204,9 @@ include_once('links.php');
 
                 <!-- Article Content -->
                 <div class="u-destacado__content">
-                    <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid mx-auto"
+                    <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid linkYoutube mx-auto"
                             frameborder="0"
-                            width="100%"
+
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
 
@@ -214,7 +218,7 @@ include_once('links.php');
         </div>
 
         <!-- Invitación: Header -->
-        <header class="text-center w-md-50 mx-auto  mt-5 mb-8">
+        <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
             <h2 class="h1 bg-alameda">
                 <a href="notas.php" class="text-white">
                     Vení tal como SOS
@@ -856,73 +860,7 @@ include('section-ministerios.php');
     //     interval: 10000
     // })
 
-    $('[data-countdown]').each(function () {
-        var $this = $(this), finalDate = $(this).data('countdown');
-        $this.countdown(finalDate, function (event) {
 
-            var semanas = event.offset.weeks;
-            var dias = event.offset.days;
-            var horas = event.offset.hours;
-            var minutos = event.offset.minutes;
-            var segundos = event.offset.seconds;
-
-            var letrasS = " semanas"
-            if (dias > 1) {
-                var letrasD = " %d días" + "<br/>"
-            }
-            if (dias == 1) {
-                var letrasD = " %d día" + "<br/>"
-            }
-            if (dias < 1) {
-                var letrasD = " "
-            }
-            if (semanas == 1) {
-                var letrasW = "%w semana" + "<br/>"
-            }
-            if (semanas < 1) {
-                var letrasW = " "
-            }
-            if (minutos > 1) {
-                var letrasM = " %M minutos" + "<br/>"
-            }
-            if (minutos == 1) {
-                var letrasM = " %M minuto" + "<br/>"
-            }
-            if (minutos < 1) {
-                var letrasM = " "
-            }
-            if (horas > 1) {
-                var letrasH = " %H horas" + "<br/>"
-            }
-            if (horas == 1) {
-                var letrasH = " %H hora" + "<br/>"
-            }
-            if (horas < 1) {
-                var letrasH = " "
-            }
-            if (segundos > 1) {
-                var letrasS = " %S segundos" + "<br/>"
-            }
-            if (segundos == 1) {
-                var letrasS = " %S segundo" + "<br/>"
-            }
-            if (segundos < 1) {
-                var letrasS = " "
-            }
-
-            if (dias == 0 && semanas == 0 && horas == 0 && minutos == 0 && segundos == 0) {
-                letrasB = '¡BIENVENIDOS!'
-            } else {
-                letrasB = ''
-            }
-            /*$(this).append().html(event.strftime(' letrasW + letrasD + letrasH + letrasM + letrasS));*/
-
-
-            $this.html(event.strftime('<div class="text-info card-body h-100 my-auto ">' +
-                letrasW + letrasD + letrasH + letrasM + letrasB
-                + '</div>'));
-        });
-    });
 
 </script>
 <!-- Initialize Swiper -->
