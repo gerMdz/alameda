@@ -36,6 +36,7 @@ class UserFixtures extends BaseFixture
             $user = new User();
             $user->setEmail(sprintf('alameda%d@alameda.com', $i));
             $user->setPrimerNombre($this->faker->firstName);
+            $user->setRoles(['ROLE_USER']);
             $user->setPassword($this->userPasswordEncoder->encodePassword(
                 $user,
                 'Ninguna'
