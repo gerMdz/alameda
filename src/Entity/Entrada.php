@@ -52,7 +52,7 @@ class Entrada
     private $creadaAt;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true, unique=true)
+     * @ORM\Column(type="string", length=150, nullable=true, unique=true)
      */
     private $linkRoute;
 
