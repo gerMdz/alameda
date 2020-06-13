@@ -17,6 +17,7 @@ class EntradaFixtures extends BaseFixture implements DependentFixtureInterface
         'Ante lo Inesperado',
         'Indomita',
         'Rescate en las llamas',
+        'Maravillas cotidianas',
     ];
 
     private static $entradaImages = [
@@ -29,7 +30,6 @@ class EntradaFixtures extends BaseFixture implements DependentFixtureInterface
 
     /**
      * EntradaFixtures constructor.
-     * @param UploaderHelper $uploaderHelper
      */
     public function __construct(UploaderHelper $uploaderHelper)
     {
@@ -38,7 +38,7 @@ class EntradaFixtures extends BaseFixture implements DependentFixtureInterface
 
     protected function loadData(ObjectManager $manager)
     {
-        $this->createMany(10, 'main_articles', function($count) use ($manager) {
+        $this->createMany(10, 'main_articles', function ($count) use ($manager) {
             $entrada = new Entrada();
             $entrada->setTitulo($this->faker->randomElement(self::$entradaTitles))
                 ->setContenido('Una dato más');
@@ -48,11 +48,10 @@ class EntradaFixtures extends BaseFixture implements DependentFixtureInterface
                 $entrada->setPublicadoAt($this->faker->dateTimeBetween('-100 days', '-1 days'));
             }
             $imageFilename = $this->fakeUploadImage();
-
-
+            $link = strtolower(str_replace(' ', '-', trim($entrada->getTitulo().' '.rand(0, 100))));
             $entrada->setAutor($this->getRandomReference('escitor_users'))
                 ->setImageFilename($imageFilename)
-            ;
+                ->setLinkRoute($link);
 
 //            $tags = $this->getRandomReferences('main_tags', $this->faker->numberBetween(0, 5));
 //            foreach ($tags as $tag) {
@@ -71,6 +70,7 @@ class EntradaFixtures extends BaseFixture implements DependentFixtureInterface
         $fs = new Filesystem();
         $targetPath = sys_get_temp_dir().'/'.$randomImage;
         $fs->copy(__DIR__.'/images/'.$randomImage, $targetPath, true);
+
         return $this->uploaderHelper
             ->uploadEntradaImage(new File($targetPath));
     }

@@ -15,9 +15,10 @@ class InicioController extends AbstractController
     {
         $em = $this->getDoctrine()->getManager();
         $indexAlameda = $em->getRepository(IndexAlameda::class)->findAll();
+
         return $this->render('inicio/index.html.twig', [
             'controller_name' => 'InicioController',
-            'datosIndex' => $indexAlameda[0]
+            'datosIndex' => $indexAlameda[0],
         ]);
     }
 
@@ -26,6 +27,6 @@ class InicioController extends AbstractController
      */
     public function contacto()
     {
-        return $this->render('inicio/contacto.html.twig',[]);
+        return $this->render('inicio/contacto.html.twig', []);
     }
 }

@@ -111,6 +111,9 @@
     "knplabs/knp-markdown-bundle": {
         "version": "1.8.1"
     },
+    "knplabs/knp-time-bundle": {
+        "version": "v1.11.0"
+    },
     "laminas/laminas-code": {
         "version": "3.4.1"
     },
@@ -119,6 +122,9 @@
     },
     "laminas/laminas-zendframework-bridge": {
         "version": "1.0.3"
+    },
+    "league/flysystem": {
+        "version": "1.0.69"
     },
     "liip/imagine-bundle": {
         "version": "1.8",
@@ -147,6 +153,18 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "oneup/flysystem-bundle": {
+        "version": "3.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "master",
+            "version": "3.0",
+            "ref": "0eb87bba411c227da027fe5f7c1dc7954b02f242"
+        },
+        "files": [
+            "config/packages/oneup_flysystem.yaml"
+        ]
     },
     "php": {
         "version": "7.2"
@@ -392,6 +410,9 @@
     },
     "symfony/polyfill-php73": {
         "version": "v1.15.0"
+    },
+    "symfony/polyfill-php80": {
+        "version": "v1.17.0"
     },
     "symfony/process": {
         "version": "v4.4.7"

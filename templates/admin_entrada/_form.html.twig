@@ -2,9 +2,24 @@
 
 {#    {{ form_widget(entradaForm) }}#}
 <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-5">
         {{ form_row(entradaForm.titulo) }}
     </div>
+    <div class="col-sm-5">
+        {{ form_row(entradaForm.linkRoute) }}
+    </div>
+
+    <div class="col-sm-2 checkbox ">
+        <label for="entrada_publicar" class="required">
+            Publicar?<br/>
+            {% if entradaForm.vars.data.PublicadoAt | default  %}
+                {{form_row(entradaForm.publicar, { 'attr': {'checked': 'checked'} }) }}
+            {% else %}
+            {{form_row(entradaForm.publicar)}}
+            {% endif %}
+        </label>
+    </div>
+
     <div class="col-sm-12">
         {{ form_row(entradaForm.contenido) }}
     </div>
@@ -17,7 +32,10 @@
     </div>
     <div class="col-sm-3">
         {% if entradaForm.vars.data.imageFilename | default  %}
-            <img src="{{ uploaded_asset(entradaForm.vars.data.imagePath)|imagine_filter('squared_thumbnail_small') }}" height="100">
+            <a href="{{ uploaded_asset(entradaForm.vars.data.imagePath) }}" target="_blank">
+                <img src="{{ entradaForm.vars.data.imagePath|imagine_filter('squared_thumbnail_small') }}" height="100">
+            </a>
+
         {% endif %}
     </div>
 </div>

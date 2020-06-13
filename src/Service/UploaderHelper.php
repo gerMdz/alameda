@@ -1,10 +1,10 @@
 <?php
 
-
 namespace App\Service;
 
-
+use Exception;
 use Gedmo\Sluggable\Util\Urlizer;
+use League\Flysystem\FilesystemInterface;
 use Symfony\Component\Asset\Context\RequestStackContext;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
@@ -12,22 +12,23 @@ use Symfony\Component\HttpFoundation\File\UploadedFile;
 class UploaderHelper
 {
     const IMAGE_ENTRADA = 'image_entrada';
-    private $uploadsPath;
+
     private $context;
+    private $filesystem;
+    private $uploadedAssetsBaseUrl;
 
     /**
      * UploaderHelper constructor.
-     * @param string $uploadsPath
-     * @param RequestStackContext $context
      */
-    public function __construct(string $uploadsPath, RequestStackContext $context)
+    public function __construct(FilesystemInterface $publicUploadsFilesystem, RequestStackContext $context, string $uploadedAssetsBaseUrl)
     {
-        $this->uploadsPath = $uploadsPath;
         $this->context = $context;
+        $this->filesystem = $publicUploadsFilesystem;
+        $this->uploadedAssetsBaseUrl = $uploadedAssetsBaseUrl;
     }
 
-    public function uploadEntradaImage(File $file):string {
-        $destination = $this->uploadsPath.'/'.self::IMAGE_ENTRADA;
+    public function uploadEntradaImage(File $file): string
+    {
         if ($file instanceof UploadedFile) {
             $originalFilename = $file->getClientOriginalName();
         } else {
@@ -35,16 +36,28 @@ class UploaderHelper
         }
         $newFilename = Urlizer::urlize(pathinfo($originalFilename, PATHINFO_FILENAME)).'-'.uniqid().'.'.$file->guessExtension();
 
-        $file->move(
-            $destination,
-            $newFilename
+        $stream = fopen($file->getPathname(), 'r');
+        $result = $this->filesystem->writeStream(
+            self::IMAGE_ENTRADA.'/'.$newFilename,
+            $stream
         );
+        if (false === $result) {
+            throw new Exception(sprintf('No se pudo grabar la imagen "%s"', $newFilename));
+        }
+        if (is_resource($stream)) {
+            fclose($stream);
+        }
+
         return $newFilename;
     }
 
     public function getPublicPath(string $path): string
     {
-        return $this->context->getBasePath(). '/uploads/'.$path;
+        return $this->context->getBasePath().$this->uploadedAssetsBaseUrl.'/'.$path;
     }
 
+    public function uploadEntradaReference(File $file): string
+    {
+        dd($file);
+    }
 }

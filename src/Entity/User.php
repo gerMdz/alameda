@@ -18,7 +18,6 @@ class User implements UserInterface
      * @ORM\Column(type="string", length=40)
      * @ORM\GeneratedValue(strategy="CUSTOM")
      * @ORM\CustomIdGenerator(class="Ramsey\Uuid\Doctrine\UuidGenerator")
-     *
      */
     private $id;
 
@@ -83,13 +82,11 @@ class User implements UserInterface
         return $this->getPrimerNombre();
     }
 
-
     public function getId(): ?string
     {
         return $this->id;
     }
 
-    
     public function getEmail(): ?string
     {
         return $this->email;
@@ -190,8 +187,9 @@ class User implements UserInterface
     public function getAvatarUrl(string $size = null): ?string
     {
         $url = 'https://robohash.org/'.$this->getEmail();
-        if ($size)
+        if ($size) {
             $url .= sprintf('?size=%dx%d', $size, $size);
+        }
 
         return $url;
     }
@@ -295,6 +293,4 @@ class User implements UserInterface
 
         return $this;
     }
-
-
 }
