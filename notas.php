@@ -112,7 +112,7 @@ include_once('links.php');
         }
 
         .middle-0{
-            top: 25%;
+            /*top: 25%;*/
             position: relative;
         }
 
@@ -235,6 +235,11 @@ include_once('links.php');
                                 <i class="fas fa-quote-left mr-5"></i>
                                 <br/>
                             Una ayuda del cielo para tu familia.
+                                <br/>
+                                El principio de la aceptación
+                                <br/>
+                                "Por tanto, acéptense mutuamente, así como Cristo los aceptó a ustedes para gloria de Dios."<br/>
+                                Romanos  15:7 (NVI)
                                 <br/>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
