@@ -95,6 +95,26 @@ include_once('links.php');
             -webkit-box-shadow: 0 0 !important;
             box-shadow: 0 0  !important;
         }
+        .card {
+            -webkit-box-shadow: 0 0 !important;
+            box-shadow: 0 0  !important;
+        }
+
+        .bottom-0
+        {
+            position: absolute;
+            left: 5%;
+            bottom: 1%;
+            width: 90%;
+            /*background-color: red;*/
+            /*color: white;*/
+            text-align: center;
+        }
+
+        .middle-0{
+            top: 25%;
+            position: relative;
+        }
 
 
     </style>
@@ -159,9 +179,10 @@ include_once('links.php');
     <section class="a-content-space-medium bg-fam text-center">
         <div class="container">
             <div class="row">
+<!--                charla 1-->
                 <div class="col-md-4 mb-2 mx-auto   ">
-                    <!--                    <div class="card h-100">-->
-                    <div class="card card-a overflow-hidden">
+<!--                                        <div class="card h-100">-->
+                    <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
                             <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top "
                                  data-toggle="modal" data-target="#modal-01"
@@ -169,19 +190,59 @@ include_once('links.php');
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
                             <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>
-                            <i class="fas fa-quote-left"></i>
-
-                            <span class="mr-1"></span>
+                            <div class="middle-0">
+                            <i class="fas fa-quote-left mr-5"></i><br/>
                             Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
                             milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
                             cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
                             un conyugue, un hijo, un hermano son y serán en tu vida.
+                                <br/>
 
-                            <i class="fas fa-quote-right"></i>
+                            <i class="fas fa-quote-right ml-5"></i>
+                            </div>
                             <br/>
 
-                            <div class="btn-group">
+                            <div class="btn-group bottom-0">
+
                                 <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf" target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a><br/>
+                                    <a href="https://youtu.be/7KpEdC1O8eQ" class="btn btn-icon" target="_blank">
+                                        <i class="fab fa-youtube fa-fw mr-1"></i>
+                                        <i>Video</i>
+                                    </a>
+
+                            </div>
+                        </div>
+                    </div>
+<!--                                        </div>-->
+                </div>
+<!--                fin charla 1-->
+
+                <!--                charla 2-->
+                <div class="col-md-4 mb-2 mx-auto   ">
+<!--                                        <div class="card h-100">-->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="card-img-top "
+                                 data-toggle="modal" data-target="#modal-01"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title">¡TAN DISTINTOS, TAN VALIOSOS!</h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i>
+                                <br/>
+                            Una ayuda del cielo para tu familia.
+                                <br/>
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+
+                            <br/>
+
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon" href="series/familia-2020/02-tan-distintos-tan-valiosos.pdf" target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
@@ -204,8 +265,10 @@ include_once('links.php');
                             </div>
                         </div>
                     </div>
+<!--                                        </div>-->
                 </div>
-                <!--            </div>-->
+                <!--                fin charla 2-->
+
             </div>
 
         </div>
