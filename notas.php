@@ -226,7 +226,7 @@ include_once('links.php');
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
                             <img src="/series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="card-img-top "
-                                 data-toggle="modal" data-target="#modal-01"
+                                 data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
@@ -301,6 +301,24 @@ include "footer.php";
         <div class="modal-content">
             <div class="modal-body">
                 <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="modal-02" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">
+                <i class="fas fa-times text-white"></i>
+            </span>
+            <span class="sr-only">
+                <i class="fas fa-window-close-o"></i>
+            </span>
+        </button>
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="img-fluid">
             </div>
         </div>
     </div>
