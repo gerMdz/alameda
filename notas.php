@@ -78,7 +78,7 @@ include_once('links.php');
 
         .bg-fam {
             background: #fafafa;
-            box-shadow: inset 0 0 .625rem rgba(0,0,0,.1),inset 0 0 2.188rem rgba(0,0,0,.03);
+            box-shadow: inset 0 0 .625rem rgba(0, 0, 0, .1), inset 0 0 2.188rem rgba(0, 0, 0, .03);
         }
 
         .position-relative {
@@ -90,18 +90,17 @@ include_once('links.php');
         }
 
 
-
         .card-a {
             -webkit-box-shadow: 0 0 !important;
-            box-shadow: 0 0  !important;
-        }
-        .card {
-            -webkit-box-shadow: 0 0 !important;
-            box-shadow: 0 0  !important;
+            box-shadow: 0 0 !important;
         }
 
-        .bottom-0
-        {
+        .card {
+            -webkit-box-shadow: 0 0 !important;
+            box-shadow: 0 0 !important;
+        }
+
+        .bottom-0 {
             position: absolute;
             left: 5%;
             bottom: 1%;
@@ -111,7 +110,7 @@ include_once('links.php');
             text-align: center;
         }
 
-        .middle-0{
+        .middle-0 {
             /*top: 25%;*/
             position: relative;
         }
@@ -179,9 +178,9 @@ include_once('links.php');
     <section class="a-content-space-medium bg-fam text-center">
         <div class="container">
             <div class="row">
-<!--                charla 1-->
+                <!--                charla 1-->
                 <div class="col-md-4 mb-2 mx-auto   ">
-<!--                                        <div class="card h-100">-->
+                    <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
                             <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top "
@@ -191,38 +190,39 @@ include_once('links.php');
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
                             <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>
                             <div class="middle-0">
-                            <i class="fas fa-quote-left mr-5"></i><br/>
-                            Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
-                            milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
-                            cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
-                            un conyugue, un hijo, un hermano son y serán en tu vida.
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
+                                milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
+                                cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
+                                un conyugue, un hijo, un hermano son y serán en tu vida.
                                 <br/>
 
-                            <i class="fas fa-quote-right ml-5"></i>
+                                <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
 
                             <div class="btn-group bottom-0">
 
-                                <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf" target="_blank">
+                                <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf"
+                                   target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                    <a href="https://youtu.be/7KpEdC1O8eQ" class="btn btn-icon" target="_blank">
-                                        <i class="fab fa-youtube fa-fw mr-1"></i>
-                                        <i>Video</i>
-                                    </a>
+                                <a href="https://youtu.be/7KpEdC1O8eQ" class="btn btn-icon" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
 
                             </div>
                         </div>
                     </div>
-<!--                                        </div>-->
+                    <!--                                        </div>-->
                 </div>
-<!--                fin charla 1-->
+                <!--                fin charla 1-->
 
                 <!--                charla 2-->
                 <div class="col-md-4 mb-2 mx-auto   ">
-<!--                                        <div class="card h-100">-->
+                    <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
                             <img src="/series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="card-img-top "
@@ -234,12 +234,13 @@ include_once('links.php');
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-5"></i>
                                 <br/>
-                            Una ayuda del cielo para tu familia.
+                                Una ayuda del cielo para tu familia.
                                 <br/>
                                 El principio de la aceptación
                                 <br/>
-                                "Por tanto, acéptense mutuamente, así como Cristo los aceptó a ustedes para gloria de Dios."<br/>
-                                Romanos  15:7 (NVI)
+                                "Por tanto, acéptense mutuamente, así como Cristo los aceptó a ustedes para gloria de
+                                Dios."<br/>
+                                Romanos 15:7 (NVI)
                                 <br/>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
@@ -247,15 +248,61 @@ include_once('links.php');
                             <br/>
 
                             <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon" href="series/familia-2020/02-tan-distintos-tan-valiosos.pdf" target="_blank">
+                                <a class="mr-4 btn btn-icon"
+                                   href="series/familia-2020/02-tan-distintos-tan-valiosos.pdf" target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
-                                </a><br/>
+                                </a>
+                                <br/>
+                                <a href="https://youtu.be/GUKO6K3Gqf4" class="btn btn-icon" target="_blank">
+
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                                        </div>-->
+                </div>
+                <!--                fin charla 2-->
+
+                <!--                charla 3-->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100">-->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/familia-2020/00-Familia.jpg" class="card-img-top "
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title">EL REGALO MÁS GRANDE</h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i>
+                                <br/>
+                                Una ayuda del cielo para tu familia.
+                                <br/>
+                                El principio de la bendición
+                                <br/>
+                                "Padre mío ¡Bendíceme también a mí!"
+                                Génesis 27:38 (NVI)
+                                <br/>
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+
+                            <br/>
+
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon"
+                                   href="series/familia-2020/03-el-reagalo-mas-grande.pdf" target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a>
+                                <br/>
                                 <?php
                                 if ($notas_link !== null) {
                                     ?>
                                     <a href="<?php echo $notas_link ?>" class="btn btn-icon" target="_blank">
-
                                         <i class="fab fa-youtube fa-fw mr-1"></i>
                                         <i>Video</i>
                                     </a>
@@ -270,9 +317,9 @@ include_once('links.php');
                             </div>
                         </div>
                     </div>
-<!--                                        </div>-->
+                    <!--                                        </div>-->
                 </div>
-                <!--                fin charla 2-->
+                <!--                fin charla 3-->
 
             </div>
 
