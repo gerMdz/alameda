@@ -5,6 +5,11 @@
 {% block body %}
     <div class="mt-5"><span><hr/></span></div>
     <div class="mt-5"><span><hr/></span></div>
+    {% for message in app.flashes('error') %}
+        <div class="alert alert-danger">
+            {{ message }}
+        </div>
+    {% endfor %}
     <div class="container">
         <h4>Edición de {{ entrada.titulo }} desde {{ ip }}</h4>
         <hr>
@@ -17,6 +22,19 @@
             </div>
             <div class="col-sm-4">
                 <h3>Referencias</h3>
+                <ul class="list-group small">
+                    {% for referencia in entrada.entradaReferences %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ referencia.orginalFilename }}
+                        <span>
+                            <a href="{{ path('admin_entrada_download_reference', {id: referencia.id}) }}">
+                                <i class="fa fa-download"></i>
+                            </a>
+                        </span>
+                    </li>
+                    {% endfor %}
+                </ul>
+
                 <form action="{{ path('admin_entrada_add_referencia',{
                     id: entrada.id
                 }) }}" method="POST" enctype="multipart/form-data">
