@@ -267,6 +267,7 @@ include_once('links.php');
                 <!--                fin charla 2-->
 
                 <!--                charla 3-->
+                <?php if ($ahora > date('2020-06-21 06:00')) { ?>
                 <div class="col-md-4 mb-2 mx-auto   ">
                     <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
@@ -319,6 +320,7 @@ include_once('links.php');
                     </div>
                     <!--                                        </div>-->
                 </div>
+                <?php } ?>
                 <!--                fin charla 3-->
 
             </div>
