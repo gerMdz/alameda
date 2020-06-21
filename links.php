@@ -1,6 +1,6 @@
 <?php
-$notas_link = 'https://youtu.be/GUKO6K3Gqf4';
-$index_link = 'GUKO6K3Gqf4';
+$notas_link = 'https://youtu.be/8iYOXw_GLc8';
+$index_link = '8iYOXw_GLc8';
 
 //
 

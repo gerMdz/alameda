@@ -267,12 +267,12 @@ include_once('links.php');
                 <!--                fin charla 2-->
 
                 <!--                charla 3-->
-                <?php if ($ahora > date('2020-06-21 06:00')) { ?>
-                <div class="col-md-4 mb-2 mx-auto   ">
+
+                <div class="col-md-4 mb-2 mx-auto">
                     <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/familia-2020/00-Familia.jpg" class="card-img-top "
+                            <img src="/series/familia-2020/03-el-reagalo-mas-grande.jpg" class="card-img-top "
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -281,7 +281,11 @@ include_once('links.php');
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-5"></i>
                                 <br/>
-                                Una ayuda del cielo para tu familia.
+                                ¡Regala a tu padre,
+                                <br/>
+                                regala a tus hjios,
+                                <br/>
+                                un momento inolvidable!
                                 <br/>
                                 El principio de la bendición
                                 <br/>
@@ -300,14 +304,13 @@ include_once('links.php');
                                     <b>Notas</b>
                                 </a>
                                 <br/>
-                                <?php
-                                if ($notas_link !== null) {
-                                    ?>
-                                    <a href="<?php echo $notas_link ?>" class="btn btn-icon" target="_blank">
+
+
+                                    <a href="https://youtu.be/8iYOXw_GLc8" class="btn btn-icon" target="_blank">
                                         <i class="fab fa-youtube fa-fw mr-1"></i>
                                         <i>Video</i>
                                     </a>
-                                <?php } ?>
+
                                 <!--                                <button class="btn btn-secondary btn-icon">-->
                                 <!--                                    <span class="mr-1"><i class="far fa-user"></i></span>-->
                                 <!--                                    Follow-->
@@ -320,7 +323,7 @@ include_once('links.php');
                     </div>
                     <!--                                        </div>-->
                 </div>
-                <?php } ?>
+
                 <!--                fin charla 3-->
 
             </div>
