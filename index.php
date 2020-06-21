@@ -621,20 +621,20 @@ include_once('links.php');
         <div class="row text-center d-flex align-items-center bg-white">
 
             <div class="col-sm-4 pull-left">
-                <img src="images/textos/texto-ppal.jpg" class="img-fluid rounded"/>
+                <img src="series/familia-2020/00-Familia.jpg" class="img-fluid rounded"/>
             </div>
 
             <div class="col-sm-8 pt-5">
                 <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5">
                     <div class="center-element btn btn-blue rotar90 mt-sm-0">
-                        Juan 3:16 (NTV)
+                        Génesis 27:38 (NVI)
                     </div>
                     <div>
                         <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
                             class="pt-sm-0 pt-lg-3 text-right">
                             "
-                            Pues Dios amó tanto al mundo que dio a su único Hijo, para que todo el que crea en él no se
-                            pierda, sino que tenga vida eterna
+                            Padre mío ¡Bendíceme también a mí!
+
                             "
                         </h2>
                     </div>
@@ -672,7 +672,7 @@ include('section-ministerios.php');
     <div class="container">
         <div class="row text-center d-flex align-items-center">
             <div class="col-sm-3 pull-left">
-                <img src="../images/logoYoutubeBrown.png" class="img-fluid rounded"/>
+                <img src="../images/logoYoutubeBrown.png" class="img-fluid rounded" alt="<?php echo $lemaSinEspacios ?>"/>
             </div>
             <div class="col-sm-9 pull-right ">
 
