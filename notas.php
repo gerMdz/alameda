@@ -183,7 +183,7 @@ include_once('links.php');
                     <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top "
+                            <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top"
                                  data-toggle="modal" data-target="#modal-01"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -225,7 +225,7 @@ include_once('links.php');
                     <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="card-img-top "
+                            <img src="/series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="card-img-top img-modal "
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -236,11 +236,13 @@ include_once('links.php');
                                 <br/>
                                 Una ayuda del cielo para tu familia.
                                 <br/>
-                                El principio de la aceptación
+                                <b>El principio de la aceptación</b>
                                 <br/>
-                                "Por tanto, acéptense mutuamente, así como Cristo los aceptó a ustedes para gloria de
+                                <blockquote class="border-left border-warning py-1 pl-1">
+                                 "Por tanto, acéptense mutuamente, así como Cristo los aceptó a ustedes para gloria de
                                 Dios."<br/>
                                 Romanos 15:7 (NVI)
+                                </blockquote>
                                 <br/>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
@@ -272,7 +274,7 @@ include_once('links.php');
                     <!--                                        <div class="card h-100">-->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/familia-2020/03-el-reagalo-mas-grande.jpg" class="card-img-top "
+                            <img src="/series/familia-2020/03-el-reagalo-mas-grande.jpg" class="card-img-top img-modal "
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -287,11 +289,13 @@ include_once('links.php');
                                 <br/>
                                 un momento inolvidable!
                                 <br/>
-                                El principio de la bendición
+                                <b>El principio de la bendición</b>
                                 <br/>
-                                "Padre mío ¡Bendíceme también a mí!"
-                                Génesis 27:38 (NVI)
-                                <br/>
+                                <blockquote class="border-left border-warning py-1 pl-1">
+                                    "Padre mío ¡Bendíceme también a mí!"
+                                <br/>Génesis 27:38 (NVI)
+                                </blockquote>
+
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
 
@@ -306,7 +310,7 @@ include_once('links.php');
                                 <br/>
 
 
-                                    <a href="https://youtu.be/8iYOXw_GLc8" class="btn btn-icon" target="_blank">
+                                    <a href="https://youtu.be/vZycZAQkjAg" class="btn btn-icon" target="_blank">
                                         <i class="fab fa-youtube fa-fw mr-1"></i>
                                         <i>Video</i>
                                     </a>
@@ -325,6 +329,67 @@ include_once('links.php');
                 </div>
 
                 <!--                fin charla 3-->
+
+                <!--                charla 4-->
+
+                <div class="col-md-4 mb-2 mx-auto">
+                    <!--                                        <div class="card h-100">-->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/familia-2020/04-todo-en-tus-manos.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-04"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title">TODO EN SUS MANOS</h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i>
+                                <br/>
+                                Cuando no querés sentirte así
+                                <br/>
+                                <b>El principio de la responsabilidad</b>
+                                <br/>
+                                <blockquote class="border-left border-warning py-1">
+                                    “Cuando Jesús lo vio allí, tirado en el suelo,
+                                    y se enteró de que ya tenía mucho tiempo de estar así, le preguntó: --¿Quieres quedar sano?
+                                    <br/>Juan 5:6 (NVI)
+                                </blockquote>
+
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+
+                            <br/>
+
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon"
+                                   href="series/familia-2020/04-todo-en-tus-manos.pdf" target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a>
+                                <br/>
+
+
+                                <a href="https://youtu.be/F1G9OLL-HzU" class="btn btn-icon" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
+
+                                <!--                                <button class="btn btn-secondary btn-icon">-->
+                                <!--                                    <span class="mr-1"><i class="far fa-user"></i></span>-->
+                                <!--                                    Follow-->
+                                <!--                                </button>-->
+                                <!--                                <button class="btn btn-primary">-->
+                                <!--                                    <i class="far fa-envelope"></i>-->
+                                <!--                                </button>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--                                        </div>-->
+                </div>
+
+                <!--                fin charla 4-->
+
+
 
             </div>
 
@@ -374,8 +439,9 @@ include "footer.php";
             </span>
         </button>
         <div class="modal-content">
-            <div class="modal-body">
-                <img src="series/familia-2020/02-tan-distintos-tan-valiosos.jpg" class="img-fluid">
+            <div class="modal-body  ">
+                <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
+
             </div>
         </div>
     </div>
@@ -386,6 +452,16 @@ include('js-base-uikit.php');
 ?>
 
 <script src="js/alameda.js"></script>
+<script>
+    $(function () {
+        $('.img-modal').on( "click", function() {
+            var img = this.src;
+            var modal =$('#modal-02')
+            $('.modal-body img').attr('src',img);
+            modal.modal();
+        });
+    })
+</script>
 
 </body>
 
