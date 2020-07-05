@@ -375,7 +375,7 @@ include_once('links.php');
                                     <b>Notas</b>
                                 </a>
                                 <br/>
-                                <a href="https://youtube.com/user/IglesiaAlameda" class="btn btn-icon" target="_blank">
+                                <a href="https://youtu.be/ULNM7KUy2co" class="btn btn-icon" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <i>Video</i>
                                 </a>
