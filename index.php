@@ -1,6 +1,6 @@
 <?php
-$lema = 'Familia, Tu Lugar en el Mundo';
-$lemaSinEspacios = 'familia-tu-lugar-en-el-mundo';
+$lema = 'Escape a la LIbertad';
+$lemaSinEspacios = 'Escape-a-la-LIbertad';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
@@ -133,7 +133,7 @@ include_once('links.php');
     </div>
     <!--Seccion cover-->
     <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white"
-             style="background-image: url(series/familia-2020/FAMILIA-2020-TAPA-001.jpg); background-position: 50% 0px !important;">
+             style="background-image: url(series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg); background-position: 50% 0px !important;">
         <!-- Vacío para texto Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space ">
             <div class="row justify-content-center">
