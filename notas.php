@@ -5,12 +5,12 @@
  * Date: 02/06/2020
  * Time: 06:22
  */
-$lema = 'Familia, Tu lugar en el Mundo';
-$lemaSinEspacios = 'familia-tu-lugar-en-el-mundo';
+$lema = 'Escape a la LIbertad';
+$lemaSinEspacios = 'Escape-a-la-LIbertad';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Serie Familia 2020';
+$title = 'Serie Escape a la LIbertad';
 /**
  * @example pregunta si la cuarentena terminó
  */
@@ -114,7 +114,7 @@ include_once('links.php');
 <header>
     <?php include 'nav.php'; ?>
     <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-dark"
-             style="background-image: url(series/familia-2020/FAMILIA-2020-TAPA-002.jpg); background-repeat: repeat-y ;">
+             style="background-image: url(series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg); background-repeat: repeat-y ;">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
@@ -136,21 +136,18 @@ include_once('links.php');
             <div class="row ">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 ">
-                    <h1 class="mb-3">Familia,<br/> Tu lugar en el Mundo</h1>
+                    <h1 class="mb-3">Escape a la <br/> Libertad</h1>
                     <p>
-                        Descubrir el valor inmenso de la familia. A comprender el hilo que enlaza tu vida en tu familia.
-                        Explorar y trabajar el desafío presente. Practicar algunas herramientas para destrabar los
-                        enemigos de las relaciones. Encontrar en Dios las fuerzas para un amor más valiente, más
-                        generoso, más confiado.
+                        Es hora que las puertas se abran
                     </p>
                     <p class="blockquote-footer">
-                        "Ámense unos a otros con un afecto genuino y deléitense al honrarse mutuamente." Romanos 12:10
-                        (NTV)
+                        Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad, ¡ésta se abrió por sí misma!
+                        Hechos 12:10 (RVC)
                     </p>
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="series/familia-2020/FAMILIA-2020-TAPA-001.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -160,230 +157,57 @@ include_once('links.php');
         <div class="container">
             <div class="row">
                 <!--                charla 1-->
-                <div class="col-md-4 mb-2 mx-auto   ">
-                    <!--                                        <div class="card h-100">-->
-                    <div class="card card-a h-100 overflow-hidden">
-                        <div class="position-relative">
-                            <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top"
-                                 data-toggle="modal" data-target="#modal-01"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-5"></i><br/>
-                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo
-                                milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a
-                                cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,
-                                un conyugue, un hijo, un hermano son y serán en tu vida.
-                                <br/>
-                                <i class="fas fa-quote-right ml-5"></i>
-                            </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf"
-                                   target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a><br/>
-                                <a href="https://youtu.be/7KpEdC1O8eQ" class="btn btn-icon" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--                                        </div>-->
-                </div>
+<!--                <div class="col-md-4 mb-2 mx-auto   ">-->
+<!--                    <!--                                        <div class="card h-100">-->
+<!--                    <div class="card card-a h-100 overflow-hidden">-->
+<!--                        <div class="position-relative">-->
+<!--                            <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top"-->
+<!--                                 data-toggle="modal" data-target="#modal-01"-->
+<!--                                 alt="--><?php //echo $lemaSinEspacios ?><!--">-->
+<!--                        </div>-->
+<!--                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">-->
+<!--                            <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>-->
+<!--                            <div class="middle-0">-->
+<!--                                <i class="fas fa-quote-left mr-5"></i><br/>-->
+<!--                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo-->
+<!--                                milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a-->
+<!--                                cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,-->
+<!--                                un conyugue, un hijo, un hermano son y serán en tu vida.-->
+<!--                                <br/>-->
+<!--                                <i class="fas fa-quote-right ml-5"></i>-->
+<!--                            </div>-->
+<!--                            <br/>-->
+<!--                            <div class="btn-group bottom-0">-->
+<!--                                <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf"-->
+<!--                                   target="_blank">-->
+<!--                                    <i class="far fa-file-pdf mr-1"></i>-->
+<!--                                    <b>Notas</b>-->
+<!--                                </a><br/>-->
+<!--                                <a href="https://youtu.be/7KpEdC1O8eQ" class="btn btn-icon" target="_blank">-->
+<!--                                    <i class="fab fa-youtube fa-fw mr-1"></i>-->
+<!--                                    <i>Video</i>-->
+<!--                                </a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <!--                                        </div>-->
+<!--                </div>-->
                 <!--                fin charla 1-->
 
                 <!--                charla 2-->
-                <div class="col-md-4 mb-2 mx-auto   ">
-                    <!--                                        <div class="card h-100">-->
-                    <div class="card card-a h-100 overflow-hidden">
-                        <div class="position-relative">
-                            <img src="/series/familia-2020/02-tan-distintos-tan-valiosos.jpg"
-                                 class="card-img-top img-modal "
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title">¡TAN DISTINTOS, TAN VALIOSOS!</h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-5"></i>
-                                <br/>
-                                Una ayuda del cielo para tu familia.
-                                <br/>
-                                <b>El principio de la aceptación</b>
-                                <br/>
-                                <blockquote class="border-left border-warning py-1 pl-1">
-                                    "Por tanto, acéptense mutuamente, así como Cristo los aceptó a ustedes para gloria
-                                    de
-                                    Dios."<br/>
-                                    Romanos 15:7 (NVI)
-                                </blockquote>
-                                <br/>
-                                <i class="fas fa-quote-right ml-5"></i>
-                            </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon"
-                                   href="series/familia-2020/02-tan-distintos-tan-valiosos.pdf" target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a>
-                                <br/>
-                                <a href="https://youtu.be/GUKO6K3Gqf4" class="btn btn-icon" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--                                        </div>-->
-                </div>
+
                 <!--                fin charla 2-->
 
                 <!--                charla 3-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <!--                                        <div class="card h-100">-->
-                    <div class="card card-a h-100 overflow-hidden">
-                        <div class="position-relative">
-                            <img src="/series/familia-2020/03-el-reagalo-mas-grande.jpg" class="card-img-top img-modal "
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title">EL REGALO MÁS GRANDE</h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-5"></i>
-                                <br/>
-                                ¡Regala a tu padre,
-                                <br/>
-                                regala a tus hjios,
-                                <br/>
-                                un momento inolvidable!
-                                <br/>
-                                <b>El principio de la bendición</b>
-                                <br/>
-                                <blockquote class="border-left border-warning py-1 pl-1">
-                                    "Padre mío ¡Bendíceme también a mí!"
-                                    <br/>Génesis 27:38 (NVI)
-                                </blockquote>
-                                <i class="fas fa-quote-right ml-5"></i>
-                            </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon"
-                                   href="series/familia-2020/03-el-reagalo-mas-grande.pdf" target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a>
-                                <br/>
-                                <a href="https://youtu.be/vZycZAQkjAg" class="btn btn-icon" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
-                                </a>
-                                <!--                                <button class="btn btn-secondary btn-icon">-->
-                                <!--                                    <span class="mr-1"><i class="far fa-user"></i></span>-->
-                                <!--                                    Follow-->
-                                <!--                                </button>-->
-                                <!--                                <button class="btn btn-primary">-->
-                                <!--                                    <i class="far fa-envelope"></i>-->
-                                <!--                                </button>-->
-                            </div>
-                        </div>
-                    </div>
-                    <!--                                        </div>-->
-                </div>
+
                 <!--                fin charla 3-->
 
                 <!--                charla 4-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <!--                                        <div class="card h-100">-->
-                    <div class="card card-a h-100 overflow-hidden">
-                        <div class="position-relative">
-                            <img src="/series/familia-2020/04-todo-en-tus-manos.jpg" class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-04"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title">TODO EN SUS MANOS</h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-5"></i>
-                                <br/>
-                                Cuando no querés sentirte así
-                                <br/>
-                                <b>El principio de la responsabilidad</b>
-                                <br/>
-                                <blockquote class="border-left border-warning py-1">
-                                    “Cuando Jesús lo vio allí, tirado en el suelo,
-                                    y se enteró de que ya tenía mucho tiempo de estar así, le preguntó: --¿Quieres
-                                    quedar sano?
-                                    <br/>Juan 5:6 (NVI)
-                                </blockquote>
-                                <i class="fas fa-quote-right ml-5"></i>
-                            </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon"
-                                   href="series/familia-2020/04-todo-en-tus-manos.pdf" target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a>
-                                <br/>
-                                <a href="https://youtu.be/F1G9OLL-HzU" class="btn btn-icon" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--                                        </div>-->
-                </div>
+
                 <!--                fin charla 4-->
 
                 <!--                charla 5 -->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <!--                                        <div class="card h-100">-->
-                    <div class="card card-a h-100 overflow-hidden">
-                        <div class="position-relative">
-                            <img src="/series/familia-2020/05-como-si-fuera-la-primera-vez.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-04"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title">COMO SI FUERA LA PRIMRA VEZ</h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-5"></i>
-                                <br/>
-                                <b>El principio de la gracia</b>
-                                <br/>
-                                <blockquote class="border-left border-warning py-1">
-                                    "Si se enojan, no pequen." No dejen que el sol se ponga estando
-                                    aún enojados," <br/>
-                                    Efesios 4:26 (NVI)
-                                </blockquote>
-                                <i class="fas fa-quote-right ml-5"></i>
-                            </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon"
-                                   href="series/familia-2020/05-como-si-fuera-la-primera-vez.pdf" target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a>
-                                <br/>
-                                <a href="https://youtu.be/ULNM7KUy2co" class="btn btn-icon" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--                                        </div>-->
-                </div>
+
                 <!--                fin charla 5 -->
             </div>
         </div>
@@ -393,7 +217,7 @@ include_once('links.php');
     <div class="card-body">
         <h4 class="text-darker card-text text-center">Ver series anteriores </h4>
         <div class="col-sm-2 mx-auto text-center">
-            <a href="notas-oraciones-audaces.php" class="btn btn-xl btn-primary"> Oraciones Audaces</a>
+            <a href="familia-tu-lugar-en-el-mundo.php" class="btn btn-xl btn-primary"> Familia, tu lugar en el mundo</a>
         </div>
     </div>
 </footer>
