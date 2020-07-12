@@ -161,8 +161,8 @@ include_once('links.php');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/01-escape-a-la-libertad.jpg" class="card-img-top"
-                                 data-toggle="modal" data-target="#modal-01"
+                            <img src="/series/escape-a-la-libertad/01-escape-a-la-libertad.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
@@ -237,7 +237,7 @@ include "footer.php";
         </button>
         <div class="modal-content">
             <div class="modal-body">
-                <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
+                <img src="" class="img-fluid">
             </div>
         </div>
     </div>
@@ -254,7 +254,7 @@ include "footer.php";
         </button>
         <div class="modal-content">
             <div class="modal-body  ">
-                <img src="series/familia-2020/01-Maravillas-Cotidianas.jpg" class="img-fluid">
+                <img src="" class="img-fluid">
             </div>
         </div>
     </div>
