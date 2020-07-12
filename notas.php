@@ -267,8 +267,8 @@ include('js-base-uikit.php');
 <script>
     $(function () {
         $('.img-modal').on("click", function () {
-            var img = this.src;
-            var modal = $('#modal-02')
+            let img = this.src;
+            let modal = $('#modal-02')
             $('.modal-body img').attr('src', img);
             modal.modal();
         });
