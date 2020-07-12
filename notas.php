@@ -237,7 +237,7 @@ include "footer.php";
         </button>
         <div class="modal-content">
             <div class="modal-body">
-                <img src="" class="img-fluid">
+                <img src="" class="img-fluid" alt="Iglesia de la Alameda">
             </div>
         </div>
     </div>
