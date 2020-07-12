@@ -157,41 +157,42 @@ include_once('links.php');
         <div class="container">
             <div class="row">
                 <!--                charla 1-->
-<!--                <div class="col-md-4 mb-2 mx-auto   ">-->
-<!--                    <!--                                        <div class="card h-100">-->
-<!--                    <div class="card card-a h-100 overflow-hidden">-->
-<!--                        <div class="position-relative">-->
-<!--                            <img src="/series/familia-2020/01-Maravillas-Cotidianas.jpg" class="card-img-top"-->
-<!--                                 data-toggle="modal" data-target="#modal-01"-->
-<!--                                 alt="--><?php //echo $lemaSinEspacios ?><!--">-->
-<!--                        </div>-->
-<!--                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">-->
-<!--                            <h5 class="card-title">MARAVILLAS COTIDIANAS</h5>-->
-<!--                            <div class="middle-0">-->
-<!--                                <i class="fas fa-quote-left mr-5"></i><br/>-->
-<!--                                Descubrir el valor inmenso de la familia que hoy está a tu lado. Celebrar el regalo-->
-<!--                                milagroso que sucede cada día al practicar el principio de la honra. Asignar valor a-->
-<!--                                cada persona, y asi practicar el asombro, la admiración ante la maravilla que un padre,-->
-<!--                                un conyugue, un hijo, un hermano son y serán en tu vida.-->
-<!--                                <br/>-->
-<!--                                <i class="fas fa-quote-right ml-5"></i>-->
-<!--                            </div>-->
-<!--                            <br/>-->
-<!--                            <div class="btn-group bottom-0">-->
-<!--                                <a class="mr-4 btn btn-icon" href="series/familia-2020/01-Maravillas-Cotidianas.pdf"-->
-<!--                                   target="_blank">-->
-<!--                                    <i class="far fa-file-pdf mr-1"></i>-->
-<!--                                    <b>Notas</b>-->
-<!--                                </a><br/>-->
-<!--                                <a href="https://youtu.be/7KpEdC1O8eQ" class="btn btn-icon" target="_blank">-->
-<!--                                    <i class="fab fa-youtube fa-fw mr-1"></i>-->
-<!--                                    <i>Video</i>-->
-<!--                                </a>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                    <!--                                        </div>-->
-<!--                </div>-->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/01-escape-a-la-libertad.jpg" class="card-img-top"
+                                 data-toggle="modal" data-target="#modal-01"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                Escape a la libertad
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>La prisión vs. la oración</u>
+                                <br/>
+                                Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad, ¡ésta se abrió por sí misma!
+                                Hechos 12:10 (RVC)
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/01-escape-a-la-libertad.pdf"
+                                   target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a><br/>
+                                <a href="https://youtu.be/18isylytojk" class="btn btn-icon" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                                        </div>
+                </div>
                 <!--                fin charla 1-->
 
                 <!--                charla 2-->
