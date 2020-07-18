@@ -59,6 +59,7 @@ include_once('links.php');
 
     <!-- Style Auto core  -->
     <link href="css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="css/bg.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <!-- Style Auto core  -->
 
     <!-- Fonts  core  -->
@@ -326,6 +327,55 @@ include_once('links.php');
         </div>
     </section>
 <?php } ?>
+
+<section class="page-section vw-100 text-white">
+    <div class="container bg-anuncios">
+        <div class="row">
+            <div class="col-sm-8 text-center align-self-center ">
+                <h2 class="text-center text-white-75">
+                    Acercate a la Experiencia <br/>
+                    <div style="line-height: 0.6em">
+                        <br/>
+                    <strong class="text-uppercase mb-0 pb-0"
+                            style="font-weight: 900; font-family: druk_italic;
+                            "
+                    >Alameda
+
+                    </strong>
+                        <br/>
+                        <small style="font-size: 0.4em">
+                            online
+                        </small>
+                    </div>
+
+
+
+                </h2>
+                Visitá nuestra casa virtual para ver y <br/>
+                experimentar nuestras celebraciones online
+                <br/>
+                <a class="btn btn-link text-white" href="https://online.iglesiaalameda.com">
+                    <h3>
+                        online.iglesiaalameda.com
+                    </h3>
+                </a>
+            </div>
+            <div class="col-sm-4 order-lg-last mb-1 mb-lg-0 align-self-center">
+                <h6 class="text-center">
+                    <small> Escanea el código para <br/>ingresar desde tu móvil
+                    </small>
+                </h6>
+                <h6 class="text-center">
+
+                    <a target="_blank" href="https://online.iglesiaalameda.com">
+                        <img class="img-fluid w-50 u-browser-img u-box-shadow-lg" src="/images/institucional/qr-online.png" alt="Iglesia de la Alameda">
+                    </a>
+                </h6>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 <section class="page-section bg-light" id="ppasos">
     <div class="container">
@@ -822,7 +872,7 @@ include('section-ministerios.php');
                 </h3>
             </div>
             <div class="col-md-6 col-lg-3  ">
-                <span class="fa-stack list-inline compuesto" ">
+                <span class="fa-stack list-inline compuesto">
                 <i class="fas fa-circle fa-stack-2x text-point"></i>
                 <i class="material-icons fa-stack-1x fa-inverse item-inline"
                    style="font-size: 1em; text-align: center; top:0.5em" aria-hidden="true">toys</i>

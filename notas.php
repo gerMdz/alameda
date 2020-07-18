@@ -147,7 +147,7 @@ include_once('links.php');
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="series/escape-a-la-libertad/escape-a-la-libertad-second.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -191,12 +191,48 @@ include_once('links.php');
                             </div>
                         </div>
                     </div>
-                    <!--                                        </div>
-                </div>
+                                                            </div>
+<!--                </div>-->
                 <!--                fin charla 1-->
 
                 <!--                charla 2-->
-
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/02-hay-equipo.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                Hay equipo
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    ¡Cómo elegir buenos amigos para escapar del encierro
+                                </u>
+                                <br/>
+                                Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad, ¡ésta se abrió por sí misma!
+                                Hechos 12:10 (RVC)
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/02-hay-equipo.pdf"
+                                   target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a><br/>
+                                <a href="https://youtu.be/18isylytojk" class="btn btn-icon" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--                fin charla 2-->
 
                 <!--                charla 3-->
