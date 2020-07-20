@@ -18,8 +18,9 @@ use Symfony\Component\Routing\Annotation\Route;
 class PerfilController extends AbstractController
 {
     /**
-     * @Route("/perfil", name="app_perfil")
+     * @Route("web/perfil", name="app_perfil")
      *
+     * @param IndexAlamedaRepository $indexAlamedaRepository
      * @return Response
      */
     public function index(IndexAlamedaRepository $indexAlamedaRepository)

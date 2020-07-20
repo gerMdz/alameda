@@ -126,3 +126,4 @@ yarn-error.log
 /public_html/js/header-demo.js
 /public_html/css-misc/mdb.min.css
 /public_html/css-misc/resume.min.css
+!/public_html/images/favicon/
