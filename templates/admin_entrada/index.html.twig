@@ -1,4 +1,5 @@
 {% extends 'contenido_base.html.twig' %}
+{% block title %}Listado Entradas{% endblock %}
 
 {% block contenido_body %}
     <a href="{{ path('admin_entrada_new') }}" class="btn btn-sm btn-primary pull-right">
@@ -19,7 +20,8 @@
                     Titulo <br/>
                     Linkroute
                 </th>
-                <th>Likes</th>
+                <th>Likes<br/>
+                Comentarios</th>
                 <th>
                     Autor<br/>
                     email
@@ -38,7 +40,8 @@
                         {{ entrada.linkRoute }}
                     </td>
                     <td>
-                        {{ entrada.likes }}
+                        {{ entrada.likes }} Likes <br/>
+                        <small>({{ entrada.comentariosNoDeleted | length }} Comentarios)</small>
                     </td>
                     <td>
                         {{ entrada.autor }} --

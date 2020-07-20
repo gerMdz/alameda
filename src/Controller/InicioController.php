@@ -3,8 +3,12 @@
 namespace App\Controller;
 
 use App\Entity\IndexAlameda;
+use App\Entity\Principal;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
 class InicioController extends AbstractController
 {
@@ -23,6 +27,45 @@ class InicioController extends AbstractController
     }
 
     /**
+     * @Route("/ingreso", name="app_ingreso")
+     * @param AuthenticationUtils $authenticationUtils
+     * @return RedirectResponse
+     */
+    public function ingreso(AuthenticationUtils $authenticationUtils)
+    {
+        return $this->redirectToRoute('app_login');
+    }
+
+    /**
+     * @Route("/{linkRoute}", name="principal_ver", methods={"GET"})
+     * @param Principal $principal
+     * @return Response
+     */
+    public function ver(Principal $principal): Response
+    {
+        $vista = $principal->getLinkRoute();
+        return $this->render('inicio/'.$vista.'.html.twig', [
+            'principal' => $principal,
+        ]);
+    }
+
+    /**
+     * @Route("/{id}", name="principal_show", methods={"GET"})
+     * @param Principal $principal
+     * @return Response
+     */
+    public function show(Principal $principal): Response
+    {
+        $vista = $principal->getLinkRoute();
+
+        return $this->render($vista.'.html.twig', [
+            'principal' => $principal,
+        ]);
+    }
+
+
+
+    /**
      * @Route("/contacto", name="contacto")
      */
     public function contacto()
@@ -31,11 +74,19 @@ class InicioController extends AbstractController
     }
 
     /**
+     * @Route("/avanza", name="avanza")
+     */
+    public function avanza()
+    {
+        return $this->render('inicio/avanza.html.twig', []);
+    }
+
+    /**
      * @Route("/grupospequeños", name="gpc", options = {"utf8": true })
      */
     public function gpc()
     {
-        return $this->render('inicio/gpc.html.twig', []);
+        return $this->render('inicio/grupospequeños.html.twig', []);
     }
 
     /**

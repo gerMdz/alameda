@@ -40,6 +40,16 @@ class Comentario
      */
     private $principal;
 
+    /**
+     * @ORM\Column(type="boolean", nullable=true)
+     */
+    private $isDeleted = false;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=Derivada::class, inversedBy="comenttarios")
+     */
+    private $derivada;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -89,6 +99,30 @@ class Comentario
     public function setPrincipal(?Principal $principal): self
     {
         $this->principal = $principal;
+
+        return $this;
+    }
+
+    public function getIsDeleted(): ?bool
+    {
+        return $this->isDeleted;
+    }
+
+    public function setIsDeleted(?bool $isDeleted): self
+    {
+        $this->isDeleted = $isDeleted;
+
+        return $this;
+    }
+
+    public function getDerivada(): ?Derivada
+    {
+        return $this->derivada;
+    }
+
+    public function setDerivada(?Derivada $derivada): self
+    {
+        $this->derivada = $derivada;
 
         return $this;
     }

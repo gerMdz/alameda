@@ -6,7 +6,9 @@ use App\Repository\PrincipalRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass=PrincipalRepository::class)
@@ -30,6 +32,7 @@ class Principal
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank(message="El título de la página, no debe estar en blanco")
      */
     private $titulo;
 
@@ -39,7 +42,8 @@ class Principal
     private $contenido;
 
     /**
-     * @ORM\Column(type="string", length=150)
+     * @ORM\Column(type="string", length=150, unique=true, nullable=true)
+     * @Gedmo\Slug(fields={"titulo"})
      */
     private $linkRoute;
 
@@ -58,9 +62,26 @@ class Principal
      */
     private $comentarios;
 
+    /**
+     * @ORM\ManyToMany(targetEntity=Entrada::class, inversedBy="principals")
+     */
+    private $entradas;
+
+    /**
+     * @ORM\OneToMany(targetEntity=Derivada::class, mappedBy="principal")
+     */
+    private $derivadas;
+
     public function __construct()
     {
         $this->comentarios = new ArrayCollection();
+        $this->entradas = new ArrayCollection();
+        $this->derivadas = new ArrayCollection();
+    }
+
+    public function __toString()
+    {
+        return $this->titulo;
     }
 
     public function getId(): ?int
@@ -165,6 +186,63 @@ class Principal
             // set the owning side to null (unless already changed)
             if ($comentario->getPrincipal() === $this) {
                 $comentario->setPrincipal(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Entrada[]
+     */
+    public function getEntradas(): Collection
+    {
+        return $this->entradas;
+    }
+
+    public function addEntrada(Entrada $entrada): self
+    {
+        if (!$this->entradas->contains($entrada)) {
+            $this->entradas[] = $entrada;
+        }
+
+        return $this;
+    }
+
+    public function removeEntrada(Entrada $entrada): self
+    {
+        if ($this->entradas->contains($entrada)) {
+            $this->entradas->removeElement($entrada);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Derivada[]
+     */
+    public function getDerivadas(): Collection
+    {
+        return $this->derivadas;
+    }
+
+    public function addDerivada(Derivada $derivada): self
+    {
+        if (!$this->derivadas->contains($derivada)) {
+            $this->derivadas[] = $derivada;
+            $derivada->setPrincipal($this);
+        }
+
+        return $this;
+    }
+
+    public function removeDerivada(Derivada $derivada): self
+    {
+        if ($this->derivadas->contains($derivada)) {
+            $this->derivadas->removeElement($derivada);
+            // set the owning side to null (unless already changed)
+            if ($derivada->getPrincipal() === $this) {
+                $derivada->setPrincipal(null);
             }
         }
 

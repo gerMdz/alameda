@@ -9,10 +9,6 @@ node_modules
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
-###> symfony/web-server-bundle ###
-/.web-server-pid
-###< symfony/web-server-bundle ###
-
 ###> symfony/webpack-encore-bundle ###
 /node_modules/
 /public_html/build/
@@ -38,6 +34,19 @@ yarn-error.log
 /src/DataFixtures/images/01-Ante-lo-inesperado.jpg
 /src/DataFixtures/images/02-Indomita.jpg
 /src/DataFixtures/images/03-Rescate-en-las-llamas.jpg
+/public/vendors/
+/assets/images/
+/assets/fonts/
+/public/js/
+/.php_cs.cache
+/public/stream-ui-kit/
+/public/business-casual/
+/public/material-kit/
+/public/shards-ui/
+/public/media/
+/public/media/cache
+/public/pre/uploads/entrada_reference/
+/migrations/Version20200617115938.php
 /public_html/vendors/
 /assets/images/favicon/
 /assets/fonts/big_noodle_titling.ttf
@@ -62,3 +71,58 @@ yarn-error.log
 /vendor.zip
 /assets/images/LOGO_ALAMEDA_CON_TEXTO_B.png
 /assets/images/qrmpILA.png
+
+/public/vendors/tilt/
+/public/css/stream-ui-kit/assets/vendors/
+/public/fonts/awasome/
+/public/fonts/druk/
+/public/fonts/univers/
+/public/css/stream-ui-kit/assets/img/
+/public/css/stream-ui-kit/assets/img-temp/
+/public/css/stream-ui-kit/assets/include/
+/public/fonts/UniversLTStd-Obl.otf
+/public/fonts/Joyful Story.otf
+/public/fonts/Tuesnight.otf
+/public/fonts/onlinefontconverter.com.zip
+/public/fonts/Hoverage.otf
+/public/fonts/WarnockPro-ItSubh.otf
+/public/images/imagen-auditorio.jpg
+/public/images/imagen-auditorio-noche.jpg
+/public/images/logoYoutubeBrown.png
+/public/images/a2-fdoBlanco-ltrNaranja.jpg
+/public/images/imgMenu.png
+/public/images/qr-online.png
+/public/fonts/big_noodle_titling.ttf
+/public/fonts/GreatLakesNF.ttf
+/public/fonts/Black Diamond.otf
+/public/fonts/Matahati Regular.otf
+/public/css/stream-ui-kit/assets/js/vendors/
+/public/css/stream-ui-kit/starter-template.html
+/public/images/a2-fdoNegro-ltrBlanca.jpg
+/public/images/iglesiaAlamedaInstagram.jpg
+/public/images/logo-oracion.png
+/public_html/business-casual/.gitignore
+/public_html/business-casual/
+/public_html/stream-ui-kit/.gitignore
+/public_html/stream-ui-kit/
+/public_html/css/stream-ui-kit/
+/public_html/images/favicon/.gitignore
+/public_html/images/favicon/
+/public_html/js/.gitignore
+/public_html/pre/uploads/entrada_reference/.gitignore
+/public_html/pre/uploads/entrada_reference/
+/public_html/shards-ui/dist/images/
+/public_html/fonts/awasome/
+/public_html/fonts/awasome/
+/public_html/images/
+/public_html/shards-ui/dist/
+/public_html/shards-ui/
+/public_html/fonts/
+/public_html/js/vendors/
+/public_html/css/drop-custom.css
+/public_html/icons/foundation-icons.css
+/public_html/icons/foundation-icons.woff
+/public_html/js/global.js
+/public_html/js/header-demo.js
+/public_html/css-misc/mdb.min.css
+/public_html/css-misc/resume.min.css

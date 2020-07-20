@@ -2,6 +2,8 @@
 
 namespace App\Entity;
 
+use App\Entity\Traits\OfertTrait;
+use App\Repository\EntradaRepository;
 use App\Service\UploaderHelper;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -15,6 +17,7 @@ use Gedmo\Timestampable\Traits\TimestampableEntity;
 class Entrada
 {
     use TimestampableEntity;
+    use OfertTrait;
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -58,6 +61,7 @@ class Entrada
 
     /**
      * @ORM\OneToMany(targetEntity=EntradaReference::class, mappedBy="entrada")
+     * @ORM\OrderBy({"posicion"="ASC"})
      */
     private $entradaReferences;
 
@@ -67,9 +71,20 @@ class Entrada
     private $likes = 0;
 
     /**
-     * @ORM\OneToMany(targetEntity=Comentario::class, mappedBy="entrada")
+     * @ORM\OneToMany(targetEntity=Comentario::class, mappedBy="entrada", fetch="EXTRA_LAZY")
+     * @ORM\OrderBy({"createdAt" = "DESC"})
      */
     private $comentarios;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=Principal::class, mappedBy="entradas")
+     */
+    private $principals;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=Derivada::class, mappedBy="entrada")
+     */
+    private $derivadas;
 
 
 
@@ -77,6 +92,13 @@ class Entrada
     {
         $this->entradaReferences = new ArrayCollection();
         $this->comentarios = new ArrayCollection();
+        $this->principals = new ArrayCollection();
+        $this->derivadas = new ArrayCollection();
+    }
+
+    public function __toString()
+    {
+        return $this->titulo;
     }
 
     public function getId(): ?int
@@ -149,10 +171,6 @@ class Entrada
         return UploaderHelper::IMAGE_ENTRADA.'/'.$this->getImageFilename();
     }
 
-
-
-
-
     public function getLinkRoute(): ?string
     {
         return $this->linkRoute;
@@ -195,6 +213,15 @@ class Entrada
     /**
      * @return Collection|Comentario[]
      */
+    public function getComentariosNoDeleted(): Collection
+    {
+        $criterio = EntradaRepository::createNoDeletedCriteria();
+        return $this->comentarios->matching($criterio);
+    }
+
+    /**
+     * @return Collection|Comentario[]
+     */
     public function getComentarios(): Collection
     {
         return $this->comentarios;
@@ -218,6 +245,62 @@ class Entrada
             if ($comentario->getEntrada() === $this) {
                 $comentario->setEntrada(null);
             }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Principal[]
+     */
+    public function getPrincipals(): Collection
+    {
+        return $this->principals;
+    }
+
+    public function addPrincipal(Principal $principal): self
+    {
+        if (!$this->principals->contains($principal)) {
+            $this->principals[] = $principal;
+            $principal->addEntrada($this);
+        }
+
+        return $this;
+    }
+
+    public function removePrincipal(Principal $principal): self
+    {
+        if ($this->principals->contains($principal)) {
+            $this->principals->removeElement($principal);
+            $principal->removeEntrada($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Derivada[]
+     */
+    public function getDerivadas(): Collection
+    {
+        return $this->derivadas;
+    }
+
+    public function addDerivada(Derivada $derivada): self
+    {
+        if (!$this->derivadas->contains($derivada)) {
+            $this->derivadas[] = $derivada;
+            $derivada->addEntrada($this);
+        }
+
+        return $this;
+    }
+
+    public function removeDerivada(Derivada $derivada): self
+    {
+        if ($this->derivadas->contains($derivada)) {
+            $this->derivadas->removeElement($derivada);
+            $derivada->removeEntrada($this);
         }
 
         return $this;
