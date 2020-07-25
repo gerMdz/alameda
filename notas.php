@@ -121,7 +121,7 @@ include_once('links.php');
                 <div class="col-12">
                     <div class="text-center">
                         <div class="site-heading p-5">
-                            <img src="images/LOGO_ALAMEDA_CON_TEXTO_B.png" style="max-height: 150px" class="img-fluid ">
+                            <img src="images/LOGO_ALAMEDA_CON_TEXTO_B.png" style="max-height: 150px" class="img-fluid" alt="Iglesia de la Alameda">
                         </div>
                     </div>
                 </div>
@@ -236,7 +236,42 @@ include_once('links.php');
                 <!--                fin charla 2-->
 
                 <!--                charla 3-->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/03-por-las-lentejas.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                ¡Por las lentejas!
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    ¡Cómo pelear cuando vienen por tu libertad!
+                                </u>
+                                <br/>
 
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/03-por-las-lentejas.pdf"
+                                   target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a><br/>
+                                <a href="<?php echo $notas_link?>" class="btn btn-icon" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--                fin charla 3-->
 
                 <!--                charla 4-->
