@@ -101,6 +101,10 @@ yarn-error.log
 /public/images/a2-fdoNegro-ltrBlanca.jpg
 /public/images/iglesiaAlamedaInstagram.jpg
 /public/images/logo-oracion.png
+/public/material-dashboard/examples/
+/public/material-dashboard/assets/demo/
+/public/material-dashboard/template.html
+/public/images/sidebar-1.jpg
 /public_html/business-casual/.gitignore
 /public_html/business-casual/
 /public_html/stream-ui-kit/.gitignore
@@ -112,7 +116,6 @@ yarn-error.log
 /public_html/pre/uploads/entrada_reference/.gitignore
 /public_html/pre/uploads/entrada_reference/
 /public_html/shards-ui/dist/images/
-/public_html/fonts/awasome/
 /public_html/fonts/awasome/
 /public_html/images/
 /public_html/shards-ui/dist/
