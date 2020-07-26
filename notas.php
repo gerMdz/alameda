@@ -254,7 +254,11 @@ include_once('links.php');
                                     ¡Cómo pelear cuando vienen por tu libertad!
                                 </u>
                                 <br/>
-
+                                El Señor cuida de los hombres honrados;
+                                y mantendrá la herencia de ellos para siempre.
+                                En tiempos difíciles no serán avergonzados,
+                                y en tiempos de escasez tendrán abundancia
+                                Salmos 37:18-19 (RVC)
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
@@ -264,7 +268,7 @@ include_once('links.php');
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                <a href="<?php echo $notas_link?>" class="btn btn-icon" target="_blank">
+                                <a href="https://youtu.be/mlntN68aMxY" class="btn btn-icon" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <i>Video</i>
                                 </a>

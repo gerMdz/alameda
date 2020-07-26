@@ -19,21 +19,23 @@ $version = date('YmdHi');
     <meta name="author" content="Iglesia Alameda Mendoza">
     <meta property="og:title" content="
     Ofrendas y Diezmos, Ofrendas de Fe
-    Iglesia de la Alameda Bienvenido" />
-    <meta property="og:type" content="website" />
+    Iglesia de la Alameda Bienvenido"/>
+    <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
-    <meta property="og:url" content="https://www.iglesiaalameda.com/ofrendas.php" />
+    <meta property="og:url" content="https://www.iglesiaalameda.com/ofrendas.php"/>
     <title>Ofrendas de Fe - Iglesia Alameda </title>
-    <link rel="icon" href="images/index192.png" sizes="192x192" />
-    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png" />
+    <link rel="icon" href="images/index192.png" sizes="192x192"/>
+    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png"/>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
 
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="css/foundation-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
 
@@ -42,25 +44,39 @@ $version = date('YmdHi');
     <link rel="stylesheet" href="css/material.light_blue-teal.min.css">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/landing-page.min.css" rel="stylesheet">
-<!--    <link rel="stylesheet" href="css/estiloHorarios.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <!--    <link rel="stylesheet" href="css/estiloHorarios.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link href="css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="css/acciones.css?v=<?php echo $version ?>" rel="stylesheet">
 
     <style>
-        strong{font-weight: 400 !important}
-        .card-text{font-size: 1.1em !important;
-        font-weight: 600 !important;}
+        strong {
+            font-weight: 400 !important
+        }
+
+        .card-text {
+            font-size: 1.1em !important;
+            font-weight: 600 !important;
+        }
+
+        .left-card {
+            float: left;
+            width: 50%;
+        }
+
+        .right-card {
+            float: left;
+            width: 50%;
+        }
 
     </style>
-
-
 
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
@@ -68,120 +84,107 @@ $version = date('YmdHi');
 
 </head>
 
-<body   >
+<body>
 
 
 <div class="container ">
     <?php include 'nav.php'; ?>
 
-<section class="p5-5 mt-1 " id="inicio">
-    <div class="container">
-        <div class="row fullscreen align-items-center justify-content-center">
-            <div class="col-sm-12 text-center mx-auto mt-1">
+    <section class="p5-5 mt-1 " id="inicio">
+        <div class="container">
+            <div class="row fullscreen align-items-center justify-content-center">
+                <div class="col-sm-12 text-center mx-auto mt-1">
+                    <header class="h-25 my-2">
+                        <h1 class="display-5">
+                            Ofrendas y Diezmos.
+                        </h1>
+                        <h6>
+                            <div class="blockquote blockquote-uvcp_dark ">
+                                "A través de tus ofrendas de fe, Dios usa la Iglesia de la Alameda para servir a
+                                los demás y <br/>
+                                compartir las buenas nuevas de Jesús con los perdidos, con los que sufren en
+                                nuestras comunidades y<br/> en todo el mundo."
+                            </div>
 
-                <header class="jumbotron my-2">
-                    <h1 class="display-3">
-                    Ofrendas y Diezmos.
-                </h1>
-                <h4>
-                    <div class="my-4">
-                A través de tus ofrendas de fe, <br/> Dios usa la Iglesia de la Alameda para servir a los demás y <br/>
-                    compartir las buenas nuevas de Jesús con los perdidos,<br/> con los que sufren en nuestras comunidades y en todo el mundo. <br/>
-                    </div>
-
-                    <div class="my-4">
-                    Damos <br/>no porque tengamos que hacerlo,<br/>
-                        sino porque Dios nos lo dio primero,<br/>
-                        y lo hacemos con un corazón alegre y un espíritu generoso.
-                        <br/>
-                    </div>
-                    <hr/>
-                    <span>
+                            <div class="blockquote blockquote-point">
+                                "Damos <br/>no porque tengamos que hacerlo,
+                                sino porque Dios nos lo dio primero,<br/>
+                                y lo hacemos con un corazón alegre y un espíritu generoso.
+                            </div>
+                            <hr/>
+                            <span>
                     <p>Hemos abierto diferentes maneras online para que puedas seguir apoyando tu iglesia.</p>
                     </span>
-                </h4>
-                </header>
-            </div>
 
+                    </header>
+                </div>
+
+            </div>
         </div>
-    </div>
-</section>
+    </section>
     <section class="p5-5 mt-1 " id="second">
+        <div class="row text-center">
+            <!--            <div class="col-lg-3 col-md-6 mb-4">-->
+            <!--                <div class="card h-100">-->
+            <!---->
+            <!--                    <div class="card-body">-->
+            <!--                        <h4 class="card-title">1°</h4>-->
+            <!--                        <p class="card-text">Entregando sus sobres en la celebración del modo habitual.</p>-->
+            <!--                    </div>-->
+            <!---->
+            <!--                </div>-->
+            <!--            </div>-->
 
-    <div class="row text-center">
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-
-                <div class="card-body">
-                    <h4 class="card-title">1°</h4>
-                    <p class="card-text">Entregando sus sobres en la celebración del modo habitual.</p>
+            <div class="col-lg-3 col-md-6 mb-4 mx-auto">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">1°</h4>
+                        <p class="card-text">Realizando una transferencia bancaria: <br/>
+                            CBU 01106288-20062802157674 <br/>
+                            CUIT 33710832639<br/>
+                            Cta. Cte. Banco Nación Sucursal 2405 <br/>
+                            alias: PIEDRA:TITULO:DULCE
+                        </p>
+                    </div>
                 </div>
-
             </div>
-        </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-
-                <div class="card-body">
-                    <h4 class="card-title">2°</h4>
-                    <p class="card-text">Realizando una transferencia bancaria: <br/>
-                        CBU 01106288-20062802157674  <br/>
-                        CUIT 33710832639<br/>
-                        Cta. Cte. Banco Nación Sucursal 2405 <br/>
-                        alias: PIEDRA:TITULO:DULCE
-                    </p>
-
+            <div class="col-lg-3 col-md-6 mb-4 mx-auto">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">2°</h4>
+                        <p class="card-text">
+                            Llamando al <a href="tel:+542614251182"><i class="fa fa-phone"></i> 4251182</a> (oficina de
+                            la Alameda) y coordinando un método de entrega.
+                            <br/> También puede escribir a <br/><a href="mailto:finanzas@primeramendoza.com.ar"><i
+                                        class="fa fa-envelope"></i> finanzas@primeramendoza.com.ar</a></p>
+                    </div>
                 </div>
-
             </div>
-        </div>
 
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-
-                <div class="card-body">
-                    <h4 class="card-title">3°</h4>
-                    <p class="card-text">
-                        Llamando al <a href="tel:+542614251182"><i class="fa fa-phone"></i> 4251182</a>  (oficina de la Alameda) y coordinando un método de entrega.
-                        <br/> También puede escribir a <br/><a href="mailto:finanzas@primeramendoza.com.ar"><i class="fa fa-envelope"></i> finanzas@primeramendoza.com.ar</a> </p>
+            <div class="col-lg-3 col-md-6 mb-4 mx-auto">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title">3°</h4>
+                        <p class="card-text my-auto">
+                            Ingresando tu ofrenda por los canales PagoFacil, CobroExpress, o Rapipago mencionando <br/>
+                            el código 26328 70259 <br/>
+                            Fundación Cristiana Alameda</p>
+                    </div>
                 </div>
-
             </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-
-                <div class="card-body">
-                    <h4 class="card-title">4°</h4>
-                    <p class="card-text">
-                        Ingresando tu ofrenda por los canales PagoFacil, CobroExpress, o Rapipago mencionando <br/>
-                        el código 26328 70259</p>
-
+            <div class="col-lg-3 col-md-6 mb-4 mx-auto">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h4 class="card-title card-">4°</h4>
+                        <p class="card-text">
+                            Usando la aplicación de Mercado Pago, escaneando nuestro QR</p>
+                        <img src="images/institucional/qrmpILA.png" class="img-fluid card-img-bottom">
+                    </div>
                 </div>
-
             </div>
+
         </div>
-        <div class="col-lg-3 col-md-6 mb-4 m-auto">
-            <div class="card h-100">
-
-                <div class="card-body">
-                    <h4 class="card-title">5°</h4>
-                    <p class="card-text">
-                        Usando la aplicación de Mercado Pago, escaneando nuestro QR</p>
-                    <img src="images/institucional/qrmpILA.png" class="img-fluid">
-
-
-
-
-                </div>
-
-            </div>
-        </div>
-
-    </div>
     </section>
 
     <section class="vacio mb-3">
@@ -189,10 +192,8 @@ $version = date('YmdHi');
     </section>
 
 
-
     <?php include 'footer.php'; ?>
 </div>
-
 
 
 <!-- Bootstrap core JavaScript -->

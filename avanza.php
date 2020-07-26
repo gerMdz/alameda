@@ -5,12 +5,12 @@
  * Date: 18/05/2020
  * Time: 06:56
  */
-$lema = 'Taller de Membresía ';
-$lemaSinEspacios = 'Taller-Membresía-Iglesia-Alameda';
+$lema = 'Taller de Ministerio';
+$lemaSinEspacios = 'Taller-Madurez-Iglesia-Alameda';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Taller de Membresía';
+$title = $lema;
 /**
  * @example pregunta si la cuarentena terminó
  */
@@ -25,11 +25,8 @@ include_once ('gerVendor/gerFunctions.php')
     include ('meta-base.php');
     include ('style-base-uikit.php')
     ?>
-    
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-
-
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <style>
         strong{font-weight: 400 !important}
@@ -40,7 +37,6 @@ include_once ('gerVendor/gerFunctions.php')
             background-size: cover;
             background-position: center;
             position: relative;
-
         }
         .overlay {
             position: absolute;
@@ -49,7 +45,6 @@ include_once ('gerVendor/gerFunctions.php')
             left: 0;
             top: 0;
             background: rgba(255, 255, 255, 0.6);
-
         }
         img.resize {
             width:10%; /* you can use % */
@@ -63,11 +58,7 @@ include_once ('gerVendor/gerFunctions.php')
             border: none currentcolor;
             border-radius: 10rem;
         }
-
-
-
     </style>
-
 </head>
 
 <body>
@@ -99,47 +90,41 @@ include_once ('gerVendor/gerFunctions.php')
 
 
     <!-- Contact Form -->
-    <section class="u-content-space">
+    <section class="a-content-space-medium">
         <div class="container">
-            <header class="text-center w-md-50 mx-auto mb-8">
-                <div class="tab-pane fade active show" id="blockquotes-center-1" role="tabpanel" aria-labelledby="blockquotes-center-tab-1">
+            <div class="text-center">
+                <a class="btn btn-blue js-scroll-trigger mx-auto btn--pill"
+                   href="https://forms.gle/J2Lz4jyyN8vUa2747" target="_blank">
+                    <i class="far fa-list-alt text-white"></i> Más detalles e inscripción
+                </a>
+            </div>
+            <header class="text-center w-md-50 mx-auto mb-8 mt-1">
+                <div class="show" id="blockquotes-center-1" role="tabpanel" aria-labelledby="blockquotes-center-tab-1">
                     <!-- Centered -->
-                    <blockquote class="blockquote-v1 text-center">
-                        <h2 class="h1">
-                            ¿Te gustaría formar parte de nuestra familia de fe?
+                    <blockquote class="blockquote-v1 blockquote-v1--left align-text-top">
+                        <h3 >
+                            En tiempos de PANDEMIA nuestra iglesia nunca dejó de SERVIR <br/>
+                            y es tiempo que puedas sumarte a este desafío.<br/>
+                            Tendremos nuestro seminario <br/> “Descubriendo tu F.O.R.M.A.”.
+                            <br/>
+                            Dios te ha dado regalos únicos que solo vos podés abrir, <br/>
+                            es por eso que te invitamos a que <br/>
+                            descubras cómo te ha formado para el Servicio.
 
-                        </h2>
-                        <p class="h5">No te pierdas el próximo taller de membresía.</p>
-                        <footer class="blockquote-footer"> sábado 23/5, de 19 a 21hs<br/>
 
+                        </h3>
+                        <p class="h5">Inscríbete</p>
+                        <footer class="blockquote-footer">
+                            Martes 23/6 de 19:00 a 20:30 hs por ZOOM<br/>
                             </footer>
                     </blockquote>
                     <!-- End Centered -->
                 </div>
-
             </header>
-
-
-
-                <div class="text-center">
-                    Más detalles e inscripción<br/>
-
-                    <a class="btn btn-blue  js-scroll-trigger mx-auto btn--pill" href="https://forms.gle/gkJjReojfHy2QG7e8" target="_blank">
-                        <i class="far fa-list-alt text-white"></i> Aquí
-                    </a>
-                </div>
-
         </div>
     </section>
     <!-- End Contact Form -->
 </main>
-
-
-
-
-    <section class="vacio mb-3">
-
-    </section>
 
 
 

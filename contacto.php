@@ -88,7 +88,10 @@ include_once ('gerVendor/gerFunctions.php')
         <div class="row fullscreen align-items-center justify-content-center">
             <div class="col-sm-12 text-center mx-auto mt-1">
 
-                <header class="jumbotron my-2">
+                <header class="jumbotron my-1">
+                    <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
+                        Completar Tarjeta de Conexión
+                    </a>
 
                     <h1 class="text-uppercase text-black-50 font-weight-bold">
                     Bienvenido a la Alameda<br/>
@@ -113,9 +116,7 @@ include_once ('gerVendor/gerFunctions.php')
                     </h5>
 
 
-                    <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
-                        Completar Tarjeta de Conexión
-                    </a>
+
 
 
 
