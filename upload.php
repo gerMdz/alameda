@@ -40,6 +40,7 @@ include_once('links.php');
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <script src="https://kit.fontawesome.com/743c9941eb.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="css/igles.css" rel="stylesheet">
 
     <!-- Material Kit CSS -->
     <link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
