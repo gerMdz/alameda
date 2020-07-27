@@ -712,7 +712,8 @@ include_once('links.php');
 <section class="page-section vw-100 text-white" id="anuncio-oracion">
     <div class="container bg-anuncios">
         <div class="row">
-            <div class="col-lg-7 col-sm-12 text-center align-self-center ">
+            <div class="col-lg-7 col-sm-12 text-center align-self-center  ">
+                <div class="mb-5 border-right border-bottom border-secondary">
                 <h1 class="text-center text-white-75"
                     style="font-weight: 900; font-family: druk_italic;"
                 >
@@ -743,6 +744,7 @@ include_once('links.php');
                         iglesiaalameda.com/oracion
                     </h3>
                 </a>
+                </div>
             </div>
             <div class="col-lg-5 order-lg-first mb-1 mb-lg-0 align-self-center d-none d-lg-block">
                 <h6 class="text-center">
