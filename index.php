@@ -680,13 +680,13 @@ include_once('links.php');
             <div class="col-sm-8 pt-5">
                 <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5">
                     <div class="center-element btn btn-blue rotar90 mt-sm-0">
-                        Lucas 6:12-16 (TLA)
+                        Salmos 37:18-19 (RVC)
                     </div>
                     <div>
                         <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
                             class="pt-sm-0 pt-lg-3 text-right">
                             "
-                            En aquellos días, Jesús subió a una montaña para orar. Allí pasó toda la noche hablando con Dios. Al día siguiente, llamó a sus seguidores y eligió a doce de ellos.
+                            El Señor cuida de los hombres honrados; y mantendrá la herencia de ellos para siempre. En tiempos difíciles no serán avergonzados, y en tiempos de escasez tendrán abundancia
                             "
                         </h2>
                     </div>
@@ -707,6 +707,58 @@ include_once('links.php');
 
     </div>
 
+</section>
+
+<section class="page-section vw-100 text-white" id="anuncio-oracion">
+    <div class="container bg-anuncios">
+        <div class="row">
+            <div class="col-lg-7 col-sm-12 text-center align-self-center ">
+                <h1 class="text-center text-white-75"
+                    style="font-weight: 900; font-family: druk_italic;"
+                >
+                    ORACIÓN
+                    <hr class="border border-bottom w-50"
+
+                    <br/>
+                    <div style="font-size: 0.4em; font-weight: 400" >
+                        <br/>
+                        <strong class="text-uppercase mb-0 pb-0"
+
+                        >
+                         Llamanos al (+54) 261 4251182<br/>
+                            Durante todo el servicio
+
+                        </strong>
+
+                    </div>
+
+
+
+                </h1>
+                o compartilo aquí <br/>
+
+                <br/>
+                <a class="btn btn-link text-white" href="/oracion.php">
+                    <h3>
+                        iglesiaalameda.com/oracion
+                    </h3>
+                </a>
+            </div>
+            <div class="col-lg-5 order-lg-first mb-1 mb-lg-0 align-self-center d-none d-lg-block">
+                <h6 class="text-center">
+                    <small> Escanea el código para <br/>ingresar desde tu móvil
+                    </small>
+                </h6>
+                <h6 class="text-center">
+
+                    <a target="_blank" href="/oracion.php">
+                        <img class="img-fluid w-50 u-browser-img u-box-shadow-lg" src="/images/institucional/qr-oracion.png" alt="Iglesia de la Alameda">
+                    </a>
+                </h6>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 <!-- Inicio Ministerios-->
@@ -915,7 +967,7 @@ include('section-ministerios.php');
 </script>
 <!-- Initialize Swiper -->
 <script>
-    var swiper = new Swiper('.swiper-container', {
+    let swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
         grabCursor: true,
         centeredSlides: true,
