@@ -49,13 +49,30 @@ include_once('links.php');
 <?php include 'nav.php'; ?>
 
 
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('material-kit/img/bg3.jpg')">
+<div class="page-header bg-white" data-parallax="true" >
     <div class="container">
         <div class="row">
-            <div class="col-md-8 ml-auto mr-auto">
-                <div class="brand text-center">
+            <div class="col-md-10 ml-auto mr-auto">
+                <div class="row">
+                <div class="col-md-8 align-self-center">
+                    <div class="col-sm-6 vw-100">
+                        <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid vh-100 linkYoutube mx-auto"
+                                frameborder="0"
+
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="col-sm-6">
                     <h1>Your title here</h1>
                     <h3 class="title text-center">Subtitle</h3>
+                    </div>
+                    <div class="col-sm-6">
+                        <h1>Your title here</h1>
+                        <h3 class="title text-center">Subtitle</h3>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
