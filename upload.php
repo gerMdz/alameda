@@ -47,12 +47,10 @@ include_once('links.php');
 </head>
 <body>
 <?php include 'nav.php'; ?>
-
-
-<div class="page-header bg-white" data-parallax="true" >
+<div class="page-header bg-white mt-lg-n0" data-parallax="true" >
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-10 mr-auto ">
+            <div class="col-md-10 mx-auto ">
                 <div class="row">
                 <div class="col-md-8 align-self-center">
                     <div class="col-sm-10 mx-auto vh-100">
@@ -65,21 +63,21 @@ include_once('links.php');
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen></iframe>
                             <div class="card-img-overlay">
+                                <div class="card-footer bg-white justify-content-between" style="top: 90%; position: relative">
+                                    <a href="javascript:" class="card-link">
+                                        <small>26 de Julio</small><br/>
+                                        <b>Peleando por las lentejas</b><br/>
+                                        <small>Pastor Fabián Ruiz</small>
 
+                                    </a>
+                                    <a href="<?php echo $notas_link?>" class="card-link mr-2" style="z-index: 100">
+                                        Ver la celebración
+                                    </a>
+                                </div>
 
 
                             </div>
-                            <div class="card-footer">
-                                <a href="javascript:" class="card-link">
-                                    <small>26 de Julio</small>
-                                    <b>Por las lentejas</b>
-                                    <small>Pastor Fabián Ruiz</small>
 
-                                </a>
-                                <a href="<?php echo $notas_link?>" class="card-link">
-                                    Ver la celebración
-                                </a>
-                            </div>
 
                         </div>
 
