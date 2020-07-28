@@ -50,17 +50,43 @@ include_once('links.php');
 
 
 <div class="page-header bg-white" data-parallax="true" >
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-md-10 ml-auto mr-auto">
+            <div class="col-md-10 mr-auto ">
                 <div class="row">
                 <div class="col-md-8 align-self-center">
-                    <div class="col-sm-6 vw-100">
-                        <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid vh-100 linkYoutube mx-auto"
-                                frameborder="0"
+                    <div class="col-sm-10 mx-auto vh-100">
+                        <div class="card" >
+                            <iframe class="card-img"
+                                    src="https://www.youtube.com/embed/<?php echo $index_link; ?>"
+                                    width="100%" height="500"
 
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            <div class="card-img-overlay">
+
+
+
+                            </div>
+                            <div class="card-footer">
+                                <a href="javascript:" class="card-link">
+                                    <small>26 de Julio</small>
+                                    <b>Por las lentejas</b>
+                                    <small>Pastor Fabián Ruiz</small>
+
+                                </a>
+                                <a href="<?php echo $notas_link?>" class="card-link">
+                                    Ver la celebración
+                                </a>
+                            </div>
+
+                        </div>
+
+
+
+
+
                     </div>
                 </div>
                 <div class="col-md-4">
