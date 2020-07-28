@@ -47,7 +47,7 @@ include_once('links.php');
 </head>
 <body>
 <?php include 'nav.php'; ?>
-<div class="page-header bg-white mt-lg-n0" data-parallax="true" >
+<div class="page-header bg-white mt-lg-n0 mt-sm-3" data-parallax="true" >
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-10 mx-auto ">
