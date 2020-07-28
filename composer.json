@@ -93,6 +93,6 @@
             "allow-contrib": true,
             "require": "4.4.*"
         },
-        "public-dir": "public_html"
+        "public-dir": "public_html/cms"
     }
 }
