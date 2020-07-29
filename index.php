@@ -350,7 +350,7 @@ include_once('links.php');
 
                     </strong>
                         <br/>
-                        <small style="font-size: 0.4em">
+                        <small style="font-size: 0.4em" class="text-white-75">
                             online
                         </small>
                     </div>
@@ -369,7 +369,7 @@ include_once('links.php');
             </div>
             <div class="col-lg-5 order-lg-last mb-1 mb-lg-0 align-self-center d-none d-lg-block">
                 <h6 class="text-center">
-                    <small> Escanea el código para <br/>ingresar desde tu móvil
+                    <small class="text-white-75"> Escanea el código para <br/>ingresar desde tu móvil
                     </small>
                 </h6>
                 <h6 class="text-center">
@@ -677,17 +677,17 @@ include_once('links.php');
         <hr/>
         <div class="row text-center d-flex align-items-center bg-white">
 
-            <div class="col-sm-4 pull-left">
-                <img src="series/escape-a-la-libertad/02-hay-equipo.jpg" class="img-fluid rounded"/>
+            <div class="col-sm-5 pull-left">
+                <img src="series/escape-a-la-libertad/02-hay-equipo.jpg" class="img-fluid w-75 u-browser-img rounded"/>
             </div>
 
-            <div class="col-sm-8 pt-5">
-                <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5">
-                    <div class="center-element btn btn-blue rotar90 mt-sm-0">
+            <div class="col-sm-7 pt-5">
+                <blockquote class="blockquote-uvcp_dark text-white-75 rounded align-items-center px-5 ">
+                    <div class="center-element btn btn-blue rotar90 mt-sm-0 left">
                         Salmos 37:18-19 (RVC)
                     </div>
-                    <div>
-                        <h2 style="text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
+                    <div class="right">
+                        <h2 style="font-size: 2em; text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
                             class="pt-sm-0 pt-lg-3 text-right">
                             "
                             El Señor cuida de los hombres honrados; y mantendrá la herencia de ellos para siempre. En tiempos difíciles no serán avergonzados, y en tiempos de escasez tendrán abundancia
@@ -717,42 +717,50 @@ include_once('links.php');
     <div class="container bg-anuncios">
         <div class="row">
             <div class="col-lg-7 col-sm-12 text-center align-self-center  ">
-                <div class="mb-5 border-right border-bottom border-secondary">
-                <h1 class="text-center text-white-75"
-                    style="font-weight: 900; font-family: druk_italic;"
-                >
-                    ORACIÓN
-                    <hr class="border border-bottom w-50"
+                <h2 class="text-center text-white-75">
 
-                    <br/>
-                    <div style="font-size: 0.4em; font-weight: 400" >
+                    <div style="line-height: 0.6em">
                         <br/>
                         <strong class="text-uppercase mb-0 pb-0"
-
+                                style="font-weight: 900; font-family: druk_italic;
+                            "
                         >
-                         Llamanos al (+54) 261 4251182<br/>
-                            Durante todo el servicio
+                            Oración
 
                         </strong>
+                        <br/>
+                        <small style="font-size: 0.4em" class="text-white-75">
+                            <hr class="w-50 border-white">
+                        </small>
 
                     </div>
 
 
 
-                </h1>
-                o compartilo aquí <br/>
-
+                </h2>
+                Llamanos al (+54) 261 4251182<br/>
+                Durante todo el servicio
                 <br/>
+                o compartilo aquí <br/>
                 <a class="btn btn-link text-white" href="/oracion.php">
                     <h3>
                         iglesiaalameda.com/oracion
                     </h3>
                 </a>
-                </div>
+
+
+
+
+
+
+
+
+
+
             </div>
-            <div class="col-lg-5 order-lg-first mb-1 mb-lg-0 align-self-center d-none d-lg-block">
+            <div class="col-lg-5 order-lg-last mb-1 mb-lg-0 align-self-center d-none d-lg-block">
                 <h6 class="text-center">
-                    <small> Escanea el código para <br/>ingresar desde tu móvil
+                    <small class="text-white-75"> Escanea el código para <br/>ingresar desde tu móvil
                     </small>
                 </h6>
                 <h6 class="text-center">
