@@ -116,8 +116,8 @@ include_once('links.php');
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="https://www.creative-tim.com/">
-                        Creative Tim
+                    <a href="/index.php">
+                        Iglesia de la Alameda
                     </a>
                 </li>
             </ul>
@@ -127,7 +127,7 @@ include_once('links.php');
             <script>
                 document.write(new Date().getFullYear())
             </script>, made with <i class="material-icons">favorite</i> by
-            <a href="https://www.creative-tim.com/" target="blank">Creative Tim</a> for a better web.
+            <a href="/index.php" target="blank">Iglesia de la Alameda</a> .
         </div>
     </div>
 </footer>
@@ -145,5 +145,6 @@ include_once('links.php');
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
-<script src="material-kit/js/material-kit.js?v=2.0.4" type="text/javascript"></script></body>
+<script src="material-kit/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
+</body>
 </html>

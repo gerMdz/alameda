@@ -37,7 +37,7 @@ include_once('links.php');
 
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">
+
 
     <!-- Bootstrap core CSS -->
 
@@ -51,6 +51,7 @@ include_once('links.php');
 
     <!-- Style 3th core  -->
     <!--    <link href="css/mdb.min.css" rel="stylesheet">-->
+<!--    <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">-->
     <link href="css/business-casual.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/slick-carousel/slick.css">
@@ -73,6 +74,9 @@ include_once('links.php');
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700"
           rel="stylesheet">
     <link href="css/fonts/univers/font.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="css/igles.css" rel="stylesheet">
+
+    <link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
     <!-- Fonts  core  -->
 
     <!-- Custom styles for this template -->
@@ -134,20 +138,20 @@ include_once('links.php');
         </div>
     </div>
     <!--Seccion cover-->
-    <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white mt-0"
-             style="background-image: url(series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg) ; max-width: 100%; height: auto;
-            background-size: 130% 100% ;
-">
-        <!-- Vacío para texto Content -->
-        <div class="container u-overlay__inner u-ver-center u-content-space ">
-            <div class="row justify-content-center">
-
-            </div>
-        </div>
-
-
-        <!-- Fin Vacío para texto Content -->
-    </section>
+<!--    <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white mt-0"-->
+<!--             style="background-image: url(series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg) ; max-width: 100%; height: auto;-->
+<!--            background-size: 130% 100% ;-->
+<!--">-->
+<!--        <!-- Vacío para texto Content -->
+<!--        <div class="container u-overlay__inner u-ver-center u-content-space ">-->
+<!--            <div class="row justify-content-center">-->
+<!---->
+<!--            </div>-->
+<!--        </div>-->
+<!---->
+<!---->
+<!--        <!-- Fin Vacío para texto Content -->
+<!--    </section>-->
     <!--    FIn Section COver-->
 
 
@@ -953,6 +957,39 @@ include('section-ministerios.php');
 <script type="text/javascript" src="js/jquery.countdown.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
 
+
+
+
+<!-- Components Vendor  -->
+<script src="stream-ui-kit/assets/vendors/jquery.parallax.js"></script>
+<script src="stream-ui-kit/assets/vendors/typedjs/typed.min.js"></script>
+<script src="stream-ui-kit/assets/vendors/slick-carousel/slick.min.js"></script>
+<script src="stream-ui-kit/assets/vendors/counters/waypoint.min.js"></script>
+<script src="stream-ui-kit/assets/vendors/counters/counterup.min.js"></script>
+
+<!-- Theme Settings and Calls -->
+<script src="stream-ui-kit/assets/js/global.js"></script>
+
+<!-- Theme Components and Settings -->
+<script src="stream-ui-kit/assets/js/vendors/parallax.js"></script>
+<script src="stream-ui-kit/assets/js/vendors/carousel.js"></script>
+<script src="stream-ui-kit/assets/js/vendors/counters.js"></script>
+<!-- END JAVASCRIPTS -->
+
+
+
+<script src="material-kit/js/plugins/moment.min.js"></script>
+<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<script src="material-kit/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="material-kit/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Google Maps Plugin  -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+<!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+<script src="material-kit/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
+
 <script>
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip({html: true, placement: "bottom"});
@@ -995,22 +1032,6 @@ include('section-ministerios.php');
     });
 </script>
 
-
-<!-- Components Vendor  -->
-<script src="stream-ui-kit/assets/vendors/jquery.parallax.js"></script>
-<script src="stream-ui-kit/assets/vendors/typedjs/typed.min.js"></script>
-<script src="stream-ui-kit/assets/vendors/slick-carousel/slick.min.js"></script>
-<script src="stream-ui-kit/assets/vendors/counters/waypoint.min.js"></script>
-<script src="stream-ui-kit/assets/vendors/counters/counterup.min.js"></script>
-
-<!-- Theme Settings and Calls -->
-<script src="stream-ui-kit/assets/js/global.js"></script>
-
-<!-- Theme Components and Settings -->
-<script src="stream-ui-kit/assets/js/vendors/parallax.js"></script>
-<script src="stream-ui-kit/assets/js/vendors/carousel.js"></script>
-<script src="stream-ui-kit/assets/js/vendors/counters.js"></script>
-<!-- END JAVASCRIPTS -->
 <script>
     $(document).on('ready', function () {
         // initialization of text animation (typing)
