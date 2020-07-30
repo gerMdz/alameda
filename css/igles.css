@@ -945,3 +945,57 @@ body.frontal{
     background-color: #1976d2 !important;
     color: #fff !important;
 }
+
+header.masthead-oportunidades {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    /*background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9) 0%, rgba(255,255,255, 0.9) 100%), url("../../images/gp_horizontal.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 991px) {
+    header.masthead {
+        height: 100vh;
+        min-height: 40rem;
+        padding-top: 2.5rem;
+        padding-bottom: 0;
+    }
+    header.masthead p {
+        font-size: 1.15rem;
+    }
+    header.masthead h1 {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 1200px) {
+    header.masthead h1 {
+        font-size: 3.5rem;
+    }
+}
+
+.text-black-50 {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+.text-black-75 {
+    color: rgba(0, 0, 0, 0.75) !important;
+}
+.text-black-25 {
+    color: rgba(0, 0, 0, 0.25) !important;
+}

@@ -2,7 +2,7 @@
 ?>
 
 <!-- Bootstrap core CSS -->
-<link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">
+<!--<link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">-->
 
 <!-- Bootstrap core CSS -->
 
@@ -37,3 +37,5 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700"
       rel="stylesheet">
 <link href="/css/fonts/univers/font.css?v=<?php echo $version ?>" rel="stylesheet">
+
+<link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
