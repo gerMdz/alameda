@@ -131,3 +131,6 @@ yarn-error.log
 /public_html/cms/css-misc/resume.min.css
 !/public_html/cms/images/favicon/
 /sqls/
+/public/material-dashboard/assets/demo/demo.css
+/public/material-dashboard/assets/demo/demo.js
+

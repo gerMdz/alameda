@@ -88,7 +88,7 @@ class AdminBroteController extends AbstractController
 
             $this->addFlash('success', 'Se agregó brote a link principal');
 
-            return $this->redirectToRoute('admin_brote');
+            return $this->redirectToRoute('admin_brote_list');
         }
 
         return $this->render('admin_brote/new.html.twig', [
