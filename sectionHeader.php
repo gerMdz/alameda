@@ -7,21 +7,19 @@ $notas = new Links();
         <div class="row">
             <div class="col-md-10 mx-auto ">
                 <div class="row ">
-                    <div class="col-md-8 align-items-center">
-                        <div class="col-sm-12 mx-auto vh-100">
-                            <div class="card">
-                                <div class="embed-responsive embed-responsive-16by9">
-
-
-                                    <iframe
-                                        src="https://www.youtube.com/embed/<?php echo $notas->getIndex(); ?>"
-                                        class="embed-responsive-item p-0"
-                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen></iframe>
+<!--                    <div class="col-sm-1"></div>-->
+                    <div class="col-md-7 pr-0 ">
+                        <div class="col-sm-12 mr-0 left-n5" >
+                            <div class="card shadow-none">
+                                <div class="card-img">
+                                    <img src="/series/escape-a-la-libertad/entrenamiento-tapa.jpg" alt="Iglesia de La Alameda"
+                                         class="card-img"
+                                    >
                                 </div>
                                 <!--                                <div class="card-img-overlay">-->
-                                <div class="card-footer bg-white justify-content-between"
-                                     style="top: 80%; position: relative">
+                                <div class="card-footer bg-white justify-content-between ">
+<!--                                     style="top: 80%; position: relative"-->
+
                                     <a href="javascript:" class="card-link">
                                         <small><?php echo $notas->getFecha(); ?></small><br/>
                                         <b><?php echo $notas->getTitle(); ?></b><br/>
@@ -41,42 +39,45 @@ $notas = new Links();
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 ">
 
-                    <div class="col-md-4 mt-lg-1 mt-sm-5 align-items-center">
+                        <div class="row ">
 
-                        <div class="row align-items-center">
-
-                            <div class="col-sm-12 container-img mt-0 mb-2">
-
-                                <img src="/images/institucional/conocerte.jpg" class="img-fluid card-img vw-100  p-1"
-                                     alt="Iglesia de la Alameda"/>
+                            <div class="col-sm-12 container-img ">
+                                <div class="card mb-0 ">
+                                    <img src="/images/institucional/contacto2.jpg" class="card-img "
+                                         alt="Iglesia de la Alameda"/>
 
 
-                                <a class="btn btn-round bg-white centered" href="/contacto.php">
-                                    <h6>
-                                        <b class="text-blue">
-                                            ¿Nuevo en La Alameda?
-<!--                                            <br class="d-block d-md-none"/>-->
-<!--                                            Queremos conocerte-->
-                                        </b>
-                                    </h6>
-                                </a>
+                                    <a class="btn btn-round bg-white btn-centered" href="/contacto.php">
+                                        <h6>
+                                            <b class="text-blue">
+                                                ¿Nuevo en La Alameda?
+                                                <!--                                            <br class="d-block d-md-none"/>-->
+                                                <!--                                            Queremos conocerte-->
+                                            </b>
+                                        </h6>
+                                    </a>
+                                </div>
                             </div>
 
-                            <div class="col-sm-12 container-img mt-2 mb-lg-0 mb-sm-5">
+                            <div class="col-sm-12 container-img bottom-n10" >
+                                <div class="card">
 
-                                <img src="/images/gp_escalado.png" class="img-fluid card-img vw-100 border p-5"
-                                     alt="Iglesia de la Alameda"/>
+                                    <img src="/images/institucional/gp.jpg" class="card-img "
+                                         alt="Iglesia de la Alameda"/>
 
 
-                                <a class="btn btn-round bg-white centered" href="/oportunidades/grupos-pequeños.php">
-                                    <h6>
-                                        <b class="text-blue">
-                                            Se parte de un<br class="d-block d-md-none"/>
-                                            Grupo Pequeño
-                                        </b>
-                                    </h6>
-                                </a>
+                                    <a class="btn btn-round bg-white btn-centered"
+                                       href="/oportunidades/grupos-pequeños.php">
+                                        <h6>
+                                            <b class="text-blue">
+                                                Se parte de un<br class="d-block d-md-none"/>
+                                                Grupo Pequeño
+                                            </b>
+                                        </h6>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

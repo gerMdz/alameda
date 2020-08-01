@@ -5,7 +5,7 @@ class Links
 {
     protected $nota = 'https://youtu.be/c7n-w-0Ucno';
     protected $index = 'c7n-w-0Ucno';
-    protected $autor = 'Pastor Fabian Ruiz';
+    protected $autor = 'por Fabian Ruiz';
     protected $fecha = '26 de julio';
     protected $title = 'Peleando por las lentejas';
 

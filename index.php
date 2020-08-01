@@ -108,49 +108,7 @@ $links = new Links();
         /*}*/
 
     </style>
-    <style>
-        .container-img {
-            position: relative;
-            text-align: center;
-            color: white;
-        }
 
-        /* Bottom left text */
-        .bottom-left {
-            position: absolute;
-            bottom: 8px;
-            left: 16px;
-        }
-
-        /* Top left text */
-        .top-left {
-            position: absolute;
-            top: 8px;
-            left: 16px;
-        }
-
-        /* Top right text */
-        .top-right {
-            position: absolute;
-            top: 8px;
-            right: 16px;
-        }
-
-        /* Bottom right text */
-        .bottom-right {
-            position: absolute;
-            bottom: 8px;
-            right: 16px;
-        }
-
-        /* Centered text */
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
 
 
 </head>
@@ -168,34 +126,6 @@ $links = new Links();
     <?php include 'nav.php'; ?>
     <hr class="mt-5"/>
     <hr class="mt-lg-1 d-none d-lg-block"/>
-<!--    <div class="col-12 bg-faded mb-0" >-->
-<!--        <div class="text-center">-->
-<!--            <h1 class="display-sm-4 display-lg-3">-->
-<!--                <a href="https://online.iglesiaalameda.com">-->
-<!--                    <i class="fas fa-globe  "></i>-->
-<!--                </a>-->
-<!--                <span class="js-display-typing"></span>-->
-<!--            </h1>-->
-<!--        </div>-->
-<!--    </div>-->
-    <!--Seccion cover-->
-<!--    <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white mt-0"-->
-<!--             style="background-image: url(series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg) ; max-width: 100%; height: auto;-->
-<!--            background-size: 130% 100% ;-->
-<!--">-->
-<!--        <!-- Vacío para texto Content -->
-<!--        <div class="container u-overlay__inner u-ver-center u-content-space ">-->
-<!--            <div class="row justify-content-center">-->
-<!---->
-<!--            </div>-->
-<!--        </div>-->
-<!---->
-<!---->
-<!--        <!-- Fin Vacío para texto Content -->
-<!--    </section>-->
-    <!--    FIn Section COver-->
-
-
 </header>
 
 <!-- Horarios - Invitación - Video -->
@@ -203,71 +133,8 @@ $links = new Links();
     <div class="container">
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">
-<!--            <div class="row align-items-lg-center mb-5">-->
-<!---->
-<!--<!--                <div class="display-4 mb-2 text-primary col-sm-12 text-center">-->
-<!--<!--                    <div class="col-lg-3 mx-auto">-->
-<!--<!--                        <i class="fas fa-laptop-house"></i>-->
-<!--<!--                    </div>-->
-<!--<!--                    <div class="col-lg-7 mx-auto">-->
-<!--<!--                        <h2>-->
-<!--<!---->
-<!--<!--                            <b>Domingos 11 Hs. <br class="d-block d-md-none"/>-->
-<!--<!---->
-<!--<!--                                y 20 Hs.</b></h2>-->
-<!--<!--                    </div>-->
-<!--<!--                </div>-->
-<!--            </div>-->
+
         </header>
-        <!-- End Invitación: Header -->
-
-<!--        <div class="col-lg-12 col-md-12">-->
-<!--            <!-- Enlave Video -->
-<!--            <article class="u-destacado u-box-shadow-sm text-center rounded">-->
-<!--                <!-- Article Header -->
-<!--                <header class="u-destacado__header bg-faded-blue text-white rounded-top">-->
-<!--                    <h3><strong class="u-destacado__header-price display-4 font-weight-bold mt-1 mb-1">-->
-<!--                        Experiencia Alameda-->
-<!--                    </strong>-->
-<!--                    </h3>-->
-<!---->
-<!--                    <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-1">-->
-<!--                        <a href="https://online.iglesiaalameda.com" class="text-white">-->
-<!--                            En vivo desde aqui-->
-<!--                        </a>-->
-<!--                    </h3>-->
-<!---->
-<!--                    <svg class="u-destacado__header-decoration" preserveAspectRatio="none"-->
-<!--                         xmlns="http://www.w3.org/2000/svg" width="100%"-->
-<!--                         height="50px" viewBox="0 0 300 55">-->
-<!--                        <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"-->
-<!--                              opacity="0.6" fill="#fff"></path>-->
-<!--                        <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z"-->
-<!--                              opacity="0.6" fill="#fff"></path>-->
-<!--                        <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z"-->
-<!--                              opacity="0.7" fill="#fff"></path>-->
-<!--                        <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"-->
-<!--                              fill="#fff"></path>-->
-<!--                    </svg>-->
-<!--                </header>-->
-<!--                <!-- End Article Header -->
-<!---->
-<!--                <!-- Article Content -->
-<!--                <div class="u-destacado__content">-->
-<!--                    <iframe src="https://www.youtube.com/embed/--><?php //echo $links->getIndex(); ?><!--" class="img-fluid linkYoutube mx-auto"-->
-<!---->
-<!---->
-<!--                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"-->
-<!--                            allowfullscreen></iframe>-->
-<!---->
-<!--                    <!--                        <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>-->
-<!--                </div>-->
-<!--                <!-- End Article Content -->
-<!--            </article>-->
-<!--            <!-- Fin Enlace Video -->
-<!--        </div>-->
-
-
 
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
@@ -281,7 +148,7 @@ $links = new Links();
                 <b>Domingos 11 Hs.
 <!--                    <br class="d-block d-md-none"/>-->
 
-                    y 20 Hs.</b></h2>
+                    y 20 Hs.</b>
             </small>
 
 
