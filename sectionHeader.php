@@ -48,7 +48,7 @@ $notas = new Links();
 
                             <div class="col-sm-12 container-img mt-0 mb-2">
 
-                                <img src="/images/institucional/conocerte.jpg" class="img-fluid card-img vw-100 shadow-blue p-1"
+                                <img src="/images/institucional/conocerte.jpg" class="img-fluid card-img vw-100  p-1"
                                      alt="Iglesia de la Alameda"/>
 
 
@@ -64,7 +64,7 @@ $notas = new Links();
 
                             <div class="col-sm-12 container-img mt-2 mb-lg-0 mb-sm-5">
 
-                                <img src="/images/gp_escalado.png" class="img-fluid card-img vw-100 shadow-blue p-5"
+                                <img src="/images/gp_escalado.png" class="img-fluid card-img vw-100 border p-5"
                                      alt="Iglesia de la Alameda"/>
 
 
