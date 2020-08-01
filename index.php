@@ -37,12 +37,6 @@ $links = new Links();
     <title>Iglesia de la Alameda</title>
     <?php include 'favicon.php' ?>
 
-
-    <!-- Bootstrap core CSS -->
-
-
-    <!-- Bootstrap core CSS -->
-
     <!-- Icon core  -->
 
     <link href="css/foundation-icons.css" rel="stylesheet">
@@ -99,18 +93,19 @@ $links = new Links();
         /*width: 100%;*/
         /*height: 100%;*/
         /*}*/
-        .swiper-container {
-            width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
+        /*.swiper-container {*/
+        /*    width: 100%;*/
+        /*    padding-top: 50px;*/
+        /*    padding-bottom: 50px;*/
+        /*}*/
 
-        .swiper-slide {
-            background-position: center;
-            background-size: cover;
-            width: 300px;
-            height: 300px;
-        }
+        /*.swiper-slide {*/
+        /*    background-position: center;*/
+        /*    background-size: cover;*/
+        /*    width: 300px;*/
+        /*    height: 300px;*/
+        /*}*/
+
     </style>
 
 
@@ -129,7 +124,7 @@ $links = new Links();
     <?php include 'nav.php'; ?>
     <hr class="mt-5"/>
     <hr class="mt-lg-1 d-none d-lg-block"/>
-    <div class="col-12 bg-faded" mb-0>
+    <div class="col-12 bg-faded mb-0" >
         <div class="text-center">
             <h1 class="display-sm-4 display-lg-3">
                 <a href="https://online.iglesiaalameda.com">
@@ -187,9 +182,10 @@ $links = new Links();
             <article class="u-destacado u-box-shadow-sm text-center rounded">
                 <!-- Article Header -->
                 <header class="u-destacado__header bg-light-blue text-white rounded-top">
-                    <strong class="u-destacado__header-price display-4 font-weight-bold mt-1 mb-1">
-                        <h3>Experiencia Alameda</h3>
+                    <h3><strong class="u-destacado__header-price display-4 font-weight-bold mt-1 mb-1">
+                        Experiencia Alameda
                     </strong>
+                    </h3>
 
                     <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-1">
                         <a href="https://online.iglesiaalameda.com" class="text-white">
@@ -197,7 +193,7 @@ $links = new Links();
                         </a>
                     </h3>
 
-                    <svg class="u-destacado__header-decoration" version="1.1" preserveAspectRatio="none"
+                    <svg class="u-destacado__header-decoration" preserveAspectRatio="none"
                          xmlns="http://www.w3.org/2000/svg" width="100%"
                          height="50px" viewBox="0 0 300 55">
                         <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"
@@ -215,7 +211,7 @@ $links = new Links();
                 <!-- Article Content -->
                 <div class="u-destacado__content">
                     <iframe src="https://www.youtube.com/embed/<?php echo $links->getIndex(); ?>" class="img-fluid linkYoutube mx-auto"
-                            frameborder="0"
+
 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
@@ -341,28 +337,26 @@ $links = new Links();
     <div class="container bg-anuncios">
         <div class="row">
             <div class="col-lg-7 col-sm-12 text-center align-self-center ">
-                <h2 class="text-center text-white-75">
+                <h2 class="text-center text-white-75 mb-0">
                     Acercate a la Experiencia <br/>
-                    <div style="line-height: 0.6em">
-                        <br/>
+                    <span style="line-height: 0.6em">
                     <strong class="text-uppercase mb-0 pb-0"
-                            style="font-weight: 900; font-family: druk_italic;
+                            style="font-weight: 900; font-family: druk_italic, 'sans-serif';
                             "
                     >Alameda
-
                     </strong>
-                        <br/>
-                        <small style="font-size: 0.4em" class="text-white-75">
+                        <br />
+                        <sup style="font-size: 0.4em" class="sup-2 text-white-75 ">
                             online
-                        </small>
-                    </div>
-
-
+                        </sup>
+                    </span>
 
                 </h2>
+                <div>
                 Visitá nuestra casa virtual para ver y <br/>
                 experimentar nuestras celebraciones online
-                <br/>
+                </div>
+
                 <a class="btn btn-link text-white" href="https://online.iglesiaalameda.com">
                     <h3>
                         online.iglesiaalameda.com
@@ -680,7 +674,7 @@ $links = new Links();
         <div class="row text-center d-flex align-items-center bg-white">
 
             <div class="col-sm-5 pull-left">
-                <img src="series/escape-a-la-libertad/02-hay-equipo.jpg" class="img-fluid w-75 u-browser-img rounded"/>
+                <img src="series/escape-a-la-libertad/02-hay-equipo.jpg" class="img-fluid w-75 u-browser-img rounded" alt="Iglesia Alameda"/>
             </div>
 
             <div class="col-sm-7 pt-5">
@@ -721,30 +715,23 @@ $links = new Links();
             <div class="col-lg-7 col-sm-12 text-center align-self-center  ">
                 <h2 class="text-center text-white-75">
 
-                    <div style="line-height: 0.6em">
+                    <span style="line-height: 0.6em">
                         <br/>
                         <strong class="text-uppercase mb-0 pb-0"
-                                style="font-weight: 900; font-family: druk_italic;
+                                style="font-weight: 900; font-family: druk_italic, sans-serif;
                             "
                         >
                             Oración
 
                         </strong>
-                        <br/>
-                        <small style="font-size: 0.4em" class="text-white-75">
-                            <hr class="w-50 border-white">
-                        </small>
-
-                    </div>
-
-
-
+                    </span>
                 </h2>
+                <hr class="w-50 border-white">
                 Llamanos al (+54) 261 4251182<br/>
                 Durante todo el servicio
                 <br/>
                 o compartilo aquí <br/>
-                <a class="btn btn-link text-white" href="/oracion.php">
+                <a class="btn btn-link text-white text-center" href="/oracion.php">
                     <h3>
                         iglesiaalameda.com/oracion
                     </h3>
@@ -790,7 +777,7 @@ include('section-ministerios.php');
     <div class="container">
         <div class="row text-center d-flex align-items-center">
             <div class="col-sm-3 pull-left">
-                <img src="../images/logoYoutubeBrown.png" class="img-fluid rounded" alt="<?php echo $lemaSinEspacios ?>"/>
+                <img src="/images/logoYoutubeBrown.png" class="img-fluid rounded" alt="<?php echo $lemaSinEspacios ?>"/>
             </div>
             <div class="col-sm-9 pull-right ">
 
