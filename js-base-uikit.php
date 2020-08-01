@@ -18,6 +18,7 @@
 <!-- Theme Components and Settings -->
 <script src="/stream-ui-kit/assets/js/vendors/parallax.js"></script>
 
+<script src="/material-kit/js/core/bootstrap-material-design.min.js"></script>
 <script src="/material-kit/js/plugins/moment.min.js"></script>
 <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
 <script src="/material-kit/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>

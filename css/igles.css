@@ -1003,3 +1003,7 @@ header.masthead-oportunidades {
 .sup-2 {
     top: -2.5em !important;
 }
+
+.h-90 {
+    height: 90% !important;
+}

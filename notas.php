@@ -31,7 +31,7 @@ $links = new Links();
     ?>
     <link rel="icon" href="images/index.png" sizes="32x32"/>
     <link rel="icon" href="images/index192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="../images/indexapple.png"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
     <style>
         strong {
@@ -43,21 +43,21 @@ $links = new Links();
             font-weight: 600 !important;
         }
 
-        .header {
-            background-image: url('images/series/cabecera_index.jpg');
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
+        /*.header {*/
+        /*    background-image: url('images/series/cabecera_index.jpg');*/
+        /*    background-size: cover;*/
+        /*    background-position: center;*/
+        /*    position: relative;*/
+        /*}*/
 
-        .overlay {
-            position: absolute;
-            min-height: 100%;
-            min-width: 100%;
-            left: 0;
-            top: 0;
-            background: rgba(255, 255, 255, 0.6);
-        }
+        /*.overlay {*/
+        /*    position: absolute;*/
+        /*    min-height: 100%;*/
+        /*    min-width: 100%;*/
+        /*    left: 0;*/
+        /*    top: 0;*/
+        /*    background: rgba(255, 255, 255, 0.6);*/
+        /*}*/
 
         img.resize {
             width: 10%; /* you can use % */
@@ -149,7 +149,7 @@ $links = new Links();
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="series/escape-a-la-libertad/escape-a-la-libertad-second.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="series/escape-a-la-libertad/entrenamiento-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -370,7 +370,7 @@ include "footer.php";
         </button>
         <div class="modal-content">
             <div class="modal-body  ">
-                <img src="" class="img-fluid">
+                <img src="" class="img-fluid" alt="Iglesia de la Alameda">
             </div>
         </div>
     </div>
@@ -379,7 +379,7 @@ include "footer.php";
 <?php
 include('js-base-uikit.php');
 ?>
-<script src="js/alameda.js"></script>
+<script src="/js/alameda.js"></script>
 <script>
     $(function () {
         $('.img-modal').on("click", function () {
