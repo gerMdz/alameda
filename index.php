@@ -739,9 +739,9 @@ include 'sectionHeader.php';
                     </div>
                     <div class="right">
                         <h2 style="font-size: 2em; text-indent: 2em; font-family: 'Courgette', cursive; color: #000000"
-                            class="pt-sm-0 pt-lg-3 text-right">
+                            class="pt-sm-0 pt-lg-3 text-right ">
                             "
-                            El Señor cuida de los hombres honrados; y mantendrá la herencia de ellos para siempre. En tiempos difíciles no serán avergonzados, y en tiempos de escasez tendrán abundancia
+                            <i>El Señor cuida de los hombres honrados; y mantendrá la herencia de ellos para siempre. En tiempos difíciles no serán avergonzados, y en tiempos de escasez tendrán abundancia</i>
                             "
                         </h2>
                     </div>
