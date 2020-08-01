@@ -26,9 +26,9 @@ $notas = new Links();
                                         <small><?php echo $notas->getAutor(); ?></small>
 
                                     </a>
-                                    <a href="<?php echo $notas->getNota() ?>" class="card-link mr-2"
+                                    <a href="<?php echo $notas->getNota() ?>" class="btn btn-round  bg-white mr-2 "
                                        style="z-index: 100">
-                                        Ver la celebración
+                                        <b class="text-blue">Ver la celebración</b>
                                     </a>
                                     <!--                                    </div>-->
 
