@@ -10,6 +10,8 @@ $domingo = strtotime('today');
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
+require_once 'gerVendor/Links.php';
+$links = new Links();
 ?>
 <!DOCTYPE html>
 
@@ -212,7 +214,7 @@ include_once('links.php');
 
                 <!-- Article Content -->
                 <div class="u-destacado__content">
-                    <iframe src="https://www.youtube.com/embed/<?php echo $index_link; ?>" class="img-fluid linkYoutube mx-auto"
+                    <iframe src="https://www.youtube.com/embed/<?php echo $links->getIndex(); ?>" class="img-fluid linkYoutube mx-auto"
                             frameborder="0"
 
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

@@ -17,6 +17,8 @@ $title = 'Serie Escape a la LIbertad';
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
+require_once('gerVendor/Links.php');
+$links = new Links();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -268,7 +270,7 @@ include_once('links.php');
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                <a href="https://youtu.be/mlntN68aMxY" class="btn btn-icon" target="_blank">
+                                <a href="https://youtu.be/c7n-w-0Ucno" class="btn btn-icon" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <i>Video</i>
                                 </a>
@@ -279,7 +281,46 @@ include_once('links.php');
                 <!--                fin charla 3-->
 
                 <!--                charla 4-->
-
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/04-dia-de-entrenamiento.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                Día de Entrenamiento
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    ¡Cómo defender tu posición en tiempos malos!
+                                </u>
+                                <br/>
+                                El Señor cuida de los hombres honrados;
+                                y mantendrá la herencia de ellos para siempre.
+                                En tiempos difíciles no serán avergonzados,
+                                y en tiempos de escasez tendrán abundancia
+                                Salmos 37:18-19 (RVC)
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0">
+                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/04-dia-de-entrenamiento.pdf"
+                                   target="_blank">
+                                    <i class="far fa-file-pdf mr-1"></i>
+                                    <b>Notas</b>
+                                </a><br/>
+                                <a href="<?php echo $links->getNota(); ?>" class="btn btn-icon" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <i>Video</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--                fin charla 4-->
 
                 <!--                charla 5 -->
