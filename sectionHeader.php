@@ -55,8 +55,9 @@ $notas = new Links();
                                 <a class="btn btn-round bg-white centered" href="/contacto.php">
                                     <h6>
                                         <b class="text-blue">
-                                            ¿Nuevo en La Alameda? <br class="d-block d-md-none"/>
-                                            Queremos conocerte
+                                            ¿Nuevo en La Alameda?
+<!--                                            <br class="d-block d-md-none"/>-->
+<!--                                            Queremos conocerte-->
                                         </b>
                                     </h6>
                                 </a>

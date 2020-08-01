@@ -202,21 +202,21 @@ $links = new Links();
     <div class="container">
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">
-            <div class="row align-items-lg-center mb-5">
-
-                <div class="display-4 mb-2 text-primary col-sm-12 text-center">
-                    <div class="col-lg-3 mx-auto">
-                        <i class="fas fa-laptop-house"></i>
-                    </div>
-                    <div class="col-lg-7 mx-auto">
-                        <h2>
-
-                            <b>Domingos 11 Hs. <br class="d-block d-md-none"/>
-
-                                y 20 Hs.</b></h2>
-                    </div>
-                </div>
-            </div>
+<!--            <div class="row align-items-lg-center mb-5">-->
+<!---->
+<!--<!--                <div class="display-4 mb-2 text-primary col-sm-12 text-center">-->
+<!--<!--                    <div class="col-lg-3 mx-auto">-->
+<!--<!--                        <i class="fas fa-laptop-house"></i>-->
+<!--<!--                    </div>-->
+<!--<!--                    <div class="col-lg-7 mx-auto">-->
+<!--<!--                        <h2>-->
+<!--<!---->
+<!--<!--                            <b>Domingos 11 Hs. <br class="d-block d-md-none"/>-->
+<!--<!---->
+<!--<!--                                y 20 Hs.</b></h2>-->
+<!--<!--                    </div>-->
+<!--<!--                </div>-->
+<!--            </div>-->
         </header>
         <!-- End Invitación: Header -->
 
@@ -272,8 +272,13 @@ $links = new Links();
         <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
             <h2 class="h2 bg-alameda">
                 <a href="https://online.iglesiaalameda.com" class="text-white">
-                    Vení tal como SOS
+                    Alameda online
                 </a>
+                <small>
+                    <b>Domingos 11 Hs. <br class="d-block d-md-none"/>
+
+                        y 20 Hs.</b></h2>
+                </small>
             </h2>
 
 
