@@ -260,7 +260,7 @@ $links = new Links();
                                 y mantendrá la herencia de ellos para siempre.
                                 En tiempos difíciles no serán avergonzados,
                                 y en tiempos de escasez tendrán abundancia
-                                Salmos 37:18-19 (RVC)
+                                <p>Salmos 37:18-19 (RVC)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
@@ -299,11 +299,9 @@ $links = new Links();
                                     ¡Cómo defender tu posición en tiempos malos!
                                 </u>
                                 <br/>
-                                El Señor cuida de los hombres honrados;
-                                y mantendrá la herencia de ellos para siempre.
-                                En tiempos difíciles no serán avergonzados,
-                                y en tiempos de escasez tendrán abundancia
-                                Salmos 37:18-19 (RVC)
+                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie, firmes.  Defiendan su posición
+
+                                <p>Efesios 6:13-14 (NTV)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
