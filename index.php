@@ -271,7 +271,7 @@ $links = new Links();
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
             <h2 class="h2 bg-alameda">
-                <a href="notas.php" class="text-white">
+                <a href="https://onlime.iglesiaalameda.com" class="text-white">
                     Vení tal como SOS
                 </a>
             </h2>
