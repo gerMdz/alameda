@@ -211,7 +211,7 @@ $links = new Links();
                     <div class="col-lg-7 mx-auto">
                         <h2>
 
-                            <b>Domingos 11 Hs.
+                            <b>Domingos 11 Hs. <br class="d-block d-md-none"/>
 
                                 y 20 Hs.</b></h2>
                     </div>
@@ -270,7 +270,7 @@ $links = new Links();
 
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
-            <h2 class="h1 bg-alameda">
+            <h2 class="h2 bg-alameda">
                 <a href="notas.php" class="text-white">
                     Vení tal como SOS
                 </a>
