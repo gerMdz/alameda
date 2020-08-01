@@ -3,8 +3,35 @@
 
 class Links
 {
-    protected $nota = 'https://youtu.be/mlntN68aMxY';
-    protected $index = 'mlntN68aMxY';
+    protected $nota = 'https://youtu.be/c7n-w-0Ucno';
+    protected $index = 'c7n-w-0Ucno';
+    protected $autor = 'Pastor Fabian Ruiz';
+    protected $fecha = '26 de julio';
+    protected $title = 'Peleando por las lentejas';
+
+    /**
+     * @return string
+     */
+    public function getAutor(): string
+    {
+        return $this->autor;
+    }
+
+    /**
+     * @return string
+     */
+    public function getFecha(): string
+    {
+        return $this->fecha;
+    }
+
+    /**
+     * @return string
+     */
+    public function getTitle(): string
+    {
+        return $this->title;
+    }
 
     /**
      * @return string

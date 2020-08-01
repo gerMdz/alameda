@@ -10,6 +10,9 @@ $domingo = strtotime('today');
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
+include_once('gerVendor/Links.php');
+$notas = new Links();
+
 ?>
 <!DOCTYPE html>
 
@@ -37,100 +40,178 @@ include_once('links.php');
 
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"/>
     <script src="https://kit.fontawesome.com/743c9941eb.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link href="css/igles.css" rel="stylesheet">
+    <link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
 
     <!-- Material Kit CSS -->
-    <link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
+    <link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet"/>
+
+    <style>
+        .container-img {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        /* Bottom left text */
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        /* Top left text */
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        /* Top right text */
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        /* Bottom right text */
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
 <?php include 'nav.php'; ?>
-<div class="page-header bg-white mt-lg-n0 mt-sm-3" data-parallax="true" >
-    <div class="container-fluid">
+<hr class="mt-5"/>
+<hr class="mt-lg-1 d-none d-lg-block"/>
+<section class="bg-white ">
+    <div class="container-fluid mt-lg-1 mt-sm-5">
         <div class="row">
             <div class="col-md-10 mx-auto ">
-                <div class="row">
-                <div class="col-md-8 align-self-center">
-                    <div class="col-sm-10 mx-auto vh-100">
-                        <div class="card" >
-                            <iframe class="card-img"
-                                    src="https://www.youtube.com/embed/<?php echo $index_link; ?>"
-                                    width="100%" height="500"
+                <div class="row ">
+                    <div class="col-md-8 align-items-center">
+                        <div class="col-sm-12 mx-auto vh-100">
+                            <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
 
-                                    frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            <div class="card-img-overlay">
-                                <div class="card-footer bg-white justify-content-between" style="top: 90%; position: relative">
-                                    <a href="javascript:" class="card-link">
-                                        <small>26 de Julio</small><br/>
-                                        <b>Peleando por las lentejas</b><br/>
-                                        <small>Pastor Fabián Ruiz</small>
 
-                                    </a>
-                                    <a href="<?php echo $notas_link?>" class="card-link mr-2" style="z-index: 100">
-                                        Ver la celebración
-                                    </a>
+                                <iframe
+                                        src="https://www.youtube.com/embed/<?php echo $notas->getIndex(); ?>"
+                                        class="embed-responsive-item p-0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+<!--                                <div class="card-img-overlay">-->
+                                    <div class="card-footer bg-white justify-content-between"
+                                         style="top: 80%; position: relative">
+                                        <a href="javascript:" class="card-link">
+                                            <small><?php echo $notas->getFecha(); ?></small><br/>
+                                            <b><?php echo $notas->getTitle(); ?></b><br/>
+                                            <small><?php echo $notas->getAutor(); ?></small>
+
+                                        </a>
+                                        <a href="<?php echo $notas->getNota() ?>" class="card-link mr-2"
+                                           style="z-index: 100">
+                                            Ver la celebración
+                                        </a>
+<!--                                    </div>-->
+
+
                                 </div>
 
 
                             </div>
-
-
                         </div>
-
-
-
-
-
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="col-sm-6">
-                    <h1>Your title here</h1>
-                    <h3 class="title text-center">Subtitle</h3>
+
+                    <div class="col-md-4 mt-lg-1 mt-sm-5 align-items-center">
+
+                        <div class="row align-items-center">
+
+                            <div class="col-sm-12 container-img mt-0 mb-2">
+
+                                <img src="/images/institucional/conocerte.jpg" class="img-fluid card-img vw-100 shadow-blue p-1"
+                                     alt="Iglesia de la Alameda"/>
+
+
+                                <a class="btn btn-round bg-white centered" href="/contacto.php">
+                                    <h6>
+                                        <b class="text-blue">
+                                            ¿Nuevo en La Alameda? <br class="d-block d-md-none"/>
+                                            Queremos conocerte
+                                        </b>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <div class="col-sm-12 container-img mt-2 mb-lg-0 mb-sm-5">
+
+                                <img src="/images/gp_escalado.png" class="img-fluid card-img vw-100 shadow-blue p-5"
+                                     alt="Iglesia de la Alameda"/>
+
+
+                                <a class="btn btn-round bg-white centered" href="/oportunidades/grupos-pequeños.php">
+                                    <h6>
+                                        <b class="text-blue">
+                                            Se parte de un<br class="d-block d-md-none"/>
+                                            Grupo Pequeño
+                                        </b>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <h1>Your title here</h1>
-                        <h3 class="title text-center">Subtitle</h3>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="main main-raised">
-    <div class="container">
-        <div class="section text-center">
-            <h2 class="title">Your main section here</h2>
-        </div>
-    </div>
-</div>
+<!--<div class="main main-raised">-->
+<!--    <div class="container">-->
+<!--        <div class="section text-center">-->
+<!--            <h2 class="title">Your main section here</h2>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
-<footer class="footer footer-default" >
-    <div class="container">
-        <nav class="float-left">
-            <ul>
-                <li>
-                    <a href="/index.php">
-                        Iglesia de la Alameda
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="copyright float-right">
-            &copy;
-            <script>
-                document.write(new Date().getFullYear())
-            </script>, made with <i class="material-icons">favorite</i> by
-            <a href="/index.php" target="blank">Iglesia de la Alameda</a> .
-        </div>
-    </div>
-</footer>
+<!--<footer class="footer footer-default">-->
+<!--    <div class="container">-->
+<!--        <nav class="float-left">-->
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="/index.php">-->
+<!--                        Iglesia de la Alameda-->
+<!--                    </a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--        <div class="copyright float-right">-->
+<!--            &copy;-->
+<!--            <script>-->
+<!--                document.write(new Date().getFullYear())-->
+<!--            </script>-->
+<!--            , echo con <i class="material-icons">favorite</i> por-->
+<!--            <a href="/index.php" target="blank">Iglesia de la Alameda</a> .-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</footer>-->
+<?php
+include 'footer.php';
+?>
 <!--   Core JS Files   -->
 <script src="material-kit/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="material-kit/js/core/popper.min.js" type="text/javascript"></script>

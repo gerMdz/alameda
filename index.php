@@ -48,7 +48,7 @@ $links = new Links();
     <!-- Style 3th core  -->
     <!--    <link href="css/mdb.min.css" rel="stylesheet">-->
 <!--    <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">-->
-    <link href="css/business-casual.min.css?v=<?php echo $version ?>" rel="stylesheet">
+<!--    <link href="/css/business-casual.min.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link href="css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/slick-carousel/slick.css">
     <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/css/styles.css">
@@ -78,10 +78,10 @@ $links = new Links();
     <!-- Custom styles for this template -->
 
     <style>
-        .linkYoutube{
-            width: 100%;
-            height: 315px !important;
-        }
+        /*.linkYoutube{*/
+        /*    width: 100%;*/
+        /*    height: 315px !important;*/
+        /*}*/
         /*.swiper-container {*/
         /*width: 100vw;*/
         /*height: 100vh;*/
@@ -107,11 +107,54 @@ $links = new Links();
         /*}*/
 
     </style>
+    <style>
+        .container-img {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        /* Bottom left text */
+        .bottom-left {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+        }
+
+        /* Top left text */
+        .top-left {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+        }
+
+        /* Top right text */
+        .top-right {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        /* Bottom right text */
+        .bottom-right {
+            position: absolute;
+            bottom: 8px;
+            right: 16px;
+        }
+
+        /* Centered text */
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 
 
 </head>
 
-<body>
+<body class="bg-white">
 
 <!--<h1 class="site-heading text-center text-white d-sm-block">-->
 <!--      <span class="section-heading-upper">-->
@@ -155,7 +198,7 @@ $links = new Links();
 </header>
 
 <!-- Horarios - Invitación - Video -->
-<section class="bg-light page-section ">
+<section class="bg-faded page-section ">
     <div class="container">
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">
@@ -177,51 +220,53 @@ $links = new Links();
         </header>
         <!-- End Invitación: Header -->
 
-        <div class="col-lg-12 col-md-12">
-            <!-- Enlave Video -->
-            <article class="u-destacado u-box-shadow-sm text-center rounded">
-                <!-- Article Header -->
-                <header class="u-destacado__header bg-light-blue text-white rounded-top">
-                    <h3><strong class="u-destacado__header-price display-4 font-weight-bold mt-1 mb-1">
-                        Experiencia Alameda
-                    </strong>
-                    </h3>
+<!--        <div class="col-lg-12 col-md-12">-->
+<!--            <!-- Enlave Video -->
+<!--            <article class="u-destacado u-box-shadow-sm text-center rounded">-->
+<!--                <!-- Article Header -->
+<!--                <header class="u-destacado__header bg-faded-blue text-white rounded-top">-->
+<!--                    <h3><strong class="u-destacado__header-price display-4 font-weight-bold mt-1 mb-1">-->
+<!--                        Experiencia Alameda-->
+<!--                    </strong>-->
+<!--                    </h3>-->
+<!---->
+<!--                    <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-1">-->
+<!--                        <a href="https://online.iglesiaalameda.com" class="text-white">-->
+<!--                            En vivo desde aqui-->
+<!--                        </a>-->
+<!--                    </h3>-->
+<!---->
+<!--                    <svg class="u-destacado__header-decoration" preserveAspectRatio="none"-->
+<!--                         xmlns="http://www.w3.org/2000/svg" width="100%"-->
+<!--                         height="50px" viewBox="0 0 300 55">-->
+<!--                        <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"-->
+<!--                              opacity="0.6" fill="#fff"></path>-->
+<!--                        <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z"-->
+<!--                              opacity="0.6" fill="#fff"></path>-->
+<!--                        <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z"-->
+<!--                              opacity="0.7" fill="#fff"></path>-->
+<!--                        <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"-->
+<!--                              fill="#fff"></path>-->
+<!--                    </svg>-->
+<!--                </header>-->
+<!--                <!-- End Article Header -->
+<!---->
+<!--                <!-- Article Content -->
+<!--                <div class="u-destacado__content">-->
+<!--                    <iframe src="https://www.youtube.com/embed/--><?php //echo $links->getIndex(); ?><!--" class="img-fluid linkYoutube mx-auto"-->
+<!---->
+<!---->
+<!--                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"-->
+<!--                            allowfullscreen></iframe>-->
+<!---->
+<!--                    <!--                        <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>-->
+<!--                </div>-->
+<!--                <!-- End Article Content -->
+<!--            </article>-->
+<!--            <!-- Fin Enlace Video -->
+<!--        </div>-->
 
-                    <h3 class="u-destacado__header-title small text-uppercase u-letter-spacing-sm mb-1">
-                        <a href="https://online.iglesiaalameda.com" class="text-white">
-                            En vivo desde aqui
-                        </a>
-                    </h3>
 
-                    <svg class="u-destacado__header-decoration" preserveAspectRatio="none"
-                         xmlns="http://www.w3.org/2000/svg" width="100%"
-                         height="50px" viewBox="0 0 300 55">
-                        <path d="M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z"
-                              opacity="0.6" fill="#fff"></path>
-                        <path d="M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z"
-                              opacity="0.6" fill="#fff"></path>
-                        <path d="M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716H42.401L43.415,98.342z"
-                              opacity="0.7" fill="#fff"></path>
-                        <path d="M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z"
-                              fill="#fff"></path>
-                    </svg>
-                </header>
-                <!-- End Article Header -->
-
-                <!-- Article Content -->
-                <div class="u-destacado__content">
-                    <iframe src="https://www.youtube.com/embed/<?php echo $links->getIndex(); ?>" class="img-fluid linkYoutube mx-auto"
-
-
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-
-                    <!--                        <a class="btn btn-primary py-3 px-4" href="#!">Order Now</a>-->
-                </div>
-                <!-- End Article Content -->
-            </article>
-            <!-- Fin Enlace Video -->
-        </div>
 
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
@@ -239,15 +284,17 @@ $links = new Links();
 
 </section>
 <!-- Fin Horarios - Invitación - Video -->
-
+<?php
+include 'sectionHeader.php';
+?>
 <!--Section Slider Fotos-->
-<section class="page-section fondo-evento" id="fotos-inicio">
+<section class="page-section bg-faded mt-3" id="fotos-inicio">
     <!--<section class="u-content-space-bottom" id="fotos-inicio">-->
     <div class="container">
         <!-- Carousel -->
         <div class="row justify-content-center">
             <div class="col-lg-10">
-                <div id="carouselAlamedaIndicators" class="carousel slide bg-light u-box-shadow-lg"
+                <div id="carouselAlamedaIndicators" class="carousel slide bg-faded u-box-shadow-lg"
                      data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselAlamedaIndicators" data-slide-to="0" class="rounded active"></li>
@@ -333,7 +380,7 @@ $links = new Links();
     </section>
 <?php } ?>
 
-<section class="page-section vw-100 text-white" id="anuncio-online">
+<section class="page-section bg-faded vw-100 text-white mt-3" id="anuncio-online">
     <div class="container bg-anuncios">
         <div class="row">
             <div class="col-lg-7 col-sm-12 text-center align-self-center ">
@@ -358,9 +405,9 @@ $links = new Links();
                 </div>
 
                 <a class="btn btn-link text-white" href="https://online.iglesiaalameda.com">
-                    <h3>
+                    <h5>
                         online.iglesiaalameda.com
-                    </h3>
+                    </h5>
                 </a>
             </div>
             <div class="col-lg-5 order-lg-last mb-1 mb-lg-0 align-self-center d-none d-lg-block">
@@ -380,7 +427,7 @@ $links = new Links();
     </div>
 </section>
 
-<!--<section class="page-section bg-light" id="ppasos">-->
+<!--<section class="page-section bg-faded" id="ppasos">-->
 <!--    <div class="container">-->
 <!--        <hr/>-->
 <!---->
@@ -449,7 +496,7 @@ $links = new Links();
 <!--        </div>-->
 <!---->
 <!--        <!--<div class="card-deck">-->
-<!--        <div class="col-sm-12 bg-light">-->
+<!--        <div class="col-sm-12 bg-faded">-->
 <!--            <div class="col-sm-3 float-left">-->
 <!--                <div class="card-header">-->
 <!--                    <img src="imagenes/PuntoDePartida.jpeg" class="img-fluid"-->
@@ -520,7 +567,7 @@ $links = new Links();
 <!--                                    <br/>-->
 <!--                                    <!--                            <a href="masporhacer.php#crecimiento20181110"-->
 <!--                                    <!--                               data-toggle="tooltip"-->
-<!--                                    <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
+<!--                                    <!--                               title="<h5 class='bg-faded-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
 <!--                                    <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar-->
 <!--                                        Alameda-->
 <!--                                        (261 517 8081)-->
@@ -609,12 +656,12 @@ $links = new Links();
 <!--                                    Sábado 23/5, de 19 a 21hs-->
 <!--                                    <!--                                        <a href="masporhacer.php#crecimiento20181110"-->
 <!--                                    <!--                                                                             data-toggle="tooltip"-->
-<!--                                    <!--                                                                             title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
+<!--                                    <!--                                                                             title="<h5 class='bg-faded-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
 <!---->
 <!--                                    <br/>-->
 <!--                                    <!--                            <a href="masporhacer.php#crecimiento20181110"-->
 <!--                                    <!--                               data-toggle="tooltip"-->
-<!--                                    <!--                               title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
+<!--                                    <!--                               title="<h5 class='bg-faded-blue'><strong>Mas detallles aquí</strong> "><i class="material-icons btn-sm text-point-sec">local_library</i></a>-->
 <!--                                    <!--                                <small>Adelantá tu asistencia enviando un mensaje a nuestro número de Conectar Alameda-->
 <!--                                    <!--                                    (261 517 8081)-->
 <!--                                    <!--                                    <br/>-->
@@ -667,7 +714,7 @@ $links = new Links();
 <!---->
 <!--</section>-->
 
-<section class="page-section fondo-evento" id="versiculoClave">
+<section class="page-section bg-faded" id="versiculoClave">
     <!--    <div class="row text-center">-->
     <div class="container">
         <hr/>
@@ -697,7 +744,7 @@ $links = new Links();
             <div class="col-sm-12">
                 <a href="notas.php" class="text-light-blue"
                    data-toggle="tooltip"
-                   title="<h5 class='bg-light-blue'><strong>Mas detallles aquí</strong> "><i
+                   title="Mas detallles aquí "><i
                             class="material-icons btn-sm text-point-sec">local_library</i> Empieza aquí</a>
             </div>
 
@@ -732,18 +779,10 @@ $links = new Links();
                 <br/>
                 o compartilo aquí <br/>
                 <a class="btn btn-link text-white text-center" href="/oracion.php">
-                    <h3>
+                    <h5>
                         iglesiaalameda.com/oracion
-                    </h3>
+                    </h5>
                 </a>
-
-
-
-
-
-
-
-
 
 
             </div>
@@ -772,7 +811,7 @@ include('section-ministerios.php');
 <!-- Fin Ministerios-->
 
 
-<section class="page-section fondo-evento" id="revivir">
+<section class="page-section bg-faded" id="revivir">
     <!--    <div class="row text-center">-->
     <div class="container">
         <div class="row text-center d-flex align-items-center">
@@ -798,7 +837,7 @@ include('section-ministerios.php');
     </div>
 </section>
 
-<!--<section class="page-section container cta fondo-evento" id="dias">-->
+<!--<section class="page-section container cta bg-faded" id="dias">-->
 <!--    <div class="container-fluid p-0 ">-->
 <!--        <a href="dias.php"><i class="fas fa-arrows-alt"></i> <i>Ver a pantalla completa</i></a>-->
 <!--        <div class="swiper-container ">-->
@@ -877,7 +916,7 @@ include('section-ministerios.php');
 <!--</section>-->
 
 
-<section class="page-section bg-light" id="epa">
+<section class="page-section bg-faded" id="epa">
     <div class="container">
         <div class="row text-center d-flex align-items-cente ">
             <div class="col-sm-12">

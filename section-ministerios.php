@@ -1,7 +1,7 @@
 <?php
 ?>
 
-<section class="js-parallax bg-light u-content-space " style="background-image: url();">
+<section class="js-parallax bg-faded u-content-space " style="background-image: url();">
     <div class="container">
         <header class="w-md-50 mx-auto text-center mb-8">
             <h2 class="h1  mb-1 u-font-accent font-weight-bold">Tenemos más para brindarte</h2>

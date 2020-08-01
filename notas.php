@@ -32,7 +32,7 @@ $links = new Links();
     <link rel="icon" href="images/index.png" sizes="32x32"/>
     <link rel="icon" href="images/index192.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
-    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
     <style>
         strong {
             font-weight: 400 !important
