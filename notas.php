@@ -181,14 +181,14 @@ $links = new Links();
                             </div>
                             <br/>
                             <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/01-escape-a-la-libertad.pdf"
+                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/01-escape-a-la-libertad.pdf"
                                    target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                <a href="https://youtu.be/18isylytojk" class="btn btn-icon" target="_blank">
+                                <a href="https://youtu.be/18isylytojk" class="btn btn-white btn-icon" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
+                                    <b>Video</b>
                                 </a>
                             </div>
                         </div>
@@ -222,14 +222,14 @@ $links = new Links();
                             </div>
                             <br/>
                             <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/02-hay-equipo.pdf"
+                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/02-hay-equipo.pdf"
                                    target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                <a href="https://youtu.be/HRA1-R6z7Os" class="btn btn-icon" target="_blank">
+                                <a href="https://youtu.be/HRA1-R6z7Os" class="btn btn-white btn-icon" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
+                                    <b>Video</b>
                                 </a>
                             </div>
                         </div>
@@ -265,14 +265,14 @@ $links = new Links();
                             </div>
                             <br/>
                             <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/03-por-las-lentejas.pdf"
+                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/03-por-las-lentejas.pdf"
                                    target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                <a href="https://youtu.be/c7n-w-0Ucno" class="btn btn-icon" target="_blank">
+                                <a href="https://youtu.be/c7n-w-0Ucno" class="btn btn-white btn-icon" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
+                                    <b>Video</b>
                                 </a>
                             </div>
                         </div>
@@ -308,14 +308,14 @@ $links = new Links();
                             </div>
                             <br/>
                             <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-icon" href="series/escape-a-la-libertad/04-dia-de-entrenamiento.pdf"
+                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/04-dia-de-entrenamiento.pdf"
                                    target="_blank">
                                     <i class="far fa-file-pdf mr-1"></i>
                                     <b>Notas</b>
                                 </a><br/>
-                                <a href="<?php echo $links->getNota(); ?>" class="btn btn-icon" target="_blank">
+                                <a href="<?php echo $links->getNota(); ?>" class="btn btn-white btn-icon " target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <i>Video</i>
+                                    <b>Video</b>
                                 </a>
                             </div>
                         </div>
