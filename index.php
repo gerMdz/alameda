@@ -167,16 +167,16 @@ $links = new Links();
     <?php include 'nav.php'; ?>
     <hr class="mt-5"/>
     <hr class="mt-lg-1 d-none d-lg-block"/>
-    <div class="col-12 bg-faded mb-0" >
-        <div class="text-center">
-            <h1 class="display-sm-4 display-lg-3">
-                <a href="https://online.iglesiaalameda.com">
-                    <i class="fas fa-globe  "></i>
-                </a>
-                <span class="js-display-typing"></span>
-            </h1>
-        </div>
-    </div>
+<!--    <div class="col-12 bg-faded mb-0" >-->
+<!--        <div class="text-center">-->
+<!--            <h1 class="display-sm-4 display-lg-3">-->
+<!--                <a href="https://online.iglesiaalameda.com">-->
+<!--                    <i class="fas fa-globe  "></i>-->
+<!--                </a>-->
+<!--                <span class="js-display-typing"></span>-->
+<!--            </h1>-->
+<!--        </div>-->
+<!--    </div>-->
     <!--Seccion cover-->
 <!--    <section class="js-parallax u-promo-block u-promo-block--mheight-600 u-overlay u-overlay--dark text-white mt-0"-->
 <!--             style="background-image: url(series/escape-a-la-libertad/escape-a-la-libertad-encabezado.jpg) ; max-width: 100%; height: auto;-->
@@ -271,15 +271,17 @@ $links = new Links();
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
             <h2 class="h2 bg-alameda">
-                <a href="https://online.iglesiaalameda.com" class="text-white">
+                <a href="https://online.iglesiaalameda.com" class="text-white" target="_blank">
                     Alameda online
                 </a>
-                <small>
-                    <b>Domingos 11 Hs. <br class="d-block d-md-none"/>
 
-                        y 20 Hs.</b></h2>
-                </small>
             </h2>
+            <small>
+                <b>Domingos 11 Hs.
+<!--                    <br class="d-block d-md-none"/>-->
+
+                    y 20 Hs.</b></h2>
+            </small>
 
 
         </header>
