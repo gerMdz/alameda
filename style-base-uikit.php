@@ -38,4 +38,4 @@
       rel="stylesheet">
 <link href="/css/fonts/univers/font.css?v=<?php echo $version ?>" rel="stylesheet">
 
-<link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
+<link href="/material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />

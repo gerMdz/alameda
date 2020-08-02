@@ -157,6 +157,10 @@ $links = new Links();
 include 'sectionHeader.php';
 ?>
 
+<?php
+include 'section-two.php';
+?>
+
 <!--Fin Section Slider Fotos-->
 
 
