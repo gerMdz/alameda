@@ -3,11 +3,11 @@
 
 class Links
 {
-    protected $nota = 'https://youtu.be/c7n-w-0Ucno';
-    protected $index = 'c7n-w-0Ucno';
+    protected $nota = 'https://youtu.be/WCIjIWEegdA';
+    protected $index = 'WCIjIWEegdA';
     protected $autor = 'por Fabian Ruiz';
-    protected $fecha = '26 de julio';
-    protected $title = 'Peleando por las lentejas';
+    protected $fecha = '02 de Agosto de 2020';
+    protected $title = 'Día de entrenamiento';
 
     /**
      * @return string
