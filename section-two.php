@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <!--                charla 1-->
-            <div class="col-md-4 mb-2 mx-auto   ">
+            <div class="col-md-3 mb-2 mx-auto   ">
                 <!--                                        <div class="card h-100"> -->
 
                 <!--                                        <div class="card h-100"> -->
