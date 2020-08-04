@@ -20,14 +20,17 @@ include_once('gerVendor/gerFunctions.php')
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <?php
     include('meta-base.php');
-    include('style-base.php')
+    include('style-base-uikit.php')
     ?>
+    <title>Oración - Iglesia de la Alameda</title>
 
-    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <script src="js/alameda.js"></script>
+
+    <link href="/css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <script src="/js/alameda.js"></script>
 
 
     <style>
@@ -35,28 +38,10 @@ include_once('gerVendor/gerFunctions.php')
             font-weight: 400 !important
         }
 
-        .card-text {
-            font-size: 1.1em !important;
-            font-weight: 600 !important;
-        }
 
-        .header {
-            background-image: url('images/series/cabecera_index.jpg');
-            background-size: cover;
-            background-position: center;
-            position: relative;
 
-        }
 
-        .overlay {
-            position: absolute;
-            min-height: 100%;
-            min-width: 100%;
-            left: 0;
-            top: 0;
-            background: rgba(255, 255, 255, 0.6);
 
-        }
 
         img.resize {
             width: 10%; /* you can use % */
@@ -75,24 +60,26 @@ include_once('gerVendor/gerFunctions.php')
 
     </style>
 
-    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
           rel="stylesheet"/>
 
 
-    <link href="css/landings/heroic-features.css" rel="stylesheet">
+    <link href="/css/landings/heroic-features.css" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-<div class="container ">
+<header>
     <?php include 'nav.php'; ?>
 
+</header>
 
-    <section class="p5-5 mt-1 " id="inicio">
-        <div class="container">
+
+    <section class="px-sm-0 p-xl-5 p-md-3  mt-1 " id="inicio">
+        <div class="container-fluid">
             <div class="row fullscreen align-items-center justify-content-center">
                 <div class="col-sm-12 text-center mx-auto mt-1">
 
@@ -108,7 +95,7 @@ include_once('gerVendor/gerFunctions.php')
                         </h1>
                         <span class="divider-new my-1">
                         <img src="images/institucional/LOGO-ORACION.png"
-                             class="resize img-fluid rounded-circle"></span>
+                             class="resize img-fluid rounded-circle" alt="Iglesia de La Alameda"></span>
 
 
                         <h5 class="text-black-50 font-weight-light my-1 p-1">
@@ -141,7 +128,7 @@ include_once('gerVendor/gerFunctions.php')
 
     <!-- Bootstrap core JavaScript -->
     <?php
-    include('js-base.php');
+    include('js-base-uikit.php');
     ?>
 
 </body>
@@ -149,20 +136,20 @@ include_once('gerVendor/gerFunctions.php')
 </html>
 
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Contact form JavaScript -->
-<script src="js/jqBootstrapValidation.js"></script>
-<script src="js/contact_me.js"></script>
-
-<!-- Custom scripts for this template -->
-<script src="js/agency.min.js"></script>
-
-</body>
-
-</html>
+<!--<!-- Bootstrap core JavaScript -->
+<!--<script src="vendor/jquery/jquery.min.js"></script>-->
+<!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+<!---->
+<!--<!-- Plugin JavaScript -->
+<!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
+<!---->
+<!--<!-- Contact form JavaScript -->
+<!--<script src="js/jqBootstrapValidation.js"></script>-->
+<!--<script src="js/contact_me.js"></script>-->
+<!---->
+<!--<!-- Custom scripts for this template -->
+<!--<script src="js/agency.min.js"></script>-->
+<!---->
+<!--</body>-->
+<!---->
+<!--</html>-->
