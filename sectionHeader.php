@@ -20,15 +20,17 @@ $notas = new Links();
                                 <div class="card-footer bg-white justify-content-between ">
 <!--                                     style="top: 80%; position: relative"-->
 
-                                    <a href="javascript:" class="card-link">
+                                    <a  class="card-link">
                                         <small><?php echo $notas->getFecha(); ?></small><br/>
-                                        <b><?php echo $notas->getTitle(); ?></b><br/>
+                                        <span class="text-alameda"><?php echo $notas->getTitle(); ?></span><br/>
                                         <small><?php echo $notas->getAutor(); ?></small>
 
                                     </a>
-                                    <a href="<?php echo $notas->getNota() ?>" class="btn btn-round  bg-white mr-2 "
-                                       style="z-index: 100">
-                                        <b class="text-blue">Ver la celebración</b>
+                                    <a href="<?php echo $notas->getNota() ?>" class="btn-round btn-alameda  mr-2 ">
+<!--                                       style="z-index: 100" >-->
+
+                                        Ver último mensaje
+<!--                                        <b class="text-blue">Ver último mensaje</b>-->
                                     </a>
                                     <!--                                    </div>-->
 
@@ -44,38 +46,34 @@ $notas = new Links();
                         <div class="row ">
 
                             <div class="col-sm-12 container-img ">
-                                <div class="card mb-0 ">
+                                <div class="card mb-0 contenedor ">
                                     <img src="/images/institucional/contacto2.jpg" class="card-img "
                                          alt="Iglesia de la Alameda"/>
 
 
-                                    <a class="btn btn-round bg-white btn-centered" href="/contacto.php">
-                                        <h6>
-                                            <b class="text-blue">
-                                                ¿Nuevo en La Alameda?
+                                    <a class="btn-round btn-alameda-reverso btn-centered aire-2 e90" href="/contacto.php">
+
+
+                                                ¿Nuevo en la Alameda?
                                                 <!--                                            <br class="d-block d-md-none"/>-->
                                                 <!--                                            Queremos conocerte-->
-                                            </b>
-                                        </h6>
+
+
                                     </a>
                                 </div>
                             </div>
 
                             <div class="col-sm-12 container-img bottom-n10" >
-                                <div class="card">
+                                <div class="card contenedor">
 
                                     <img src="/images/institucional/gp.jpg" class="card-img "
                                          alt="Iglesia de la Alameda"/>
 
 
-                                    <a class="btn btn-round bg-white btn-centered"
+                                    <a class="btn-round btn-alameda-reverso btn-centered aire-2 e90"
                                        href="/oportunidades/grupos-pequeños.php">
-                                        <h6>
-                                            <b class="text-blue">
-                                                Se parte de un<br class="d-block d-md-none"/>
-                                                Grupo Pequeño
-                                            </b>
-                                        </h6>
+                                                Unite a un Grupo Pequeño
+
                                     </a>
                                 </div>
                             </div>

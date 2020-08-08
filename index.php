@@ -47,33 +47,33 @@ $links = new Links();
 
     <!-- Style 3th core  -->
     <!--    <link href="css/mdb.min.css" rel="stylesheet">-->
-<!--    <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">-->
-<!--    <link href="/css/business-casual.min.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <!--    <link rel="stylesheet" type="text/css" href="stream-ui-kit/assets/vendors/bootstrap/css/bootstrap.min.css">-->
+    <!--    <link href="/css/business-casual.min.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link href="/css/swiper.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/vendors/slick-carousel/slick.css">
     <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/css/styles.css">
     <!-- Style 3th core  -->
 
-    <!-- Style Auto core  -->
-    <link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="/css/bg.min.css?v=<?php echo $version ?>" rel="stylesheet">
-    <!-- Style Auto core  -->
 
     <!-- Fonts  core  -->
     <link href="/css/alameda/fontAlameda.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"-->
-<!--          rel="stylesheet">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">-->
-<!--    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700"-->
-<!--          rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="/css/fonts.min.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="/css/igles.css" rel="stylesheet">
+    <!--    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"-->
+    <!--          rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700"-->
+    <!--          rel="stylesheet">-->
 
-    <link href="material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
+    <link href="/css/fonts.min.css?v=<?php echo $version ?>" rel="stylesheet">
+    <!--    <link href="/css/igles.css" rel="stylesheet">-->
+
+    <!-- Style Auto core  -->
+    <link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/css/bg.min.css?v=<?php echo $version ?>" rel="stylesheet">
+    <!-- Style Auto core  -->
+    <link href="/material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet"/>
     <!-- Fonts  core  -->
 
     <!-- Custom styles for this template -->
@@ -110,7 +110,6 @@ $links = new Links();
     </style>
 
 
-
 </head>
 
 <body class="bg-white">
@@ -118,35 +117,35 @@ $links = new Links();
 
 <header>
     <?php include 'nav.php'; ?>
-    <hr class="mt-5"/>
-    <hr class="mt-lg-1 d-none d-lg-block"/>
+<!--    <hr class="mt-5"/>-->
+    <div class="mt-lg-1 d-none d-lg-block"></div>
+
 </header>
 
 <!-- Horarios - Invitación - Video -->
-<section class="bg-faded page-section ">
-    <div class="container">
+<section class="bg-alameda page-section mt-n1 ">
+    <div class="container-fluid">
         <!-- Invitación: Header -->
-        <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">
-
-        </header>
+        <!--        <header class="text-center w-md-50 mx-auto  mt-5 mb-8 ">-->
+        <!---->
+        <!--        </header>-->
 
         <!-- Invitación: Header -->
-        <header class="text-center w-md-50 mx-auto  mt-2 mb-8">
-            <h2 class="h2 bg-alameda">
-                <a href="https://online.iglesiaalameda.com" class="text-white" target="_blank">
+        <header class="text-center w-md-50 mx-auto mt-a35   mb-8 text-black-75">
+            <h2 class="h2  ">
+                <a href="https://online.iglesiaalameda.com" class="text-black-75 ArialLight" target="_blank">
                     Alameda online
                 </a>
 
             </h2>
-            <small>
-                <b>Domingos 11 Hs.
+            <h4 class="">
+                <b class="text-black-75">Domingos 11 Hs.
 <!--                    <br class="d-block d-md-none"/>-->
 
                     y 20 Hs.</b>
-            </small>
+            </h4>
 
 
-        </header>
         <hr>
         <!-- End Invitación: Header -->
     </div>
@@ -164,19 +163,6 @@ include 'section-two.php';
 <!--Fin Section Slider Fotos-->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php include('footer.php'); ?>
 
 <!-- Bootstrap core JavaScript -->
@@ -190,8 +176,6 @@ include 'section-two.php';
 
 <script type="text/javascript" src="js/jquery.countdown.js"></script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
-
-
 
 
 <!-- Components Vendor  -->
@@ -209,7 +193,6 @@ include 'section-two.php';
 <script src="stream-ui-kit/assets/js/vendors/carousel.js"></script>
 <script src="stream-ui-kit/assets/js/vendors/counters.js"></script>
 <!-- END JAVASCRIPTS -->
-
 
 
 <script src="material-kit/js/plugins/moment.min.js"></script>
@@ -234,7 +217,6 @@ include 'section-two.php';
     // $('.carousel').carousel({
     //     interval: 10000
     // })
-
 
 
 </script>

@@ -125,10 +125,60 @@ a.text-point-sec:hover {
 }
 
 .btn-alameda{
-    color:#f0e7d1;
-    background-color:#438789;
-    border-color:#007bff}
-.btn-alameda:hover{color:#438789;background-color:#f0e7d1;border-color:#73aba2}
+    box-sizing: border-box;
+    outline: currentcolor none medium;
+    border-radius: 999px;
+    cursor: default;
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, "Arial Nova", Arial, sans-serif !important;
+    user-select: none;
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25;
+    padding: 9px 24px;
+    color: white;
+    background-color: rgb(41, 147, 229);
+    border: 1px solid transparent;
+}
+.btn-alameda-reverso{
+    box-sizing: border-box;
+    outline: currentcolor none medium;
+    border-radius: 999px;
+    cursor: default;
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    -moz-box-align: center;
+    align-items: center;
+    font-family: ArialNova, "Arial Nova", Arial, sans-serif, "Proxima Nova", "Helvetica Neue", Helvetica  !important;
+    user-select: none;
+    margin-top: 8px;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.25;
+    padding: 15px 15px;
+    color: rgb(41, 147, 229);
+    background-color: white;
+    /*border: 1px solid rgb(41, 147, 229);*/
+}
+.btn-alameda-reverso:hover{
+    background-color: rgb(41, 147, 229);
+    color: white!important;
+    border: 1px solid transparent;
+    opacity: 1;
+}
+.btn-alameda:hover{
+    color:rgb(41, 147, 229);
+    background-color:white;
+    border-color:rgb(41, 147, 229);
+
+    }
+
 .btn-alameda.focus,.btn-alameda:focus{box-shadow:0 0 0 .2rem rgba(46,46,46,.5)}
 
 
@@ -636,7 +686,8 @@ h3.quote:after {
 
 b, i, sup, sub, u, del {
 
-    color: #6cbb23;
+    /*color: #6cbb23;*/
+    color: rgb(41, 147, 229);
 
 }
 
@@ -935,8 +986,11 @@ body.frontal{
 }
 
 .bg-alameda{
-    background-color: #438789;
+    background-color: #d3d9dd;
+    color: #495359;
 }
+
+
 
 .display-5 {
     font-size: 2rem;
@@ -1060,3 +1114,47 @@ header.masthead-oportunidades {
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
 }
+
+.aire-2{
+    letter-spacing: 2px;
+}
+
+a:hover>b{
+    color: white;
+}
+
+.e80{
+    font-size: 0.8em;
+}
+.e90{
+    font-size: 0.9em;
+}
+
+.mt-n3{
+    margin-top: -0.75rem !important;
+}
+.mt-a35{
+    margin-top: 3.5rem !important;
+}
+
+.text-alameda{
+color: rgb(41, 147, 229)
+}
+
+.contenedor:hover .card-img:hover {
+    transform : scale(1.3);
+    -moz-transform : scale(1.3); /* Firefox */
+    -webkit-transform : scale(1.3); /* Chrome - Safari */
+    -o-transform : scale(1.3); /* Opera */
+    -ms-transform : scale(1.3); /* IE9 */
+    /*transition-property: opacity, left, top, height;*/
+    /*transition-duration: 3s, 5s, 3s, 5s;*/
+}
+.card-img{
+    transition: 1.5s ease;
+    -moz-transition: 1.5s ease; /* Firefox */
+    -webkit-transition: 1.5s ease; /* Chrome - Safari */
+    -o-transition: 1.5s ease; /* Opera */
+}
+
+.contenedor {overflow:hidden;}
