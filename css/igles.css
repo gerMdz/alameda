@@ -1158,3 +1158,17 @@ color: rgb(41, 147, 229)
 }
 
 .contenedor {overflow:hidden;}
+
+.border-alameda {
+    border-color: #2993e5 !important;
+}
+.border-alameda-top {
+    border-top-color: #2993e5 !important;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+.border-alameda-bottom {
+    border-bottom-color: #2993e5 !important;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}

@@ -29,6 +29,7 @@ $links = new Links();
     include('favicon.php');
     include('style-base-uikit.php')
     ?>
+    <title>Notas - Iglesia de la Alameda</title>
     <link rel="icon" href="images/index.png" sizes="32x32"/>
     <link rel="icon" href="images/index192.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
@@ -74,7 +75,7 @@ $links = new Links();
         }
 
         .bg-fam {
-            background: #fafafa;
+            /*background: #fafafa;*/
             box-shadow: inset 0 0 .625rem rgba(0, 0, 0, .1), inset 0 0 2.188rem rgba(0, 0, 0, .03);
         }
 
@@ -179,16 +180,16 @@ $links = new Links();
                                 Hechos 12:10 (RVC)
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/01-escape-a-la-libertad.pdf"
-                                   target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a><br/>
-                                <a href="https://youtu.be/18isylytojk" class="btn btn-white btn-icon" target="_blank">
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/01-escape-a-la-libertad.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/18isylytojk" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <b>Video</b>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
                             </div>
                         </div>
@@ -220,16 +221,16 @@ $links = new Links();
                                 Al día siguiente, llamó a sus seguidores y eligió a doce de ellos. Lucas 6:12-16 (TLA)
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/02-hay-equipo.pdf"
-                                   target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a><br/>
-                                <a href="https://youtu.be/HRA1-R6z7Os" class="btn btn-white btn-icon" target="_blank">
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/02-hay-equipo.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/HRA1-R6z7Os" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <b>Video</b>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
                             </div>
                         </div>
@@ -263,16 +264,16 @@ $links = new Links();
                                 <p>Salmos 37:18-19 (RVC)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/03-por-las-lentejas.pdf"
-                                   target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a><br/>
-                                <a href="https://youtu.be/c7n-w-0Ucno" class="btn btn-white btn-icon" target="_blank">
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/03-por-las-lentejas.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/c7n-w-0Ucno" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <b>Video</b>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
                             </div>
                         </div>
@@ -304,16 +305,16 @@ $links = new Links();
                                 <p>Efesios 6:13-14 (NTV)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
-                            <br/>
-                            <div class="btn-group bottom-0">
-                                <a class="mr-4 btn btn-white btn-icon" href="series/escape-a-la-libertad/04-dia-de-entrenamiento.pdf"
-                                   target="_blank">
-                                    <i class="far fa-file-pdf mr-1"></i>
-                                    <b>Notas</b>
-                                </a><br/>
-                                <a href="<?php echo $links->getNota(); ?>" class="btn btn-white btn-icon " target="_blank">
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/04-dia-de-entrenamiento.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/WCIjIWEegdA" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <b>Video</b>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
                             </div>
                         </div>
@@ -322,7 +323,45 @@ $links = new Links();
                 <!--                fin charla 4-->
 
                 <!--                charla 5 -->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/05-rescate-a-la-medianoche.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                Día de Entrenamiento
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    ¡Cuándo terminará todo!
+                                </u>
+                                <br/>
+                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie, firmes.  Defiendan su posición
 
+                                <p>Efesios 6:13-14 (NTV)</p>
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/05-rescate-a-la-medianoche.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="<?php echo $links->getNota(); ?>" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--                fin charla 5 -->
             </div>
         </div>

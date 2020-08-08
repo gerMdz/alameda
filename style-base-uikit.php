@@ -23,7 +23,7 @@
 <!-- Style 3th core  -->
 
 <!-- Style Auto core  -->
-<link href="/css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
+<link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
 <!-- Style Auto core  -->
 
 <!-- Fonts  core  -->
