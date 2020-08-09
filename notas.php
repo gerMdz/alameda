@@ -5,6 +5,9 @@
  * Date: 02/06/2020
  * Time: 06:22
  */
+
+use gerVendor\Links;
+
 $lema = 'Escape a la LIbertad';
 $lemaSinEspacios = 'Escape-a-la-LIbertad';
 $ahora = date('Y-m-d H:i');
