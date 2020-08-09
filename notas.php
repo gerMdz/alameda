@@ -9,6 +9,8 @@
 //use gerVendor\HandlerNotas;
 //use gerVendor\Links;
 
+use gerVendor\HandlerNotas;
+
 $lema = 'Escape a la LIbertad';
 $lemaSinEspacios = 'Escape-a-la-LIbertad';
 $ahora = date('Y-m-d H:i');
@@ -24,7 +26,7 @@ include_once('links.php');
 require_once('gerVendor/Links.php');
 require_once 'gerVendor/HandlerNotas.php';
 //$links = new Links();
-$referencias = new \gerVendor\HandlerNotas();
+$referencias = new HandlerNotas();
 $data = $referencias->getReferencias('2020-08-09 09:30');
 
 
@@ -363,7 +365,7 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
                                     <span class="text-alameda btn-icon ">Notas</span><br/>
                                 </a>
-                                <a href="<?php echo $links->getNota(); ?>" class="card-link text-center" target="_blank">
+                                <a href="<?php echo $data['link'] ?>" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
