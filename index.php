@@ -1,4 +1,11 @@
 <?php
+
+//use gerVendor\HandlerNotas;
+//use gerVendor\Links;
+
+//use gerVendor\HandlerNotas;
+//use gerVendor\Links;
+
 $lema = 'Escape a la LIbertad';
 $lemaSinEspacios = 'Escape-a-la-LIbertad';
 $ahora = date('Y-m-d H:i');
@@ -11,7 +18,12 @@ $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
 require_once 'gerVendor/Links.php';
-$links = new Links();
+require_once 'gerVendor/HandlerNotas.php';
+$links = new \gerVendor\Links();
+
+
+
+
 ?>
 <!DOCTYPE html>
 

@@ -61,4 +61,3 @@ $muestroDia = ($diaSemana == 0) ? $anio . '/'. $mes . '/'. $dia : $aa .'/'.$mm .
 
 
 
-?>

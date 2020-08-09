@@ -19,6 +19,8 @@ include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
 require_once('gerVendor/Links.php');
 $links = new Links();
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

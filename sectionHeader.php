@@ -1,6 +1,15 @@
 <?php
+
+use gerVendor\HandlerNotas;
+use gerVendor\Links;
+
 include_once('gerVendor/Links.php');
 $notas = new Links();
+$referencias = new HandlerNotas();
+
+$data = $referencias->getReferencias('2020-08-09 09:30');
+
+
 ?>
 <section class="bg-white ">
     <div class="container-fluid mt-lg-1 mt-sm-5">
@@ -14,7 +23,7 @@ $notas = new Links();
                             <div class="col-sm-12 mr-0 left-n5">
                                 <div class="card shadow-none">
                                     <div class="card-img">
-                                        <img src="/series/escape-a-la-libertad/entrenamiento-tapa.jpg"
+                                        <img src="/series/escape-a-la-libertad/<?php echo $data['image']; ?>"
                                              alt="Iglesia de La Alameda"
                                              class="card-img"
                                         >
@@ -24,12 +33,13 @@ $notas = new Links();
                                         <!--                                     style="top: 80%; position: relative"-->
 
                                         <a class="card-link">
-                                            <small><?php echo $notas->getFecha(); ?></small><br/>
-                                            <span class="text-alameda"><?php echo $notas->getTitle(); ?></span><br/>
-                                            <small><?php echo $notas->getAutor(); ?></small>
+
+                                            <small><?php echo $data['fecha']; ?></small><br/>
+                                            <span class="text-alameda"><?php echo $data['title']; ?></span><br/>
+                                            <small><?php echo $data['autor']; ?></small>
 
                                         </a>
-                                        <a href="<?php echo $notas->getNota() ?>" class="btn-round btn-alameda  mr-2 ">
+                                        <a href="<?php echo $data['link'] ?>" class="btn-round btn-alameda  mr-2 ">
                                             <!--                                       style="z-index: 100" >-->
 
                                             Ver último mensaje
