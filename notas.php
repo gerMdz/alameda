@@ -6,7 +6,8 @@
  * Time: 06:22
  */
 
-use gerVendor\Links;
+//use gerVendor\HandlerNotas;
+//use gerVendor\Links;
 
 $lema = 'Escape a la LIbertad';
 $lemaSinEspacios = 'Escape-a-la-LIbertad';
@@ -21,7 +22,10 @@ $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
 require_once('gerVendor/Links.php');
-$links = new Links();
+require_once 'gerVendor/HandlerNotas.php';
+//$links = new Links();
+$referencias = new \gerVendor\HandlerNotas();
+$data = $referencias->getReferencias('2020-08-09 09:30');
 
 
 ?>
@@ -155,7 +159,7 @@ $links = new Links();
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="series/escape-a-la-libertad/entrenamiento-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="series/escape-a-la-libertad/<?php echo $data['image'] ?>" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
