@@ -1,31 +1,31 @@
-.navbar:before  {
-    border-color: #5a5a5a transparent transparent transparent;
-    position: absolute;
-    border-style: solid;
-    bottom: -1em;
-    margin-left: 0;
-    content: '';
-}
+/*.navbar:before  {*/
+/*    border-color: #5a5a5a transparent transparent transparent;*/
+/*    position: absolute;*/
+/*    border-style: solid;*/
+/*    bottom: -1em;*/
+/*    margin-left: 0;*/
+/*    content: '';*/
+/*}*/
 
-.navbar:before {
-    left: 0;
-    border-width: 1em 0 0 1em;
-}
+/*.navbar:before {*/
+/*    left: 0;*/
+/*    border-width: 1em 0 0 1em;*/
+/*}*/
 
-.navbar:after  {
-    border-color: #5a5a5a transparent transparent transparent;
-    position: absolute;
-    /*display: block;*/
-    border-style: solid;
-    bottom: -1em;
-    margin-left: 0;
-    content: '';
-}
+/*.navbar:after  {*/
+/*    border-color: #5a5a5a transparent transparent transparent;*/
+/*    position: absolute;*/
+/*    !*display: block;*!*/
+/*    border-style: solid;*/
+/*    bottom: -1em;*/
+/*    margin-left: 0;*/
+/*    content: '';*/
+/*}*/
 
-.navbar:after {
-    right: 0;
-    border-width: 1em 1em 0 0;
-}
+/*.navbar:after {*/
+/*    right: 0;*/
+/*    border-width: 1em 1em 0 0;*/
+/*}*/
 
 .bajomedia-content:before  {
     border-color: transparent transparent #31708f transparent;
