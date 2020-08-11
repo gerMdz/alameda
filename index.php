@@ -159,6 +159,7 @@ $links = new \gerVendor\Links();
 
 
         <hr>
+        </header>
         <!-- End Invitación: Header -->
     </div>
 
@@ -217,6 +218,7 @@ include 'section-two.php';
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+<script src="/js/bootstrap-material-design.js" type="text/javascript"></script>
 <script src="material-kit/js/material-kit.js?v=2.0.4" type="text/javascript"></script>
 
 <script>
