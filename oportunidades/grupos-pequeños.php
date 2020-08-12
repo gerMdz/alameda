@@ -46,21 +46,15 @@
     <!-- Style 3th core  -->
 
     <!-- Style Auto core  -->
-    <link href="/css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
 <!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <!-- Style Auto core  -->
 
     <!-- Fonts  core  -->
-    <link href="/css/alameda/fontAlameda.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-          rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700"
-          rel="stylesheet">
-    <link href="/css/fonts/univers/font.css?v=<?php echo $version ?>" rel="stylesheet">
+
+
 
 
     <link href="/material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet"/>
