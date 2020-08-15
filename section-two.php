@@ -78,6 +78,42 @@
                                 </div>
                                 <!--                fin marco jóvenes-->
 
+                                <!--                marco seminario -->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/seminario-de-liderazgo.jpg" alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="/seminario.php" class="card-link text-left">
+
+                                                <span class="text-alameda">Seminario de Liderazgo</span><br/>
+                                                <small>
+                                                    Carácter, Competencia y Conocimiento.
+                                                </small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco seminario-->
+
                                 <!--                marco dar-->
                                 <div class="col-md-3 mb-2 mx-auto   ">
                                     <!--                                        <div class="card h-100"> -->
