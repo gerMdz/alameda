@@ -7,6 +7,40 @@
                     <div class="row justify-content-center ">
                         <div class="col-sm-11">
                             <div class="row ">
+                                <!--                marco epicentro-->
+                                <div class="col-md-6 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/epicentro-2020.jpg" alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="ofrenda.php" class="card-link text-left">
+
+                                                <span class="text-alameda">Epicentro</span><br/>
+                                                <small>Pro primera vez online</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco epicentro-->
+
                             <!--                marco dar-->
                             <div class="col-md-3 mb-2 mx-auto   ">
                                 <!--                                        <div class="card h-100"> -->
