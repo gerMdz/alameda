@@ -25,7 +25,7 @@
 
                                             <a href="/epicentro.php" class="card-link text-left">
 
-                                                <span class="text-alameda">Epicentro</span><br/>
+                                                <span class="text-alameda">Epicentro - Conferencia de Pastores 2020</span><br/>
                                                 <small>Por primera vez online</small>
 
                                             </a>
@@ -41,6 +41,180 @@
 
                                 </div>
                                 <!--                fin marco epicentro-->
+
+                                <!--                marco dar-->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/dar-online.jpg" alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="ofrenda.php" class="card-link text-left">
+
+                                                <span class="text-alameda">Da online</span><br/>
+                                                <small>Seguro, fácil y claro</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco dar-->
+
+                                <!--                marco conexión-->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/tarjetadecontacto.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="contacto.php" class="card-link text-left">
+
+                                                <span class="text-alameda">Tarjeta de Contacto</span><br/>
+                                                <small>Nos encantaría saber de vos</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco conexión-->
+
+                                <!--                marco oración-->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/pedidosoracion.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="contacto.php" class="card-link text-left">
+
+                                                <span class="text-alameda">Motivos de Oración</span><br/>
+                                                <small>Dejanos saber como podemos orar</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco oración-->
+
+                                <!--                marco niños -->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/serviciopniños.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="https://www.youtube.com/channel/UCXJMZA6VuT44s741JgUIPwg" target="_blank" class="card-link text-left">
+
+                                                <span class="text-alameda">Niños</span><br/>
+                                                <small>Miralo con toda tu familia</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco niños -->
+
+                                <!--                marco adolescentes-->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/adolescentes.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="/alameda/a2.php" class="card-link text-left">
+                                                <span class="text-alameda">Adolescentes</span><br/>
+                                                <small>Conectate con chicos y chicas</small>
+
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco adolescentes-->
 
                                 <!--                marco jóvenes -->
                                 <div class="col-md-3 mb-2 mx-auto   ">
@@ -113,149 +287,6 @@
 
                                 </div>
                                 <!--                fin marco seminario-->
-
-                                <!--                marco dar-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
-                                    <!--                                        <div class="card h-100"> -->
-
-                                    <!--                                        <div class="card h-100"> -->
-                                    <div class="card shadow-none">
-                                        <div class="contenedor">
-                                            <img src="/images/institucional/dar-online.jpg" alt="Iglesia de La Alameda"
-                                                 class="card-img"
-                                            >
-                                        </div>
-                                        <!--                                <div class="card-img-overlay">-->
-                                        <div class="card-footer bg-white justify-content-between ">
-                                            <!--                                     style="top: 80%; position: relative"-->
-
-                                            <a href="ofrenda.php" class="card-link text-left">
-
-                                                <span class="text-alameda">Dar</span><br/>
-                                                <small>porque Dios nos lo dio primero</small>
-
-                                            </a>
-
-                                            <!--                                    </div>-->
-
-
-                                        </div>
-
-
-                                    </div>
-
-
-                                </div>
-                                <!--                fin marco dar-->
-
-                                <!--                marco conexión-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
-                                    <!--                                        <div class="card h-100"> -->
-
-                                    <!--                                        <div class="card h-100"> -->
-                                    <div class="card shadow-none">
-                                        <div class="contenedor">
-                                            <img src="/images/institucional/tarjetadecontacto.jpg"
-                                                 alt="Iglesia de La Alameda"
-                                                 class="card-img"
-                                            >
-                                        </div>
-                                        <!--                                <div class="card-img-overlay">-->
-                                        <div class="card-footer bg-white justify-content-between ">
-                                            <!--                                     style="top: 80%; position: relative"-->
-
-                                            <a href="contacto.php" class="card-link text-left">
-
-                                                <span class="text-alameda">Conexión Alameda</span><br/>
-                                                <small>Nos encataría conocerte</small>
-
-                                            </a>
-
-                                            <!--                                    </div>-->
-
-
-                                        </div>
-
-
-                                    </div>
-
-
-                                </div>
-                                <!--                fin marco conexión-->
-
-                                <!--                marco oración-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
-                                    <!--                                        <div class="card h-100"> -->
-
-                                    <!--                                        <div class="card h-100"> -->
-                                    <div class="card shadow-none">
-                                        <div class="contenedor">
-                                            <img src="/images/institucional/pedidosoracion.jpg"
-                                                 alt="Iglesia de La Alameda"
-                                                 class="card-img"
-                                            >
-                                        </div>
-                                        <!--                                <div class="card-img-overlay">-->
-                                        <div class="card-footer bg-white justify-content-between ">
-                                            <!--                                     style="top: 80%; position: relative"-->
-
-                                            <a href="contacto.php" class="card-link text-left">
-
-                                                <span class="text-alameda">Pedidos de Oración</span><br/>
-                                                <small>Estaremos orando por vos</small>
-
-                                            </a>
-
-                                            <!--                                    </div>-->
-
-
-                                        </div>
-
-
-                                    </div>
-
-
-                                </div>
-                                <!--                fin marco oración-->
-
-                                <!--                marco adolescentes-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
-                                    <!--                                        <div class="card h-100"> -->
-
-                                    <!--                                        <div class="card h-100"> -->
-                                    <div class="card shadow-none">
-                                        <div class="contenedor">
-                                            <img src="/images/institucional/adolescentes.jpg"
-                                                 alt="Iglesia de La Alameda"
-                                                 class="card-img"
-                                            >
-                                        </div>
-                                        <!--                                <div class="card-img-overlay">-->
-                                        <div class="card-footer bg-white justify-content-between ">
-                                            <!--                                     style="top: 80%; position: relative"-->
-
-                                            <a href="/alameda/a2.php" class="card-link text-left">
-                                                <span class="text-alameda">Adolescentes Alameda</span><br/>
-                                                <small>Conectate</small>
-
-
-                                            </a>
-
-                                            <!--                                    </div>-->
-
-
-                                        </div>
-
-
-                                    </div>
-
-
-                                </div>
-                                <!--                fin marco adolescentes-->
-
-                                <!--                charla 5 -->
-
-                                <!--                fin charla 5 -->
                             </div>
                         </div>
                     </div>
