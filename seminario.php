@@ -29,45 +29,29 @@ $version = date('YmdHi');
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
-    <title>Seminario Liderazgo Avanzado</title>
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500" rel="stylesheet">
+    <title>Seminario de Liderazgo</title>
     <!--
     CSS
 
     ============================================= -->
-    <link href="css/awasome/web-fonts-with-css/css/fontawesome-all.min.css " rel="stylesheet">
+    <link href="/css/awasome/web-fonts-with-css/css/fontawesome-all.min.css " rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
-          rel="stylesheet">
-    <link href="css/foundation-icons.css" rel="stylesheet">
+
+    <link href="/css/foundation-icons.css" rel="stylesheet">
     <!-- Css Propios página -->
-    <link href="css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link rel="stylesheet" href="css/estiloHorarios.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link rel="stylesheet" href="material-modal/css/material-modal.min.css?v=<?php echo $version ?>">
-    <!-- Fin Css Propios página -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
-          integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-    <!--    <link rel="stylesheet" href="css/uvcp/argon.min.css">-->
-    <link rel="stylesheet" href="css/material.min.css">
-    <link rel="stylesheet" href="css/material.light_blue-teal.min.css">
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <link href="css/style2.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
+<!--    <link href="/css/igles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+
+
+
+    <link rel="stylesheet" href="/css/material.light_blue-teal.min.css">
+<!--    <link href="/css/mdb.min.css" rel="stylesheet">-->
+<!--    <link href="css/style2.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="/material-kit/css/material-kit.min.css?v=<?php echo $version ?>" rel="stylesheet">
 
 
     <style>
-        #view-source {
-            position: fixed;
-            display: block;
-            right: 0;
-            bottom: 0;
-            margin-right: 40px;
-            margin-bottom: 40px;
-            z-index: 900;
-        }
+
 
         strong {
             font-weight: 400 !important
@@ -231,18 +215,17 @@ $version = date('YmdHi');
         <div class="section-title text-center">
 
             <!--                <h2 class="text-300  text-realce-sca">Nuestra generacion necesita </h2>-->
-            <p class="separator">
+            <p class="separator text-black-75">
                 La modalidad de estudio será semipresencial. <br/>
                 Clases intensivas con pastores, líderes y profesionales de excelencia, <br/>
                 acompañadas de un proceso tutorial desde un Aula Virtual específicamente diseñada para dicho propósito.
                 <br/>
                 Si te interesa formar parte de esta iniciativa conectate con nosotros a la siguiente dirección de correo
+                <br/>
 
 
                 <a href="mailto:inscripciones.sdl@gmail.com">
-
-
-                    inscripciones.sdl@gmail.com
+                    inscripciones.sdl<br class="d-none d-sm-block" />@gmail.com
                 </a>
 
                 <br/>
