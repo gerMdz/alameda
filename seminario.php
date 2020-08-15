@@ -21,9 +21,9 @@ $version = date('YmdHi');
     <meta property="og:type" content="website"/>
 
     <meta property="og:url" content="https://www.iglesiaalameda.com/seminario.php"/>
-    --
+
     <meta property="og:image" content="https://www.iglesiaalameda.com/seminario/img/sem/sem_1_logo.jpeg">
-    -->
+
     <!-- Meta Keyword -->
     <meta name="keywords" content="Semiario Liderzgo Avanzado">
     <!-- meta character set -->
@@ -39,13 +39,12 @@ $version = date('YmdHi');
 
     <link href="/css/foundation-icons.css" rel="stylesheet">
     <!-- Css Propios página -->
-<!--    <link href="/css/igles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
-
+    <!--    <link href="/css/igles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
 
 
     <link rel="stylesheet" href="/css/material.light_blue-teal.min.css">
-<!--    <link href="/css/mdb.min.css" rel="stylesheet">-->
-<!--    <link href="css/style2.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <!--    <link href="/css/mdb.min.css" rel="stylesheet">-->
+    <!--    <link href="css/style2.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link href="/css/igles.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="/material-kit/css/material-kit.min.css?v=<?php echo $version ?>" rel="stylesheet">
 
@@ -91,18 +90,17 @@ $version = date('YmdHi');
 
     <div class="col-sm-8 section-title text-center align-self-center mx-auto">
 
-            <h1 class="text-300  text-realce-sca">Nuestra generación necesita </h1>
-            <p class="separator text-black-75 h3">de manera urgente, nuevas iglesias con la
-                capacidad intacta para conectarse con la cultura, atraer multitudes,
-                transformar vidas y desatar un movimiento de influencia en nuestra sociedad. <br/>
-                Para esta misión el recurso mas valioso de Dios son hombres y mujeres capacitados para un liderazgo
-                estratégico innovador y valiente.<br/>
-                Para colaborar con Dios y servir a la próxima generación, presentamos el Seminario de Liderazgo Alameda,
-                un
-                espacio de entrenamiento para jóvenes líderes, pastores y plantadores de iglesias. Nuestro enfoque es en
-                tres áreas específicas:</p>
-        </div>
-
+        <h1 class="text-300  text-realce-sca">Nuestra generación necesita </h1>
+        <p class="separator text-black-75 h3">de manera urgente, nuevas iglesias con la
+            capacidad intacta para conectarse con la cultura, atraer multitudes,
+            transformar vidas y desatar un movimiento de influencia en nuestra sociedad. <br/>
+            Para esta misión el recurso mas valioso de Dios son hombres y mujeres capacitados para un liderazgo
+            estratégico innovador y valiente.<br/>
+            Para colaborar con Dios y servir a la próxima generación, presentamos el Seminario de Liderazgo Alameda,
+            un
+            espacio de entrenamiento para jóvenes líderes, pastores y plantadores de iglesias. Nuestro enfoque es en
+            tres áreas específicas:</p>
+    </div>
 
 
 </section>
@@ -225,7 +223,7 @@ $version = date('YmdHi');
 
 
                 <a href="mailto:inscripciones.sdl@gmail.com">
-                    inscripciones.sdl<br class="d-none d-sm-block" />@gmail.com
+                    inscripciones.sdl<br class="d-none d-sm-block"/>@gmail.com
                 </a>
 
                 <br/>
@@ -239,172 +237,6 @@ $version = date('YmdHi');
 </section>
 
 
-<!--==========================
-  About Us Section
-============================-->
-<!--<section id="about-us" class="about-us padd-section wow fadeInUp">-->
-<!--<div class="container">-->
-<!--<div class="row justify-content-center">-->
-
-<!--<div class="col-md-5 col-lg-3">-->
-<!--<img src="img/about-img.png" alt="About">-->
-<!--</div>-->
-
-<!--<div class="col-md-7 col-lg-5">-->
-<!--<div class="about-content">-->
-
-<!--<h2><span>eStartup</span>UI Design Mobile </h2>-->
-<!--<p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat-->
-<!--</p>-->
-
-<!--<ul class="list-unstyled">-->
-<!--<li><i class="fa fa-angle-right"></i>Creative Design</li>-->
-<!--<li><i class="fa fa-angle-right"></i>Retina Ready</li>-->
-<!--<li><i class="fa fa-angle-right"></i>Easy to Use</li>-->
-<!--<li><i class="fa fa-angle-right"></i>Unlimited Features</li>-->
-<!--<li><i class="fa fa-angle-right"></i>Unlimited Features</li>-->
-<!--</ul>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Features Section
-============================-->
-
-<!--<section id="features" class="padd-section text-center wow fadeInUp">-->
-
-<!--<div class="container">-->
-<!--<div class="section-title text-center">-->
-<!--<h2>Amazing Features.</h2>-->
-<!--<p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="container">-->
-<!--<div class="row">-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/paint-palette.svg" alt="img" class="img-fluid">-->
-<!--<h4>creative design</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/vector.svg" alt="img" class="img-fluid">-->
-<!--<h4>Retina Ready</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/design-tool.svg" alt="img" class="img-fluid">-->
-<!--<h4>easy to use</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/asteroid.svg" alt="img" class="img-fluid">-->
-<!--<h4>Free Updates</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/asteroid.svg" alt="img" class="img-fluid">-->
-<!--<h4>Free Updates</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/cloud-computing.svg" alt="img" class="img-fluid">-->
-<!--<h4>App store support</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/pixel.svg" alt="img" class="img-fluid">-->
-<!--<h4>Perfect Pixel</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="feature-block">-->
-<!--<img src="img/svg/code.svg" alt="img" class="img-fluid">-->
-<!--<h4>clean codes</h4>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Screenshots Section
-============================-->
-<!--<section id="screenshots" class="padd-section text-center wow fadeInUp">-->
-
-<!--<div class="container">-->
-<!--<div class="section-title text-center">-->
-<!--<h2>App Gallery</h2>-->
-<!--<p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="container">-->
-<!--<div class="owl-carousel owl-theme">-->
-
-<!--<div><img src="img/screen/1.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/2.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/3.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/4.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/5.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/6.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/7.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/8.jpg" alt="img"></div>-->
-<!--<div><img src="img/screen/9.jpg" alt="img"></div>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--</section>-->
-
-<!--==========================
-  Video Section
-============================-->
-
-<!--<section id="video" class="text-center wow fadeInUp">-->
-<!--<div class="overlay">-->
-<!--<div class="container-fluid container-full">-->
-
-<!--<div class="row">-->
-<!--<a href="#" class="js-modal-btn play-btn" data-video-id="s22ViV7tBKE"></a>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Team Section
-============================-->
 <section id="equipo" class=" text-center wow fadeInUp bg-white p-5">
 
     <div class="container">
@@ -417,7 +249,7 @@ $version = date('YmdHi');
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row align-self-center align-items-center justify-content-center">
 
             <div class="col-md-6">
                 <div class="team-block bottom">
@@ -922,16 +754,11 @@ include "footer.php";
 ?>
 
 <!-- Bootstrap core JavaScript -->
-<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-<script src="material-modal/js/material-modal.min.js?v=<?php echo $version ?>"></script>
-<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="js/extras/popper.min.js"></script>
-<!--  <script src="js/bootstrap-material-design.js"></script>-->
+<?php
+include('js-base-uikit.php');
+?>
+<script src="js/alameda.js"></script>
 
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!--    <script src="js/jquery.waypoints.js"></script>-->
-<script src="js/jquery.inview.min.js"></script>
 </body>
+
 </html>
