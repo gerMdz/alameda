@@ -77,15 +77,15 @@ $version = date('YmdHi');
 
 
 <!--<section class="section bg-white" id="inicio">-->
-<section class="page-header bg-white " data-parallax="true">
+<section class="page-header bg-white " data-parallax="false">
     <div class="container-fluid ">
         <div class="row fullscreen align-items-center justify-content-center">
-            <img class="ing-fluid img-center" src="/images/logo_3_sem.png" alt="SDL">
+            <img class="img-fluid img-center" src="/images/logo_3_sem.png" alt="SDL">
         </div>
     </div>
 </section>
 
-<section id="titulo" class=" text-center wow fadeInUp bg-white pt-5 ">
+<section id="titulo" class=" text-center wow fadeInUp bg-white pt-5 bg-white ">
 
 
     <div class="col-sm-8 section-title text-center align-self-center mx-auto">
@@ -118,15 +118,15 @@ $version = date('YmdHi');
                     <div>
 
                         <h2 class="card-title pt-2 ">
-                            <div class="feature-block">
+<!--                            <div class="feature-block">-->
 
                                 <i class="fa fa-database fa-3x text-white" aria-hidden="true"></i>
-                                <h4>Conocimiento</h4>
+                                <h4> Conocimiento</h4>
                                 <p>Una formación bíblico teológica de excelencia, de modo que puedan conectar la Verdad
                                     de Dios de una manera relevante con los desafíos de la cultura.</p>
                                 <!--            <a href="#">read more</a>-->
 
-                            </div>
+<!--                            </div>-->
                         </h2>
 
                     </div>
@@ -140,26 +140,28 @@ $version = date('YmdHi');
         <!-- Card -->
         <div class="card mb-4">
 
-            <div class="card card-image"
-            ">
 
-            <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-seminario py-5 px-4">
-                <div>
+            <div class="card card-image">
 
-                    <h2 class="card-title pt-2 ">
-                        <div class="feature-block">
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-seminario py-5 px-4">
+                    <div>
+
+                        <h2 class="card-title pt-2 ">
+<!--                        <div class="feature-block">-->
 
                             <i class="fas fa-gem fa-3x text-white" aria-hidden="true"></i>
                             <h4>Carácter</h4>
-                            <p>Una especial atención al corazón, proveyendo experiencias y espacios de mentoreo para la
-                                formación del carácter de Cristo.
+                            <p>
+                                Una especial atención al corazón,
+                                <br/> proveyendo experiencias y espacios de mentoreo
+                                 para la formación del carácter de Cristo.
 
 
                             </p>
                             <!--            <a href="#">read more</a>-->
 
-                        </div>
+<!--                        </div>-->
                     </h2>
 
                 </div>
@@ -182,17 +184,18 @@ $version = date('YmdHi');
                 <div>
 
                     <h2 class="card-title pt-2 ">
-                        <div class="feature-block">
+<!--                        <div class="feature-block">-->
 
                             <i class="fa fa-map fa-3x text-white" aria-hidden="true"></i>
                             <h4>Competencia</h4>
-                            <p>Estŗategias de liderazgo innovadoras, para formar plantadores de iglesias y líderes que
-                                guíen en un proceso de crecimiento dinámico y saludable.
+                            <p>Estŗategias de liderazgo innovadoras, para formar plantadores de iglesias <br/>
+                                y líderes que guíen en un proceso de crecimiento <br/>
+                                dinámico y saludable.
 
                             </p>
                             <!--            <a href="#">read more</a>-->
 
-                        </div>
+<!--                        </div>-->
                     </h2>
 
                 </div>
@@ -205,7 +208,7 @@ $version = date('YmdHi');
 
 </section>
 <!-- Card deck -->
-</section>
+
 
 <section id="pie" class=" text-center wow fadeInUp bg-white p-5">
 
@@ -223,7 +226,7 @@ $version = date('YmdHi');
 
 
                 <a href="mailto:inscripciones.sdl@gmail.com">
-                    inscripciones.sdl<br class="d-none d-sm-block"/>@gmail.com
+                    inscripciones.sdl@gmail.com
                 </a>
 
                 <br/>
