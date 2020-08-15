@@ -25,7 +25,7 @@
                                             <a href="ofrenda.php" class="card-link text-left">
 
                                                 <span class="text-alameda">Epicentro</span><br/>
-                                                <small>Pro primera vez online</small>
+                                                <small>Por primera vez online</small>
 
                                             </a>
 
