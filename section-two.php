@@ -22,7 +22,7 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="ofrenda.php" class="card-link text-left">
+                                            <a href="/epicentro.php" class="card-link text-left">
 
                                                 <span class="text-alameda">Epicentro</span><br/>
                                                 <small>Por primera vez online</small>
