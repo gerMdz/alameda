@@ -23,7 +23,7 @@ include_once ('gerVendor/gerFunctions.php')
 <head>
     <?php
     include ('meta-base.php');
-    include ('style-base.php')
+    include ('style-base-uikit.php')
     ?>
     
     <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
@@ -76,11 +76,11 @@ include_once ('gerVendor/gerFunctions.php')
 
 </head>
 
-<body>
+<body id="page-top">
 
-
-<div class="container ">
-    <?php include 'nav.php'; ?>
+<?php
+include 'nav.php';
+?>
 
 
 <section class="p5-5 mt-1 " id="inicio">
@@ -131,16 +131,13 @@ include_once ('gerVendor/gerFunctions.php')
     <section class="vacio mb-3">
 
     </section>
-
-
-
     <?php
     include "footer.php";
     ?>
 
     <!-- Bootstrap core JavaScript -->
     <?php
-    include ('js-base.php');
+    include('js-base-uikit.php');
     ?>
 
 </body>

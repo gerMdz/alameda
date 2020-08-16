@@ -24,12 +24,13 @@ include_once('gerVendor/gerFunctions.php')
 <head>
     <?php
     include('meta-base.php');
-    include('style-base-uikit.php')
+    include('style-base-uikit.php');
+
     ?>
     <title>Oración - Iglesia de la Alameda</title>
 
 
-    <link href="/css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+<!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <script src="/js/alameda.js"></script>
 
 
@@ -60,66 +61,59 @@ include_once('gerVendor/gerFunctions.php')
 
     </style>
 
-    <link href="/css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
-          rel="stylesheet"/>
-
-
-    <link href="/css/landings/heroic-features.css" rel="stylesheet">
+<!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"-->
+<!--          rel="stylesheet"/>-->
+<!---->
+<!---->
+<!--    <link href="/css/landings/heroic-features.css" rel="stylesheet">-->
 
 </head>
 
-<body>
+<body id="page-top">
+
+<?php
+include 'nav.php';
+?>
 
 
-<header>
-    <?php include 'nav.php'; ?>
+<header class="masthead masthead-oportunidades">
 
-</header>
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+                <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
+                   href="https://forms.gle/DuJvVG374UMNjCuv7"
+                   target="_blank">
+                    Podés hacerlo desde aqui
+                </a>
+                <h1 class="text-uppercase text-realce-alameda">
+                    <small class="text-black">Motivos de </small> Oración
+                </h1>
 
-
-    <section class="px-sm-0 p-xl-5 p-md-3  mt-1 " id="inicio">
-        <div class="container-fluid">
-            <div class="row fullscreen align-items-center justify-content-center">
-                <div class="col-sm-12 text-center mx-auto mt-1">
-
-                    <header class="jumbotron my-1">
-                        <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto"
-                           href="https://forms.gle/DuJvVG374UMNjCuv7" target="_blank">
-                            Podés hacerlo
-                            desde aqui
-                        </a>
-
-                        <h1 class="text-uppercase text-black-50 font-weight-bold">
-                            Motivos de Oración
-                        </h1>
-                        <span class="divider-new my-1">
-                        <img src="images/institucional/LOGO-ORACION.png"
-                             class="resize img-fluid rounded-circle" alt="Iglesia de La Alameda"></span>
-
-
-                        <h5 class="text-black-50 font-weight-light my-1 p-1">
-                            <b>Ningún</b> problema es demasiado grande para Dios,<br/>
-                            ni insignificante para su cuidado <b>Paternal</b>. <br/>
-                            Dejanos <b>tu motivo</b> de oración específico, <br/>
-                            tenemos un equipo de personas que <b>estará orando</b> por vos.
-                        </h5>
-
-
-
-
-
-                    </header>
+                <div class="d-flex col-sm-12">
+                    <hr class="my-auto flex-grow-1 divider col-sm-5">
+                    <img src="/images/institucional/logo-oracion-alameda.png"
+                         class="col-sm-1 img-fluid rounded-circle " alt="Iglesia de La Alameda">
+                    <hr class="col-sm-5 my-auto flex-grow-1">
                 </div>
+
+
+
+
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-black-75 font-weight-light mb-5"><b>Ningún</b> problema es demasiado grande para
+                    Dios,<br/>
+                    ni insignificante para su cuidado <b>Paternal</b>. <br/>
+                    Dejanos <b>tu motivo</b> de oración específico, <br/>
+                    tenemos un equipo de personas que <b>estará orando</b> por vos.
+                </p>
 
             </div>
         </div>
-    </section>
-
-
-    <section class="vacio mb-3">
-
-    </section>
+    </div>
+</header>
 
 
     <?php
