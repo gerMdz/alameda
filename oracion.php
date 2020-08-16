@@ -94,7 +94,7 @@ include 'nav.php';
                 <div class="d-flex col-sm-12">
                     <hr class="my-auto flex-grow-1 divider col-sm-5">
                     <img src="/images/institucional/logo-oracion-alameda.png"
-                         class="col-sm-1 img-fluid rounded-circle" style="max-height: 40px" alt="Iglesia de La Alameda">
+                         class="col-sm-1 img-fluid rounded-circle" style="max-width: 100px" alt="Iglesia de La Alameda">
                     <hr class="col-sm-5 my-auto flex-grow-1">
                 </div>
 
