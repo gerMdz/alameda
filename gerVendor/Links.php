@@ -5,34 +5,33 @@ class Links
 {
     protected $nota = 'https://youtu.be/zEtQAWbJ-Jg';
     protected $index = 'zEtQAWbJ-Jg';
-
     protected $autor = 'por Fabian Ruiz';
-    protected $fecha = '02 de Agosto de 2020';
-    protected $title = 'Día de entrenamiento';
-    protected $image1 = 'entrenamiento-tapa.jpg';
+    protected $fecha = '09 de Agosto de 2020';
+    protected $title = 'Escape a medianoche';
+    protected $image = 'medianoche-tapa.jpg';
 
 
-    protected $nota2 = 'https://youtu.be/zEtQAWbJ-Jg';
-    protected $index2 = 'zEtQAWbJ-Jg';
+    protected $nota2 = 'https://youtu.be/9ocRu3NUxtI';
+    protected $index2 = '9ocRu3NUxtI';
     protected $autor2 = 'por Fabian Ruiz';
-    protected $fecha2 = '09 de Agosto de 2020';
-    protected $title2 = 'Escape a medianoche';
-    protected $image2 = 'medianoche-tapa.jpg';
+    protected $fecha2 = '16 de Agosto de 2020';
+    protected $title2 = '¿Quién te crees?';
+    protected $image2 = 'entrenamiento-tapa-06.jpg';
 
     /**
      * @return string
      */
-    public function getImage1(): string
+    public function getImage(): string
     {
-        return $this->image1;
+        return $this->image;
     }
 
     /**
-     * @param string $image1
+     * @param string $image
      */
-    public function setImage1(string $image1): void
+    public function setImage(string $image): void
     {
-        $this->image1 = $image1;
+        $this->image = $image;
     }
 
     /**

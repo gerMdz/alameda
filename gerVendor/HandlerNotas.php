@@ -14,7 +14,7 @@ class HandlerNotas
          $fecha = $nota->getFecha();
          $title = $nota->getTitle();
          $autor = $nota->getAutor();
-         $image = $nota->getImage1();
+         $image = $nota->getImage();
          $link = $nota->getNota();
          $finalLnk = $nota->getIndex();
 

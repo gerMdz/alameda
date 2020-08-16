@@ -27,7 +27,7 @@ require_once('gerVendor/Links.php');
 require_once 'gerVendor/HandlerNotas.php';
 $links = new Links();
 $referencias = new HandlerNotas();
-$data = $referencias->getReferencias('2020-08-09 09:30');
+$data = $referencias->getReferencias('2020-08-16 09:30');
 
 
 ?>
@@ -162,7 +162,7 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="series/escape-a-la-libertad/<?php echo $data['image'] ?>" alt="<?php echo $lemaSinEspacios ?>">
+                         src="series/escape-a-la-libertad/escape-a-la-libertad-second.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                 <u>La prisión vs. la oración</u>
                                 <br/>
                                 Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad, ¡ésta se abrió por sí misma!
-                                Hechos 12:10 (RVC)
+                                <p>Hechos 12:10 (RVC)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
@@ -230,7 +230,8 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                 </u>
                                 <br/>
                                 En aquellos días, Jesús subió a una montaña para orar. Allí pasó toda la noche hablando con Dios.
-                                Al día siguiente, llamó a sus seguidores y eligió a doce de ellos. Lucas 6:12-16 (TLA)
+                                Al día siguiente, llamó a sus seguidores y eligió a doce de ellos.
+                                <p>Lucas 6:12-16 (TLA)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
@@ -366,7 +367,7 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
                                     <span class="text-alameda btn-icon ">Notas</span><br/>
                                 </a>
-                                <a href="<?php echo $links->getNota2() ?>" class="card-link text-center" target="_blank">
+                                <a href="https://youtu.be/zEtQAWbJ-Jg" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
@@ -395,9 +396,11 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                     Cuando tu imagen propia es la celda
                                 </u>
                                 <br/>
-<!--                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie, firmes.  Defiendan su posición-->
-<!---->
-<!--                                <p>Efesios 6:13-14 (NTV)</p>-->
+                                Por la fe salió de Egipto sin tenerle miedo a la ira del rey,
+                                pues se mantuvo firme como si estuviera viendo al
+                                Invisible.”
+
+                                <p>Hebreos 11:27 (NVI)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
@@ -408,7 +411,7 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
                                     <span class="text-alameda btn-icon ">Notas</span><br/>
                                 </a>
-                                <a href="<?php echo $links->getNota2() ?>" class="card-link text-center" target="_blank">
+                                <a href="https://youtu.be/9ocRu3NUxtI" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>

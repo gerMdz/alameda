@@ -1,15 +1,11 @@
 <?php
-
 use gerVendor\HandlerNotas;
 use gerVendor\Links;
 
 include_once('gerVendor/Links.php');
 $notas = new Links();
 $referencias = new HandlerNotas();
-
-$data = $referencias->getReferencias('2020-08-09 09:30');
-
-
+$data = $referencias->getReferencias('2020-08-16 10:00');
 ?>
 <section class="bg-white ">
     <div class="container-fluid mt-lg-1 mt-sm-5">
