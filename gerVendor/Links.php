@@ -3,8 +3,8 @@
 namespace gerVendor;
 class Links
 {
-    protected $nota = 'https://youtu.be/WCIjIWEegdA';
-    protected $index = 'WCIjIWEegdA';
+    protected $nota = 'https://youtu.be/zEtQAWbJ-Jg';
+    protected $index = 'zEtQAWbJ-Jg';
 
     protected $autor = 'por Fabian Ruiz';
     protected $fecha = '02 de Agosto de 2020';
@@ -12,8 +12,8 @@ class Links
     protected $image1 = 'entrenamiento-tapa.jpg';
 
 
-    protected $nota2 = 'https://youtu.be/91sXTpRmoPk';
-    protected $index2 = '91sXTpRmoPk';
+    protected $nota2 = 'https://youtu.be/zEtQAWbJ-Jg';
+    protected $index2 = 'zEtQAWbJ-Jg';
     protected $autor2 = 'por Fabian Ruiz';
     protected $fecha2 = '09 de Agosto de 2020';
     protected $title2 = 'Escape a medianoche';

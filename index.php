@@ -143,19 +143,18 @@ $links = new \gerVendor\Links();
         <!--        </header>-->
 
         <!-- Invitación: Header -->
-        <header class="text-center w-md-50 mx-auto mt-a35   mb-8 text-black-75">
-            <h2 class="h2  ">
+        <header class="text-center w-md-50 mx-auto mt-a4 mb-8 text-black-75">
+            <h2 class="h2 pt-3">
                 <a href="https://online.iglesiaalameda.com" class="text-black-75 ArialLight" target="_blank">
-                    Alameda online
+                    <b class="text-secondary">Alameda online</b>
                 </a>
 
-            </h2>
-            <h4 class="">
-                <b class="text-black-75">Domingos 11 Hs.
+                <span class="mr-2"></span>
+                <small class="text-black-75 ">Domingos 11 Hs.
 <!--                    <br class="d-block d-md-none"/>-->
 
-                    y 20 Hs.</b>
-            </h4>
+                    y 20 Hs.</small>
+            </h2>
 
 
         <hr>

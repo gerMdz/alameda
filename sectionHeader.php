@@ -33,13 +33,11 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                         <!--                                     style="top: 80%; position: relative"-->
 
                                         <a class="card-link">
-
                                             <small><?php echo $data['fecha']; ?></small><br/>
-                                            <span class="text-alameda"><?php echo $data['title']; ?></span><br/>
+                                            <span class="text-alameda t16 negrita7"><?php echo $data['title']; ?></span><br/>
                                             <small><?php echo $data['autor']; ?></small>
-
                                         </a>
-                                        <a href="<?php echo $data['link'] ?>" class="btn-round btn-alameda  mr-2 ">
+                                        <a href="<?php echo $data['link'] ?>" class="btn-round btn-alameda  mr-2" target="_blank">
                                             <!--                                       style="z-index: 100" >-->
 
                                             Ver último mensaje

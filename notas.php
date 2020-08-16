@@ -119,8 +119,9 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
         }
 
         .middle-0 {
-            /*top: 25%;*/
             position: relative;
+            top: 25%;
+            transform: translateY(-25%);
         }
     </style>
 </head>
@@ -169,11 +170,11 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
     <!-- Charlas -->
     <section class="a-content-space-medium bg-fam text-center">
         <div class="container">
-            <div class="row">
+            <div class="row   ">
                 <!--                charla 1-->
                 <div class="col-md-4 mb-2 mx-auto   ">
                     <!--                                        <div class="card h-100"> -->
-                    <div class="card card-a h-100 overflow-hidden">
+                    <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
                             <img src="/series/escape-a-la-libertad/01-escape-a-la-libertad.jpg" class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
@@ -352,9 +353,9 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                                     ¡Cuándo terminará todo!
                                 </u>
                                 <br/>
-                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie, firmes.  Defiendan su posición
+                                A eso de la medianoche ...
 
-                                <p>Efesios 6:13-14 (NTV)</p>
+                                <p>Hechos 16:25 (NVI)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
@@ -374,6 +375,48 @@ $data = $referencias->getReferencias('2020-08-09 09:30');
                     </div>
                 </div>
                 <!--                fin charla 5 -->
+
+                <!--                charla 6 -->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/06-quien-te-crees.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                Quién te crees
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    Cuando tu imagen propia es la celda
+                                </u>
+                                <br/>
+<!--                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie, firmes.  Defiendan su posición-->
+<!---->
+<!--                                <p>Efesios 6:13-14 (NTV)</p>-->
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/06-quien-te-crees.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="<?php echo $links->getNota2() ?>" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                fin charla 6 -->
             </div>
         </div>
     </section>
