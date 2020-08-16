@@ -110,7 +110,7 @@ $version = date('YmdHi');
                             Ofrendas y Diezmos.
                         </h1>
 
-                            <div class="blockquote blockquote-uvcp_dark ">
+                            <div class="blockquote blockquote-alameda-primary ">
                                 <h3>
                                 "A través de tus ofrendas de fe, Dios usa la Iglesia de la Alameda para servir a
                                 los demás y <br/>
@@ -119,7 +119,7 @@ $version = date('YmdHi');
                                 </h3>
                             </div>
 
-                            <div class="blockquote blockquote-point">
+                            <div class="blockquote blockquote-alameda-secondary">
                                 <h3>
                                 "Damos <br/>no porque tengamos que hacerlo,
                                 sino porque Dios nos lo dio primero,<br/>
