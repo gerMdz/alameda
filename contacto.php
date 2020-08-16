@@ -26,7 +26,7 @@ include_once ('gerVendor/gerFunctions.php')
     include ('style-base-uikit.php')
     ?>
     
-    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+<!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <script src = "js/alameda.js"> </script>
 
 
@@ -68,11 +68,11 @@ include_once ('gerVendor/gerFunctions.php')
 
     </style>
 
-    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-
-
-    <link href="css/landings/heroic-features.css" rel="stylesheet">
+<!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />-->
+<!---->
+<!---->
+<!--    <link href="css/landings/heroic-features.css" rel="stylesheet">-->
 
 </head>
 
@@ -83,54 +83,51 @@ include 'nav.php';
 ?>
 
 
-<section class="p5-5 mt-1 " id="inicio">
-    <div class="container">
-        <div class="row fullscreen align-items-center justify-content-center">
-            <div class="col-sm-12 text-center mx-auto mt-1">
+<header class="masthead masthead-oportunidades">
 
-                <header class="jumbotron my-1">
-                    <a class="btn btn-blue btn-xl js-scroll-trigger mx-auto" href="https://forms.gle/yMmDuFqn6mXkJ8Sb6" target="_blank">
-                        Completar Tarjeta de Conexión
-                    </a>
-
-                    <h1 class="text-uppercase text-black-50 font-weight-bold">
-                    Bienvenido a la Alameda<br/>
-                        ¡Nos encataría conocerte!
+    <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+                <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
+                   href="https://forms.gle/yMmDuFqn6mXkJ8Sb6"
+                   target="_blank">
+                    Completar Tarjeta de Conexión
+                </a>
+                <h1 class="text-uppercase text-realce-alameda">
+                    <small class="text-black">Bienvenido a la Alameda </small><br/> ¡Nos encataría conocerte!
                 </h1>
-                    <span class="divider-new my-1">
-                        <img src="images/institucional/iglesiaAlamedaInstagram.jpg"
-                                                        class="resize img-fluid rounded-circle"></span>
 
-
-
-                    <h5 class="text-black-50 font-weight-light my-1 p-1">
-                        Creemos que Dios tiene un plan maravilloso para tu vida.<br/>
-                        Nuestro profundo deseo es ayudarte a
-                        comenzar una relación con Dios<br/>
-                        y así crecer de tal manera que alcances
-                        la verdadera felicidad para vos y tu hogar.<br/>
-                        Estamos listos para oir tus sueños y acompañarte
-                        a través de las etapas de la vida.<br/>
-                        Sabemos que sos importante para Dios.<br/>
-                        "Deseamos verte llenar tu vida con próposito"
-                    </h5>
+                <div class="d-flex col-sm-12">
+                    <hr class="my-auto flex-grow-1 divider col-sm-5">
+                    <img src="/images/institucional/logo-gris-oscuro-2020.jpg"
+                         class="col-sm-1 img-fluid rounded-circle " alt="Iglesia de La Alameda">
+                    <hr class="col-sm-5 my-auto flex-grow-1">
+                </div>
 
 
 
 
-
-
-                </header>
             </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-black-75 font-weight-light mb-5">
+                    Creemos que Dios tiene un plan maravilloso para tu vida.<br/>
+                    Nuestro profundo deseo es ayudarte a
+                    comenzar una relación con Dios<br/>
+                    y así crecer de tal manera que alcances
+                    la verdadera felicidad para vos y tu hogar.<br/>
+                    Estamos listos para oir tus sueños y acompañarte
+                    a través de las etapas de la vida.<br/>
+                    Sabemos que sos importante para Dios.<br/>
+                    "Deseamos verte llenar tu vida con próposito"
+                </p>
 
+            </div>
         </div>
     </div>
-</section>
+</header>
 
 
-    <section class="vacio mb-3">
-
-    </section>
+<hr class="m-0">
     <?php
     include "footer.php";
     ?>
