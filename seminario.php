@@ -11,7 +11,7 @@ $version = date('YmdHi');
     <!--<link rel="shortcut icon" href="img/fav.png">-->
     <link rel="icon" href="images/index.png" sizes="32x32"/>
     <link rel="icon" href="images/index192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="images/indexapple.png"/>
+    <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
     <!-- Author Meta -->
     <meta name="author" content="Colorlib y el equipo de Iglesia Alameda">
     <!-- Meta Description -->
@@ -25,7 +25,7 @@ $version = date('YmdHi');
     <meta property="og:image" content="https://www.iglesiaalameda.com/seminario/img/sem/sem_1_logo.jpeg">
 
     <!-- Meta Keyword -->
-    <meta name="keywords" content="Semiario Liderzgo Avanzado">
+    <meta name="keywords" content="Seminario Liderazgo Avanzado">
     <!-- meta character set -->
     <meta charset="UTF-8">
     <!-- Site Title -->
@@ -39,7 +39,7 @@ $version = date('YmdHi');
 
     <link href="/css/foundation-icons.css" rel="stylesheet">
     <!-- Css Propios página -->
-    <!--    <link href="/css/igles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+
 
 
     <link rel="stylesheet" href="/css/material.light_blue-teal.min.css">
@@ -116,17 +116,16 @@ $version = date('YmdHi');
                 <!-- Content -->
                 <div class="text-white text-center d-flex align-items-center rgba-seminario py-5 px-4">
                     <div>
-
                         <h2 class="card-title pt-2 ">
-<!--                            <div class="feature-block">-->
-
-                                <i class="fa fa-database fa-3x text-white" aria-hidden="true"></i>
-                                <h4> Conocimiento</h4>
-                                <p>Una formación bíblico teológica de excelencia, de modo que puedan conectar la Verdad
-                                    de Dios de una manera relevante con los desafíos de la cultura.</p>
-                                <!--            <a href="#">read more</a>-->
-
-<!--                            </div>-->
+<!--                                                        <div class="feature-block">-->
+                            <i class="fa fa-database fa-3x text-white" aria-hidden="true"></i>
+                            <br/>
+                            <span class="h2 text-white"> Conocimiento</span>
+                            <br/>
+                            <span class="h4 text-white">Una formación bíblico teológica de excelencia, de modo que puedan conectar la Verdad
+                                    de Dios de una manera relevante con los desafíos de la cultura.</span>
+                            <!--            <a href="#">read more</a>-->
+<!--                                                        </div>-->
                         </h2>
 
                     </div>
@@ -148,62 +147,66 @@ $version = date('YmdHi');
                     <div>
 
                         <h2 class="card-title pt-2 ">
-<!--                        <div class="feature-block">-->
+                            <!--                        <div class="feature-block">-->
 
                             <i class="fas fa-gem fa-3x text-white" aria-hidden="true"></i>
-                            <h4>Carácter</h4>
-                            <p>
+                            <br/>
+                            <span class="text-white h2">Carácter</span>
+                            <br/>
+                            <span class="text-white h4">
                                 Una especial atención al corazón,
                                 <br/> proveyendo experiencias y espacios de mentoreo
-                                 para la formación del carácter de Cristo.
+                                para la formación del carácter de Cristo.
 
 
-                            </p>
+                            </span>
                             <!--            <a href="#">read more</a>-->
 
-<!--                        </div>-->
-                    </h2>
+                            <!--                        </div>-->
+                        </h2>
 
+                    </div>
                 </div>
+
             </div>
 
+
         </div>
+        <!-- Card -->
+
+        <!-- Card -->
+        <div class="card mb-4">
 
 
-    </div>
-    <!-- Card -->
+            <div class="card card-image">
 
-    <!-- Card -->
-    <div class="card mb-4">
+                <!-- Content -->
+                <div class="text-white text-center d-flex align-items-center rgba-seminario py-5 px-4">
+                    <div>
 
-
-        <div class="card card-image">
-
-            <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-seminario py-5 px-4">
-                <div>
-
-                    <h2 class="card-title pt-2 ">
-<!--                        <div class="feature-block">-->
+                        <h2 class="card-title pt-2 ">
+                            <!--                        <div class="feature-block">-->
 
                             <i class="fa fa-map fa-3x text-white" aria-hidden="true"></i>
-                            <h4>Competencia</h4>
-                            <p>Estŗategias de liderazgo innovadoras, para formar plantadores de iglesias <br/>
+                            <br/>
+                            <span class="text-white h2">Competencia</span>
+                            <br/>
+                            <span class="text-white h4">Estŗategias de liderazgo innovadoras, para formar plantadores de iglesias <br/>
                                 y líderes que guíen en un proceso de crecimiento <br/>
                                 dinámico y saludable.
 
-                            </p>
+                            </span>
                             <!--            <a href="#">read more</a>-->
 
-<!--                        </div>-->
-                    </h2>
+                            <!--                        </div>-->
+                        </h2>
 
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
-    </div>
-    <!-- Card -->
+        <!-- Card -->
 
 
 </section>
@@ -215,7 +218,7 @@ $version = date('YmdHi');
     <div class="container">
         <div class="section-title text-center">
 
-            <!--                <h2 class="text-300  text-realce-sca">Nuestra generacion necesita </h2>-->
+
             <p class="separator text-black-75">
                 La modalidad de estudio será semipresencial. <br/>
                 Clases intensivas con pastores, líderes y profesionales de excelencia, <br/>
@@ -225,8 +228,8 @@ $version = date('YmdHi');
                 <br/>
 
 
-                <a href="mailto:inscripciones.sdl@gmail.com">
-                    inscripciones.sdl@gmail.com
+                <a href="mailto:inscripciones@sdlalameda.com.ar">
+                    inscripciones@sdlalameda.com.ar
                 </a>
 
                 <br/>
@@ -246,7 +249,7 @@ $version = date('YmdHi');
         <div class="section-title text-center">
 
             <h2>Invita</h2>
-            <!--        <p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
+
 
         </div>
     </div>
@@ -259,13 +262,6 @@ $version = date('YmdHi');
                     <img src="images/pastores/abel-schwab.jpeg" class="img-responsive rounded-circle img-fluid"
                          alt="img">
                     <div class="team-content">
-                        <!--              <ul class="list-unstyled">-->
-                        <!--                <li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-                        <!--                <li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-                        <!--                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-                        <!--              </ul>-->
-                        <!--              <span>Pastor de Discipulado y Formación</span>-->
-                        <!--              <h4>Abel Schwab</h4>-->
                     </div>
                 </div>
             </div>
@@ -279,10 +275,10 @@ $version = date('YmdHi');
                         <span>Licenciado en Teología</span>
                         <ul class="list-unstyled">
                             <li>
-                                <a href="mailto:inscripciones.sdl@gmail.com">
+                                <a href="mailto:inscripciones@sdlalameda.com.ar">
 
 
-                                    inscripciones.sdl@gmail.com
+                                    inscripciones@sdlalameda.com.ar
                                 </a>
                                 <p>Informes e inscripción </p>
                             </li>
@@ -330,428 +326,7 @@ $version = date('YmdHi');
 </section>
 
 
-<!--==========================
-  Testimonials Section
-============================-->
 
-<!--<section id="testimonials" class="padd-section text-center wow fadeInUp">-->
-<!--<div class="container">-->
-<!--<div class="row justify-content-center">-->
-
-<!--<div class="col-md-8">-->
-
-<!--<div class="testimonials-content">-->
-<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">-->
-
-<!--<div class="carousel-inner" role="listbox">-->
-
-<!--<div class="carousel-item  active">-->
-<!--<div class="top-top">-->
-
-<!--<h2>Our Users Speack volumes us</h2>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type-->
-<!--specimen book. It has survived not only five centuries.</p>-->
-<!--<h4>Kimberly Tran<span>manager</span></h4>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="carousel-item ">-->
-<!--<div class="top-top">-->
-
-<!--<h2>Our Users Speack volumes us</h2>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type-->
-<!--specimen book. It has survived not only five centuries.</p>-->
-<!--<h4>Henderson<span>manager</span></h4>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="carousel-item ">-->
-<!--<div class="top-top">-->
-
-<!--<h2>Our Users Speack volumes us</h2>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type-->
-<!--specimen book. It has survived not only five centuries.</p>-->
-<!--<h4>David Spark<span>manager</span></h4>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-
-<!--<div class="btm-btm">-->
-
-<!--<ul class="list-unstyled carousel-indicators">-->
-<!--<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>-->
-<!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>-->
-<!--<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-<!--</ul>-->
-
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Pricing Table Section
-============================-->
-<!--<section id="pricing" class="padd-section text-center wow fadeInUp">-->
-
-<!--<div class="container">-->
-<!--<div class="section-title text-center">-->
-
-<!--<h2>Meet With Price</h2>-->
-<!--<p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="container">-->
-<!--<div class="row">-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="block-pricing">-->
-<!--<div class="table">-->
-<!--<h4>basic</h4>-->
-<!--<h2>$29</h2>-->
-<!--<ul class="list-unstyled">-->
-<!--<li><b>4 GB</b> Ram</li>-->
-<!--<li><b>7/24</b> Tech Support</li>-->
-<!--<li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--<li>Monthly Backups</li>-->
-<!--<li>Palo Protection</li>-->
-<!--</ul>-->
-<!--<div class="table_btn">-->
-<!--<a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="block-pricing">-->
-<!--<div class="table">-->
-<!--<h4>PERSONAL</h4>-->
-<!--<h2>$29</h2>-->
-<!--<ul class="list-unstyled">-->
-<!--<li><b>4 GB</b> Ram</li>-->
-<!--<li><b>7/24</b> Tech Support</li>-->
-<!--<li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--<li>Monthly Backups</li>-->
-<!--<li>Palo Protection</li>-->
-<!--</ul>-->
-<!--<div class="table_btn">-->
-<!--<a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="block-pricing">-->
-<!--<div class="table">-->
-<!--<h4>BUSINESS</h4>-->
-<!--<h2>$29</h2>-->
-<!--<ul class="list-unstyled">-->
-<!--<li><b>4 GB</b> Ram</li>-->
-<!--<li><b>7/24</b> Tech Support</li>-->
-<!--<li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--<li>Monthly Backups</li>-->
-<!--<li>Palo Protection</li>-->
-<!--</ul>-->
-<!--<div class="table_btn">-->
-<!--<a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-3">-->
-<!--<div class="block-pricing">-->
-<!--<div class="table">-->
-<!--<h4>profeesional</h4>-->
-<!--<h2>$29</h2>-->
-<!--<ul class="list-unstyled">-->
-<!--<li><b>4 GB</b> Ram</li>-->
-<!--<li><b>7/24</b> Tech Support</li>-->
-<!--<li><b>40 GB</b> SSD Cloud Storage</li>-->
-<!--<li>Monthly Backups</li>-->
-<!--<li>Palo Protection</li>-->
-<!--</ul>-->
-<!--<div class="table_btn">-->
-<!--<a href="#" class="btn"><i class="fa fa-shopping-cart"></i> Buy Now</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Blog Section
-============================-->
-<!--<section id="blog" class="padd-section wow fadeInUp">-->
-
-<!--<div class="container">-->
-<!--<div class="section-title text-center">-->
-
-<!--<h2>Latest posts</h2>-->
-<!--<p class="separator">Integer cursus bibendum augue ac cursus .</p>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="container">-->
-<!--<div class="row">-->
-
-<!--<div class="col-md-6 col-lg-4">-->
-<!--<div class="block-blog text-left">-->
-<!--<a href="#"><img src="img/blog/blog-image-1.jpg" alt="img"></a>-->
-<!--<div class="content-blog">-->
-<!--<h4><a href="#">whats isthe difference between good and bat typography</a></h4>-->
-<!--<span>05, juin 2017</span>-->
-<!--<a class="pull-right readmore" href="#">read more</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-4">-->
-<!--<div class="block-blog text-left">-->
-<!--<a href="#"><img src="img/blog/blog-image-2.jpg" class="img-responsive" alt="img"></a>-->
-<!--<div class="content-blog">-->
-<!--<h4><a href="#">whats isthe difference between good and bat typography</a></h4>-->
-<!--<span>05, juin 2017</span>-->
-<!--<a class="pull-right readmore" href="#">read more</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-md-6 col-lg-4">-->
-<!--<div class="block-blog text-left">-->
-<!--<a href="#"><img src="img/blog/blog-image-3.jpg" class="img-responsive" alt="img"></a>-->
-<!--<div class="content-blog">-->
-<!--<h4><a href="#">whats isthe difference between good and bat typography</a></h4>-->
-<!--<span>05, juin 2017</span>-->
-<!--<a class="pull-right readmore" href="#">read more</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Newsletter Section
-============================-->
-<!--<section id="newsletter" class="newsletter text-center wow fadeInUp">-->
-<!--<div class="overlay padd-section">-->
-<!--<div class="container">-->
-
-<!--<div class="row justify-content-center">-->
-<!--<div class="col-md-9 col-lg-6">-->
-<!--<form class="form-inline" method="POST" action="#">-->
-
-<!--<input type="email" class="form-control " placeholder="Email Adress" name="email">-->
-<!--<button type="submit" class="btn btn-default"><i class="fa fa-location-arrow"></i>Subscribe</button>-->
-
-<!--</form>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<ul class="list-unstyled">-->
-<!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
-<!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
-<!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-<!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->
-<!--</ul>-->
-
-
-<!--</div>-->
-<!--</div>-->
-<!--</section>-->
-
-<!--==========================
-  Contact Section
-============================-->
-<!--<section id="contact" class="padd-section wow fadeInUp">-->
-
-<!--<div class="container">-->
-<!--<div class="section-title text-center">-->
-<!--<h2>Contact</h2>-->
-<!--<p class="separator">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="container">-->
-<!--<div class="row justify-content-center">-->
-
-<!--<div class="col-lg-3 col-md-4">-->
-
-<!--<div class="info">-->
-<!--<div>-->
-<!--<i class="fa fa-map-marker"></i>-->
-<!--<p>A108 Adam Street<br>New York, NY 535022</p>-->
-<!--</div>-->
-
-<!--<div class="email">-->
-<!--<i class="fa fa-envelope"></i>-->
-<!--<p>info@example.com</p>-->
-<!--</div>-->
-
-<!--<div>-->
-<!--<i class="fa fa-phone"></i>-->
-<!--<p>+1 5589 55488 55s</p>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="social-links">-->
-<!--<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>-->
-<!--<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>-->
-<!--<a href="#" class="instagram"><i class="fa fa-instagram"></i></a>-->
-<!--<a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>-->
-<!--<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>-->
-<!--</div>-->
-
-<!--</div>-->
-
-<!--<div class="col-lg-5 col-md-8">-->
-<!--<div class="form">-->
-<!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
-<!--<div id="errormessage"></div>-->
-<!--<form action="" method="post" role="form" class="contactForm">-->
-<!--<div class="form-group">-->
-<!--<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />-->
-<!--<div class="validation"></div>-->
-<!--</div>-->
-<!--<div class="form-group">-->
-<!--<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />-->
-<!--<div class="validation"></div>-->
-<!--</div>-->
-<!--<div class="form-group">-->
-<!--<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />-->
-<!--<div class="validation"></div>-->
-<!--</div>-->
-<!--<div class="form-group">-->
-<!--<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>-->
-<!--<div class="validation"></div>-->
-<!--</div>-->
-<!--<div class="text-center"><button type="submit">Send Message</button></div>-->
-<!--</form>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</section>&lt;!&ndash; #contact &ndash;&gt;-->
-
-<!--==========================
-  Footer
-============================-->
-<!--<footer class="footer">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-
-<!--<div class="col-md-12 col-lg-4">-->
-<!--<div class="footer-logo">-->
-
-<!--<a class="navbar-brand" href="#">eStartup</a>-->
-<!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-sm-6 col-md-3 col-lg-2">-->
-<!--<div class="list-menu">-->
-
-<!--<h4>Abou Us</h4>-->
-
-<!--<ul class="list-unstyled">-->
-<!--<li><a href="#">About us</a></li>-->
-<!--<li><a href="#">Features item</a></li>-->
-<!--<li><a href="#">Live streaming</a></li>-->
-<!--<li><a href="#">Privacy Policy</a></li>-->
-<!--</ul>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-sm-6 col-md-3 col-lg-2">-->
-<!--<div class="list-menu">-->
-
-<!--<h4>Abou Us</h4>-->
-
-<!--<ul class="list-unstyled">-->
-<!--<li><a href="#">About us</a></li>-->
-<!--<li><a href="#">Features item</a></li>-->
-<!--<li><a href="#">Live streaming</a></li>-->
-<!--<li><a href="#">Privacy Policy</a></li>-->
-<!--</ul>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-sm-6 col-md-3 col-lg-2">-->
-<!--<div class="list-menu">-->
-
-<!--<h4>Support</h4>-->
-
-<!--<ul class="list-unstyled">-->
-<!--<li><a href="#">faq</a></li>-->
-<!--<li><a href="#">Editor help</a></li>-->
-<!--<li><a href="#">Contact us</a></li>-->
-<!--<li><a href="#">Privacy Policy</a></li>-->
-<!--</ul>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="col-sm-6 col-md-3 col-lg-2">-->
-<!--<div class="list-menu">-->
-
-<!--<h4>Abou Us</h4>-->
-
-<!--<ul class="list-unstyled">-->
-<!--<li><a href="#">About us</a></li>-->
-<!--<li><a href="#">Features item</a></li>-->
-<!--<li><a href="#">Live streaming</a></li>-->
-<!--<li><a href="#">Privacy Policy</a></li>-->
-<!--</ul>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--</div>-->
-
-<!--<div class="copyrights">-->
-<!--<div class="container">-->
-<!--<p>&copy; Copyrights eStartup. All rights reserved.</p>-->
-<!--<div class="credits">-->
-<!--&lt;!&ndash;-->
-<!--All the links in the footer should remain intact.-->
-<!--You can delete the links only if you purchased the pro version.-->
-<!--Licensing information: https://bootstrapmade.com/license/-->
-<!--Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup-->
-<!--&ndash;&gt;-->
-<!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</footer>-->
-
-
-<!--  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>-->
-
-<!-- JavaScript Libraries -->
 <?php
 include "footer.php";
 ?>
