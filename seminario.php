@@ -229,7 +229,7 @@ $version = date('YmdHi');
 
 
                 <a href="mailto:inscripciones@sdlalameda.com.ar">
-                    inscripciones@sdlalameda.com.ar
+                    inscripciones@<br class="d-lg-none"/>sdlalameda.com.ar
                 </a>
 
                 <br/>
@@ -278,7 +278,7 @@ $version = date('YmdHi');
                                 <a href="mailto:inscripciones@sdlalameda.com.ar">
 
 
-                                    inscripciones@sdlalameda.com.ar
+                                    inscripciones@<br class="d-lg-none"/>sdlalameda.com.ar
                                 </a>
                                 <p>Informes e inscripción </p>
                             </li>
