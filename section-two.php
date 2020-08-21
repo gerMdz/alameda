@@ -127,7 +127,7 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="contacto.php" class="card-link text-left">
+                                            <a href="oracion.php" class="card-link text-left">
 
                                                 <span class="text-alameda">Motivos de Oración</span><br/>
                                                 <small>Dejanos saber como podemos orar</small>
