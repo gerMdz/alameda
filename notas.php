@@ -44,7 +44,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
     <link rel="icon" href="images/index.png" sizes="32x32"/>
     <link rel="icon" href="images/index192.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
-    <link href="/css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
+<!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/css/styles.css">
     <style>
         strong {
             font-weight: 400 !important
