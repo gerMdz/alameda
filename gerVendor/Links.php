@@ -3,20 +3,22 @@
 namespace gerVendor;
 class Links
 {
-    protected $nota = 'https://youtu.be/zEtQAWbJ-Jg';
-    protected $index = 'zEtQAWbJ-Jg';
+
+
+
+    protected $nota = 'https://youtu.be/rpkIGB6lvxM';
+    protected $index = 'rpkIGB6lvxM';
     protected $autor = 'por Fabian Ruiz';
-    protected $fecha = '09 de Agosto de 2020';
-    protected $title = 'Escape a medianoche';
-    protected $image = 'medianoche-tapa.jpg';
+    protected $fecha = '16 de Agosto de 2020';
+    protected $title = '¿Quién te crees?';
+    protected $image = 'entrenamiento-tapa-06.jpg';
 
-
-    protected $nota2 = 'https://youtu.be/9ocRu3NUxtI';
-    protected $index2 = '9ocRu3NUxtI';
+    protected $nota2 = 'https://youtu.be/RNphmFgaDBw';
+    protected $index2 = 'RNphmFgaDBw';
     protected $autor2 = 'por Fabian Ruiz';
-    protected $fecha2 = '16 de Agosto de 2020';
-    protected $title2 = '¿Quién te crees?';
-    protected $image2 = 'entrenamiento-tapa-06.jpg';
+    protected $fecha2 = '23 de Agosto de 2020';
+    protected $title2 = 'Después de esto';
+    protected $image2 = 'despues-tapa.jpg';
 
     /**
      * @return string

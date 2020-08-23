@@ -146,6 +146,40 @@
                                 </div>
                                 <!--                fin marco oración-->
 
+                                <!--                marco camino-->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/camino-de-crecimiento.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="card-link text-left">
+
+                                                <span class="text-alameda">Camino de Crecimiento</span><br/>
+                                                <small>Registrate para tu próximo paso</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--   fin marco camino -->
                                 <!--                marco niños -->
                                 <div class="col-md-3 mb-2 mx-auto   ">
                                     <!--                                        <div class="card h-100"> -->
