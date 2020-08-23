@@ -1090,18 +1090,24 @@ h1, h2, h3, h4, h5, h6 {
 .u-promo-block--mheight-450 {
   min-height: 450px;
 }
-
 .u-promo-block--mheight-500 {
   min-height: 500px;
 }
-
 .u-promo-block--mheight-600 {
   min-height: 600px;
+}
+.u-promo-block--mheight-700 {
+  min-height: 700px;
 }
 
 @media (max-width: 1199px) {
   .u-promo-block {
     background-attachment: fixed;
+  }
+}
+@media (max-width: 699px) {
+  .u-promo-block--mheight-700 {
+    min-height: 500px;
   }
 }
 

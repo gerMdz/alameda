@@ -48,14 +48,14 @@ include_once ('gerVendor/gerFunctions.php')
     <!-- End Navbar -->
 
     <!-- Promo Block -->
-    <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-white"
-             style="background-image: url(/images/institucional/contacto2.jpg) linear-gradient(0deg|100deg,#ffffff,#0a6ebd);">
+    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay u-overlay--dark text-white"
+             style="background-image: url(/images/institucional/portada-avanza.jpg) ">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="text-center">
-                        <h1 class="display-sm-4 display-lg-3 h1">CAMINO DE CRECIMIENTO
+                        <h1 class="display-sm-4 display-lg-3 h2"><b class="text-white aire-2">CAMINO DE CRECIMIENTO</b>
                         </h1>
                         <p class="h6 text-uppercase u-letter-spacing-sm mb-0">
                             <hr width="25%"/>
@@ -72,9 +72,14 @@ include_once ('gerVendor/gerFunctions.php')
 
 <main role="main">
     <!-- Free Quote -->
-    <section class="border-bottom py-3">
+    <section class="border-bottom py-3 bg-gris-medio pt-5">
         <div class="container text-center">
-            <p class="mb-0"><span class="badge badge-primary badge-pill mr-2">New</span> We are offering free quotation for any type of projects, <a href="contacts.html">request a free quote!</a></p>
+            <h2>
+                Camino de Crecimiento Alameda
+            </h2>
+            <span class="mb-0 text-14-300">
+                El Camino de Crecimiento en la Alameda te guiará a descubrir tu propósito redentor y vivir la vida que Dios creó para vos. El Camino de Crecimiento se compone de tres pasos que te equiparán para 1) Sumarte a la iglesia, 2) Adoptar hábitos saludables y 3) Descubrir y desarrollar tu diseño personal dado por Dios para hacer una diferencia en la vida de los demás.
+            </span>
         </div>
     </section>
     <!-- End Free Quote -->
