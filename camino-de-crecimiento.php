@@ -15,7 +15,7 @@ $title = $lema;
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once ('gerVendor/gerFunctions.php')
+include_once('gerVendor/gerFunctions.php')
 ?>
 
 <!DOCTYPE html>
@@ -24,10 +24,10 @@ include_once ('gerVendor/gerFunctions.php')
 <head>
 
     <?php
-    include ('meta-base.php');
-    include ('style-base-uikit.php')
+    include('meta-base.php');
+    include('style-base-uikit.php')
     ?>
-    <title><?php echo $lema;?> Iglesia de la Alameda</title>
+    <title><?php echo $lema; ?> Iglesia de la Alameda</title>
     <!-- Meta -->
     <meta charset="utf-8"/>
 
@@ -58,7 +58,7 @@ include_once ('gerVendor/gerFunctions.php')
                         <h1 class="display-sm-4 display-lg-3 h2"><b class="text-white aire-2">CAMINO DE CRECIMIENTO</b>
                         </h1>
                         <p class="h6 text-uppercase u-letter-spacing-sm mb-0">
-                            <hr width="25%"/>
+                        <hr width="25%"/>
                         </p>
                     </div>
                 </div>
@@ -72,7 +72,7 @@ include_once ('gerVendor/gerFunctions.php')
 
 <main role="main">
     <!-- Free Quote -->
-    <section class="border-bottom py-3 bg-gris-medio pt-5">
+    <section class="u-content-space border-bottom py-5 bg-gris-medio ">
         <div class="container text-center">
             <h2>
                 Camino de Crecimiento Alameda
@@ -85,295 +85,235 @@ include_once ('gerVendor/gerFunctions.php')
     <!-- End Free Quote -->
 
     <!-- Our Product -->
-    <section class="u-content-space-top">
+    <section class="u-content-space mx-auto text-center "
+             style="background-image: url(/images/avanza/fondo-paso-1.jpg); background-repeat: no-repeat; background-size:cover">
+
         <div class="container">
             <div class="row">
                 <!-- Article Content -->
-                <div class="col-lg-6 align-self-center mb-5 mb-lg-0 pr-lg-5">
-                    <header class="mb-5">
-                        <h2 class="h1">Our Product</h2>
-                        <p class="h5">Convert more visitors, and win more business with Stream - UI Kit.</p>
+                <div class="col-lg-6 align-self-center ">
+                    <header class="mb-5 text-left">
+                        <h2 class="h3 text-left">
+                            Paso uno
+                        </h2>
+                        <span class="text-black-75 text-left">
+                            Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de fe.
+                            Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También tendrás la
+                            oportunidad de convertirte en miembro de la Alameda.
+                        </span>
                     </header>
 
-                    <p class="mb-4">Easy and fast adjustments of elements are possible with Front template. Find our more about our all-in-one programmatic template. We help to take of all the paperwork.</p>
 
-                    <a class="mr-4" href="#!">
-                        <i class="fab fa-google-play mr-1"></i> Google Play
-                    </a>
-                    <a href="#!">
-                        <i class="fab fa-app-store-ios mr-1"></i> App Store
-                    </a>
                 </div>
                 <!-- End Article Content -->
 
                 <!-- Article Image -->
-                <div class="col-lg-6 align-self-center">
+                <div class="col-lg-6 align-items-center">
                     <!-- SVG Tablet Mockup -->
-                    <div class="u-device mx-auto">
-                        <figure class="u-device__item">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                 viewBox="0 0 603 892" style="enable-background:new 0 0 603 892;" xml:space="preserve">
-                    <path id="BG_Color" style="fill: #fff;" d="M603,51.8v788.5c0,28.5-23.3,51.8-51.8,51.8H51.8C23.3,892,0,868.7,0,840.2L0,51.8
-                      C0,23.3,23.3,0,51.8,0l499.5,0C579.7,0,603,23.3,603,51.8z"/>
-                                <circle id="tabletFrameTouchID1" style="fill: #f7f7f7;" cx="302.5" cy="846.5" r="25.5"/>
-                                <circle id="tabletFrameCameraID1" style="fill: #f7f7f7;" cx="301.8" cy="45.9" r="6.2"/>
-                                <g>
-                                    <defs>
-                                        <rect id="tabletFrameID1" x="36" y="86" width="533" height="711"/>
-                                    </defs>
-                                    <clipPath id="tabletFrameID2">
-                                        <use xlink:href="#tabletFrameID1"  style="overflow:visible;"/>
-                                    </clipPath>
-                                    <g style="clip-path:url(#tabletFrameID2);">
-                                        <!-- Apply your (533px width to 711px height) image here -->
-                                        <image style="overflow:visible;" width="533" height="711" xlink:href="assets/img-temp/533x711/img1.jpg" transform="matrix(1 0 0 1 36 86)"></image>
-                                    </g>
-                                    <use xlink:href="#tabletFrameID1" stroke-miterlimit="10" style="overflow: visible; stroke: #f2f4fb; fill: none;"/>
-                                </g>
-                  </svg>
-                        </figure>
+                    <div class="mx-auto bg-white p-5 text-center">
+                        <h4 class="text-alameda text-center text-uppercase text-realce-alameda">
+                            Unite a esta charla en línea
+                            <hr/>
+                        </h4>
+                        <p class="mx-auto text-center ">
+                            29 de agosto a las 18:00 hs.
+                        </p>
+                        <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="btn-alameda">
+                            <small class="text-dark">Registrate para tu próximo paso</small>
+                        </a>
+
                     </div>
-                    <!-- End SVG Tablet Mockup -->
+
+
+                    <!-- End Article Image -->
                 </div>
-                <!-- End Article Image -->
             </div>
         </div>
     </section>
     <!-- End Our Product -->
 
     <!-- Features -->
-    <section class="bg-light u-content-space">
-        <div class="container">
-            <header class="text-center w-md-50 mx-auto mb-8">
-                <h2 class="h1">Features</h2>
-                <p class="h5">Stream creative technology company providing key digital services for everyone.</p>
-            </header>
-
-            <!-- Feature Blocks -->
-            <div class="row">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="display-4 text-primary mb-2">
-                        <i class="fab fa-grav"></i>
-                    </div>
-                    <h4 class="h5">Excellent Features</h4>
-                    <p>Achieve virtually any look and layout design within one UI Kit solution.</p>
-                </div>
-
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="display-4 text-primary mb-2">
-                        <i class="fab fa-connectdevelop"></i>
-                    </div>
-                    <h4 class="h5">Powerful API</h4>
-                    <p>We strive to figure out ways to help your audience grow through all platforms.</p>
-                </div>
-
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="display-4 text-primary mb-2">
-                        <i class="fas fa-cubes"></i>
-                    </div>
-                    <h4 class="h5">Blockchain Based</h4>
-                    <p>Find what you need in one template and combine features at will.</p>
-                </div>
-            </div>
-            <!-- End Feature Blocks -->
-
-            <hr class="my-8">
-
-            <!-- Feature Blocks -->
-            <div class="row">
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="display-4 text-primary mb-2">
-                        <i class="fab fa-vuejs"></i>
-                    </div>
-                    <h4 class="h5">VueJS Included</h4>
-                    <p>Easy and fast adjustments of elements are possible with Stream UI Kit.</p>
-                </div>
-
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="display-4 text-primary mb-2">
-                        <i class="fab fa-react"></i>
-                    </div>
-                    <h4 class="h5">React Powered</h4>
-                    <p>Our React Powered App will save you tons of time and cost in your projects.</p>
-                </div>
-
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <div class="display-4 text-primary mb-2">
-                        <i class="fab fa-angular"></i>
-                    </div>
-                    <h4 class="h5">Angular Compatible</h4>
-                    <p>Power your app with Angular components for no cost within one stop solution.</p>
-                </div>
-            </div>
-            <!-- End Feature Blocks -->
-        </div>
-    </section>
+<!--    <section class="bg-light u-content-space">-->
+<!--        <div class="container">-->
+<!--            <header class="text-center w-md-50 mx-auto mb-8">-->
+<!--                <h2 class="h1">Features</h2>-->
+<!--                <p class="h5">Stream creative technology company providing key digital services for everyone.</p>-->
+<!--            </header>-->
+<!---->
+<!--            <!-- Feature Blocks -->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+<!--                    <div class="display-4 text-primary mb-2">-->
+<!--                        <i class="fab fa-grav"></i>-->
+<!--                    </div>-->
+<!--                    <h4 class="h5">Excellent Features</h4>-->
+<!--                    <p>Achieve virtually any look and layout design within one UI Kit solution.</p>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+<!--                    <div class="display-4 text-primary mb-2">-->
+<!--                        <i class="fab fa-connectdevelop"></i>-->
+<!--                    </div>-->
+<!--                    <h4 class="h5">Powerful API</h4>-->
+<!--                    <p>We strive to figure out ways to help your audience grow through all platforms.</p>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+<!--                    <div class="display-4 text-primary mb-2">-->
+<!--                        <i class="fas fa-cubes"></i>-->
+<!--                    </div>-->
+<!--                    <h4 class="h5">Blockchain Based</h4>-->
+<!--                    <p>Find what you need in one template and combine features at will.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <!-- End Feature Blocks -->
+<!---->
+<!--            <hr class="my-8">-->
+<!---->
+<!--            <!-- Feature Blocks -->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+<!--                    <div class="display-4 text-primary mb-2">-->
+<!--                        <i class="fab fa-vuejs"></i>-->
+<!--                    </div>-->
+<!--                    <h4 class="h5">VueJS Included</h4>-->
+<!--                    <p>Easy and fast adjustments of elements are possible with Stream UI Kit.</p>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+<!--                    <div class="display-4 text-primary mb-2">-->
+<!--                        <i class="fab fa-react"></i>-->
+<!--                    </div>-->
+<!--                    <h4 class="h5">React Powered</h4>-->
+<!--                    <p>Our React Powered App will save you tons of time and cost in your projects.</p>-->
+<!--                </div>-->
+<!---->
+<!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+<!--                    <div class="display-4 text-primary mb-2">-->
+<!--                        <i class="fab fa-angular"></i>-->
+<!--                    </div>-->
+<!--                    <h4 class="h5">Angular Compatible</h4>-->
+<!--                    <p>Power your app with Angular components for no cost within one stop solution.</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <!-- End Feature Blocks -->
+<!--        </div>-->
+<!--    </section>-->
     <!-- End Features -->
 
     <!-- Portfolio -->
-    <section class="u-content-space">
-        <div class="container">
-            <header class="text-center w-md-50 mx-auto mb-8">
-                <h2 class="h1">Branding Works</h2>
-                <p class="h5">We design and develope experiances that make people's lives easy and simple.</p>
-            </header>
-
-            <ul class="js-shuffle-controls u-portfolio-controls text-center mb-5">
-                <li class="u-portfolio-controls__item"><a href="#!" data-group="all" class="active">All</a></li>
-                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-illustration">Illustration</a></li>
-                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-design">Design</a></li>
-                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-graphic">Graphic</a></li>
-                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-logo">Logo</a></li>
-            </ul>
-
-            <!-- Work Content -->
-            <div class="js-shuffle u-portfolio row no-gutters mb-6">
-                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>
-                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img1.jpg" alt="Image Description">
-                    <figcaption class="u-portfolio__info">
-                        <h6 class="mb-0">IX Project</h6>
-                        <small class="d-block">Branding</small>
-                    </figcaption>
-                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img1.jpg">Zoom</a>
-                </figure>
-
-                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-design"]'>
-                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img2.jpg" alt="Image Description">
-                    <figcaption class="u-portfolio__info">
-                        <h6 class="mb-0">Bottle Design</h6>
-                        <small class="d-block">Mockup</small>
-                    </figcaption>
-                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img2.jpg">Zoom</a>
-                </figure>
-
-                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>
-                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img3.jpg" alt="Image Description">
-                    <figcaption class="u-portfolio__info">
-                        <h6 class="mb-0">App Developement</h6>
-                        <small class="d-block">Åpp</small>
-                    </figcaption>
-                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img3.jpg">Zoom</a>
-                </figure>
-
-                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-logo"]'>
-                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img4.jpg" alt="Image Description">
-                    <figcaption class="u-portfolio__info">
-                        <h6 class="mb-0">Just Bored</h6>
-                        <small class="d-block">Freetime</small>
-                    </figcaption>
-                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img4.jpg">Zoom</a>
-                </figure>
-
-                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>
-                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img5.jpg" alt="Image Description">
-                    <figcaption class="u-portfolio__info">
-                        <h6 class="mb-0">Cake Lab</h6>
-                        <small class="d-block">Graphic</small>
-                    </figcaption>
-                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img5.jpg">Zoom</a>
-                </figure>
-
-                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>
-                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img6.jpg" alt="Image Description">
-                    <figcaption class="u-portfolio__info">
-                        <h6 class="mb-0">NB Project</h6>
-                        <small class="d-block">Logo</small>
-                    </figcaption>
-                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img6.jpg">Zoom</a>
-                </figure>
-
-                <!-- sizer -->
-                <figure class="col-sm-6 col-md-4 u-portfolio__item shuffle_sizer"></figure>
-            </div>
-            <!-- End Work Content -->
-
-            <!-- Clints -->
-            <div class="text-center">
-                <ul class="list-unstyled row justify-content-center mb-2">
-                    <li class="col-sm-6 col-lg-2">
-                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img2.png" alt="Image Description">
-                    </li>
-                    <li class="col-sm-6 col-lg-2">
-                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img3.png" alt="Image Description">
-                    </li>
-                    <li class="col-sm-6 col-lg-2">
-                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img4.png" alt="Image Description">
-                    </li>
-                    <li class="col-sm-6 col-lg-2">
-                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img5.png" alt="Image Description">
-                    </li>
-                </ul>
-                <p>Got project? <a href="contacts.html">Request a free quote!</a></p>
-            </div>
-            <!-- End Clints -->
-        </div>
-    </section>
+<!--    <section class="u-content-space">-->
+<!--        <div class="container">-->
+<!--            <header class="text-center w-md-50 mx-auto mb-8">-->
+<!--                <h2 class="h1">Branding Works</h2>-->
+<!--                <p class="h5">We design and develope experiances that make people's lives easy and simple.</p>-->
+<!--            </header>-->
+<!---->
+<!--            <ul class="js-shuffle-controls u-portfolio-controls text-center mb-5">-->
+<!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="all" class="active">All</a></li>-->
+<!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-illustration">Illustration</a></li>-->
+<!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-design">Design</a></li>-->
+<!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-graphic">Graphic</a></li>-->
+<!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-logo">Logo</a></li>-->
+<!--            </ul>-->
+<!---->
+<!--            <!-- Work Content -->
+<!--            <div class="js-shuffle u-portfolio row no-gutters mb-6">-->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>-->
+<!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img1.jpg" alt="Image Description">-->
+<!--                    <figcaption class="u-portfolio__info">-->
+<!--                        <h6 class="mb-0">IX Project</h6>-->
+<!--                        <small class="d-block">Branding</small>-->
+<!--                    </figcaption>-->
+<!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img1.jpg">Zoom</a>-->
+<!--                </figure>-->
+<!---->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-design"]'>-->
+<!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img2.jpg" alt="Image Description">-->
+<!--                    <figcaption class="u-portfolio__info">-->
+<!--                        <h6 class="mb-0">Bottle Design</h6>-->
+<!--                        <small class="d-block">Mockup</small>-->
+<!--                    </figcaption>-->
+<!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img2.jpg">Zoom</a>-->
+<!--                </figure>-->
+<!---->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>-->
+<!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img3.jpg" alt="Image Description">-->
+<!--                    <figcaption class="u-portfolio__info">-->
+<!--                        <h6 class="mb-0">App Developement</h6>-->
+<!--                        <small class="d-block">Åpp</small>-->
+<!--                    </figcaption>-->
+<!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img3.jpg">Zoom</a>-->
+<!--                </figure>-->
+<!---->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-logo"]'>-->
+<!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img4.jpg" alt="Image Description">-->
+<!--                    <figcaption class="u-portfolio__info">-->
+<!--                        <h6 class="mb-0">Just Bored</h6>-->
+<!--                        <small class="d-block">Freetime</small>-->
+<!--                    </figcaption>-->
+<!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img4.jpg">Zoom</a>-->
+<!--                </figure>-->
+<!---->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>-->
+<!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img5.jpg" alt="Image Description">-->
+<!--                    <figcaption class="u-portfolio__info">-->
+<!--                        <h6 class="mb-0">Cake Lab</h6>-->
+<!--                        <small class="d-block">Graphic</small>-->
+<!--                    </figcaption>-->
+<!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img5.jpg">Zoom</a>-->
+<!--                </figure>-->
+<!---->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>-->
+<!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img6.jpg" alt="Image Description">-->
+<!--                    <figcaption class="u-portfolio__info">-->
+<!--                        <h6 class="mb-0">NB Project</h6>-->
+<!--                        <small class="d-block">Logo</small>-->
+<!--                    </figcaption>-->
+<!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img6.jpg">Zoom</a>-->
+<!--                </figure>-->
+<!---->
+<!--                <!-- sizer -->
+<!--                <figure class="col-sm-6 col-md-4 u-portfolio__item shuffle_sizer"></figure>-->
+<!--            </div>-->
+<!--            <!-- End Work Content -->
+<!---->
+<!--            <!-- Clints -->
+<!--            <div class="text-center">-->
+<!--                <ul class="list-unstyled row justify-content-center mb-2">-->
+<!--                    <li class="col-sm-6 col-lg-2">-->
+<!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img2.png"-->
+<!--                             alt="Image Description">-->
+<!--                    </li>-->
+<!--                    <li class="col-sm-6 col-lg-2">-->
+<!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img3.png"-->
+<!--                             alt="Image Description">-->
+<!--                    </li>-->
+<!--                    <li class="col-sm-6 col-lg-2">-->
+<!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img4.png"-->
+<!--                             alt="Image Description">-->
+<!--                    </li>-->
+<!--                    <li class="col-sm-6 col-lg-2">-->
+<!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img5.png"-->
+<!--                             alt="Image Description">-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--                <p>Got project? <a href="contacts.html">Request a free quote!</a></p>-->
+<!--            </div>-->
+<!--            <!-- End Clints -->
+<!--        </div>-->
+<!--    </section>-->
     <!-- End Portfolio -->
 </main>
 
 <!-- Footer -->
-<footer class="bg-dark py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 text-center text-md-left mb-3 mb-md-0">
-                <small class="text-white">&copy; 2018 <a class="text-white" href="https://htmlstream.com">Htmlstream</a>. All Rights Reserved.</small>
-            </div>
 
-            <div class="col-md-4 align-self-center">
-                <ul class="list-inline text-center text-md-right mb-0">
-                    <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Facebook">
-                        <a class="text-white" target="_blank" href="https://www.facebook.com/htmlstream">
-                            <i class="fab fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Instagram">
-                        <a class="text-white" target="_blank" href="https://www.instagram.com/htmlstream">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Twitter">
-                        <a class="text-white" target="_blank" href="https://twitter.com/htmlstream">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item mx-2" data-toggle="tooltip" data-placement="top" title="Dribbble">
-                        <a class="text-white" target="_blank" href="https://dribbble.com/htmlstream">
-                            <i class="fab fa-dribbble"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>
 <!-- End Footer -->
 
 <!-- Call Us Modal Window -->
-<div class="modal fade" id="callUsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <form action="#">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">We'll call you</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group mb-4">
-                        <input type="text" class="form-control" id="modalName" placeholder="Your Name">
-                    </div>
-                    <div class="form-group mb-4">
-                        <input type="tel" class="form-control" id="modalPhone" placeholder="Your Phone Number">
-                    </div>
-                    <div class="text-right">
-                        <button type="submit" class="btn btn-primary">Send</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+<?php
+include "footer.php";
+?>
 <!-- End Call Us Modal Window -->
 
 <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
