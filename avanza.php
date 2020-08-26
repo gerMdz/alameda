@@ -2,11 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: Gerardo J. Montivero @ Iglesia Alameda
- * Date: 18/05/2020
- * Time: 06:56
+ * Date: 22/08/2020
+ * Time: 07:10
  */
-$lema = 'Taller de Ministerio';
-$lemaSinEspacios = 'Taller-Madurez-Iglesia-Alameda';
+$lema = 'Camino de Crecimiento Alameda';
+$lemaSinEspacios = 'Camino-de-Crecimiento-Alameda';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
@@ -15,130 +15,327 @@ $title = $lema;
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once ('gerVendor/gerFunctions.php')
+include_once('gerVendor/gerFunctions.php')
 ?>
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="no-js">
+<!-- Head -->
 <head>
-    <?php
-    include ('meta-base.php');
-    include ('style-base-uikit.php')
-    ?>
-    <link href="css/styles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <style>
-        strong{font-weight: 400 !important}
-        .card-text{font-size: 1.1em !important;
-        font-weight: 600 !important;}
-        .header {
-            background-image: url('images/series/cabecera_index.jpg');
-            background-size: cover;
-            background-position: center;
-            position: relative;
-        }
-        .overlay {
-            position: absolute;
-            min-height: 100%;
-            min-width: 100%;
-            left: 0;
-            top: 0;
-            background: rgba(255, 255, 255, 0.6);
-        }
-        img.resize {
-            width:10%; /* you can use % */
-            height: auto;
-        }
-        .btn-xl{
-            padding: 1.25rem 1.25rem;
-            font-size: 0.85rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            border: none currentcolor;
-            border-radius: 10rem;
-        }
-    </style>
+    <?php
+    include('meta-base.php');
+    include('style-base-uikit.php')
+    ?>
+    <title><?php echo $lema; ?> Iglesia de la Alameda</title>
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+
+    <!-- Components Vendor Styles -->
+
+    <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/vendors/magnific-popup/magnific-popup.css">
+
+    <!-- Theme Styles -->
+    <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/css/styles.css">
 </head>
+<!-- End Head -->
 
 <body>
-
-
+<!-- Header -->
 <header>
+    <!-- Navbar -->
     <?php include 'nav.php'; ?>
+    <!-- End Navbar -->
 
-    <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-dark" style="background-image: url(images/aldia/contacto.png); background-repeat: repeat-y ;">
+    <!-- Promo Block -->
+    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay u-overlay--dark text-white"
+             style="background-image: url(/images/institucional/portada-avanza.jpg) ">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="text-center">
-
-                                <div class="site-heading p-5">
-                                    <img src="images/LOGO_ALAMEDA_CON_TEXTO_B.png" style="max-height: 150px" class="img-fluid ">
-
-                                </div>
-
+                        <h1 class="display-sm-4 display-lg-3 h2"><b class="text-white aire-2">CAMINO DE CRECIMIENTO</b>
+                        </h1>
+                        <p class="h6 text-uppercase u-letter-spacing-sm mb-0">
+                        <hr width="25%"/>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- End Promo Content -->
     </section>
+    <!-- End Promo Block -->
 </header>
-<main role="main" class="bg-white">
+<!-- End Header -->
 
-
-    <!-- Contact Form -->
-    <section class="a-content-space-medium">
-        <div class="container">
-            <div class="text-center">
-                <a class="btn btn-blue js-scroll-trigger mx-auto btn--pill"
-                   href="https://forms.gle/J2Lz4jyyN8vUa2747" target="_blank">
-                    <i class="far fa-list-alt text-white"></i> Más detalles e inscripción
-                </a>
-            </div>
-            <header class="text-center w-md-50 mx-auto mb-8 mt-1">
-                <div class="show" id="blockquotes-center-1" role="tabpanel" aria-labelledby="blockquotes-center-tab-1">
-                    <!-- Centered -->
-                    <blockquote class="blockquote-v1 blockquote-v1--left align-text-top">
-                        <h3 >
-                            En tiempos de PANDEMIA nuestra iglesia nunca dejó de SERVIR <br/>
-                            y es tiempo que puedas sumarte a este desafío.<br/>
-                            Tendremos nuestro seminario <br/> “Descubriendo tu F.O.R.M.A.”.
-                            <br/>
-                            Dios te ha dado regalos únicos que solo vos podés abrir, <br/>
-                            es por eso que te invitamos a que <br/>
-                            descubras cómo te ha formado para el Servicio.
-
-
-                        </h3>
-                        <p class="h5">Inscríbete</p>
-                        <footer class="blockquote-footer">
-                            Martes 23/6 de 19:00 a 20:30 hs por ZOOM<br/>
-                            </footer>
-                    </blockquote>
-                    <!-- End Centered -->
-                </div>
-            </header>
+<main role="main">
+    <!-- Free Quote -->
+    <section class="u-content-space border-bottom py-5 bg-gris-medio ">
+        <div class="container text-center">
+            <h2>
+                Camino de Crecimiento Alameda
+            </h2>
+            <span class="mb-0 text-14-300">
+                El Camino de Crecimiento en la Alameda te guiará a descubrir tu propósito redentor y vivir la vida que Dios creó para vos. El Camino de Crecimiento se compone de tres pasos que te equiparán para 1) Sumarte a la iglesia, 2) Adoptar hábitos saludables y 3) Descubrir y desarrollar tu diseño personal dado por Dios para hacer una diferencia en la vida de los demás.
+            </span>
         </div>
     </section>
-    <!-- End Contact Form -->
+    <!-- End Free Quote -->
+
+    <!-- Our Product -->
+    <section class="u-content-space mx-auto text-center "
+             style="background-image: url(/images/avanza/fondo-paso-1.jpg); background-repeat: no-repeat; background-size:cover">
+
+        <div class="container">
+            <div class="row">
+                <!-- Article Content -->
+                <div class="col-lg-6 align-self-center ">
+                    <header class="mb-5 text-left">
+                        <h2 class="h3 text-left">
+                            Paso uno
+                        </h2>
+                        <span class="text-black-75 text-left">
+                            Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de fe.
+                            Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También tendrás la
+                            oportunidad de convertirte en miembro de la Alameda.
+                        </span>
+                    </header>
+
+
+                </div>
+                <!-- End Article Content -->
+
+                <!-- Article Image -->
+                <div class="col-lg-6 align-items-center">
+                    <!-- SVG Tablet Mockup -->
+                    <div class="mx-auto bg-white p-5 text-center">
+                        <h4 class="text-alameda text-center text-uppercase text-realce-alameda">
+                            Unite a esta charla en línea
+                            <hr/>
+                        </h4>
+                        <p class="mx-auto text-center ">
+                            29 de agosto a las 18:00 hs.
+                        </p>
+                        <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="btn-alameda">
+                            <small class="text-dark">Registrate para tu próximo paso</small>
+                        </a>
+
+                    </div>
+
+
+                    <!-- End Article Image -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Our Product -->
+
+    <!-- Features -->
+    <!--    <section class="bg-light u-content-space">-->
+    <!--        <div class="container">-->
+    <!--            <header class="text-center w-md-50 mx-auto mb-8">-->
+    <!--                <h2 class="h1">Features</h2>-->
+    <!--                <p class="h5">Stream creative technology company providing key digital services for everyone.</p>-->
+    <!--            </header>-->
+    <!---->
+    <!--            <!-- Feature Blocks -->
+    <!--            <div class="row">-->
+    <!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!--                    <div class="display-4 text-primary mb-2">-->
+    <!--                        <i class="fab fa-grav"></i>-->
+    <!--                    </div>-->
+    <!--                    <h4 class="h5">Excellent Features</h4>-->
+    <!--                    <p>Achieve virtually any look and layout design within one UI Kit solution.</p>-->
+    <!--                </div>-->
+    <!---->
+    <!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!--                    <div class="display-4 text-primary mb-2">-->
+    <!--                        <i class="fab fa-connectdevelop"></i>-->
+    <!--                    </div>-->
+    <!--                    <h4 class="h5">Powerful API</h4>-->
+    <!--                    <p>We strive to figure out ways to help your audience grow through all platforms.</p>-->
+    <!--                </div>-->
+    <!---->
+    <!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!--                    <div class="display-4 text-primary mb-2">-->
+    <!--                        <i class="fas fa-cubes"></i>-->
+    <!--                    </div>-->
+    <!--                    <h4 class="h5">Blockchain Based</h4>-->
+    <!--                    <p>Find what you need in one template and combine features at will.</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <!-- End Feature Blocks -->
+    <!---->
+    <!--            <hr class="my-8">-->
+    <!---->
+    <!--            <!-- Feature Blocks -->
+    <!--            <div class="row">-->
+    <!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!--                    <div class="display-4 text-primary mb-2">-->
+    <!--                        <i class="fab fa-vuejs"></i>-->
+    <!--                    </div>-->
+    <!--                    <h4 class="h5">VueJS Included</h4>-->
+    <!--                    <p>Easy and fast adjustments of elements are possible with Stream UI Kit.</p>-->
+    <!--                </div>-->
+    <!---->
+    <!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!--                    <div class="display-4 text-primary mb-2">-->
+    <!--                        <i class="fab fa-react"></i>-->
+    <!--                    </div>-->
+    <!--                    <h4 class="h5">React Powered</h4>-->
+    <!--                    <p>Our React Powered App will save you tons of time and cost in your projects.</p>-->
+    <!--                </div>-->
+    <!---->
+    <!--                <div class="col-lg-4 mb-5 mb-lg-0">-->
+    <!--                    <div class="display-4 text-primary mb-2">-->
+    <!--                        <i class="fab fa-angular"></i>-->
+    <!--                    </div>-->
+    <!--                    <h4 class="h5">Angular Compatible</h4>-->
+    <!--                    <p>Power your app with Angular components for no cost within one stop solution.</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            <!-- End Feature Blocks -->
+    <!--        </div>-->
+    <!--    </section>-->
+    <!-- End Features -->
+
+    <!-- Portfolio -->
+    <!--    <section class="u-content-space">-->
+    <!--        <div class="container">-->
+    <!--            <header class="text-center w-md-50 mx-auto mb-8">-->
+    <!--                <h2 class="h1">Branding Works</h2>-->
+    <!--                <p class="h5">We design and develope experiances that make people's lives easy and simple.</p>-->
+    <!--            </header>-->
+    <!---->
+    <!--            <ul class="js-shuffle-controls u-portfolio-controls text-center mb-5">-->
+    <!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="all" class="active">All</a></li>-->
+    <!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-illustration">Illustration</a></li>-->
+    <!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-design">Design</a></li>-->
+    <!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-graphic">Graphic</a></li>-->
+    <!--                <li class="u-portfolio-controls__item"><a href="#!" data-group="its-logo">Logo</a></li>-->
+    <!--            </ul>-->
+    <!---->
+    <!--            <!-- Work Content -->
+    <!--            <div class="js-shuffle u-portfolio row no-gutters mb-6">-->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>-->
+    <!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img1.jpg" alt="Image Description">-->
+    <!--                    <figcaption class="u-portfolio__info">-->
+    <!--                        <h6 class="mb-0">IX Project</h6>-->
+    <!--                        <small class="d-block">Branding</small>-->
+    <!--                    </figcaption>-->
+    <!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img1.jpg">Zoom</a>-->
+    <!--                </figure>-->
+    <!---->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-design"]'>-->
+    <!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img2.jpg" alt="Image Description">-->
+    <!--                    <figcaption class="u-portfolio__info">-->
+    <!--                        <h6 class="mb-0">Bottle Design</h6>-->
+    <!--                        <small class="d-block">Mockup</small>-->
+    <!--                    </figcaption>-->
+    <!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img2.jpg">Zoom</a>-->
+    <!--                </figure>-->
+    <!---->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>-->
+    <!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img3.jpg" alt="Image Description">-->
+    <!--                    <figcaption class="u-portfolio__info">-->
+    <!--                        <h6 class="mb-0">App Developement</h6>-->
+    <!--                        <small class="d-block">Åpp</small>-->
+    <!--                    </figcaption>-->
+    <!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img3.jpg">Zoom</a>-->
+    <!--                </figure>-->
+    <!---->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-logo"]'>-->
+    <!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img4.jpg" alt="Image Description">-->
+    <!--                    <figcaption class="u-portfolio__info">-->
+    <!--                        <h6 class="mb-0">Just Bored</h6>-->
+    <!--                        <small class="d-block">Freetime</small>-->
+    <!--                    </figcaption>-->
+    <!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img4.jpg">Zoom</a>-->
+    <!--                </figure>-->
+    <!---->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-illustration"]'>-->
+    <!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img5.jpg" alt="Image Description">-->
+    <!--                    <figcaption class="u-portfolio__info">-->
+    <!--                        <h6 class="mb-0">Cake Lab</h6>-->
+    <!--                        <small class="d-block">Graphic</small>-->
+    <!--                    </figcaption>-->
+    <!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img5.jpg">Zoom</a>-->
+    <!--                </figure>-->
+    <!---->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item" data-groups='["its-graphic"]'>-->
+    <!--                    <img class="u-portfolio__image" src="assets/img-temp/portfolio/img6.jpg" alt="Image Description">-->
+    <!--                    <figcaption class="u-portfolio__info">-->
+    <!--                        <h6 class="mb-0">NB Project</h6>-->
+    <!--                        <small class="d-block">Logo</small>-->
+    <!--                    </figcaption>-->
+    <!--                    <a class="js-popup-image u-portfolio__zoom" href="assets/img-temp/portfolio/img6.jpg">Zoom</a>-->
+    <!--                </figure>-->
+    <!---->
+    <!--                <!-- sizer -->
+    <!--                <figure class="col-sm-6 col-md-4 u-portfolio__item shuffle_sizer"></figure>-->
+    <!--            </div>-->
+    <!--            <!-- End Work Content -->
+    <!---->
+    <!--            <!-- Clints -->
+    <!--            <div class="text-center">-->
+    <!--                <ul class="list-unstyled row justify-content-center mb-2">-->
+    <!--                    <li class="col-sm-6 col-lg-2">-->
+    <!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img2.png"-->
+    <!--                             alt="Image Description">-->
+    <!--                    </li>-->
+    <!--                    <li class="col-sm-6 col-lg-2">-->
+    <!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img3.png"-->
+    <!--                             alt="Image Description">-->
+    <!--                    </li>-->
+    <!--                    <li class="col-sm-6 col-lg-2">-->
+    <!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img4.png"-->
+    <!--                             alt="Image Description">-->
+    <!--                    </li>-->
+    <!--                    <li class="col-sm-6 col-lg-2">-->
+    <!--                        <img class="u-clients__image img-fluid" src="assets/img-temp/partners/img5.png"-->
+    <!--                             alt="Image Description">-->
+    <!--                    </li>-->
+    <!--                </ul>-->
+    <!--                <p>Got project? <a href="contacts.html">Request a free quote!</a></p>-->
+    <!--            </div>-->
+    <!--            <!-- End Clints -->
+    <!--        </div>-->
+    <!--    </section>-->
+    <!-- End Portfolio -->
 </main>
 
+<!-- Footer -->
 
+<!-- End Footer -->
 
-    <?php
-    include "footer.php";
-    ?>
+<!-- Call Us Modal Window -->
+<?php
+include "footer.php";
+?>
+<!-- End Call Us Modal Window -->
 
-    <!-- Bootstrap core JavaScript -->
-    <?php
-    include ('js-base-uikit.php');
-    ?>
-    <script src="js/alameda.js"> </script>
+<!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
+<!-- Global Vendor -->
+<script src="assets/vendors/jquery.min.js"></script>
+<script src="assets/vendors/jquery.migrate.min.js"></script>
+<script src="assets/vendors/popper.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
 
+<!-- Components Vendor  -->
+<script src="assets/vendors/jquery.parallax.js"></script>
+<script src="assets/vendors/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/shuffle/jquery.shuffle.min.js"></script>
+
+<!-- Theme Settings and Calls -->
+<script src="assets/js/global.js"></script>
+
+<!-- Theme Components and Settings -->
+<script src="assets/js/vendors/parallax.js"></script>
+<script src="assets/js/vendors/magnific-popup.js"></script>
+<script src="assets/js/vendors/shuffle.js"></script>
+<!-- END JAVASCRIPTS -->
 </body>
-
+<!-- End Body -->
 </html>
-
