@@ -318,6 +318,9 @@ include "footer.php";
 
 <!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) -->
 <!-- Global Vendor -->
+<?php
+include('js-base-uikit.php');
+?>
 <script src="assets/vendors/jquery.min.js"></script>
 <script src="assets/vendors/jquery.migrate.min.js"></script>
 <script src="assets/vendors/popper.min.js"></script>

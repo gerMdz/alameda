@@ -162,7 +162,7 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="card-link text-left">
+                                            <a href="/camino-de-crecimiento.php" class="card-link text-left">
 
                                                 <span class="text-alameda">Camino de Crecimiento</span><br/>
                                                 <small>Registrate para tu próximo paso</small>

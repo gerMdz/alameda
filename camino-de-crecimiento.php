@@ -313,6 +313,8 @@ include_once('gerVendor/gerFunctions.php')
 <!-- Call Us Modal Window -->
 <?php
 include "footer.php";
+
+include('js-base-uikit.php');
 ?>
 <!-- End Call Us Modal Window -->
 
