@@ -164,7 +164,7 @@ include_once('gerVendor/gerFunctions.php')
                 <div class="col-md-4">
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100 ">
-                            <div class="col-md-6 ml-auto mr-auto img-20">
+                            <div class="col-sm-6 mx-auto text-center img-20">
                                 <img src="/images/avanza/paso-2.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid">
                             </div>
@@ -181,7 +181,7 @@ include_once('gerVendor/gerFunctions.php')
                 <div class="col-md-4">
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100">
-                            <div class="col-md-6 ml-auto mr-auto img-20">
+                            <div class="col-sm-6 mx-auto text-center img-20">
                                 <img src="/images/avanza/paso-3.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid">
                             </div>
