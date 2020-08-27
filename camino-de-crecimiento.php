@@ -146,7 +146,7 @@ include_once('gerVendor/gerFunctions.php')
                         <div class="card card-plain bg-white h-100">
                             <div class="col-md-6 ml-auto mr-auto img-20">
                                 <img src="/images/avanza/paso-1.jpg" alt="Iglesia de La Alameda"
-                                     class="img-raised rounded-circle img-fluid text-center ">
+                                     class="img-raised rounded-circle img-fluid mx-auto ">
                             </div>
                             <h4 class="card-title text-center text-alameda">Paso uno: Conviértete en miembro
                                 <br>
