@@ -1112,7 +1112,7 @@ a:hover>b{
 }
 
 .text-alameda{
-color: rgb(41, 147, 229)
+color: rgb(41, 147, 229) !important;
 }
 .t16{
     font-size: 16px;
@@ -1193,4 +1193,8 @@ a>small{
 
 .bg-gris-medio{
     background-color: #f8fbfd;
+}
+
+.img-20 {
+    margin-top: calc(-20%);
 }
