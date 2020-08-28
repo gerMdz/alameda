@@ -228,8 +228,8 @@ $version = date('YmdHi');
                 <br/>
 
 
-                <a href="mailto:inscripciones@sdlalameda.com.ar">
-                    inscripciones@<br class="d-lg-none"/>sdlalameda.com.ar
+                <a href="mailto:inscripciones@sdlalameda.com">
+                    inscripciones@<br class="d-lg-none"/>sdlalameda.com
                 </a>
 
                 <br/>
