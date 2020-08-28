@@ -1196,6 +1196,12 @@ a>small{
 }
 
 .img-20 {
-    margin-top: calc(-15%);
+    transform: translate3d(0,-30%,0);
+    max-width: 160px;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.sub-img{
+    margin-top: -40px !important;
 }
