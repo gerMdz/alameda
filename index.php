@@ -173,6 +173,15 @@ include 'sectionHeader.php';
 <?php
 include 'section-two.php';
 ?>
+<div class="bg-white" style="height: 200px">
+
+</div>
+<?php
+include 'section-three.php';
+?>
+<div class="bg-camino" style="height: 200px">
+
+</div>
 
 <!--Fin Section Slider Fotos-->
 

@@ -957,6 +957,9 @@ body.frontal {
     background-color: #d3d9dd;
     color: #495359;
 }
+.bg-camino {
+    background: #032a3b linear-gradient(#032a3b, #518bb9);
+}
 .bg-alameda-reverso {
     background-color: #2993e5;
     /*color: #495359;*/
@@ -1206,8 +1209,7 @@ a>small{
     margin-top: -40px !important;
 }
 
-.main-raised {
-    margin: -60px 30px 0;
-    border-radius: 6px;
-    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+.main-60 {
+    margin: -200px;
+
 }
