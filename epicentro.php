@@ -183,7 +183,7 @@ include_once('gerVendor/gerFunctions.php')
                                 iglesia saludable
                             </h4>
                             <footer class="blockquote-footer">
-                                <a href="https://youtu.be/YgeRfE994jI" target="_blank" class="btn-alameda">
+                                <a href="https://youtu.be/rtDAWJysG7U" target="_blank" class="btn-alameda">
                                     Ver Video
                                 </a>
                             </footer>
