@@ -483,9 +483,10 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                     Cuando parece que no das mas!
                                 </u>
                                 <br/>
-<!--                                "Después de esto miré, y allí en el cielo...”-->
-<!---->
-<!--                                <p>Apocalipsis 4:1 (NVI)</p>-->
+                                Hablen con cariño a Jerusalén, y anúncienle que ya ha cumplido su tiempo de servicio,
+                                que ya ha pagado por su iniquidad, que ya ha recibido de la mano del Señor el doble por
+                                todos sus pecados.
+                                <p>Isaías 40:2(NVI)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
@@ -569,7 +570,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                 </u>
                                 Pues vivimos por lo que creemos y no por lo que vemos.
                                 <br/>
-                                2° Corintios 5:7(NTV)
+                                <p>2° Corintios 5:7(NTV)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
