@@ -567,8 +567,9 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                 <u>
 
                                 </u>
+                                Pues vivimos por lo que creemos y no por lo que vemos.
                                 <br/>
-
+                                2° Corintios 5:7(NTV)
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
