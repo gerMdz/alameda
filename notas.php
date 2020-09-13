@@ -163,7 +163,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="series/escape-a-la-libertad/despues-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="series/escape-a-la-libertad/fuerzas-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -454,7 +454,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
                                     <span class="text-alameda btn-icon ">Notas</span><br/>
                                 </a>
-                                <a href="https://youtu.be/RNphmFgaDBw" class="card-link text-center" target="_blank">
+                                <a href="https://youtu.be/fNmexqNwNZo" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
@@ -463,6 +463,131 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     </div>
                 </div>
                 <!--                fin charla 7 -->
+
+                <!--                charla 8 -->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/08-fuerzas-para-llegar.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                Fuerzas para llegar
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    Cuando parece que no das mas!
+                                </u>
+                                <br/>
+<!--                                "Después de esto miré, y allí en el cielo...”-->
+<!---->
+<!--                                <p>Apocalipsis 4:1 (NVI)</p>-->
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/08-fuerzas-para-llegar.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/unx7-7YhH5c" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                fin charla 8 -->
+
+                <!--                charla 9 -->
+                <div class="col-md-4 mb-2 mx-auto">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/09-tu-lugar-de-paz.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                TU Lugar de Paz
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+                                    Como encontrar paz en medio de la tormenta y rodeado de gente fuera de control
+                                </u>
+                                <br/>
+                                No habían avanzado mucho cuando una terrible tempestad se
+                                levantó, El viento los azotaba con furia, y las olas inmensas
+                                amenazaban con anegar completamente la barca.<br/>
+                                Marcos 4:37(BAD)<br/>
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/09-tu-lugar-de-paz.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/JcowXKUdfuk" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                fin charla 9 -->
+
+                <!--                charla 10 -->
+                <div class="col-md-4 mb-2 mx-auto">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/escape-a-la-libertad/10-no-te-rindas.jpg" class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase">
+                                No te rindas
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <u>
+
+                                </u>
+                                <br/>
+
+                                <i class="fas fa-quote-right ml-5"></i>
+                            </div>
+                            <br/>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/escape-a-la-libertad/10-no-te-rindas.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/ZEa7PjHUMH4" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                fin charla 10 -->
             </div>
         </div>
     </section>
