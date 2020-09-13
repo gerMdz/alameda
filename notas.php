@@ -44,7 +44,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
     <link rel="icon" href="images/index.png" sizes="32x32"/>
     <link rel="icon" href="images/index192.png" sizes="192x192"/>
     <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
-<!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/css/styles.css">
     <style>
         strong {
@@ -137,7 +137,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                 <div class="col-12">
                     <div class="text-center">
                         <div class="site-heading p-5">
-                            <img src="images/LOGO_ALAMEDA_CON_TEXTO_B.png" style="max-height: 150px" class="img-fluid" alt="Iglesia de la Alameda">
+                            <img src="images/LOGO_ALAMEDA_CON_TEXTO_B.png" style="max-height: 150px" class="img-fluid"
+                                 alt="Iglesia de la Alameda">
                         </div>
                     </div>
                 </div>
@@ -157,7 +158,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                         Es hora que las puertas se abran
                     </p>
                     <p class="blockquote-footer">
-                        Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad, ¡ésta se abrió por sí misma!
+                        Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad,
+                        ¡ésta se abrió por sí misma!
                         Hechos 12:10 (RVC)
                     </p>
                 </div>
@@ -177,7 +179,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/01-escape-a-la-libertad.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/01-escape-a-la-libertad.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -189,7 +192,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                 <i class="fas fa-quote-left mr-5"></i><br/>
                                 <u>La prisión vs. la oración</u>
                                 <br/>
-                                Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la ciudad, ¡ésta se abrió por sí misma!
+                                Pasaron la primera y la segunda guardia, y al llegar a la puerta de hierro que daba a la
+                                ciudad, ¡ésta se abrió por sí misma!
                                 <p>Hechos 12:10 (RVC)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
@@ -207,8 +211,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                             </div>
                         </div>
                     </div>
-                                                            </div>
-<!--                </div>-->
+                </div>
+                <!--                </div>-->
                 <!--                fin charla 1-->
 
                 <!--                charla 2-->
@@ -230,7 +234,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                     ¡Cómo elegir buenos amigos para escapar del encierro!
                                 </u>
                                 <br/>
-                                En aquellos días, Jesús subió a una montaña para orar. Allí pasó toda la noche hablando con Dios.
+                                En aquellos días, Jesús subió a una montaña para orar. Allí pasó toda la noche hablando
+                                con Dios.
                                 Al día siguiente, llamó a sus seguidores y eligió a doce de ellos.
                                 <p>Lucas 6:12-16 (TLA)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
@@ -257,7 +262,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/03-por-las-lentejas.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/03-por-las-lentejas.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -300,7 +306,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/04-dia-de-entrenamiento.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/04-dia-de-entrenamiento.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -314,7 +321,9 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                     ¡Cómo defender tu posición en tiempos malos!
                                 </u>
                                 <br/>
-                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie, firmes.  Defiendan su posición
+                                Por lo tanto, pónganse todas las piezas de la armadura de Dios para poder resistir al
+                                enemigo en el tiempo del mal. Así, después de la batalla, todavía seguirán de pie,
+                                firmes. Defiendan su posición
 
                                 <p>Efesios 6:13-14 (NTV)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
@@ -341,7 +350,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/05-rescate-a-la-medianoche.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/05-rescate-a-la-medianoche.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -427,7 +437,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/07-despues-de-esto.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/07-despues-de-esto.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -469,7 +480,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/08-fuerzas-para-llegar.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/08-fuerzas-para-llegar.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
@@ -483,10 +495,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                     Cuando parece que no das mas!
                                 </u>
                                 <br/>
-                                Hablen con cariño a Jerusalén, y anúncienle que ya ha cumplido su tiempo de servicio,
-                                que ya ha pagado por su iniquidad, que ya ha recibido de la mano del Señor el doble por
-                                todos sus pecados.
-                                <p>Isaías 40:2(NVI)</p>
+                                pero los que confían en el Señor renovarán sus fuerzas
+                                <p>Isaías 40:31(NVI)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <br/>
@@ -512,7 +522,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/escape-a-la-libertad/09-tu-lugar-de-paz.jpg" class="card-img-top img-modal"
+                            <img src="/series/escape-a-la-libertad/09-tu-lugar-de-paz.jpg"
+                                 class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
