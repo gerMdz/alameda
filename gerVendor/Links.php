@@ -12,7 +12,7 @@ class Links
 
     protected $nota2 = 'https://youtu.be/ZEa7PjHUMH4';
     protected $index2 = 'ZEa7PjHUMH4';
-    protected $autor2 = 'por Fabian Ruiz';
+    protected $autor2 = 'por Abel Schwab';
     protected $fecha2 = '13 de Setiembre de 2020';
     protected $title2 = 'No te rindas';
     protected $image2 = 'no-te-rindas-tapa.jpg';
