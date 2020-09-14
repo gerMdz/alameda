@@ -30,7 +30,7 @@
                                                     </h4>
                                                     <div class="card-body">
                                                         <p class="card-description text-center text-dark">
-                                                            29 de agosto
+                                                            03 de octubre
                                                         </p>
                                                     </div>
                                                 </div>
@@ -50,7 +50,7 @@
                                                     </h4>
                                                     <div class="card-body">
                                                         <p class="card-description text-center text-dark ">
-                                                            5 de setiembre
+                                                            10 de octubre
                                                     </div>
                                                 </div>
                                             </a>
@@ -69,7 +69,7 @@
                                                     </h4>
                                                     <div class="card-body">
                                                         <p class="card-description text-center text-dark">
-                                                            12 de setiembre
+                                                            17 de octubre
                                                     </div>
                                                 </div>
                                             </a>

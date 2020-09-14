@@ -118,7 +118,7 @@
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/pedidosoracion.jpg"
+                                            <img src="/images/institucional/oramos-por-vos.jpg"
                                                  alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
@@ -129,7 +129,7 @@
 
                                             <a href="oracion.php" class="card-link text-left">
 
-                                                <span class="text-alameda">Motivos de Oración</span><br/>
+                                                <span class="text-alameda">Oramos por vos</span><br/>
                                                 <small>Dejanos saber como podemos orar</small>
 
                                             </a>

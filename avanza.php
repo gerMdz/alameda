@@ -5,6 +5,10 @@
  * Date: 22/08/2020
  * Time: 07:10
  */
+
+use gerVendor\HandlerPasos;
+use gerVendor\Pasos;
+
 $lema = 'Camino de Crecimiento Alameda';
 $lemaSinEspacios = 'Camino-de-Crecimiento-Alameda';
 $ahora = date('Y-m-d H:i');
@@ -15,7 +19,12 @@ $title = $lema;
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once('gerVendor/gerFunctions.php')
+
+include_once('gerVendor/HandlerPasos.php');
+include_once('gerVendor/Pasos.php');
+$pasos = new Pasos();
+$referencias = new HandlerPasos();
+$data = $referencias->getPasos();
 ?>
 
 <!DOCTYPE html>
@@ -92,12 +101,14 @@ include_once('gerVendor/gerFunctions.php')
                 <div class="col-lg-6 align-self-center pr-5 ">
                     <header class="mb-5 text-left">
                         <h2 class="h3 text-left">
-                            Paso uno
+                            <?php
+                            echo $data['titulo'];
+                            ?>
                         </h2>
                         <span class="text-black-75 text-left">
-                            Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de fe.
-                            Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También tendrás la
-                            oportunidad de convertirte en miembro de la Alameda.
+                            <?php
+                                echo $data['texto'];
+                            ?>
                         </span>
                     </header>
 
@@ -114,7 +125,9 @@ include_once('gerVendor/gerFunctions.php')
                         </h4>
                         <hr/>
                         <p class="mx-auto text-center ">
-                            29 de agosto a las 18:00 hs.
+                            <?php
+                            echo $data['fecha'] . ' a las ' . $data['hora'];
+                            ?>
                         </p>
                         <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="btn-alameda">
                             Registrate para tu próximo paso
@@ -154,9 +167,9 @@ include_once('gerVendor/gerFunctions.php')
                             </h4>
                             <div class="card-body">
                                 <p class="card-description text-center text-dark">
-                                    Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de
-                                    fe. Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También
-                                    tendrás la oportunidad de convertirte en miembro de la Alameda
+                                    <?php
+                                    echo $pasos->getTexto1();
+                                    ?>
                                 </p>
                             </div>
                         </div>
@@ -175,7 +188,9 @@ include_once('gerVendor/gerFunctions.php')
                             </h4>
                             <div class="card-body">
                                 <p class="card-description text-center text-dark ">
-                                    Aprendé como desarrollar los tres hábitos que te llevarán a una vida de libertad y victoria en tu vida cristiana.
+                                    <?php
+                                    echo $pasos->getTexto2();
+                                    ?>
                             </div>
                         </div>
                     </div>
@@ -193,7 +208,9 @@ include_once('gerVendor/gerFunctions.php')
                             </h4>
                             <div class="card-body">
                                 <p class="card-description text-center text-dark">
-                                    Sumergite en los detalles de tu personalidad, descubrí tus dones y experimenta cómo tu diseño revela tu propósito en la vida y tu mejor lugar en el voluntariado de la Alameda. Conéctate con las oportunidades disponibles en la Alameda para vivir tu propósito y servir a los demás utilizando los dones que Dios le ha dado.
+                                    <?php
+                                    echo $pasos->getTexto3();
+                                    ?>
                             </div>
                         </div>
                     </div>
