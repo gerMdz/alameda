@@ -1,3 +1,10 @@
+<?php
+
+use gerVendor\Pasos;
+
+include('gerVendor/Pasos.php');
+$pasos = new Pasos();
+?>
 <section class="a-content-space-medium text-center h-100 ">
     <div class="container-fluid">
         <div class="row">
@@ -30,7 +37,9 @@
                                                     </h4>
                                                     <div class="card-body">
                                                         <p class="card-description text-center text-dark">
-                                                            03 de octubre
+                                                            <?php
+                                                                echo $pasos->getFecha1();
+                                                            ?>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -50,7 +59,9 @@
                                                     </h4>
                                                     <div class="card-body">
                                                         <p class="card-description text-center text-dark ">
-                                                            10 de octubre
+                                                            <?php
+                                                            echo $pasos->getFecha2();
+                                                            ?>
                                                     </div>
                                                 </div>
                                             </a>
@@ -69,7 +80,9 @@
                                                     </h4>
                                                     <div class="card-body">
                                                         <p class="card-description text-center text-dark">
-                                                            17 de octubre
+                                                            <?php
+                                                            echo $pasos->getFecha3();
+                                                            ?>
                                                     </div>
                                                 </div>
                                             </a>
