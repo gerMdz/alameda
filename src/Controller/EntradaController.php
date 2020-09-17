@@ -61,7 +61,7 @@ class EntradaController extends AbstractController
     {
         $entrada = $er->findOneBy(['linkRoute' => $entrada->getLinkRoute()]);
         if (!$entrada) {
-            throw $this->createNotFoundException(sprintf('No se encontró la entrada "%s"', $linkRoute));
+            throw $this->createNotFoundException(sprintf('No se encontró la entrada "%s"', $entrada));
         }
 
         return $this->render('entrada/show.html.twig', [
@@ -71,6 +71,9 @@ class EntradaController extends AbstractController
 
     /**
      * @Route("/{id}/show", name="entrada_show", methods={"GET"})
+     * @param Entrada $entrada
+     * @param EntradaRepository $er
+     * @return Response
      */
     public function show(Entrada $entrada, EntradaRepository $er): Response
     {

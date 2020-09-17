@@ -2,8 +2,11 @@
 
 namespace App\Entity;
 
+use App\Entity\Traits\ImageTrait;
 use App\Entity\Traits\OfertTrait;
 use App\Repository\SectionRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -12,6 +15,8 @@ use Doctrine\ORM\Mapping as ORM;
 class Section
 {
     use OfertTrait;
+    use ImageTrait;
+
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -53,6 +58,69 @@ class Section
      * @ORM\Column(type="datetime", nullable=true)
      */
     private $disponibleAt;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $typeOrigin;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $typeSecondary;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=IndexAlameda::class, mappedBy="section")
+     */
+    private $indexAlamedas;
+
+
+
+    /**
+     * @ORM\ManyToOne(targetEntity=User::class, inversedBy="sections")
+     */
+    private $autor;
+
+    /**
+     * @ORM\OneToMany(targetEntity=RelacionSectionEntrada::class, mappedBy="section")
+     */
+    private $relacionSectionEntradas;
+
+    /**
+     * @ORM\OneToMany(targetEntity=Entrada::class, mappedBy="section")
+     * @ORM\OrderBy({"orden" = "ASC"})
+     */
+    private $entradassection;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $template;
+
+    /**
+     * @ORM\Column(type="string", length=2550, nullable=true)
+     */
+    private $contenido;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $orden;
+
+
+
+    public function __toString()
+    {
+        return $this->name;
+    }
+
+    public function __construct()
+    {
+        $this->indexAlamedas = new ArrayCollection();
+
+        $this->relacionSectionEntradas = new ArrayCollection();
+        $this->entradassection = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -139,6 +207,170 @@ class Section
     public function setDisponibleAt(?\DateTimeInterface $disponibleAt): self
     {
         $this->disponibleAt = $disponibleAt;
+
+        return $this;
+    }
+
+    public function getTypeOrigin(): ?string
+    {
+        return $this->typeOrigin;
+    }
+
+    public function setTypeOrigin(?string $typeOrigin): self
+    {
+        $this->typeOrigin = $typeOrigin;
+
+        return $this;
+    }
+
+    public function getTypeSecondary(): ?string
+    {
+        return $this->typeSecondary;
+    }
+
+    public function setTypeSecondary(?string $typeSecondary): self
+    {
+        $this->typeSecondary = $typeSecondary;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|IndexAlameda[]
+     */
+    public function getIndexAlamedas(): Collection
+    {
+        return $this->indexAlamedas;
+    }
+
+    public function addIndexAlameda(IndexAlameda $indexAlameda): self
+    {
+        if (!$this->indexAlamedas->contains($indexAlameda)) {
+            $this->indexAlamedas[] = $indexAlameda;
+            $indexAlameda->addSection($this);
+        }
+
+        return $this;
+    }
+
+    public function removeIndexAlameda(IndexAlameda $indexAlameda): self
+    {
+        if ($this->indexAlamedas->contains($indexAlameda)) {
+            $this->indexAlamedas->removeElement($indexAlameda);
+            $indexAlameda->removeSection($this);
+        }
+
+        return $this;
+    }
+
+
+
+    public function getAutor(): ?User
+    {
+        return $this->autor;
+    }
+
+    public function setAutor(?User $autor): self
+    {
+        $this->autor = $autor;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|RelacionSectionEntrada[]
+     */
+    public function getRelacionSectionEntradas(): Collection
+    {
+        return $this->relacionSectionEntradas;
+    }
+
+    public function addRelacionSectionEntrada(RelacionSectionEntrada $relacionSectionEntrada): self
+    {
+        if (!$this->relacionSectionEntradas->contains($relacionSectionEntrada)) {
+            $this->relacionSectionEntradas[] = $relacionSectionEntrada;
+            $relacionSectionEntrada->setSection($this);
+        }
+
+        return $this;
+    }
+
+    public function removeRelacionSectionEntrada(RelacionSectionEntrada $relacionSectionEntrada): self
+    {
+        if ($this->relacionSectionEntradas->contains($relacionSectionEntrada)) {
+            $this->relacionSectionEntradas->removeElement($relacionSectionEntrada);
+            // set the owning side to null (unless already changed)
+            if ($relacionSectionEntrada->getSection() === $this) {
+                $relacionSectionEntrada->setSection(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Entrada[]
+     */
+    public function getEntradassection(): Collection
+    {
+        return $this->entradassection;
+    }
+
+    public function addEntradassection(Entrada $entradassection): self
+    {
+        if (!$this->entradassection->contains($entradassection)) {
+            $this->entradassection[] = $entradassection;
+            $entradassection->setSection($this);
+        }
+
+        return $this;
+    }
+
+    public function removeEntradassection(Entrada $entradassection): self
+    {
+        if ($this->entradassection->contains($entradassection)) {
+            $this->entradassection->removeElement($entradassection);
+            // set the owning side to null (unless already changed)
+            if ($entradassection->getSection() === $this) {
+                $entradassection->setSection(null);
+            }
+        }
+
+        return $this;
+    }
+
+    public function getTemplate(): ?string
+    {
+        return $this->template;
+    }
+
+    public function setTemplate(?string $template): self
+    {
+        $this->template = $template;
+
+        return $this;
+    }
+
+    public function getContenido(): ?string
+    {
+        return $this->contenido;
+    }
+
+    public function setContenido(?string $contenido): self
+    {
+        $this->contenido = $contenido;
+
+        return $this;
+    }
+
+    public function getOrden(): ?int
+    {
+        return $this->orden;
+    }
+
+    public function setOrden(?int $orden): self
+    {
+        $this->orden = $orden;
 
         return $this;
     }

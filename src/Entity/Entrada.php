@@ -5,6 +5,7 @@ namespace App\Entity;
 use App\Entity\Traits\OfertTrait;
 use App\Repository\EntradaRepository;
 use App\Service\UploaderHelper;
+use DateTimeInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
@@ -54,8 +55,8 @@ class Entrada
 
 
     /**
-     * @Gedmo\Slug(fields={"titulo"})
-     * @ORM\Column(type="string", length=150, nullable=true, unique=true)
+     *
+     * @ORM\Column(type="string", length=150, nullable=true)
      */
     private $linkRoute;
 
@@ -86,7 +87,50 @@ class Entrada
      */
     private $brotes;
 
+    /**
+     * @ORM\Column(type="datetime", nullable=true)
+     */
+    private $eventoAt;
 
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $linkPosting;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $typeOrigin;
+
+    /**
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $typeCarry;
+
+    /**
+     * @ORM\OneToMany(targetEntity=RelacionSectionEntrada::class, mappedBy="entrada")
+     */
+    private $relacionSectionEntradas;
+
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
+    private $orden;
+
+    /**
+     * @ORM\ManyToOne(targetEntity=Section::class, inversedBy="entradassection")
+     */
+    private $section;
+
+    /**
+     * @ORM\Column(type="boolean", nullable=true)
+     */
+    private $encabezado;
+
+    /**
+     * @ORM\Column(type="boolean", nullable=true)
+     */
+    private $destacado;
 
     public function __construct()
     {
@@ -94,6 +138,7 @@ class Entrada
         $this->comentarios = new ArrayCollection();
         $this->principals = new ArrayCollection();
         $this->brotes = new ArrayCollection();
+        $this->relacionSectionEntradas = new ArrayCollection();
     }
 
     public function __toString()
@@ -154,12 +199,12 @@ class Entrada
         return $this;
     }
 
-    public function getPublicadoAt(): ?\DateTimeInterface
+    public function getPublicadoAt(): ?DateTimeInterface
     {
         return $this->publicadoAt;
     }
 
-    public function setPublicadoAt(?\DateTimeInterface $publicadoAt): self
+    public function setPublicadoAt(?DateTimeInterface $publicadoAt): self
     {
         $this->publicadoAt = $publicadoAt;
 
@@ -305,6 +350,137 @@ class Entrada
 
         return $this;
     }
+
+    public function getEventoAt(): ?DateTimeInterface
+    {
+        return $this->eventoAt;
+    }
+
+    public function setEventoAt(?DateTimeInterface $eventoAt): self
+    {
+        $this->eventoAt = $eventoAt;
+
+        return $this;
+    }
+
+    public function getLinkPosting(): ?string
+    {
+        return $this->linkPosting;
+    }
+
+    public function setLinkPosting(?string $linkPosting): self
+    {
+        $this->linkPosting = $linkPosting;
+
+        return $this;
+    }
+
+    public function getTypeOrigin(): ?string
+    {
+        return $this->typeOrigin;
+    }
+
+    public function setTypeOrigin(?string $typeOrigin): self
+    {
+        $this->typeOrigin = $typeOrigin;
+
+        return $this;
+    }
+
+    public function getTypeCarry(): ?string
+    {
+        return $this->typeCarry;
+    }
+
+    public function setTypeCarry(?string $typeCarry): self
+    {
+        $this->typeCarry = $typeCarry;
+
+        return $this;
+    }
+
+
+
+    /**
+     * @return Collection|RelacionSectionEntrada[]
+     */
+    public function getRelacionSectionEntradas(): Collection
+    {
+        return $this->relacionSectionEntradas;
+    }
+
+    public function addRelacionSectionEntrada(RelacionSectionEntrada $relacionSectionEntrada): self
+    {
+        if (!$this->relacionSectionEntradas->contains($relacionSectionEntrada)) {
+            $this->relacionSectionEntradas[] = $relacionSectionEntrada;
+            $relacionSectionEntrada->setEntrada($this);
+        }
+
+        return $this;
+    }
+
+    public function removeRelacionSectionEntrada(RelacionSectionEntrada $relacionSectionEntrada): self
+    {
+        if ($this->relacionSectionEntradas->contains($relacionSectionEntrada)) {
+            $this->relacionSectionEntradas->removeElement($relacionSectionEntrada);
+            // set the owning side to null (unless already changed)
+            if ($relacionSectionEntrada->getEntrada() === $this) {
+                $relacionSectionEntrada->setEntrada(null);
+            }
+        }
+
+        return $this;
+    }
+
+    public function getOrden(): ?int
+    {
+        return $this->orden;
+    }
+
+    public function setOrden(?int $orden): self
+    {
+        $this->orden = $orden;
+
+        return $this;
+    }
+
+    public function getSection(): ?Section
+    {
+        return $this->section;
+    }
+
+    public function setSection(?Section $section): self
+    {
+        $this->section = $section;
+
+        return $this;
+    }
+
+    public function getEncabezado(): ?bool
+    {
+        return $this->encabezado;
+    }
+
+    public function setEncabezado(?bool $encabezado): self
+    {
+        $this->encabezado = $encabezado;
+
+        return $this;
+    }
+
+    public function getDestacado(): ?bool
+    {
+        return $this->destacado;
+    }
+
+    public function setDestacado(?bool $destacado): self
+    {
+        $this->destacado = $destacado;
+
+        return $this;
+    }
+
+
 
 
 }

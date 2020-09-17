@@ -3,7 +3,9 @@
 namespace App\Form;
 
 use App\Entity\Entrada;
+use App\Entity\Section;
 use App\Entity\User;
+use FOS\CKEditorBundle\Form\Type\CKEditorType;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\CheckboxType;
@@ -31,8 +33,10 @@ class EntradaType extends AbstractType
                     'class' => 'form-control',
                 ],
             ])
-            ->add('contenido', TextareaType::class, [
+            ->add('contenido', CKEditorType::class, [
                 'required' => true,
+                'config' => [
+                    'uiColor' => '#ffffff'],
                 'attr' => [
                     'class' => 'form-control',
                 ],
@@ -71,6 +75,27 @@ class EntradaType extends AbstractType
             ])
             ->add('startAt')
             ->add('stopAt')
+            ->add('eventoAt')
+            ->add('linkPosting')
+            ->add('section')
+            ->add('orden')
+            ->add('encabezado', CheckboxType::class, [
+                'required' => false,
+                'label' => false,
+                'help' => 'Es encabezado de sección?',
+                'attr' => [
+                    'class' => 'form-control',
+                ],
+            ])
+            ->add('destacado', CheckboxType::class, [
+                'required' => false,
+                'label' => false,
+                'help' => 'Entrada destacada?',
+                'attr' => [
+                    'class' => 'form-control',
+                ],
+            ])
+
         ;
     }
 

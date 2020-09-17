@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use App\Entity\IndexAlameda;
 use App\Entity\User;
+use App\Form\Model\UserRegistrationFormModel;
 use App\Form\UserRegistrationFormType;
 use App\Security\LoginFormAuthenticator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -30,7 +31,7 @@ class SecurityController extends AbstractController
 //    }
 
     /**
-     * @Route("/ingreso/admin", name="app_login")
+     * @Route("/admin/ingreso", name="app_login")
      * @param AuthenticationUtils $authenticationUtils
      * @return Response
      */
@@ -47,7 +48,7 @@ class SecurityController extends AbstractController
     }
 
     /**
-     * @Route("/logout/admin", name="app_logout")
+     * @Route("/admin/logout", name="app_logout")
      */
     public function logout()
     {
@@ -55,7 +56,7 @@ class SecurityController extends AbstractController
     }
 
     /**
-     * @Route("/registro/admin", name="app_registro")
+     * @Route("/admin/registro", name="app_registro")
      *
      * @param Request $request
      * @param UserPasswordEncoderInterface $passwordEncoder
@@ -69,14 +70,16 @@ class SecurityController extends AbstractController
         $form->handleRequest($request);
 
         if($form->isSubmitted() && $form->isValid()){
-            /** @var User $user */
-            $user = $form->getData();
+            /** @var UserRegistrationFormModel $userModel */
+            $userModel = $form->getData();
+            $user = new User();
+            $user->setEmail($userModel->email);
             $user->setPassword(
-                $passwordEncoder->encodePassword($user, $form['plainPassword']->getData())
+                $passwordEncoder->encodePassword($user, $userModel->plainPassword)
             );
             $user->setRoles(['ROLE_USER']);
-            $user->setPrimerNombre($user->getPrimerNombre());
-            if(true === $form['aceptaTerminos']->getData()){
+            $user->setPrimerNombre($userModel->primerNombre);
+            if(true === $userModel->aceptaTerminos){
                 $user->aceptaTerminos();
             }
             $em = $this->getDoctrine()->getManager();
