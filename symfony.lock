@@ -59,6 +59,9 @@
             "src/Repository/.gitignore"
         ]
     },
+    "doctrine/doctrine-cache-bundle": {
+        "version": "1.4.0"
+    },
     "doctrine/doctrine-fixtures-bundle": {
         "version": "3.0",
         "recipe": {
@@ -200,7 +203,7 @@
         ]
     },
     "php": {
-        "version": "7.2"
+        "version": "7.4"
     },
     "phpdocumentor/reflection-common": {
         "version": "2.1.0"
@@ -463,9 +466,6 @@
     "symfony/process": {
         "version": "v4.4.10"
     },
-    "symfony/profiler-pack": {
-        "version": "v1.0.4"
-    },
     "symfony/property-access": {
         "version": "v4.4.10"
     },
@@ -627,6 +627,9 @@
     },
     "twig/twig": {
         "version": "v3.0.3"
+    },
+    "webimpress/safe-writer": {
+        "version": "2.1.0"
     },
     "webmozart/assert": {
         "version": "1.8.0"
