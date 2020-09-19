@@ -3,12 +3,12 @@
 namespace gerVendor;
 class Links
 {
-    protected $nota = 'https://youtu.be/JcowXKUdfuk';
-    protected $index = 'JcowXKUdfuk';
-    protected $autor = 'por Fabian Ruiz';
-    protected $fecha = '06 de Setiembre de 2020';
-    protected $title = 'Tu lugar de paz';
-    protected $image = 'tu-lugar-de-paz-tapa.jpg';
+    protected $nota = 'https://youtu.be/UUYrSHXf3u0';
+    protected $index = 'UUYrSHXf3u0';
+    protected $autor = 'por Abel Schwab';
+    protected $fecha = '13 de Setiembre de 2020';
+    protected $title = 'No te rindas';
+    protected $image = 'no-te-rindas-tapa.jpg';
 
     protected $nota2 = 'https://youtu.be/ZEa7PjHUMH4';
     protected $index2 = 'ZEa7PjHUMH4';

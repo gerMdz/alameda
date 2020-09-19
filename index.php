@@ -6,8 +6,8 @@
 //use gerVendor\HandlerNotas;
 //use gerVendor\Links;
 
-$lema = 'Escape a la LIbertad';
-$lemaSinEspacios = 'Escape-a-la-LIbertad';
+$lema = 'Estar Bien';
+$lemaSinEspacios = 'Estar bien';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
@@ -20,10 +20,6 @@ include_once('links.php');
 require_once 'gerVendor/Links.php';
 require_once 'gerVendor/HandlerNotas.php';
 $links = new \gerVendor\Links();
-
-
-
-
 ?>
 <!DOCTYPE html>
 
@@ -34,9 +30,9 @@ $links = new \gerVendor\Links();
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Iglesia de La Alameda,
-     <?php echo $lema; ?>, Iglesia Bautista, Celebracion, Dios, Fe, Amistad, Arte,Libertad, Servicio, Misión, Mendoza">
+     <?php echo $lema; ?>, Iglesia Bautista, Celebración, Dios, Fe, Amistad, Arte,Libertad, Servicio, Misión, Mendoza">
     <meta name="keywords"
-          content="Iglesia de la Alameda, Celebracion, Dios, Fe, Amistad, Arte, Libertad, Servicio, Misión, Mendoza">
+          content="Iglesia de la Alameda, Celebración, Dios, Fe, Amistad, Arte, Libertad, Servicio, Misión, Mendoza">
     <meta name="author" content="Iglesia de la Alameda">
 
     <meta property="og:title" content="Iglesia Alameda"/>
@@ -151,7 +147,7 @@ $links = new \gerVendor\Links();
 
                 <span class="mr-2"></span>
                 <span class="text-secondary ">
-                    Sabado 20 hs - Domingo 11 y 20 hs.
+                    Sábado 20 hs - Domingo 11 y 20 hs.
                 </span>
                 </a>
             </h2>
