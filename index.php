@@ -150,10 +150,9 @@ $links = new \gerVendor\Links();
 
 
                 <span class="mr-2"></span>
-                <span class="text-secondary ">Domingos 11 Hs.
-<!--                    <br class="d-block d-md-none"/>-->
-
-                    y 20 Hs.</span>
+                <span class="text-secondary ">
+                    Sabado 20 hs - Domingo 11 y 20 hs.
+                </span>
                 </a>
             </h2>
 
