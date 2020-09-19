@@ -185,13 +185,13 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
                             <h5 class="card-title text-uppercase">
-                                Vamos a estar bien!
+                                ¡Está bien no estar bien!
                             </h5>
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-5"></i><br/>
-                                <u>Y va a ser ahora!</u>
-                                <br/>
-                                Una experiencia que cambiará tu vida
+
+                                Afortunados los que <b>reconocen su necesidad espiritual</b> porque el reino de Dios les pertenece
+                                <p>Mateo 5:3 (PDT)</p>
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
