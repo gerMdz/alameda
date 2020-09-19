@@ -19,7 +19,7 @@ $data = $referencias->getReferencias('2020-09-19 19:30');
                             <div class="col-sm-12 mr-0 left-n5">
                                 <div class="card shadow-none">
                                     <div class="card-img">
-                                        <img src="/series/escape-a-la-libertad/<?php echo $data['image']; ?>"
+                                        <img src="/series/<?php echo $data['image']; ?>"
                                              alt="Iglesia de La Alameda"
                                              class="card-img"
                                         >

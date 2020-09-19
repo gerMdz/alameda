@@ -8,14 +8,14 @@ class Links
     protected $autor = 'por Abel Schwab';
     protected $fecha = '13 de Setiembre de 2020';
     protected $title = 'No te rindas';
-    protected $image = 'no-te-rindas-tapa.jpg';
+    protected $image = '/escape-a-la-libertad/no-te-rindas-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/ZEa7PjHUMH4';
-    protected $index2 = 'ZEa7PjHUMH4';
-    protected $autor2 = 'por Abel Schwab';
-    protected $fecha2 = '13 de Setiembre de 2020';
-    protected $title2 = 'No te rindas';
-    protected $image2 = 'no-te-rindas-tapa.jpg';
+    protected $nota2 = 'https://youtu.be/XeXV3DiKd4U';
+    protected $index2 = 'XeXV3DiKd4U';
+    protected $autor2 = 'por Fabian Ruiz';
+    protected $fecha2 = '19 de Setiembre de 2020';
+    protected $title2 = 'Está bien no estar bien';
+    protected $image2 = 'estar-bien/estar-bien-tapa.jpg';
 
     /**
      * @return string
