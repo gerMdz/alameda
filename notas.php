@@ -195,7 +195,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                 <i class="fas fa-quote-right ml-5"></i>
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/escape-a-la-libertad/01-escape-a-la-libertad.pdf"
+                                <a href="/series/estar-bien/01-estar-bien.pdf"
                                    target="_blank"
                                    class="card-link text-center">
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
