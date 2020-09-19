@@ -7,14 +7,14 @@
                     <div class="row justify-content-center ">
                         <div class="col-sm-11">
                             <div class="row ">
-                                <!--                marco epicentro-->
+                                <!--                marco estar bien-->
                                 <div class="col-md-6 mb-2 mx-auto   ">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/epicentro-2020.jpg"
+                                            <img src="/series/estar-bien/tj-estar-bien.jpg"
                                                  alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
@@ -23,10 +23,10 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="/epicentro.php" class="card-link text-left">
+                                            <a href="/notas.php" class="card-link text-left">
 
-                                                <span class="text-alameda">Epicentro - Conferencia de Pastores 2020</span><br/>
-                                                <small>Por primera vez online</small>
+                                                <span class="text-alameda">Estar bien</span><br/>
+                                                <small>Nueva serie de mensajes </small>
 
                                             </a>
 
