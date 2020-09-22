@@ -18,6 +18,10 @@ DirectoryIndex index.php
 </IfModule>
 
 <IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    RewriteRule .* public_html/index.php
+
     RewriteEngine On
 
     # Determine the RewriteBase automatically and set it as environment variable.
