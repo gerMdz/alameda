@@ -16,7 +16,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class MetaBaseController extends AbstractController
 {
     /**
-     * @Route("/", name="meta_base_index", methods={"GET"})
+     * @Route("/listado", name="meta_base_index", methods={"GET"})
      * @param MetaBaseRepository $metaBaseRepository
      * @return Response
      */
@@ -41,7 +41,7 @@ class MetaBaseController extends AbstractController
             $entityManager->persist($metaBase);
             $entityManager->flush();
 
-            return $this->redirectToRoute('meta_base_index');
+            return $this->redirectToRoute('admin');
         }
 
         return $this->render('meta_base/new.html.twig', [
@@ -71,7 +71,7 @@ class MetaBaseController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $this->getDoctrine()->getManager()->flush();
 
-            return $this->redirectToRoute('meta_base_index');
+            return $this->redirectToRoute('admin    ');
         }
 
         return $this->render('meta_base/edit.html.twig', [

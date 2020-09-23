@@ -1,13 +1,20 @@
-{% extends 'base.html.twig' %}
+{% extends 'base_material_kit.twig' %}
 
 {% block title %}Edit MetaBase{% endblock %}
 
-{% block body %}
-    <h1>Edit MetaBase</h1>
+{% block sections %}
+    <section class="bg-white mt-3 ">
+        -
+    </section>
+    <section class="bg-white mt-5 ">
+        <div class="container-fluid mt-lg-1 mt-sm-5">
+            <h1>Edición Datos Metabase</h1>
 
-    {{ include('meta_base/_form.html.twig', {'button_label': 'Update'}) }}
+            {{ include('meta_base/_form.html.twig', {'button_label': 'Update'}) }}
 
-    <a href="{{ path('meta_base_index') }}">back to list</a>
+            <a href="{{ path('meta_base_index') }}">back to list</a>
 
-    {{ include('meta_base/_delete_form.html.twig') }}
+            {{ include('meta_base/_delete_form.html.twig') }}
+        </div>
+    </section>
 {% endblock %}

@@ -1,50 +1,79 @@
-{% extends 'meta_base/metabase.html.twig' %}
+{% extends 'base_material_kit.twig' %}
 
 {% block title %}Datos Metabase{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
 
-{% block body %}
-    <h1>MetaBase index</h1>
+{% endblock %}
+{% block sslocal %}
+    {#    <link rel="stylesheet" type="text/css" href="{{ asset('css-misc/resume.min.css') }}">#}
+    {#    <link rel="stylesheet" type="text/css" href="{{ asset('css-misc/styles.min.css') }}">#}
+    <link href="{{ asset('css-misc/mdb.min.css') }}" rel="stylesheet">
+{% endblock %}
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Lema</th>
-                <th>Lema Principal</th>
-                <th>Meta Descripcion</th>
-                <th>Meta Autor</th>
-                <th>Meta Title</th>
-                <th>Meta Type</th>
-                <th>Meta Url</th>
-                <th>Site Name</th>
-                <th>acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for meta_base in meta_bases %}
-            <tr>
-                <td>{{ meta_base.id }}</td>
-                <td>{{ meta_base.lema }}</td>
-                <td>{{ meta_base.lemaPrincipal }}</td>
-                <td>{{ meta_base.metaDescripcion }}</td>
-                <td>{{ meta_base.metaAutor }}</td>
-                <td>{{ meta_base.metaTitle }}</td>
-                <td>{{ meta_base.metaType }}</td>
-                <td>{{ meta_base.metaUrl }}</td>
-                <td>{{ meta_base.siteName }}</td>
-                <td>
-                    <a href="{{ path('meta_base_show', {'id': meta_base.id}) }}">ver</a>
-                    <a href="{{ path('meta_base_edit', {'id': meta_base.id}) }}">editar</a>
-                </td>
-            </tr>
-        {% else %}
-            <tr>
-                <td colspan="10">Todavía no tienes metabase</td>
-                <td><a href="{{ path('meta_base_new') }}">Crea tu primer metabase</a></td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+{% block sections %}
+    <section class="bg-white mt-3 ">
+        -
+    </section>
+    <section class="bg-white mt-5 ">
+        <div class="container-fluid mt-lg-1 mt-sm-5">
+            <h1>Indice de Metadatos Index</h1>
+
+            <table class="table table-borderless">
+                <thead>
+                <tr class="text-realce-alameda">
+                    <th>Id</th>
+                    <th>Lema</th>
+                    <th>Lema Principal</th>
+                    <th>Meta Descripcion</th>
+                    <th>Meta Autor</th>
+                    <th>Meta Title</th>
+                    <th>Meta Type</th>
+                    <th>Meta Url</th>
+                    <th>Site Name</th>
+                    <th>acciones</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for meta_base in meta_bases %}
+                    <tr>
+                        <td>{{ meta_base.id }}</td>
+                        <td>{{ meta_base.lema }}</td>
+                        <td>{{ meta_base.lemaPrincipal }}</td>
+                        <td>{{ meta_base.metaDescripcion }}</td>
+                        <td>{{ meta_base.metaAutor }}</td>
+                        <td>{{ meta_base.metaTitle }}</td>
+                        <td>{{ meta_base.metaType }}</td>
+                        <td>{{ meta_base.metaUrl }}</td>
+                        <td>{{ meta_base.siteName }}</td>
+                        <td>
+                            <a href="{{ path('meta_base_show', {'id': meta_base.id}) }}">
+                                <i class="fa fa-eye"> </i> Ver</a><br/>
+                            <a href="{{ path('meta_base_edit', {'id': meta_base.id}) }}">
+                                <i class="fa fa-edit"> </i> Editar</a>
+                        </td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="10">Todavía no tienes metabase</td>
+                        <td><a href="{{ path('meta_base_new') }}">Crea tu primer metabase</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <hr class="mb-0">
 
 
+
+{% endblock %}
+{#{% block footer %}#}
+{#    {{ parent() }}#}
+{#{% endblock %}#}
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
+{% block jslocal %}
 {% endblock %}
