@@ -1213,3 +1213,7 @@ a>small{
     margin: -200px;
 
 }
+
+h4.card-title{
+    font-family: ArialNova, serif !important;
+}
