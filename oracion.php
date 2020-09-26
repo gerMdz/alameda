@@ -72,7 +72,7 @@ include_once('gerVendor/gerFunctions.php')
 include 'nav.php';
 ?>
 <header class="masthead masthead-oportunidades">
-    <div class="container h-40">
+    <div class="container">
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
                 <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
@@ -102,7 +102,7 @@ include 'nav.php';
         <hr class="col-sm-5 my-auto flex-grow-1">
     </div>
 
-    <div class="container h-40">
+    <div class="container">
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
 
