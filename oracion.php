@@ -71,8 +71,8 @@ include_once('gerVendor/gerFunctions.php')
 <?php
 include 'nav.php';
 ?>
-<header class="masthead masthead-oportunidades">
-    <div class="container">
+<section class="masthead masthead-oportunidades">
+    <div class="container mt-5 pt-5">
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
                 <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
@@ -131,7 +131,7 @@ include 'nav.php';
 
         </div>
     </div>
-</header>
+</section>
 <div class="bg-gris-alameda" style="height: 50px">
 
 </div>
