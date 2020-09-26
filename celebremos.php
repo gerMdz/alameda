@@ -108,11 +108,12 @@ $finQ = false;
                         <hr/>
                         <p class="mx-auto text-center ">
                             Conectate enviando un mensaje <br/>
-                            <a href="sms:+5492613070449;?&body=Quisiera conectarme a un grupo abierto">SMS</a>
-                            <i class="fas fa-sms"></i>
-                            o <a
-                                    href="https://api.whatsapp.com/send?phone=5492613070449&text=Quisiera conectarme a un grupo abierto">
-                                Whatsapp <i class="fab fa-whatsapp"></i> </a> <br/>
+                            <a href="sms:+5492613070449;?&body=Quisiera conectarme a un grupo abierto">SMS
+                            <i class="fas fa-sms"></i></a>
+                            o
+                            <a href="https://api.whatsapp.com/send?phone=5492613070449&text=Quisiera conectarme a un grupo abierto">
+                                Whatsapp <i class="fab fa-whatsapp"></i> </a>
+                            <br/>
                             a +54 9 2613 07-0449
                         </p>
                     </div>
