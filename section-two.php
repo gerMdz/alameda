@@ -252,6 +252,23 @@
                                 </div>
                                 <!--                fin marco niños -->
 
+                                <!-- Inicio marco celebremos-->
+                                <div class="col-md-3 mb-2 mx-auto">
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/tj-celebremos-la-recuperacion.jpg"
+                                                 alt="Iglesia de La Alameda" class="card-img">
+                                        </div>
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <a href="/celebremos.php" class="card-link text-left">
+                                                <span class="text-alameda">Celebremos la Recuperación</span><br/>
+                                                <small>Un lugar ideal, un lugar seguro</small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin marco celebremos-->
+
                                 <!--                marco adolescentes-->
                                 <div class="col-md-3 mb-2 mx-auto   ">
                                     <!--                                        <div class="card h-100"> -->
