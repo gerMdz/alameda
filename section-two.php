@@ -8,9 +8,8 @@
                         <div class="col-sm-11">
                             <div class="row ">
                                 <!--                marco estar bien-->
-                                <div class="col-md-6 mb-2 mx-auto   ">
+                                <div class="col-md-6 mb-2 mx-auto d-flex">
                                     <!--                                        <div class="card h-100"> -->
-
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
@@ -43,7 +42,7 @@
                                 <!--                fin marco epicentro-->
 
                                 <!--                marco conexión-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -78,7 +77,7 @@
                                 <!--                fin marco conexión-->
 
                                 <!--                marco dar-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -112,7 +111,7 @@
                                 <!--                fin marco dar-->
 
                                 <!--                marco oración-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -147,7 +146,7 @@
                                 <!--                fin marco oración-->
 
                                 <!-- Inicio marco promo-bienaventurados-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -183,7 +182,7 @@
                                 <!--   fin marco promo-bienaventurados -->
 
                                 <!--                marco camino-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -217,7 +216,7 @@
                                 </div>
                                 <!--   fin marco camino -->
                                 <!--                marco niños -->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -253,11 +252,11 @@
                                 <!--                fin marco niños -->
 
                                 <!-- Inicio marco celebremos-->
-                                <div class="col-md-3 mb-2 mx-auto">
-                                    <div class="card shadow-none">
+                                <div class="col-md-3 mb-2 mx-auto d-flex">
+                                    <div class="card shadow-none ">
                                         <div class="contenedor">
                                             <img src="/images/institucional/tj-celebremos-la-recuperacion.jpg"
-                                                 alt="Iglesia de La Alameda" class="card-img">
+                                                 alt="Iglesia de La Alameda" class="card-img"                                            >
                                         </div>
                                         <div class="card-footer bg-white justify-content-between ">
                                             <a href="/celebremos.php" class="card-link text-left">
@@ -270,7 +269,7 @@
                                 <!-- Fin marco celebremos-->
 
                                 <!--                marco adolescentes-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -305,7 +304,7 @@
                                 <!--                fin marco adolescentes-->
 
                                 <!--                marco jóvenes -->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -342,7 +341,7 @@
                                 <!--                fin marco jóvenes-->
 
                                 <!--                marco seminario -->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
