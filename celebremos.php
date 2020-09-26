@@ -54,8 +54,10 @@ $finQ = false;
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <div class="text-center">
-
+                    <div class="text-center d-md-none d-lg-none d-xl-none">
+                        <h1 class="display-sm-4 display-lg-3 h2"><b class="text-white aire-2">Celebremos la Recuperación</b>
+                        </h1>
+                        <hr style="width: 25%"/>
                     </div>
                 </div>
             </div>
