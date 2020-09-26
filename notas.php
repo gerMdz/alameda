@@ -152,7 +152,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
         <div class="container">
             <div class="row ">
                 <div class="col-lg-1"></div>
-                <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 ">
+                <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 fuente-normal">
                     <h1 class="mb-3">Estar bien</h1>
                     <p>
                         No necesitas esperar que todo pase para estar mejor.
@@ -184,15 +184,15 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase">
+                            <h5 class="card-title text-uppercase fuente-normal">
                                 ¡Está bien no estar bien!
                             </h5>
                             <div class="middle-0">
-                                <i class="fas fa-quote-left mr-5"></i><br/>
+                                <i class="fas fa-quote-left mr-2"></i>
 
                                 Afortunados los que <b>reconocen su necesidad espiritual</b> porque el reino de Dios les pertenece
-                                <p>Mateo 5:3 (PDT)</p>
-                                <i class="fas fa-quote-right ml-5"></i>
+                                <p>Mateo 5:3 (PDT) <i class="fas fa-quote-right ml-3"></i></p>
+
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
                                 <a href="/series/estar-bien/01-estar-bien.pdf"

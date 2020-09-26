@@ -57,7 +57,7 @@ $data = $referencias->getPasos();
     <!-- End Navbar -->
 
     <!-- Promo Block -->
-    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay bg-gris-medio text-white "
+    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay bg-gris-medio text-white fuente-normal"
              style="background-image: url(/images/institucional/portada-avanza.jpg) ">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
@@ -81,7 +81,7 @@ $data = $referencias->getPasos();
     <!-- Free Quote -->
     <section class="u-content-space border-bottom py-5 bg-gris-medio ">
         <div class="container text-center">
-            <h2>
+            <h2 class="fuente-arial-nova">
                 Camino de Crecimiento Alameda
             </h2>
             <span class="mb-0 text-14-300">
@@ -99,8 +99,8 @@ $data = $referencias->getPasos();
             <div class="row">
                 <!-- Article Content -->
                 <div class="col-lg-6 align-self-center pr-5 ">
-                    <header class="mb-5 text-left">
-                        <h2 class="h3 text-left">
+                    <header class="mb-5 text-left fuente-arial-nova">
+                        <h2 class="h3 text-left fuente-arial-nova">
                             <?php
                             echo $data['titulo'];
                             ?>
@@ -120,11 +120,11 @@ $data = $referencias->getPasos();
                 <div class="col-lg-6 align-items-center pl-5">
                     <!-- SVG Tablet Mockup -->
                     <div class="mx-auto bg-white p-5 text-center">
-                        <h4 class="text-alameda text-center text-uppercase text-realce-alameda">
+                        <h4 class="text-alameda text-center text-uppercase text-realce-alameda fuente-arial-nova">
                             Unite a esta charla en línea
                         </h4>
                         <hr/>
-                        <p class="mx-auto text-center ">
+                        <p class="mx-auto text-center fuente-arial-nova">
                             <?php
                             echo $data['fecha'] . ' a las ' . $data['hora'];
                             ?>
@@ -146,7 +146,7 @@ $data = $referencias->getPasos();
     <section class="u-content-space border-bottom py-5 bg-gris-medio">
         <div class="container text-center">
             <h4 class="text-alameda">
-                <b class="aire-2">
+                <b class="aire-2 fuente-arial-nova">
                     LOS PASOS EN EL CAMINO DE CRECIMIENTO
                 </b>
             </h4>
@@ -158,15 +158,15 @@ $data = $referencias->getPasos();
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100">
                             <div class="col-sm-4 mx-auto text-center img-20">
-                                <img src="/images/avanza/paso-1.jpg" alt="Iglesia de La Alameda"
+                                <img src="/images/avanza/paso-1-int.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid  ">
                             </div>
-                            <h4 class="card-title text-center text-alameda sub-img">
-                                Paso uno: Conviértete en miembro
+                            <h4 class="card-title text-center text-alameda sub-img px-1 fuente-normal">
+                                Paso uno:<br/> Conviértete en miembro
                                 <br>
                             </h4>
                             <div class="card-body">
-                                <p class="card-description text-center text-dark">
+                                <p class="card-description text-center text-dark fuente-arial-nova">
                                     <?php
                                     echo $pasos->getTexto1();
                                     ?>
@@ -179,15 +179,15 @@ $data = $referencias->getPasos();
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100 ">
                             <div class="col-sm-4 mx-auto text-center img-20">
-                                <img src="/images/avanza/paso-2.jpg" alt="Iglesia de La Alameda"
+                                <img src="/images/avanza/paso-2-int.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid">
                             </div>
-                            <h4 class="card-title text-center text-alameda sub-img">
-                                Paso dos: Adopta nuevos hábitos.
+                            <h4 class="card-title text-center text-alameda sub-img px-1 fuente-normal">
+                                Paso dos:<br/> Adopta nuevos hábitos.
                                 <br>
                             </h4>
                             <div class="card-body">
-                                <p class="card-description text-center text-dark ">
+                                <p class="card-description text-center text-dark fuente-arial-nova">
                                     <?php
                                     echo $pasos->getTexto2();
                                     ?>
@@ -199,15 +199,15 @@ $data = $referencias->getPasos();
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100">
                             <div class="col-sm-4 mx-auto text-center img-20">
-                                <img src="/images/avanza/paso-3.jpg" alt="Iglesia de La Alameda"
+                                <img src="/images/avanza/paso-3-int.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid">
                             </div>
-                            <h4 class="card-title text-center text-alameda sub-img">
-                                Paso tres: Descubrí tu FORMA
+                            <h4 class="card-title text-center text-alameda sub-img px-1 fuente-normal">
+                                Paso tres:<br/> Descubrí tu FORMA
                                 <br>
                             </h4>
                             <div class="card-body">
-                                <p class="card-description text-center text-dark">
+                                <p class="card-description text-center text-dark fuente-arial-nova">
                                     <?php
                                     echo $pasos->getTexto3();
                                     ?>
