@@ -108,7 +108,7 @@ $finQ = false;
                         <hr/>
                         <p class="mx-auto text-center ">
                             Conectate enviando un mensaje <br/>
-                            <a href="sms:5492613070449;?&body=Quisiera conectarme a un grupo abierto">SMS</a>
+                            <a href="sms:+5492613070449;?&body=Quisiera conectarme a un grupo abierto">SMS</a>
                             <i class="fas fa-sms"></i>
                             o <a
                                     href="https://api.whatsapp.com/send?phone=5492613070449&text=Quisiera conectarme a un grupo abierto">
