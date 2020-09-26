@@ -15,31 +15,26 @@ $title = 'Contacto';
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once('gerVendor/gerFunctions.php')
+include_once ('gerVendor/gerFunctions.php')
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <?php
-    include('meta-base.php');
-    include('style-base-uikit.php')
+    include ('meta-base.php');
+    include ('style-base-uikit.php')
     ?>
 
-    <!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
-    <script src="js/alameda.js"></script>
+<!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <script src = "js/alameda.js"> </script>
+
 
 
     <style>
-        strong {
-            font-weight: 400 !important
-        }
-
-        .card-text {
-            font-size: 1.1em !important;
-            font-weight: 600 !important;
-        }
-
+        strong{font-weight: 400 !important}
+        .card-text{font-size: 1.1em !important;
+        font-weight: 600 !important;}
         .header {
             background-image: url('images/series/cabecera_index.jpg');
             background-size: cover;
@@ -47,7 +42,6 @@ include_once('gerVendor/gerFunctions.php')
             position: relative;
 
         }
-
         .overlay {
             position: absolute;
             min-height: 100%;
@@ -57,13 +51,11 @@ include_once('gerVendor/gerFunctions.php')
             background: rgba(255, 255, 255, 0.6);
 
         }
-
         img.resize {
-            width: 10%; /* you can use % */
+            width:10%; /* you can use % */
             height: auto;
         }
-
-        .btn-xl {
+        .btn-xl{
             padding: 1.25rem 1.25rem;
             font-size: 0.85rem;
             font-weight: 700;
@@ -73,13 +65,14 @@ include_once('gerVendor/gerFunctions.php')
         }
 
 
+
     </style>
 
-    <!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
-    <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />-->
-    <!---->
-    <!---->
-    <!--    <link href="css/landings/heroic-features.css" rel="stylesheet">-->
+<!--    <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />-->
+<!---->
+<!---->
+<!--    <link href="css/landings/heroic-features.css" rel="stylesheet">-->
 
 </head>
 
@@ -130,14 +123,14 @@ include 'nav.php';
 
 
 <hr class="m-0">
-<?php
-include "footer.php";
-?>
+    <?php
+    include "footer.php";
+    ?>
 
-<!-- Bootstrap core JavaScript -->
-<?php
-include('js-base-uikit.php');
-?>
+    <!-- Bootstrap core JavaScript -->
+    <?php
+    include('js-base-uikit.php');
+    ?>
 
 </body>
 

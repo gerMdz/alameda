@@ -85,7 +85,7 @@ include 'nav.php';
                 </h1>
             </div>
             <div class="col-lg-8 align-self-baseline">
-                <p class="text-black-75 font-weight-light mb-5"><b>Ningún</b> problema es demasiado grande para
+                <p class="text-black-75 font-weight-light mb-5 fuente-normal"><b>Ningún</b> problema es demasiado grande para
                     Dios,<br/>
                     ni insignificante para su cuidado <b>Paternal</b>. <br/>
                     Dejanos <b>tu motivo</b> de oración específico, <br/>
@@ -113,7 +113,7 @@ include 'nav.php';
 
             </div>
             <div class="col-lg-8 align-self-baseline">
-                <p class="text-black-75 font-weight-light mb-5">
+                <p class="text-black-75 font-weight-light mb-5 fuente-normal">
                     Si <b>Dios ha respondido</b> a un pedido específico que les has hecho y
                     <br/>
                     deseas <b>agradecer y compartir</b>, llena esta Tarjeta.
