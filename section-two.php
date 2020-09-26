@@ -146,6 +146,42 @@
                                 </div>
                                 <!--                fin marco oración-->
 
+                                <!-- Inicio marco promo-bienaventurados-->
+                                <div class="col-md-3 mb-2 mx-auto   ">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/promo-bienaventurados.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="http://sitiosimple.com/libreria-alameda/#!/producto/3/"
+                                               target="_blank" class="card-link text-left">
+
+                                                <span class="text-alameda">Promo Bienaventurados</span><br/>
+                                                <small>Libro de lecturas diarias</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--   fin marco promo-bienaventurados -->
+
                                 <!--                marco camino-->
                                 <div class="col-md-3 mb-2 mx-auto   ">
                                     <!--                                        <div class="card h-100"> -->
@@ -196,7 +232,8 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="https://www.youtube.com/channel/UCXJMZA6VuT44s741JgUIPwg" target="_blank" class="card-link text-left">
+                                            <a href="https://www.youtube.com/channel/UCXJMZA6VuT44s741JgUIPwg"
+                                               target="_blank" class="card-link text-left">
 
                                                 <span class="text-alameda">Niños</span><br/>
                                                 <small>Miralo con toda tu familia</small>
@@ -257,7 +294,8 @@
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/jovenes-de-la-alameda.jpg" alt="Iglesia de La Alameda"
+                                            <img src="/images/institucional/jovenes-de-la-alameda.jpg"
+                                                 alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
                                         </div>
@@ -293,7 +331,8 @@
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/seminario-de-liderazgo.jpg" alt="Iglesia de La Alameda"
+                                            <img src="/images/institucional/seminario-de-liderazgo.jpg"
+                                                 alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
                                         </div>
