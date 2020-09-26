@@ -114,9 +114,11 @@ include 'nav.php';
             </div>
             <div class="col-lg-8 align-self-baseline">
                 <p class="text-black-75 font-weight-light mb-5 fuente-normal">
-                    Si <b>Dios ha respondido</b> a un pedido específico que les has hecho y
-                    <br/>
-                    deseas <b>agradecer y compartir</b>, llena esta Tarjeta.
+                    Si <b>Dios ha respondido</b> <br class="d-md-none d-lg-none d-xl-none" />
+                    a un pedido específico <br class="d-md-none d-lg-none d-xl-none"/>
+                    que les has hecho y deseas <br/>
+                    <b>agradecer y compartir</b>,<br class="d-md-none d-lg-none d-xl-none"/>
+                    llena esta Tarjeta.
                     <br/>
                     "Yo te daré gracias en la gran asamblea, ante una multitud te alabaré." Salmos 35:18
 
