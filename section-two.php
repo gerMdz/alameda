@@ -260,7 +260,7 @@
                                         </div>
                                         <div class="card-footer bg-white justify-content-between ">
                                             <a href="/celebremos.php" class="card-link text-left">
-                                                <span class="text-alameda">Celebremos la Recuperación</span><br/>
+                                                <span class="text-alameda">Ayuda en tu Recuperación</span><br/>
                                                 <small>Un lugar ideal, un lugar seguro</small>
                                             </a>
                                         </div>
