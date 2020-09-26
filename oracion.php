@@ -30,7 +30,7 @@ include_once('gerVendor/gerFunctions.php')
     <title>Oración - Iglesia de la Alameda</title>
 
 
-<!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <script src="/js/alameda.js"></script>
 
 
@@ -38,10 +38,6 @@ include_once('gerVendor/gerFunctions.php')
         strong {
             font-weight: 400 !important
         }
-
-
-
-
 
 
         img.resize {
@@ -61,12 +57,12 @@ include_once('gerVendor/gerFunctions.php')
 
     </style>
 
-<!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
-<!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"-->
-<!--          rel="stylesheet"/>-->
-<!---->
-<!---->
-<!--    <link href="/css/landings/heroic-features.css" rel="stylesheet">-->
+    <!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+    <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"-->
+    <!--          rel="stylesheet"/>-->
+    <!---->
+    <!---->
+    <!--    <link href="/css/landings/heroic-features.css" rel="stylesheet">-->
 
 </head>
 
@@ -75,11 +71,8 @@ include_once('gerVendor/gerFunctions.php')
 <?php
 include 'nav.php';
 ?>
-
-
 <header class="masthead masthead-oportunidades">
-
-    <div class="container h-100">
+    <div class="container h-50">
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
                 <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
@@ -90,17 +83,6 @@ include 'nav.php';
                 <h1 class="text-uppercase text-realce-alameda">
                     <small class="text-black">Motivos de </small> Oración
                 </h1>
-
-                <div class="d-flex col-sm-12">
-                    <hr class="my-auto flex-grow-1 divider col-sm-5">
-                    <img src="/images/institucional/logo-oracion-alameda.png"
-                         class="col-sm-1 img-fluid rounded-circle" style="max-width: 100px" alt="Iglesia de La Alameda">
-                    <hr class="col-sm-5 my-auto flex-grow-1">
-                </div>
-
-
-
-
             </div>
             <div class="col-lg-8 align-self-baseline">
                 <p class="text-black-75 font-weight-light mb-5"><b>Ningún</b> problema es demasiado grande para
@@ -109,21 +91,60 @@ include 'nav.php';
                     Dejanos <b>tu motivo</b> de oración específico, <br/>
                     tenemos un equipo de personas que <b>estará orando</b> por vos.
                 </p>
-
             </div>
         </div>
     </div>
+
+    <div class="d-flex col-sm-12">
+        <hr class="my-auto flex-grow-1 divider col-sm-5">
+        <img src="/images/institucional/logo-oracion-alameda.png"
+             class="col-sm-1 img-fluid rounded-circle" style="max-width: 100px" alt="Iglesia de La Alameda">
+        <hr class="col-sm-5 my-auto flex-grow-1">
+    </div>
+
+    <div class="container h-50">
+        <div class="row h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-10 align-self-end">
+
+                <h1 class="text-uppercase text-realce-alameda">
+                    <small class="text-black">Motivos de </small> GRATITUD
+                </h1>
+
+
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-black-75 font-weight-light mb-5">
+                    Si <b>Dios ha respondido</b> a un pedido específico que les has hecho y
+                    <br/>
+                    deseas <b>agradecer y compartir</b>, llena esta Tarjeta.
+                    <br/>
+                    "Yo te daré gracias en la gran asamblea, ante una multitud te alabaré." Salmos 35:18
+
+                </p>
+                <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
+                   href="https://forms.gle/RgHtdq3EWWv5NiScA"
+                   target="_blank">
+                    Agradecimiento
+                </a>
+
+            </div>
+
+        </div>
+    </div>
 </header>
+<div class="bg-gris-alameda" style="height: 50px">
+
+</div>
 
 
-    <?php
-    include "footer.php";
-    ?>
+<?php
+include "footer.php";
+?>
 
-    <!-- Bootstrap core JavaScript -->
-    <?php
-    include('js-base-uikit.php');
-    ?>
+<!-- Bootstrap core JavaScript -->
+<?php
+include('js-base-uikit.php');
+?>
 
 </body>
 

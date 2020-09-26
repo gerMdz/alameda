@@ -1197,6 +1197,9 @@ a>small{
 .bg-gris-medio{
     background-color: #f8fbfd;
 }
+.bg-gris-alameda{
+    background-color: #eeeeee;
+}
 
 .img-20 {
     transform: translate3d(0,-30%,0);
