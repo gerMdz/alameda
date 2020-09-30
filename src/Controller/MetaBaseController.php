@@ -71,7 +71,7 @@ class MetaBaseController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $this->getDoctrine()->getManager()->flush();
 
-            return $this->redirectToRoute('admin    ');
+            return $this->redirectToRoute('admin');
         }
 
         return $this->render('meta_base/edit.html.twig', [
