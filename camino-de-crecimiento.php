@@ -5,6 +5,10 @@
  * Date: 22/08/2020
  * Time: 07:10
  */
+
+use gerVendor\HandlerPasos;
+use gerVendor\Pasos;
+
 $lema = 'Camino de Crecimiento Alameda';
 $lemaSinEspacios = 'Camino-de-Crecimiento-Alameda';
 $ahora = date('Y-m-d H:i');
@@ -15,7 +19,12 @@ $title = $lema;
  * @example pregunta si la cuarentena terminó
  */
 $finQ = false;
-include_once('gerVendor/gerFunctions.php')
+
+include_once('gerVendor/HandlerPasos.php');
+include_once('gerVendor/Pasos.php');
+$pasos = new Pasos();
+$referencias = new HandlerPasos();
+$data = $referencias->getPasos();
 ?>
 
 <!DOCTYPE html>
@@ -48,7 +57,7 @@ include_once('gerVendor/gerFunctions.php')
     <!-- End Navbar -->
 
     <!-- Promo Block -->
-    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay bg-gris-medio text-white "
+    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay bg-gris-medio text-white fuente-normal"
              style="background-image: url(/images/institucional/portada-avanza.jpg) ">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
@@ -72,7 +81,7 @@ include_once('gerVendor/gerFunctions.php')
     <!-- Free Quote -->
     <section class="u-content-space border-bottom py-5 bg-gris-medio ">
         <div class="container text-center">
-            <h2>
+            <h2 class="fuente-arial-nova">
                 Camino de Crecimiento Alameda
             </h2>
             <span class="mb-0 text-14-300">
@@ -90,14 +99,16 @@ include_once('gerVendor/gerFunctions.php')
             <div class="row">
                 <!-- Article Content -->
                 <div class="col-lg-6 align-self-center pr-5 ">
-                    <header class="mb-5 text-left">
-                        <h2 class="h3 text-left">
-                            Paso uno
+                    <header class="mb-5 text-left fuente-arial-nova">
+                        <h2 class="h3 text-left fuente-arial-nova">
+                            <?php
+                            echo $data['titulo'];
+                            ?>
                         </h2>
                         <span class="text-black-75 text-left">
-                            Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de fe.
-                            Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También tendrás la
-                            oportunidad de convertirte en miembro de la Alameda.
+                            <?php
+                            echo $data['texto'];
+                            ?>
                         </span>
                     </header>
 
@@ -109,12 +120,14 @@ include_once('gerVendor/gerFunctions.php')
                 <div class="col-lg-6 align-items-center pl-5">
                     <!-- SVG Tablet Mockup -->
                     <div class="mx-auto bg-white p-5 text-center">
-                        <h4 class="text-alameda text-center text-uppercase text-realce-alameda">
+                        <h4 class="text-alameda text-center text-uppercase text-realce-alameda fuente-arial-nova">
                             Unite a esta charla en línea
                         </h4>
                         <hr/>
-                        <p class="mx-auto text-center ">
-                            29 de agosto a las 18:00 hs.
+                        <p class="mx-auto text-center fuente-arial-nova">
+                            <?php
+                            echo $data['fecha'] . ' a las ' . $data['hora'];
+                            ?>
                         </p>
                         <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="btn-alameda">
                             Registrate para tu próximo paso
@@ -133,7 +146,7 @@ include_once('gerVendor/gerFunctions.php')
     <section class="u-content-space border-bottom py-5 bg-gris-medio">
         <div class="container text-center">
             <h4 class="text-alameda">
-                <b class="aire-2">
+                <b class="aire-2 fuente-arial-nova">
                     LOS PASOS EN EL CAMINO DE CRECIMIENTO
                 </b>
             </h4>
@@ -145,18 +158,18 @@ include_once('gerVendor/gerFunctions.php')
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100">
                             <div class="col-sm-4 mx-auto text-center img-20">
-                                <img src="/images/avanza/paso-1.jpg" alt="Iglesia de La Alameda"
+                                <img src="/images/avanza/paso-1-int.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid  ">
                             </div>
-                            <h4 class="card-title text-center text-alameda sub-img">
-                                Paso uno: Conviértete en miembro
+                            <h4 class="card-title text-center text-alameda sub-img px-1 fuente-normal">
+                                Paso uno:<br/> Conviértete en miembro
                                 <br>
                             </h4>
                             <div class="card-body">
-                                <p class="card-description text-center text-dark">
-                                    Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de
-                                    fe. Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También
-                                    tendrás la oportunidad de convertirte en miembro de la Alameda
+                                <p class="card-description text-center text-dark fuente-arial-nova">
+                                    <?php
+                                    echo $pasos->getTexto1();
+                                    ?>
                                 </p>
                             </div>
                         </div>
@@ -166,16 +179,18 @@ include_once('gerVendor/gerFunctions.php')
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100 ">
                             <div class="col-sm-4 mx-auto text-center img-20">
-                                <img src="/images/avanza/paso-2.jpg" alt="Iglesia de La Alameda"
+                                <img src="/images/avanza/paso-2-int.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid">
                             </div>
-                            <h4 class="card-title text-center text-alameda sub-img">
-                                Paso dos: Adopta nuevos hábitos.
+                            <h4 class="card-title text-center text-alameda sub-img px-1 fuente-normal">
+                                Paso dos:<br/> Adopta nuevos hábitos.
                                 <br>
                             </h4>
                             <div class="card-body">
-                                <p class="card-description text-center text-dark ">
-                                    Aprendé como desarrollar los tres hábitos que te llevarán a una vida de libertad y victoria en tu vida cristiana.
+                                <p class="card-description text-center text-dark fuente-arial-nova">
+                                    <?php
+                                    echo $pasos->getTexto2();
+                                    ?>
                             </div>
                         </div>
                     </div>
@@ -184,16 +199,18 @@ include_once('gerVendor/gerFunctions.php')
                     <div class="pasos h-100">
                         <div class="card card-plain bg-white h-100">
                             <div class="col-sm-4 mx-auto text-center img-20">
-                                <img src="/images/avanza/paso-3.jpg" alt="Iglesia de La Alameda"
+                                <img src="/images/avanza/paso-3-int.jpg" alt="Iglesia de La Alameda"
                                      class="img-raised rounded-circle img-fluid">
                             </div>
-                            <h4 class="card-title text-center text-alameda sub-img">
-                                Paso tres: Descubrí tu FORMA
+                            <h4 class="card-title text-center text-alameda sub-img px-1 fuente-normal">
+                                Paso tres:<br/> Descubrí tu FORMA
                                 <br>
                             </h4>
                             <div class="card-body">
-                                <p class="card-description text-center text-dark">
-                                    Sumergite en los detalles de tu personalidad, descubrí tus dones y experimenta cómo tu diseño revela tu propósito en la vida y tu mejor lugar en el voluntariado de la Alameda. Conéctate con las oportunidades disponibles en la Alameda para vivir tu propósito y servir a los demás utilizando los dones que Dios le ha dado.
+                                <p class="card-description text-center text-dark fuente-arial-nova">
+                                    <?php
+                                    echo $pasos->getTexto3();
+                                    ?>
                             </div>
                         </div>
                     </div>
