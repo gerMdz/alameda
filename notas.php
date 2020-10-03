@@ -164,7 +164,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="/series/estar-bien/02-estar-bien-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="/series/estar-bien/03-estar-bien-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -190,7 +190,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-2"></i>
 
-                                Afortunados los que <b>reconocen su necesidad espiritual</b> porque el reino de Dios les pertenece
+                                Afortunados los que <b>reconocen su necesidad espiritual</b> porque el reino de Dios les
+                                pertenece
                                 <p>Mateo 5:3 (PDT) <i class="fas fa-quote-right ml-3"></i></p>
 
                             </div>
@@ -222,7 +223,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
                             <h5 class="card-title text-uppercase fuente-normal">
-                                ¡Prisionero de esperanza!
+                                Prisionero de esperanza
                             </h5>
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-2"></i>
@@ -248,6 +249,43 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                 </div>
                 <!-- fin charla 2-->
 
+                <!-- inicio charla 3-->
+                <div class="col-md-4 mb-2 mx-auto">
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/estar-bien/03-estar-bien.jpg"
+                                 class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase fuente-normal">
+                                Manso y tranquilo
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-2"></i>
+
+                                Bienaventurados los mansos, <b>porque el mundo entero les pertenece</b>
+                                <p>Mateo 5:5 <i class="fas fa-quote-right ml-3"> </i></p>
+
+                            </div>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/estar-bien/03-estar-bien.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/DgWJJQ3BS_4" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin charla 3-->
+
 
             </div>
         </div>
@@ -257,7 +295,8 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
     <div class="card-body">
         <h4 class="text-darker card-text text-center">Ver series anteriores </h4>
         <div class="col-sm-2 mx-auto text-center">
-            <a href="/mensajes-anteriores/escape-a-la-libertad.php" class="btn btn-xl btn-primary"> Escape a la libertad</a>
+            <a href="/mensajes-anteriores/escape-a-la-libertad.php" class="btn btn-xl btn-primary"> Escape a la
+                libertad</a>
         </div>
     </div>
 </footer>
