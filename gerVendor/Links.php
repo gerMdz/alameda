@@ -3,18 +3,19 @@
 namespace gerVendor;
 class Links
 {
+
     protected $nota = 'https://youtu.be/XeXV3DiKd4U';
     protected $index = 'XeXV3DiKd4U';
     protected $autor = 'por Fabian Ruiz';
-    protected $fecha = '19 de Setiembre de 2020';
-    protected $title = 'Está bien no estar bien';
+    protected $fecha = '26 de Setiembre de 2020';
+    protected $title = 'Prisionero de esperanza';
     protected $image = 'estar-bien/estar-bien-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/XeXV3DiKd4U';
-    protected $index2 = 'XeXV3DiKd4U';
+    protected $nota2 = 'https://youtu.be/DgWJJQ3BS_4';
+    protected $index2 = 'DgWJJQ3BS_4';
     protected $autor2 = 'por Fabian Ruiz';
-    protected $fecha2 = '26 de Setiembre de 2020';
-    protected $title2 = 'Prisionero de esperanza';
+    protected $fecha2 = '03 de octubre de 2020';
+    protected $title2 = 'Manso y tranquilo';
     protected $image2 = 'estar-bien/estar-bien-tapa.jpg';
 
     /**
