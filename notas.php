@@ -266,7 +266,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                                 <i class="fas fa-quote-left mr-2"></i>
 
                                 Bienaventurados los mansos, <b>porque el mundo entero les pertenece</b>
-                                <p>Mateo 5:5 <i class="fas fa-quote-right ml-3"> </i></p>
+                                <p>Mateo 5:5 (BAD)<i class="fas fa-quote-right ml-3"> </i></p>
 
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
