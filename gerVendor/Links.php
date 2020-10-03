@@ -173,5 +173,4 @@ class Links
         $this->index2 = $index2;
     }
 
-
 }

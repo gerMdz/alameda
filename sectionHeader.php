@@ -81,7 +81,6 @@ $data = $referencias->getReferencias('2020-10-03 19:30');
                                         <a class="btn-round btn-alameda-reverso btn-centered aire-2 e90"
                                            href="/oportunidades/grupos-pequeños.php">
                                             Unite a un Grupo Pequeño
-
                                         </a>
                                     </div>
                                 </div>
