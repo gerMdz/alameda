@@ -153,7 +153,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
             <div class="row ">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 fuente-normal">
-                    <h1 class="mb-3">Estar bien</h1>
+                    <h1 class="mb-3 fuente-arial-nova">Estar bien</h1>
                     <p>
                         No necesitas esperar que todo pase para estar mejor.
                     </p>
@@ -285,6 +285,43 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     </div>
                 </div>
                 <!-- fin charla 3-->
+
+                <!-- inicio charla 4-->
+                <div class="col-md-4 mb-2 mx-auto">
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/estar-bien/04-estar-bien.jpg"
+                                 class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase fuente-normal">
+                                Con el Hambre Intacta
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-2"></i>
+                                Bienaventurados los que tienen hambre y sed de justicia, <b>porque ellos serán
+                                    saciados</b>
+                                <p>Mateo 5:6 <i class="fas fa-quote-right ml-3"> </i></p>
+
+                            </div>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/estar-bien/04-estar-bien.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://youtu.be/q4AdQ--Wnj4" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- fin charla 4-->
 
 
             </div>
