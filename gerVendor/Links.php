@@ -3,19 +3,20 @@
 namespace gerVendor;
 class Links
 {
-    protected $nota = 'https://youtu.be/UUYrSHXf3u0';
-    protected $index = 'UUYrSHXf3u0';
-    protected $autor = 'por Abel Schwab';
-    protected $fecha = '13 de Setiembre de 2020';
-    protected $title = 'No te rindas';
-    protected $image = 'no-te-rindas-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/ZEa7PjHUMH4';
-    protected $index2 = 'ZEa7PjHUMH4';
-    protected $autor2 = 'por Abel Schwab';
-    protected $fecha2 = '13 de Setiembre de 2020';
-    protected $title2 = 'No te rindas';
-    protected $image2 = 'no-te-rindas-tapa.jpg';
+    protected $nota = 'https://youtu.be/DgWJJQ3BS_4';
+    protected $index = 'DgWJJQ3BS_4';
+    protected $autor = 'por Fabian Ruiz';
+    protected $fecha = '03 de octubre de 2020';
+    protected $title = 'Manso y tranquilo';
+    protected $image = 'estar-bien/estar-bien-tapa.jpg';
+
+    protected $nota2 = 'https://youtu.be/q4AdQ--Wnj4';
+    protected $index2 = 'q4AdQ--Wnj4';
+    protected $autor2 = 'por Fabian Ruiz';
+    protected $fecha2 = '10 de octubre de 2020';
+    protected $title2 = 'Con el hambre intacta';
+    protected $image2 = 'estar-bien/estar-bien-tapa.jpg';
 
     /**
      * @return string
@@ -171,6 +172,5 @@ class Links
     {
         $this->index2 = $index2;
     }
-
 
 }

@@ -7,14 +7,13 @@
                     <div class="row justify-content-center ">
                         <div class="col-sm-11">
                             <div class="row ">
-                                <!--                marco epicentro-->
-                                <div class="col-md-6 mb-2 mx-auto   ">
+                                <!--                marco estar bien-->
+                                <div class="col-md-6 mb-2 mx-auto d-flex">
                                     <!--                                        <div class="card h-100"> -->
-
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/epicentro-2020.jpg"
+                                            <img src="/series/estar-bien/tj-estar-bien.jpg"
                                                  alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
@@ -23,10 +22,10 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="/epicentro.php" class="card-link text-left">
+                                            <a href="/notas.php" class="card-link text-left">
 
-                                                <span class="text-alameda">Epicentro - Conferencia de Pastores 2020</span><br/>
-                                                <small>Por primera vez online</small>
+                                                <span class="text-alameda">Estar bien</span><br/>
+                                                <small>Nueva serie de mensajes </small>
 
                                             </a>
 
@@ -43,7 +42,7 @@
                                 <!--                fin marco epicentro-->
 
                                 <!--                marco conexión-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -78,7 +77,7 @@
                                 <!--                fin marco conexión-->
 
                                 <!--                marco dar-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -112,7 +111,7 @@
                                 <!--                fin marco dar-->
 
                                 <!--                marco oración-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -146,8 +145,44 @@
                                 </div>
                                 <!--                fin marco oración-->
 
+                                <!-- Inicio marco promo-bienaventurados-->
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/promo-bienaventurados.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="http://sitiosimple.com/libreria-alameda/#!/producto/3/"
+                                               target="_blank" class="card-link text-left">
+
+                                                <span class="text-alameda">Promo Bienaventurados</span><br/>
+                                                <small>Libro de lecturas diarias</small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--   fin marco promo-bienaventurados -->
+
                                 <!--                marco camino-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -181,7 +216,7 @@
                                 </div>
                                 <!--   fin marco camino -->
                                 <!--                marco niños -->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -196,7 +231,8 @@
                                         <div class="card-footer bg-white justify-content-between ">
                                             <!--                                     style="top: 80%; position: relative"-->
 
-                                            <a href="https://www.youtube.com/channel/UCXJMZA6VuT44s741JgUIPwg" target="_blank" class="card-link text-left">
+                                            <a href="https://www.youtube.com/channel/UCXJMZA6VuT44s741JgUIPwg"
+                                               target="_blank" class="card-link text-left">
 
                                                 <span class="text-alameda">Niños</span><br/>
                                                 <small>Miralo con toda tu familia</small>
@@ -215,8 +251,25 @@
                                 </div>
                                 <!--                fin marco niños -->
 
+                                <!-- Inicio marco celebremos-->
+                                <div class="col-md-3 mb-2 mx-auto d-flex">
+                                    <div class="card shadow-none ">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/tj-celebremos-la-recuperacion.jpg"
+                                                 alt="Iglesia de La Alameda" class="card-img"                                            >
+                                        </div>
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <a href="/celebremos.php" class="card-link text-left">
+                                                <span class="text-alameda">Ayuda en tu Recuperación</span><br/>
+                                                <small>Un lugar ideal, un lugar seguro</small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Fin marco celebremos-->
+
                                 <!--                marco adolescentes-->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
@@ -251,13 +304,14 @@
                                 <!--                fin marco adolescentes-->
 
                                 <!--                marco jóvenes -->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/jovenes-de-la-alameda.jpg" alt="Iglesia de La Alameda"
+                                            <img src="/images/institucional/jovenes-de-la-alameda.jpg"
+                                                 alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
                                         </div>
@@ -287,13 +341,14 @@
                                 <!--                fin marco jóvenes-->
 
                                 <!--                marco seminario -->
-                                <div class="col-md-3 mb-2 mx-auto   ">
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->
 
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/seminario-de-liderazgo.jpg" alt="Iglesia de La Alameda"
+                                            <img src="/images/institucional/seminario-de-liderazgo.jpg"
+                                                 alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
                                         </div>

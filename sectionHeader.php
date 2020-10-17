@@ -5,7 +5,7 @@ use gerVendor\Links;
 include_once('gerVendor/Links.php');
 $notas = new Links();
 $referencias = new HandlerNotas();
-$data = $referencias->getReferencias('2020-09-19 19:30');
+$data = $referencias->getReferencias('2020-10-10 19:30');
 ?>
 <section class="bg-white ">
     <div class="container-fluid mt-lg-1 mt-sm-5">
@@ -19,7 +19,7 @@ $data = $referencias->getReferencias('2020-09-19 19:30');
                             <div class="col-sm-12 mr-0 left-n5">
                                 <div class="card shadow-none">
                                     <div class="card-img">
-                                        <img src="/series/escape-a-la-libertad/<?php echo $data['image']; ?>"
+                                        <img src="/series/<?php echo $data['image']; ?>"
                                              alt="Iglesia de La Alameda"
                                              class="card-img"
                                         >
@@ -81,7 +81,6 @@ $data = $referencias->getReferencias('2020-09-19 19:30');
                                         <a class="btn-round btn-alameda-reverso btn-centered aire-2 e90"
                                            href="/oportunidades/grupos-pequeños.php">
                                             Unite a un Grupo Pequeño
-
                                         </a>
                                     </div>
                                 </div>
