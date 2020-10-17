@@ -164,7 +164,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="/series/estar-bien/03-estar-bien-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="/series/estar-bien/05-estar-bien-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
