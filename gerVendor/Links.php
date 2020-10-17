@@ -11,8 +11,8 @@ class Links
     protected $title = 'Con el hambre intacta';
     protected $image = 'estar-bien/estar-bien-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/q4AdQ--Wnj4';
-    protected $index2 = 'q4AdQ--Wnj4';
+    protected $nota2 = 'https://youtu.be/7LxMO8prvYl';
+    protected $index2 = '7LxMO8prvYl';
     protected $autor2 = 'por Fabian Ruiz';
     protected $fecha2 = '17 de octubre de 2020';
     protected $title2 = 'Regala Compasión';
