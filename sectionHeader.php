@@ -5,7 +5,7 @@ use gerVendor\Links;
 include_once('gerVendor/Links.php');
 $notas = new Links();
 $referencias = new HandlerNotas();
-$data = $referencias->getReferencias('2020-10-10 19:30');
+$data = $referencias->getReferencias('2020-10-17 19:30');
 ?>
 <section class="bg-white ">
     <div class="container-fluid mt-lg-1 mt-sm-5">
