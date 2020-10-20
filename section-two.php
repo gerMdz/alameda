@@ -7,8 +7,42 @@
                     <div class="row justify-content-center ">
                         <div class="col-sm-11">
                             <div class="row ">
-                                <!--                marco estar bien-->
+                                <!--                marco ignicióm-->
                                 <div class="col-md-6 mb-2 mx-auto d-flex">
+                                    <!--                                        <div class="card h-100"> -->
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/tj-ignicion-2020.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="/ignicion.php" class="card-link text-left">
+
+                                                <span class="text-alameda">Ignición</span><br/>
+                                                <small> Inspiración y Visión </small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco ignición-->
+
+                                <!--                marco estar bien-->
+                                <div class="col-md-3 mb-2 mx-auto d-flex">
                                     <!--                                        <div class="card h-100"> -->
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
@@ -39,7 +73,7 @@
 
 
                                 </div>
-                                <!--                fin marco epicentro-->
+                                <!--                fin marco estar bien -->
 
                                 <!--                marco conexión-->
                                 <div class="col-md-3 mb-2 d-flex mx-auto">

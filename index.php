@@ -41,9 +41,10 @@ $links = new \gerVendor\Links();
     <meta property="og:url" content="https://iglesiaalameda.com/index.php"/>
 
     <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<!--    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    <link rel="shortcut icon" href="/images/institucional/sitiosimple.com.png" type="image/x-icon">
     <title>Iglesia de la Alameda</title>
-    <?php include 'favicon.php' ?>
+<!--    --><?php //include 'favicon.php' ?>
 
     <!-- Icon core  -->
 
