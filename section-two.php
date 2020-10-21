@@ -47,7 +47,7 @@
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/series/estar-bien/tj-estar-bien.jpg"
+                                            <img src="/images/institucional/tj-estar-bien.jpg"
                                                  alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
