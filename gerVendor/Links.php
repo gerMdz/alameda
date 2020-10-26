@@ -11,8 +11,8 @@ class Links
     protected $title = 'Regala Compasión';
     protected $image = 'estar-bien/05-estar-bien-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/KFsOc-QxyuQ';
-    protected $index2 = 'KFsOc-QxyuQ';
+    protected $nota2 = 'https://youtu.be/ZChuqghQfI8';
+    protected $index2 = 'ZChuqghQfI8';
     protected $autor2 = 'por Fabian Ruiz';
     protected $fecha2 = '24 de octubre de 2020';
     protected $title2 = 'Limpio por Dentro';
