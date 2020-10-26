@@ -256,7 +256,8 @@
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/serviciopniños.jpg"
+<!--                                            <img src="/images/institucional/serviciopniños.jpg"-->
+                                            <img src="/images/institucional/tjgex.jpg"
                                                  alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
