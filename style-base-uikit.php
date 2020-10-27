@@ -29,13 +29,5 @@ $version = date('YmdHi');
 <!-- Style Auto core  -->
 
 <!-- Fonts  core  -->
-<link href="/css/alameda/fontAlameda.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
-
-
-
-
-
 <link href="/material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
