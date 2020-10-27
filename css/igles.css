@@ -134,7 +134,7 @@ a.text-point-sec:hover {
     display: inline-flex;
     -moz-box-align: center;
     align-items: center;
-    font-family: "Proxima Nova", ArialNova, "Helvetica Neue", Helvetica, "Arial Nova", Arial, sans-serif !important;
+    font-family: "ArialNova","Proxima Nova",  "Helvetica Neue", Helvetica, "Arial Nova", Arial, sans-serif !important;
     user-select: none;
     margin-top: 8px;
     font-size: 1rem;
@@ -156,7 +156,7 @@ a.text-point-sec:hover {
     display: inline-flex;
     -moz-box-align: center;
     align-items: center;
-    font-family: ArialNova, "Arial Nova", Arial, sans-serif, "Proxima Nova", "Helvetica Neue", Helvetica !important;
+    font-family: "ArialNova", "Arial Nova", Arial, sans-serif, "Proxima Nova", "Helvetica Neue", Helvetica !important;
     user-select: none;
     margin-top: 8px;
     font-size: 1rem;
@@ -1197,6 +1197,9 @@ a>small{
 .bg-gris-medio{
     background-color: #f8fbfd;
 }
+.bg-gris-alameda{
+    background-color: #eeeeee;
+}
 
 .img-20 {
     transform: translate3d(0,-30%,0);
@@ -1212,4 +1215,16 @@ a>small{
 .main-60 {
     margin: -200px;
 
+}
+
+h4.card-title{
+    font-family: ArialNova, serif !important;
+}
+
+.fuente-normal{
+    font-size: 1em !important;
+    font-family: ArialNova, sans-serif !important;
+}
+.fuente-arial-nova{
+    font-family: ArialNova, sans-serif !important;
 }

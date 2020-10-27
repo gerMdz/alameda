@@ -44,6 +44,7 @@
                                 <!--                marco estar bien-->
                                 <div class="col-md-3 mb-2 mx-auto d-flex">
                                     <!--                                        <div class="card h-100"> -->
+
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">

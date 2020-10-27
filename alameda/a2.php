@@ -86,40 +86,10 @@ include_once('../gerVendor/gerFunctions.php')
 <header>
     <?php include '../nav.php'; ?>
     <div class="bg-white mt-5"></div>
-    <div class="row bg-white ">
-
-        <div class="col-sm-3 px-5"></div>
-        <div class="col-sm-3 pull-right align-middle">
-            <div class="info info-horizontal ">
-                <div class="icon icon-rose">
-                    <i class="material-icons">book_online</i>
-                </div>
-                <div class="description">
-                    <h4 class="info-title">Campamento Virtual 2020</h4>
-                    <h3>FUERA DE SERIE</h3> <br/>
-                    Inscribite
-                    <a href="https://docs.google.com/forms/d/1dAAAXiGOW4KKODtD-6qDXYFIkbD3As664zb_2oEmOlg" target="_blank" class="btn btn-round  bg-white mr-2 ">
-                        <i class="text-blue">desde aquí</i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 p-5 align-self-center">
-
-
-            <img src="/images/noticias/campa-virtual-2020.jpg" class="img-fluid" alt="Iglesia de La Alameda">
-
-        </div>
-        <div class="col-sm-4 px-5"></div>
-
-
-        <hr class="border border-success w-75 " />
-    </div>
-
 
     <div class="row a-content-space-medium bg-white">
         <div class="col-sm-4">
-            <img src="/images/institucional/a2-fdoBlanco-ltrNaranja.jpg" class="img-fluid">
+            <img src="/images/institucional/a2-fdoBlanco-ltrNaranja.jpg" class="img-fluid" alt="Iglesia de La Alameda">
         </div>
         <div class="col-sm-8 w-md-50 mx-auto text-center my-auto ">
             <h2 class="h1 font-weight-light mb-1">Si tenés entre 13 y 17 años</h2>
