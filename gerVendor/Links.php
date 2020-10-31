@@ -4,19 +4,19 @@ namespace gerVendor;
 class Links
 {
 
-    protected $nota = 'https://youtu.be/_lxjPcnC5y0';
-    protected $index = '7LxMO8prvYI';
+    protected $nota = 'https://youtu.be/ZChuqghQfI8';
+    protected $index = 'ZChuqghQfI8';
     protected $autor = 'por Fabian Ruiz';
-    protected $fecha = '17 de octubre de 2020';
-    protected $title = 'Regala Compasión';
-    protected $image = 'estar-bien/05-estar-bien-tapa.jpg';
+    protected $fecha = '24 de octubre de 2020';
+    protected $title = 'Limpio por Dentro';
+    protected $image = 'estar-bien/06-estar-bien-tapa.jpg';
 
     protected $nota2 = 'https://youtu.be/ZChuqghQfI8';
     protected $index2 = 'ZChuqghQfI8';
     protected $autor2 = 'por Fabian Ruiz';
-    protected $fecha2 = '24 de octubre de 2020';
-    protected $title2 = 'Limpio por Dentro';
-    protected $image2 = 'estar-bien/06-estar-bien-tapa.jpg';
+    protected $fecha2 = '31 de octubre de 2020';
+    protected $title2 = 'Lovers vs Haters';
+    protected $image2 = 'estar-bien/07-estar-bien-tapa.jpg';
 
     /**
      * @return string
