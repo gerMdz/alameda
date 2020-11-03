@@ -11,8 +11,8 @@ class Links
     protected $title = 'Limpio por Dentro';
     protected $image = 'estar-bien/06-estar-bien-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/ZChuqghQfI8';
-    protected $index2 = 'ZChuqghQfI8';
+    protected $nota2 = 'https://youtu.be/hirsI7vpGYU';
+    protected $index2 = 'hirsI7vpGYU';
     protected $autor2 = 'por Fabian Ruiz';
     protected $fecha2 = '31 de octubre de 2020';
     protected $title2 = 'Lovers vs Haters';
