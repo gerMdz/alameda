@@ -3,8 +3,8 @@
 namespace gerVendor;
 class Pasos
 {
-    protected $date1 = '2020-10-02 18:00';
-    protected $fecha1 = '02 de octubre';
+    protected $date1 = '2020-11-21 18:00';
+    protected $fecha1 = '21 de noviembre';
     protected $hora1 = '20:00hs';
     protected $titulo1 = "Paso Uno";
     protected $texto1 = 'Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de
@@ -12,14 +12,14 @@ class Pasos
                                     tendrás la oportunidad de convertirte en miembro de la Alameda';
 
 
-    protected $date2 = '2020-10-09 18:00';
-    protected $fecha2 = '9 de octubre';
+    protected $date2 = '2020-11-28 18:00';
+    protected $fecha2 = '28 de noviembre';
     protected $hora2 = '20:00hs';
     protected $titulo2 = "Paso Dos";
     protected $texto2 = 'Aprendé como desarrollar los tres hábitos que te llevarán a una vida de libertad y victoria en tu vida cristiana.';
 
-    protected $date3 = '2020-10-16 18:00';
-    protected $fecha3 = '16 de octubre';
+    protected $date3 = '2020-12-05 18:00';
+    protected $fecha3 = '05 de diciembre';
     protected $hora3 = '20:00hs';
     protected $titulo3 = "Paso Tres";
     protected $texto3 = 'Sumergite en los detalles de tu personalidad, descubrí tus dones y experimenta cómo tu diseño revela tu propósito en la vida y tu mejor lugar en el voluntariado de la Alameda. Conéctate con las oportunidades disponibles en la Alameda para vivir tu propósito y servir a los demás utilizando los dones que Dios le ha dado.';
