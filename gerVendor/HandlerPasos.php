@@ -15,6 +15,7 @@ class HandlerPasos
         $texto = $paso->getTexto1();
         $hora = $paso->getHora1();
         $titulo = $paso->getTitulo1();
+        $lugar = $paso->getLugar1();
 
 
         if ($ahora > date($paso->getDate1())) {
@@ -23,6 +24,7 @@ class HandlerPasos
             $texto = $paso->getTexto2();
             $hora = $paso->getHora2();
             $titulo = $paso->getTitulo2();
+            $lugar = $paso->getLugar2();
         }
 
         if ($ahora > date($paso->getDate2())) {
@@ -31,12 +33,14 @@ class HandlerPasos
             $texto = $paso->getTexto3();
             $hora = $paso->getHora3();
             $titulo = $paso->getTitulo3();
+            $lugar = $paso->getLugar3();
         }
         return [
             'fecha' => $fecha,
             'texto' => $texto,
             'hora' => $hora,
-            'titulo' => $titulo
+            'titulo' => $titulo,
+            'lugar' => $lugar,
         ];
 
 

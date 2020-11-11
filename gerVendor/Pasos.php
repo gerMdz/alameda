@@ -5,25 +5,27 @@ class Pasos
 {
     protected $date1 = '2020-11-21 18:00';
     protected $fecha1 = '21 de noviembre';
-    protected $hora1 = '20:00hs';
+    protected $hora1 = '18:00hs';
     protected $titulo1 = "Paso Uno";
     protected $texto1 = 'Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de
                                     fe. Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También
                                     tendrás la oportunidad de convertirte en miembro de la Alameda';
+    protected $lugar1 = 'San Martín 2020';
 
 
     protected $date2 = '2020-11-28 18:00';
     protected $fecha2 = '28 de noviembre';
-    protected $hora2 = '20:00hs';
+    protected $hora2 = '18:00hs';
     protected $titulo2 = "Paso Dos";
     protected $texto2 = 'Aprendé como desarrollar los tres hábitos que te llevarán a una vida de libertad y victoria en tu vida cristiana.';
+    protected $lugar2 = 'España y Eusebio Blanco';
 
-    protected $date3 = '2020-12-05 18:00';
-    protected $fecha3 = '05 de diciembre';
-    protected $hora3 = '20:00hs';
+    protected $date3 = '2020-12-18 18:00';
+    protected $fecha3 = '18 de diciembre';
+    protected $hora3 = '18:00hs';
     protected $titulo3 = "Paso Tres";
     protected $texto3 = 'Sumergite en los detalles de tu personalidad, descubrí tus dones y experimenta cómo tu diseño revela tu propósito en la vida y tu mejor lugar en el voluntariado de la Alameda. Conéctate con las oportunidades disponibles en la Alameda para vivir tu propósito y servir a los demás utilizando los dones que Dios le ha dado.';
-
+    protected $lugar3 = 'San Martín 2020';
     /**
      * @return string
      */
@@ -263,6 +265,56 @@ class Pasos
     {
         $this->titulo3 = $titulo3;
     }
+
+    /**
+     * @return string
+     */
+    public function getLugar1(): string
+    {
+        return $this->lugar1;
+    }
+
+    /**
+     * @param string $lugar1
+     */
+    public function setLugar1(string $lugar1): void
+    {
+        $this->lugar1 = $lugar1;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLugar2(): string
+    {
+        return $this->lugar2;
+    }
+
+    /**
+     * @param string $lugar2
+     */
+    public function setLugar2(string $lugar2): void
+    {
+        $this->lugar2 = $lugar2;
+    }
+
+    /**
+     * @return string
+     */
+    public function getLugar3(): string
+    {
+        return $this->lugar3;
+    }
+
+    /**
+     * @param string $lugar3
+     */
+    public function setLugar3(string $lugar3): void
+    {
+        $this->lugar3 = $lugar3;
+    }
+
+
 
 
 }

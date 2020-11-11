@@ -186,6 +186,11 @@ $version = date('YmdHi');
                             el código 26328 70259 <br/>
                             Fundación Cristiana Alameda</h3>
                     </div>
+                    <div class="card-footer">
+                        <h6>
+                            Por el momento no se encuentra diponible este canal
+                        </h6>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5 mx-auto">
@@ -195,6 +200,11 @@ $version = date('YmdHi');
                         <h3 class="card-text">
                             Usando la aplicación de Mercado Pago, escaneando nuestro QR</h3>
                         <img src="/images/institucional/qrmpILA.png" class="img-fluid card-img-bottom" alt="Iglesia de la Alameda">
+                    </div>
+                    <div class="card-footer">
+                        <h6>
+                            Por el momento no se encuentra diponible este canal
+                        </h6>
                     </div>
                 </div>
             </div>

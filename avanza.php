@@ -121,12 +121,13 @@ $data = $referencias->getPasos();
                     <!-- SVG Tablet Mockup -->
                     <div class="mx-auto bg-white p-5 text-center">
                         <h4 class="text-alameda text-center text-uppercase text-realce-alameda fuente-arial-nova">
-                            Unite a esta charla en línea
+<!--                            Unite a esta charla en línea-->
+                            Asistí a esta charla
                         </h4>
                         <hr/>
                         <p class="mx-auto text-center fuente-arial-nova">
                             <?php
-                            echo $data['fecha'] . ' a las ' . $data['hora'];
+                            echo $data['fecha'] . ' a las ' . $data['hora'] . '<br/> en ' . $data['lugar'] ;
                             ?>
                         </p>
                         <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="btn-alameda">
