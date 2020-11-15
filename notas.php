@@ -11,12 +11,12 @@ use gerVendor\Links;
 
 use gerVendor\HandlerNotas;
 
-$lema = 'Estar bien';
-$lemaSinEspacios = 'Estar-bien';
+$lema = 'DE REGRESO!';
+$lemaSinEspacios = 're-regreso';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
-$title = 'Serie Estar bien';
+$title = 'de regreso!';
 /**
  * @example pregunta si la cuarentena terminó
  */
@@ -130,7 +130,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
 <header>
     <?php include 'nav.php'; ?>
     <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-dark"
-             style="background-image: url(series/estar-bien/estar-bien-parallax.jpg); background-repeat: repeat-y ;">
+             style="background-image: url(images/imagen_auditorio_escalado_1.png); background-repeat: repeat-y ;">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
@@ -153,18 +153,17 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
             <div class="row ">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 fuente-normal">
-                    <h1 class="mb-3 fuente-arial-nova">Estar bien</h1>
+                    <h1 class="mb-3 fuente-arial-nova">De regreso!</h1>
                     <p>
-                        No necesitas esperar que todo pase para estar mejor.
+
                     </p>
                     <p class="blockquote-footer">
-                        A pesar de todo, hay un camino, un camino para ESTAR BIEN!<br/>
-                        8 Claves, 8 charlas únicas.
+
                     </p>
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="/series/estar-bien/08-estar-bien-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="/series/de-regreso-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -178,31 +177,34 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/estar-bien/01-estar-bien.jpg"
+                            <img src="/series/de-regreso.jpg"
                                  class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
                             <h5 class="card-title text-uppercase fuente-normal">
-                                ¡Está bien no estar bien!
+                                ¡De Regreso!
                             </h5>
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-2"></i>
 
-                                Afortunados los que <b>reconocen su necesidad espiritual</b> porque el reino de Dios les
-                                pertenece
-                                <p>Mateo 5:3 (PDT) <i class="fas fa-quote-right ml-3"></i></p>
+                                Un hombre tenía dos hijos —continuó Jesús—. El menor de ellos le dijo
+                                a su padre: “Papá, dame lo que me toca de la herencia”. sí que el
+                                padre repartió sus bienes entre los dos. Poco después el hijo menor
+                                juntó todo lo que tenía y se fue a un país lejano; allí vivió
+                                desenfrenadamente y derrochó su herencia
+                                <p>Lucas 15:11-13 (NVI) <i class="fas fa-quote-right ml-3"></i></p>
 
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/01-estar-bien.pdf"
+                                <a href="/series/de-regreso.pdf"
                                    target="_blank"
                                    class="card-link text-center">
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
                                     <span class="text-alameda btn-icon ">Notas</span><br/>
                                 </a>
-                                <a href="https://youtu.be/XeXV3DiKd4U" class="card-link text-center" target="_blank">
+                                <a href="https://youtu.be/dcxClwHhvz8" class="card-link text-center" target="_blank">
                                     <i class="fab fa-youtube fa-fw mr-1"></i>
                                     <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
                                 </a>
@@ -211,267 +213,6 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     </div>
                 </div>
                 <!--                fin charla 1-->
-
-                <!-- inicio charla 2-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/02-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Prisionero de esperanza
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-
-                                Bienaventurados los que lloran, <b>porque ellos serán consolados</b>
-                                <p>Mateo 5:4 (BT) <i class="fas fa-quote-right ml-3"></i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/02-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/XeXV3DiKd4U" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 2-->
-
-                <!-- inicio charla 3-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/03-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Manso y tranquilo
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-
-                                Bienaventurados los mansos, <b>porque el mundo entero les pertenece</b>
-                                <p>Mateo 5:5 (BAD)<i class="fas fa-quote-right ml-3"> </i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/03-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/DgWJJQ3BS_4" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 3-->
-
-                <!-- inicio charla 4-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/04-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Con el Hambre Intacta
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-                                Bienaventurados los que tienen hambre y sed de justicia, <b>porque ellos serán
-                                    saciados</b>
-                                <p>Mateo 5:6 <i class="fas fa-quote-right ml-3"> </i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/04-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/q4AdQ--Wnj4" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 4-->
-
-                <!-- inicio charla 5-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/05-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Regala Compasión
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-                                Bienaventurados los compasivos, <b>porque serán tratados con
-                                    compasión.</b>
-                                <p>Mateo 5:7 (NBLH-NTV) <i class="fas fa-quote-right ml-3"> </i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/05-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/_lxjPcnC5y0" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 5-->
-
-                <!-- inicio charla 6-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/06-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Limpio por Dentro
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-                                Bienaventurados los de limpio corazón,
-                                <b>porque ellos verán a Dios.</b>
-                                <p>Mateo 5:8 (RVC) <i class="fas fa-quote-right ml-3"> </i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/06-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/ZChuqghQfI8" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 6-->
-
-                <!-- inicio charla 7-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/07-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Lovers vs Haters
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-                                Bienaventurados los pacificadores,
-                                <b>porque ellos serán llamados hijos de Dios.</b>
-                                <p>Mateo 5:9 (RVC) <i class="fas fa-quote-right ml-3"> </i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/07-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/hirsI7vpGYU" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 7-->
-
-                <!-- inicio charla 8-->
-                <div class="col-md-4 mb-2 mx-auto">
-                    <div class="card card-a h-100 overflow-hidden ">
-                        <div class="position-relative">
-                            <img src="/series/estar-bien/08-estar-bien.jpg"
-                                 class="card-img-top img-modal"
-                                 data-toggle="modal" data-target="#modal-02"
-                                 alt="<?php echo $lemaSinEspacios ?>">
-                        </div>
-                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
-                            <h5 class="card-title text-uppercase fuente-normal">
-                                Estar bien a través de todo
-                            </h5>
-                            <div class="middle-0">
-                                <i class="fas fa-quote-left mr-2"></i>
-                                Afortunados los que son maltratados por hacer la voluntad de Dios
-                                <b>porque el reino de Dios les pertenece.</b>
-                                <p>Mateo 5:11 (RVC) <i class="fas fa-quote-right ml-3"> </i></p>
-
-                            </div>
-                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/estar-bien/08-estar-bien.pdf"
-                                   target="_blank"
-                                   class="card-link text-center">
-                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
-                                    <span class="text-alameda btn-icon ">Notas</span><br/>
-                                </a>
-                                <a href="https://youtu.be/qH9JnriUCcc" class="card-link text-center" target="_blank">
-                                    <i class="fab fa-youtube fa-fw mr-1"></i>
-                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- fin charla 8-->
-
-
             </div>
         </div>
     </section>
@@ -480,8 +221,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
     <div class="card-body">
         <h4 class="text-darker card-text text-center">Ver series anteriores </h4>
         <div class="col-sm-2 mx-auto text-center">
-            <a href="/mensajes-anteriores/escape-a-la-libertad.php" class="btn btn-xl btn-primary"> Escape a la
-                libertad</a>
+            <a href="/notas-estar-bien.php" class="btn btn-xl btn-primary"> Estar bien</a>
         </div>
     </div>
 </footer>
