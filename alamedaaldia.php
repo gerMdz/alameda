@@ -8,7 +8,7 @@ $version = date('YmdHi');
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Oportunidades de la Alameda, Fundamentos 1, Vida Discipular 1, Charla de Bautismo, Nuevo enlace de grupos pequeños, Noche de Adoración,
-    Alameda al día, Primera Iglesia Bautista Mendoza, Boletín, Igelsia de la Alameda
+    Alameda al día, Primera Iglesia Bautista Mendoza, Boletín, Iglesia de la Alameda
     ">
     <meta name="author" content="Iglesia de la Alameda">
 
