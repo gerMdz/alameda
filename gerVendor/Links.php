@@ -15,7 +15,7 @@ class Links
     protected $autor2 = 'por Fabián Ruiz';
     protected $fecha2 = '21 de noviembre de 2020';
     protected $title2 = 'El resto de mi vida';
-    protected $image2 = 'de-regreso-tapa.jpg';
+    protected $image2 = 'audaz-nuevo-mundo/nuevo-mundo-tapa.jpg';
 
 
     /**

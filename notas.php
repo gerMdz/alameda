@@ -130,7 +130,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
 <header>
     <?php include 'nav.php'; ?>
     <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-dark"
-             style="background-image: url(images/imagen_auditorio_escalado_1.png); background-repeat: repeat-y ;">
+             style="background-image: url(/series/audaz-nuevo-mundo/nuevo-mundo-tapa.jpg); background-repeat: repeat-y ;">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
@@ -167,7 +167,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                 </div>
                 <div class="col-lg-6 align-self-center">
                     <img class="img-fluid rounded mb-4 mb-lg-0 overflow-auto align-items-center"
-                         src="/series/de-regreso-tapa.jpg" alt="<?php echo $lemaSinEspacios ?>">
+                         src="/series/audaz-nuevo-mundo/audaz-nuevo-mundo-portada.jpg" alt="<?php echo $lemaSinEspacios ?>">
                 </div>
             </div>
         </div>
@@ -181,7 +181,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/de-regreso.jpg"
+                            <img src="/series/audaz-nuevo-mundo/01-nuevo-mundo.jpg"
                                  class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">

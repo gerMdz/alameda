@@ -48,7 +48,7 @@
                                     <!--                                        <div class="card h-100"> -->
                                     <div class="card shadow-none">
                                         <div class="contenedor">
-                                            <img src="/images/institucional/tj-estar-bien.jpg"
+                                            <img src="/images/institucional/tj-nuevo-mundo.jpg"
                                                  alt="Iglesia de La Alameda"
                                                  class="card-img"
                                             >
@@ -59,7 +59,7 @@
 
                                             <a href="/notas.php" class="card-link text-left">
 
-                                                <span class="text-alameda">Estar bien</span><br/>
+                                                <span class="text-alameda">Nuevo Mundo</span><br/>
                                                 <small>Nueva serie de mensajes </small>
 
                                             </a>
