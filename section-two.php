@@ -376,6 +376,43 @@
                                 </div>
                                 <!--                fin marco jóvenes-->
 
+                                <!--                marco acasa -->
+                                <div class="col-md-3 mb-2 d-flex mx-auto">
+                                    <!--                                        <div class="card h-100"> -->
+
+                                    <!--                                        <div class="card h-100"> -->
+                                    <div class="card shadow-none">
+                                        <div class="contenedor">
+                                            <img src="/images/institucional/acasa-tj.jpg"
+                                                 alt="Iglesia de La Alameda"
+                                                 class="card-img"
+                                            >
+                                        </div>
+                                        <!--                                <div class="card-img-overlay">-->
+                                        <div class="card-footer bg-white justify-content-between ">
+                                            <!--                                     style="top: 80%; position: relative"-->
+
+                                            <a href="/acasa.php" class="card-link text-left">
+
+                                                <span class="text-alameda">ACASA</span><br/>
+                                                <small>
+                                                    Un lugar de contención y ayuda
+                                                </small>
+
+                                            </a>
+
+                                            <!--                                    </div>-->
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+                                <!--                fin marco acasa-->
+
                                 <!--                marco seminario -->
                                 <div class="col-md-3 mb-2 d-flex mx-auto">
                                     <!--                                        <div class="card h-100"> -->

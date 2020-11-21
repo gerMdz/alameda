@@ -11,8 +11,8 @@ use gerVendor\Links;
 
 use gerVendor\HandlerNotas;
 
-$lema = 'Audaz Nuevo Mundo';
-$lemaSinEspacios = 'audaz-nuevo-mundo';
+$lema = 'DE REGRESO!';
+$lemaSinEspacios = 're-regreso';
 $ahora = date('Y-m-d H:i');
 $version = date('YmdHi');
 $domingo = strtotime('today');
@@ -153,16 +153,12 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
             <div class="row ">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 mb-2 mb-lg-2 pl-lg-2 fuente-normal">
-                    <h1 class="mb-3 fuente-arial-nova">
-                        <?php
-                        echo $lema;
-                        ?>
-                    </h1>
+                    <h1 class="mb-3 fuente-arial-nova">De regreso!</h1>
                     <p>
-                        «¡Miren, hago nuevas todas las cosas!»
+
                     </p>
                     <p class="blockquote-footer">
-                            Apocalipsis 21:5 (NVT)
+
                     </p>
                 </div>
                 <div class="col-lg-6 align-self-center">
@@ -188,17 +184,21 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                         </div>
                         <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
                             <h5 class="card-title text-uppercase fuente-normal">
-                                ¡El resto de mi vida!
+                                ¡De Regreso!
                             </h5>
                             <div class="middle-0">
                                 <i class="fas fa-quote-left mr-2"></i>
 
-                                Ustedes son la luz del mundo. Una ciudad en lo alto de una colina no puede esconderse
-                                <p>Mateo 5:14 (NVI) <i class="fas fa-quote-right ml-3"></i></p>
+                                Un hombre tenía dos hijos —continuó Jesús—. El menor de ellos le dijo
+                                a su padre: “Papá, dame lo que me toca de la herencia”. sí que el
+                                padre repartió sus bienes entre los dos. Poco después el hijo menor
+                                juntó todo lo que tenía y se fue a un país lejano; allí vivió
+                                desenfrenadamente y derrochó su herencia
+                                <p>Lucas 15:11-13 (NVI) <i class="fas fa-quote-right ml-3"></i></p>
 
                             </div>
                             <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
-                                <a href="/series/audaz-nuevo-mundo/01-resto-de-mi-vida.pdf"
+                                <a href="/series/de-regreso.pdf"
                                    target="_blank"
                                    class="card-link text-center">
                                     <i class="far fa-file-pdf ml-5 mr-1"></i>
@@ -221,7 +221,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
     <div class="card-body">
         <h4 class="text-darker card-text text-center">Ver series anteriores </h4>
         <div class="col-sm-2 mx-auto text-center">
-            <a href="/notas-de-regreso.php" class="btn btn-xl btn-primary"> De regreso!</a>
+            <a href="/notas-estar-bien.php" class="btn btn-xl btn-primary"> Estar bien</a>
         </div>
     </div>
 </footer>
