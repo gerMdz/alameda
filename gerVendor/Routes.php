@@ -11,8 +11,8 @@ class Routes
     protected $title = 'De regreso';
     protected $image = 'de-regreso-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/dcxClwHhvz8';
-    protected $index2 = 'dcxClwHhvz8';
+    protected $nota2 = 'https://youtu.be/LiaJWXQY3PU';
+    protected $index2 = 'LiaJWXQY3PU';
     protected $autor2 = 'por Fabián Ruiz';
     protected $fecha2 = '21 de noviembre de 2020';
     protected $title2 = 'El resto de mi vida';
