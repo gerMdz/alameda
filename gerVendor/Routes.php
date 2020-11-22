@@ -1,7 +1,8 @@
 <?php
 
 namespace gerVendor;
-class Links
+
+class Routes
 {
     protected $nota = 'https://youtu.be/dcxClwHhvz8';
     protected $index = 'dcxClwHhvz8';

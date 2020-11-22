@@ -50,7 +50,7 @@
 <!--      <link href="css/awasome/web-fonts-with-css/css/fontawesome-all.min.css " rel="stylesheet">-->
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-      <link href="css/foundation-icons.css" rel="stylesheet">
+      <link href="/icons/foundation-icons/foundation-icons.css" rel="stylesheet">
       <!-- Fin Icon -->
 
       <!--Vendor -->

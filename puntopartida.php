@@ -19,7 +19,7 @@ $version = date('YmdHi');
     <link rel="apple-touch-icon-precomposed" href="../imagenes/indexapple.png" />
 
 <!--    <link href="css/business-casual.min.css?v=2018042409" rel="stylesheet">-->
-    <link href="css/foundation-icons.css" rel="stylesheet">
+    <link href="/icons/foundation-icons/foundation-icons.css" rel="stylesheet">
 
 
 

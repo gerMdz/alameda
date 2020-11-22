@@ -7,7 +7,7 @@
  */
 
 //use gerVendor\HandlerNotas;
-use gerVendor\Links;
+use gerVendor\Routes;
 
 use gerVendor\HandlerNotas;
 

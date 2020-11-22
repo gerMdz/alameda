@@ -7,7 +7,7 @@
  */
 
 //use gerVendor\HandlerNotas;
-use gerVendor\Links;
+use gerVendor\Routes;
 
 use gerVendor\HandlerNotas;
 
@@ -23,9 +23,9 @@ $title = 'de regreso!';
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
-require_once('gerVendor/Links.php');
+require_once('gerVendor/Routes.php');
 require_once 'gerVendor/HandlerNotas.php';
-$links = new Links();
+$links = new Routes();
 $referencias = new HandlerNotas();
 $data = $referencias->getReferencias('2020-08-16 09:30');
 

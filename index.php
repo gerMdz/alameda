@@ -17,9 +17,9 @@ $domingo = strtotime('today');
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
-require_once 'gerVendor/Links.php';
+require_once 'gerVendor/Routes.php';
 require_once 'gerVendor/HandlerNotas.php';
-$links = new \gerVendor\Links();
+$links = new \gerVendor\Routes();
 ?>
 <!DOCTYPE html>
 
@@ -42,13 +42,13 @@ $links = new \gerVendor\Links();
 
     <meta property="og:image" content="https://iglesiaalameda.com/images/og/og-base.png">
 <!--    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
-    <link rel="shortcut icon" href="/images/institucional/sitiosimple.com.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/institucional/index.png" type="image/x-icon">
     <title>Iglesia de la Alameda</title>
 <!--    --><?php //include 'favicon.php' ?>
 
     <!-- Icon core  -->
 
-    <link href="css/foundation-icons.css" rel="stylesheet">
+    <link href="/icons/foundation-icons/foundation-icons.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/743c9941eb.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 

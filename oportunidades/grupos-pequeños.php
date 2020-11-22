@@ -31,7 +31,7 @@
     <!--      <link href="css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
           rel="stylesheet"/>
-    <link href="/css/foundation-icons.css" rel="stylesheet">
+    <link href="//icons/foundation-icons/foundation-icons.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/743c9941eb.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 

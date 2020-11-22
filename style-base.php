@@ -6,7 +6,7 @@
 
     <!-- Bootstrap core CSS -->
 
-    <link href="css/foundation-icons.css" rel="stylesheet">
+    <link href="/icons/foundation-icons/foundation-icons.css" rel="stylesheet">
     <link href="css/mdb.min.css" rel="stylesheet">
     <link href="css/business-casual.min.css?v=<?php echo $version ?>" rel="stylesheet">
     <link href="css/igles.css?v=<?php echo $version ?>" rel="stylesheet">

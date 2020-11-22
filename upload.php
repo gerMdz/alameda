@@ -10,7 +10,7 @@ $domingo = strtotime('today');
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
-include_once('gerVendor/Links.php');
+include_once('gerVendor/Routes.php');
 $notas = new Links();
 
 ?>

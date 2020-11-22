@@ -7,7 +7,7 @@
  */
 
 //use gerVendor\HandlerNotas;
-use gerVendor\Links;
+use gerVendor\Routes;
 
 use gerVendor\HandlerNotas;
 
@@ -23,9 +23,9 @@ $title = 'de regreso!';
 $finQ = false;
 include_once('gerVendor/gerFunctions.php');
 include_once('links.php');
-require_once('gerVendor/Links.php');
+require_once('gerVendor/Routes.php');
 require_once 'gerVendor/HandlerNotas.php';
-$links = new Links();
+$links = new Routes();
 $referencias = new HandlerNotas();
 $data = $referencias->getReferencias('2020-08-16 09:30');
 
@@ -41,9 +41,11 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
     include('style-base-uikit.php')
     ?>
     <title>Notas - Iglesia de la Alameda</title>
-    <link rel="icon" href="images/index.png" sizes="32x32"/>
-    <link rel="icon" href="images/index192.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>
+
+<!--    <link rel="icon" href="images/index.png" sizes="32x32"/>-->
+<!--    <link rel="icon" href="images/index192.png" sizes="192x192"/>-->
+<!--    <link rel="apple-touch-icon-precomposed" href="/images/indexapple.png"/>-->
+<!--    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
     <!--    <link href="/css/styles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
     <link rel="stylesheet" type="text/css" href="/stream-ui-kit/assets/css/styles.css">
     <style>
@@ -54,27 +56,6 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
         .card-text {
             font-size: 1.1em !important;
             font-weight: 600 !important;
-        }
-
-        /*.header {*/
-        /*    background-image: url('images/series/cabecera_index.jpg');*/
-        /*    background-size: cover;*/
-        /*    background-position: center;*/
-        /*    position: relative;*/
-        /*}*/
-
-        /*.overlay {*/
-        /*    position: absolute;*/
-        /*    min-height: 100%;*/
-        /*    min-width: 100%;*/
-        /*    left: 0;*/
-        /*    top: 0;*/
-        /*    background: rgba(255, 255, 255, 0.6);*/
-        /*}*/
-
-        img.resize {
-            width: 10%; /* you can use % */
-            height: auto;
         }
 
         .btn-xl {
@@ -95,7 +76,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
             position: relative !important;
         }
 
-        .mt-n6, .my-n6 {
+        .mt-n6  {
             margin-top: -5rem !important;
         }
 

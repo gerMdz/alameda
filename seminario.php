@@ -37,7 +37,7 @@ $version = date('YmdHi');
     <link href="/css/awasome/web-fonts-with-css/css/fontawesome-all.min.css " rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <link href="/css/foundation-icons.css" rel="stylesheet">
+    <link href="//icons/foundation-icons/foundation-icons.css" rel="stylesheet">
     <!-- Css Propios página -->
 
 

@@ -1,9 +1,9 @@
 <?php
 use gerVendor\HandlerNotas;
-use gerVendor\Links;
+use gerVendor\Routes;
 
-include_once('gerVendor/Links.php');
-$notas = new Links();
+include_once('gerVendor/Routes.php');
+$notas = new Routes();
 $referencias = new HandlerNotas();
 $data = $referencias->getReferencias('2020-11-23 09:00');
 ?>

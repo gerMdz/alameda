@@ -30,7 +30,7 @@ $version = date('YmdHi');
 
     <!-- Custom styles for this template -->
 
-    <link href="css/foundation-icons.css" rel="stylesheet">
+    <link href="/icons/foundation-icons/foundation-icons.css" rel="stylesheet">
     <link href="css/awasome/web-fonts-with-css/css/fontawesome-all.min.css " rel="stylesheet">
 
     <link href="css/mdb.min.css" rel="stylesheet">

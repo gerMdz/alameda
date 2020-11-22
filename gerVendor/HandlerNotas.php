@@ -1,13 +1,13 @@
 <?php
 namespace gerVendor;
-use gerVendor\Links;
+
 
 class HandlerNotas
 {
     public function getReferencias(string $date):array
     {
         /**  Formato '2020-06-23 18:00' $nota */
-        $nota = new Links();
+        $nota = new Routes();
         $ahora = date('Y-m-d H:i');
 
 
