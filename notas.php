@@ -213,6 +213,43 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     </div>
                 </div>
                 <!--                fin charla 1-->
+
+                <!--                charla 2-->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/audaz-nuevo-mundo/02-libres-de-todo.jpg"
+                                 class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase fuente-normal">
+                                Libres de todo
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-2"></i>
+                                Por eso les digo que no se preocupen por la vida diaria
+                                <p>Mateo 6:25 (NTV) <i class="fas fa-quote-right ml-3"></i></p>
+
+                            </div>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/audaz-nuevo-mundo/02-libres-de-todo.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://online.iglesiaalameda.com" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                fin charla 2-->
             </div>
         </div>
     </section>
