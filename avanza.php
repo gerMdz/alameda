@@ -229,6 +229,7 @@ $data = $referencias->getPasos();
 
 <!-- Call Us Modal Window -->
 <?php
+echo $version;
 include "footer.php";
 
 include('js-base-uikit.php');
