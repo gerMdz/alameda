@@ -142,7 +142,7 @@ $links = new \gerVendor\Routes();
         <!-- Invitación: Header -->
         <header class="text-center w-md-50 mx-auto mt-a4 mb-8 text-black-75">
             <h2 class="h2 pt-3 h4">
-                <a href="https://online.iglesiaalameda.com" class="text-black-75 ArialLight" target="_blank">
+                <a href="https://vivo.alameda.ar" class="text-black-75 ArialLight" target="_blank">
                     <span class="text-secondary">Alameda online</span>
 
 
