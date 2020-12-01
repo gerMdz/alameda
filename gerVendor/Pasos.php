@@ -3,9 +3,9 @@
 namespace gerVendor;
 class Pasos
 {
-    protected $date1 = '2020-11-21 18:00';
-    protected $fecha1 = '21 de noviembre';
-    protected $hora1 = '18:00hs';
+    protected $date1 = '2020-12-01 20:00';
+    protected $fecha1 = '01 de diciembre';
+    protected $hora1 = '20:00hs';
     protected $titulo1 = "Paso Uno";
     protected $texto1 = 'Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de
                                     fe. Aprendé más detalles sobre nuestra visión, creencias y liderazgo. También
@@ -13,7 +13,7 @@ class Pasos
     protected $lugar1 = 'San Martín 2020';
 
 
-    protected $date2 = '2020-11-28 18:00';
+    protected $date2 = '2020-12-08 18:00';
     protected $fecha2 = '28 de noviembre';
     protected $hora2 = '18:00hs';
     protected $titulo2 = "Paso Dos";

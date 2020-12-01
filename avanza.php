@@ -130,7 +130,7 @@ $data = $referencias->getPasos();
                             echo $data['fecha'] . ' a las ' . $data['hora'] . '<br/> en ' . $data['lugar'] ;
                             ?>
                         </p>
-                        <a href="https://forms.gle/J6d7cZ8rk8xys8NHA" class="btn-alameda">
+                        <a href="https://igle.ar/sumate" class="btn-alameda" target="_blank">
                             Registrate para tu próximo paso
                         </a>
 
