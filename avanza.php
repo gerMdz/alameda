@@ -218,6 +218,9 @@ $data = $referencias->getPasos();
                 </div>
             </div>
         </div>
+        <?php
+        echo $version;
+        ?>
     </section>
 
 
@@ -229,7 +232,7 @@ $data = $referencias->getPasos();
 
 <!-- Call Us Modal Window -->
 <?php
-echo $version;
+
 include "footer.php";
 
 include('js-base-uikit.php');
