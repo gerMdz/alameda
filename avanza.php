@@ -57,8 +57,9 @@ $data = $referencias->getPasos();
     <!-- End Navbar -->
 
     <!-- Promo Block -->
-    <section class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay bg-gris-medio text-white fuente-normal"
-             style="background-image: url(/images/institucional/portada-avanza.jpg) ">
+    <section
+            class="js-parallax u-promo-block u-promo-block--mheight-700 u-overlay bg-gris-medio text-white fuente-normal"
+            style="background-image: url(/images/institucional/portada-avanza.jpg) ">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
@@ -107,7 +108,7 @@ $data = $referencias->getPasos();
                         </h2>
                         <span class="text-black-75 text-left">
                             <?php
-                                echo $data['texto'];
+                            echo $data['texto'];
                             ?>
                         </span>
                     </header>
@@ -121,13 +122,13 @@ $data = $referencias->getPasos();
                     <!-- SVG Tablet Mockup -->
                     <div class="mx-auto bg-white p-5 text-center">
                         <h4 class="text-alameda text-center text-uppercase text-realce-alameda fuente-arial-nova">
-<!--                            Unite a esta charla en línea-->
+                            <!--                            Unite a esta charla en línea-->
                             Asistí a esta charla
                         </h4>
                         <hr/>
                         <p class="mx-auto text-center fuente-arial-nova">
                             <?php
-                            echo $data['fecha'] . ' a las ' . $data['hora'] . '<br/> en ' . $data['lugar'] ;
+                            echo $data['fecha'] . ' a las ' . $data['hora'] . '<br/> en ' . $data['lugar'];
                             ?>
                         </p>
                         <a href="https://igle.ar/sumate" class="btn-alameda" target="_blank">
@@ -218,9 +219,6 @@ $data = $referencias->getPasos();
                 </div>
             </div>
         </div>
-        <?php
-        echo $version;
-        ?>
     </section>
 
 

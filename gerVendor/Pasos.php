@@ -3,7 +3,7 @@
 namespace gerVendor;
 class Pasos
 {
-    protected $date1 = '2020-12-01 20:00';
+    protected $date1 = '2020-12-01 23:00';
     protected $fecha1 = '01 de diciembre';
     protected $hora1 = '20:00hs';
     protected $titulo1 = "Paso Uno";
