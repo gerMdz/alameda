@@ -11,8 +11,8 @@ class Routes
     protected $title = 'El resto de mi vida';
     protected $image = 'audaz-nuevo-mundo/nuevo-mundo-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/LiaJWXQY3PU';
-    protected $index2 = 'LiaJWXQY3PU';
+    protected $nota2 = 'https://youtu.be/LgCteSl5QIM';
+    protected $index2 = 'LgCteSl5QIM';
     protected $autor2 = 'por Fabián Ruiz';
     protected $fecha2 = '28 de noviembre de 2020';
     protected $title2 = 'Libres de todo';
