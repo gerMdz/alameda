@@ -4,18 +4,18 @@ namespace gerVendor;
 
 class Routes
 {
-    protected $nota = 'https://youtu.be/LiaJWXQY3PU';
-    protected $index = 'LiaJWXQY3PU';
+    protected $nota = 'https://youtu.be/LgCteSl5QIM';
+    protected $index = 'LgCteSl5QIM';
     protected $autor = 'por Fabián Ruiz';
-    protected $fecha = '21 de noviembre de 2020';
-    protected $title = 'El resto de mi vida';
+    protected $fecha = '28 de noviembre de 2020';
+    protected $title = 'Libres de todo';
     protected $image = 'audaz-nuevo-mundo/nuevo-mundo-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/LgCteSl5QIM';
+    protected $nota2 = 'https://vivo.alameda.ar';
     protected $index2 = 'LgCteSl5QIM';
     protected $autor2 = 'por Fabián Ruiz';
-    protected $fecha2 = '28 de noviembre de 2020';
-    protected $title2 = 'Libres de todo';
+    protected $fecha2 = '05 de diciembre de 2020';
+    protected $title2 = 'Una nueva comunidad';
     protected $image2 = 'audaz-nuevo-mundo/nuevo-mundo-tapa.jpg';
 
 
