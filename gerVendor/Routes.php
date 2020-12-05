@@ -9,14 +9,14 @@ class Routes
     protected $autor = 'por Fabián Ruiz';
     protected $fecha = '28 de noviembre de 2020';
     protected $title = 'Libres de todo';
-    protected $image = 'audaz-nuevo-mundo/nuevo-mundo-tapa.jpg';
+    protected $image = 'audaz-nuevo-mundo/02-libres-de-todo-tapa.jpg';
 
     protected $nota2 = 'https://vivo.alameda.ar';
     protected $index2 = 'LgCteSl5QIM';
     protected $autor2 = 'por Fabián Ruiz';
     protected $fecha2 = '05 de diciembre de 2020';
     protected $title2 = 'Una nueva comunidad';
-    protected $image2 = 'audaz-nuevo-mundo/nuevo-mundo-tapa.jpg';
+    protected $image2 = 'audaz-nuevo-mundo/03-nuevo-mundo-tapa.jpg';
 
 
     /**

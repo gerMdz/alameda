@@ -256,7 +256,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     <!--                                        <div class="card h-100"> -->
                     <div class="card card-a h-100 overflow-hidden ">
                         <div class="position-relative">
-                            <img src="/series/audaz-nuevo-mundo/02-libres-de-todo.jpg"
+                            <img src="/series/audaz-nuevo-mundo/03-nuevo-mundo.jpg"
                                  class="card-img-top img-modal"
                                  data-toggle="modal" data-target="#modal-02"
                                  alt="<?php echo $lemaSinEspacios ?>">
