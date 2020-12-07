@@ -11,8 +11,8 @@ class Routes
     protected $title = 'Libres de todo';
     protected $image = 'audaz-nuevo-mundo/02-libres-de-todo-tapa.jpg';
 
-    protected $nota2 = 'https://vivo.alameda.ar';
-    protected $index2 = 'LgCteSl5QIM';
+    protected $nota2 = 'https://youtu.be/vEE3mxi0Q60';
+    protected $index2 = 'vEE3mxi0Q60';
     protected $autor2 = 'por Fabián Ruiz';
     protected $fecha2 = '05 de diciembre de 2020';
     protected $title2 = 'Una nueva comunidad';
