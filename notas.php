@@ -130,7 +130,7 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
 <header>
     <?php include 'nav.php'; ?>
     <section class="js-parallax u-promo-block u-promo-block--mheight-500 u-overlay u-overlay--dark text-dark"
-             style="background-image: url(/series/audaz-nuevo-mundo/nuevo-mundo-tapa.jpg); background-repeat: repeat-y ;">
+             style="background-image: url(/series/audaz-nuevo-mundo/04-nuevo-mundo-tapa.jpg); background-repeat: repeat-y ;">
         <!-- Promo Content -->
         <div class="container u-overlay__inner u-ver-center u-content-space">
             <div class="row justify-content-center">
@@ -287,6 +287,43 @@ $data = $referencias->getReferencias('2020-08-16 09:30');
                     </div>
                 </div>
                 <!--                fin charla 3-->
+
+                <!--                charla 4-->
+                <div class="col-md-4 mb-2 mx-auto   ">
+                    <!--                                        <div class="card h-100"> -->
+                    <div class="card card-a h-100 overflow-hidden ">
+                        <div class="position-relative">
+                            <img src="/series/audaz-nuevo-mundo/04-nuevo-mundo.jpg"
+                                 class="card-img-top img-modal"
+                                 data-toggle="modal" data-target="#modal-02"
+                                 alt="<?php echo $lemaSinEspacios ?>">
+                        </div>
+                        <div class="card-body position-relative mt-n6 mx-2 bg-white text-center rounded border border-light u-box-shadow-lg">
+                            <h5 class="card-title text-uppercase fuente-normal">
+                                Aunténticos
+                            </h5>
+                            <div class="middle-0">
+                                <i class="fas fa-quote-left mr-2"></i>
+                                "El reino de Dios no consiste en las muchas palabras sino en vivir por el poder de Dios."
+                                <p> 1 Corintios 4:20 (NTV) <i class="fas fa-quote-right ml-3"></i></p>
+
+                            </div>
+                            <div class="btn-group bottom-0 justify-content-between border-alameda border-alameda-top border-alameda-bottom pt-1 ">
+                                <a href="/series/audaz-nuevo-mundo/04-nuevo-mundo.pdf"
+                                   target="_blank"
+                                   class="card-link text-center">
+                                    <i class="far fa-file-pdf ml-5 mr-1"></i>
+                                    <span class="text-alameda btn-icon ">Notas</span><br/>
+                                </a>
+                                <a href="https://vivo.alameda.ar" class="card-link text-center" target="_blank">
+                                    <i class="fab fa-youtube fa-fw mr-1"></i>
+                                    <span class="text-alameda btn-icon mr-5  ">Video</span><br/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                fin charla 4-->
             </div>
         </div>
     </section>
