@@ -148,7 +148,7 @@ $links = new \gerVendor\Routes();
 
                 <span class="mr-2"></span>
                 <span class="text-secondary ">
-                    Sábado 20 hs - Domingo 11 y 20 hs.
+                    Domingo 10 y 21 hs.
                 </span>
                 </a>
             </h2>
