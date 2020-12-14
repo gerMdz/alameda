@@ -11,8 +11,8 @@ class Routes
     protected $title = 'Una nueva comunidad';
     protected $image = 'audaz-nuevo-mundo/03-nuevo-mundo-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/vEE3mxi0Q60';
-    protected $index2 = 'vEE3mxi0Q60';
+    protected $nota2 = 'https://youtu.be/gEqOZivmVQo';
+    protected $index2 = 'gEqOZivmVQo';
     protected $autor2 = 'por Fabián Ruiz';
     protected $fecha2 = '12 de diciembre de 2020';
     protected $title2 = 'Aunténticos';
