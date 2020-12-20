@@ -89,7 +89,9 @@ include 'nav.php';
         <div class="row h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-10 align-self-end">
                 <h1 class="text-realce-alameda">
-                    <small class="text-black">Bienvenido a la Alameda </small><br/> ¡Nos encantaría conocerte!
+                    <small class="text-black">Bienvenido a la Alameda </small>
+                    <br/>
+                    ¡Nos encantaría conocerte!
                 </h1>
                 <a class="btn btn-blue btn-round btn-xl js-scroll-trigger "
                    href="https://forms.gle/yMmDuFqn6mXkJ8Sb6"
