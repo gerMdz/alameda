@@ -4,19 +4,19 @@ namespace gerVendor;
 
 class Routes
 {
-    protected $nota = 'https://youtu.be/vEE3mxi0Q60';
-    protected $index = 'vEE3mxi0Q60';
+    protected $nota = 'https://youtu.be/sENzD2O4UpQ';
+    protected $index = 'sENzD2O4UpQ';
     protected $autor = 'por Fabián Ruiz';
-    protected $fecha = '05 de diciembre de 2020';
-    protected $title = 'Una nueva comunidad';
-    protected $image = 'audaz-nuevo-mundo/03-nuevo-mundo-tapa.jpg';
+    protected $fecha = '12 de diciembre de 2020';
+    protected $title = 'Aunténticos';
+    protected $image = 'audaz-nuevo-mundo/04-nuevo-mundo-tapa.jpg';
 
-    protected $nota2 = 'https://youtu.be/gEqOZivmVQo';
-    protected $index2 = 'gEqOZivmVQo';
+    protected $nota2 = 'https://vivo.alameda.ar';
+    protected $index2 = 'sENzD2O4UpQ';
     protected $autor2 = 'por Fabián Ruiz';
-    protected $fecha2 = '12 de diciembre de 2020';
-    protected $title2 = 'Aunténticos';
-    protected $image2 = 'audaz-nuevo-mundo/04-nuevo-mundo-tapa.jpg';
+    protected $fecha2 = '18 de diciembre de 2020';
+    protected $title2 = 'El día comienza en la noche';
+    protected $image2 = 'audaz-nuevo-mundo/05-nuevo-mundo-tapa.jpg';
 
 
     /**

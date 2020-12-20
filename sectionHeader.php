@@ -5,7 +5,7 @@ use gerVendor\Routes;
 include_once('gerVendor/Routes.php');
 $notas = new Routes();
 $referencias = new HandlerNotas();
-$data = $referencias->getReferencias('2020-12-14 09:00');
+$data = $referencias->getReferencias('2020-12-21 09:00');
 ?>
 <section class="bg-white ">
     <div class="container-fluid mt-lg-1 mt-sm-5">
