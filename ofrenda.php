@@ -40,8 +40,8 @@ $version = date('YmdHi');
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="/css/material.min.css">
-    <link rel="stylesheet" href="/css/material.light_blue-teal.min.css">
-    <link href="/css/mdb.min.css" rel="stylesheet">
+<!--    <link rel="stylesheet" href="/css/material.light_blue-teal.min.css">-->
+<!--    <link href="/css/mdb.min.css" rel="stylesheet">-->
 
     <!--    <link rel="stylesheet" href="css/estiloHorarios.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
 
@@ -88,10 +88,10 @@ $version = date('YmdHi');
     <!-- Custom styles for this template -->
 
     <link href="/material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
-    <link href="/css/landings/heroic-features.css" rel="stylesheet">
-    <link href="/css/acciones.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="/css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
-    <link href="/css/landing-page.min.css" rel="stylesheet">
+<!--    <link href="/css/landings/heroic-features.css" rel="stylesheet">-->
+<!--    <link href="/css/acciones.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+<!--    <link href="/css/igles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
+<!--    <link href="/css/landing-page.min.css" rel="stylesheet">-->
 
 </head>
 
@@ -201,11 +201,11 @@ $version = date('YmdHi');
                             Usando la aplicación de Mercado Pago, escaneando nuestro QR</h3>
                         <img src="/images/institucional/qrmpILA.png" class="img-fluid card-img-bottom" alt="Iglesia de la Alameda">
                     </div>
-                    <div class="card-footer">
-                        <h6>
-                            Por el momento no se encuentra diponible este canal
-                        </h6>
-                    </div>
+<!--                    <div class="card-footer">-->
+<!--                        <h6>-->
+<!--                            Por el momento no se encuentra diponible este canal-->
+<!--                        </h6>-->
+<!--                    </div>-->
                 </div>
             </div>
 

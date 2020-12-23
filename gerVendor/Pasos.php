@@ -4,7 +4,7 @@ namespace gerVendor;
 class Pasos
 {
     protected $date1 = '2021-01-04 23:00';
-    protected $fecha1 = '01 de enero';
+    protected $fecha1 = '04 de enero';
     protected $hora1 = '20:00hs';
     protected $titulo1 = "Paso Uno";
     protected $texto1 = 'Conéctate con la Alameda y descubrí las siete claves para pertenecer a la familia de
@@ -15,14 +15,14 @@ class Pasos
 
     protected $date2 = '2021-01-11 18:00';
     protected $fecha2 = '11 de enro';
-    protected $hora2 = '18:00hs';
+    protected $hora2 = '20:00hs';
     protected $titulo2 = "Paso Dos";
     protected $texto2 = 'Aprendé como desarrollar los tres hábitos que te llevarán a una vida de libertad y victoria en tu vida cristiana.';
-    protected $lugar2 = 'España y Eusebio Blanco';
+    protected $lugar2 = 'San Martín 2020';
 
     protected $date3 = '2021-01-15 18:00';
     protected $fecha3 = '15 de enero';
-    protected $hora3 = '18:00hs';
+    protected $hora3 = '20:00hs';
     protected $titulo3 = "Paso Tres";
     protected $texto3 = 'Sumergite en los detalles de tu personalidad, descubrí tus dones y experimenta cómo tu diseño revela tu propósito en la vida y tu mejor lugar en el voluntariado de la Alameda. Conéctate con las oportunidades disponibles en la Alameda para vivir tu propósito y servir a los demás utilizando los dones que Dios le ha dado.';
     protected $lugar3 = 'San Martín 2020';
