@@ -88,10 +88,10 @@ $version = date('YmdHi');
     <!-- Custom styles for this template -->
 
     <link href="/material-kit/css/material-kit.css?v=2.0.4" rel="stylesheet" />
-<!--    <link href="/css/landings/heroic-features.css" rel="stylesheet">-->
+    <link href="/css/landings/heroic-features.css" rel="stylesheet">
 <!--    <link href="/css/acciones.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
-<!--    <link href="/css/igles.css?v=--><?php //echo $version ?><!--" rel="stylesheet">-->
-<!--    <link href="/css/landing-page.min.css" rel="stylesheet">-->
+    <link href="/css/igles.css?v=<?php echo $version ?>" rel="stylesheet">
+    <link href="/css/landing-page.min.css" rel="stylesheet">
 
 </head>
 
