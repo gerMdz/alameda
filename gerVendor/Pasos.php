@@ -14,7 +14,7 @@ class Pasos
 
 
     protected $date2 = '2021-01-11 18:00';
-    protected $fecha2 = '11 de enro';
+    protected $fecha2 = '11 de enero';
     protected $hora2 = '20:00hs';
     protected $titulo2 = "Paso Dos";
     protected $texto2 = 'Aprendé como desarrollar los tres hábitos que te llevarán a una vida de libertad y victoria en tu vida cristiana.';
